@@ -1,0 +1,34 @@
+---
+---
+{% include meta.header.html title =page.title %}
+<body>
+
+    <div class="whole-site">
+    
+        <div class="topmenu">
+            <div class="topmenu-container">
+                {% include top.menu.html %}
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-container">
+                <div class="post-title">
+                    <h1>{{ page.title }}</h1>
+                </div>
+                <div class="post-tags">
+                    <h2> Tags </h2>
+                    {% for tag in page.tags %}
+                    <a href="/tags/{{ tag }}/">{{ tag }}</a> <br />
+                    {% endfor %}
+                </div>
+                <div class="post-content">
+                    {{  page.content }}
+                </div>
+            </div>
+        </div>
+
+        {% include footer.menu.html %}
+
+    </div>
+</body>

@@ -1,0 +1,39 @@
+---
+---
+
+{% include meta.header.html title ="Degananda Ferdian" %}
+<body>
+
+<div class="whole-site">
+
+    <div class="topmenu">
+        <div class="topmenu-container">
+            {% include top.menu.html %}
+        </div>
+    </div>
+
+    <div class="latest-post">
+        <div class="latest-post-container">
+            {% if page.url contains 'page' %}
+            {% else %}
+            {% include top.gimmick.about.html %}
+            {% endif %}
+            <div class="section-title">
+                {% if page.url contains 'page' %}
+                Browse All Post
+                {% else %}
+                Recent Post
+                {% endif %}
+            </div>
+            {% include latest.post.html %}
+        </div>
+    </div>
+
+    {% include footer.menu.html %}
+
+</div>
+
+
+
+
+</body>

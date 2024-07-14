@@ -1,0 +1,127 @@
+<div class="post-type-1">
+    <div class="post-type-1-container">
+        <ul>
+            <li>
+                <div class="post-type1-content">
+                    <div class="post-type1-info">
+                        Date
+                    </div>
+                    <div class="post-type1-info">
+                        Category
+                    </div>
+                    <div class="post-type1-info">
+                        Mins Read
+                    </div>
+                    <div class="post-type1-title">
+                        Content Title
+                    </div>
+                </div>
+            </li>
+            {% for post in paginator.posts %}
+            <li>
+                <div class="post-type1-content">
+                    <div class="post-type1-info">
+                        {{ post.date | date: "%F" }}
+                    </div>
+                    <div class="post-type1-info">
+                        <a href="/category/{{post.categories}}">{{ post.categories }}</a>
+                    </div>
+                    <div class="post-type1-info">
+                        {% 
+                            assign wordCount = post.content | number_of_words 
+                        %}
+                        {%
+                            assign minsRead = wordCount | divided_by: 200 
+                        %} 
+
+                        {{ minsRead | plus:1 }} mins
+                    </div>
+                    <div class="post-type1-title">
+                    <span class="post-date"> {{ post.date | date: "%F" }} &nbsp;  </span> 
+                    <a href="{{ post.url }}">
+                       {{ post.title }}
+                    </a>
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+            
+        </ul>
+    </div>
+</div>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/' | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+
+
+{% if page.url contains 'page' %}
+{% else %}
+<div  class="section-title">
+    Alter (Hobbies & Non CS)
+</div>
+
+<div class="post-type-2">
+    <div class="post-type-2-container">
+            {% for post in site.categories.alter %}
+            <div class="post-type-2-content">
+                <div class="post-type-2-title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </div>
+                <div class="post-type-2-tldr">
+                    {{ post.excerpt }}
+                </div>
+            </div>
+            {% endfor %}
+    </div>
+</div>
+
+<div class="section-link">
+    <a href="/category/alter"> View All Posts </a>
+</div> 
+
+<div  class="section-title">
+    ODOS (one day one snippet)
+</div>
+
+<div class="post-type-2">
+    <div class="post-type-2-container">
+            {% for post in site.categories.alter %}
+            <div class="post-type-2-content">
+                <div class="post-type-2-title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </div>
+                <div class="post-type-2-tldr">
+                    {{ post.excerpt }}
+                </div>
+            </div>
+            {% endfor %}
+    </div>
+</div>
+
+<div class="section-link">
+    <a href="/category/snippet"> View All Snippet </a>
+</div> 
+{% endif %}
