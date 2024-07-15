@@ -9,3 +9,7 @@ gem "jekyll-paginate"
 gem "jekyll-paginate-categories"
 gem "jekyll-minifier"
 gem "jekyll-paginate-tags"
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-archives'
+gem 'jekyll-tagging-related_posts'

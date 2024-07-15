@@ -16,6 +16,12 @@
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
                 </div>
+
+                <div class="post-tldr">
+                    <h2> TLDR; </h2>
+                    {{ page.excerpt }}
+                </div>
+                
                 <div class="post-tags">
                     <h2> Tags </h2>
                     {% for tag in page.tags %}
@@ -25,10 +31,35 @@
                 <div class="post-content">
                     {{  page.content }}
                 </div>
+                <div class="gimmick-twitter-updates">
+                    <a href="https://x.com/intent/follow?screen_name=degapriyambada" target="_blank">Get Updates on Twitter</a>
+                </div>
+
+                <div class="related-post">
+                    <h3> Related Article </h3>
+                    <div class="related-post-container">
+                        {% if site.related_posts.size >= 1 %}
+                            <ul>
+                            {% for related_post in site.related_posts limit: 5 %}
+                                <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+                            {% endfor %}
+                            </ul>
+                            {% endif %}
+                    </div>
+                </div>
+
             </div>
         </div>
 
         {% include footer.menu.html %}
 
     </div>
+    <!-- mermaid diagram -->
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: false });
+        await mermaid.run({
+          querySelector: '.language-mermaid',
+        });
+      </script>
 </body>

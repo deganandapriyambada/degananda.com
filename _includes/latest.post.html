@@ -80,7 +80,7 @@
 {% if page.url contains 'page' %}
 {% else %}
 <div  class="section-title">
-    Alter (Hobbies & Non CS)
+    Alter (Non CS)
 </div>
 
 <div class="post-type-2">
@@ -102,26 +102,4 @@
     <a href="/category/alter"> View All Posts </a>
 </div> 
 
-<div  class="section-title">
-    ODOS (one day one snippet)
-</div>
-
-<div class="post-type-2">
-    <div class="post-type-2-container">
-            {% for post in site.categories.alter %}
-            <div class="post-type-2-content">
-                <div class="post-type-2-title">
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </div>
-                <div class="post-type-2-tldr">
-                    {{ post.excerpt }}
-                </div>
-            </div>
-            {% endfor %}
-    </div>
-</div>
-
-<div class="section-link">
-    <a href="/category/snippet"> View All Snippet </a>
-</div> 
 {% endif %}

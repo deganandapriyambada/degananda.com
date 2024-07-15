@@ -1,29 +1,53 @@
-<!-- Category title -->
-<h1>Category: {{ page.category }}</h1>
+---
+---
+{% include meta.header.html title =page.category %}
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <article>
-    <header>
-      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-    </header>
-    <div class="entry-content">
-      {{ post.excerpt }}
+<body>
+
+    <div class="whole-site">
+        
+        <div class="topmenu">
+            <div class="topmenu-container">
+                {% include top.menu.html %}
+            </div>
+        </div>
+
+        <div class="category-post">
+            <div class="category-post-container">
+
+                <!-- Category title -->
+                <h1>Category: {{ page.category }}</h1>
+
+                <!-- This loops through the paginated posts -->
+                {% for post in paginator.posts %}
+                <div>
+                    <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+                    <div class="entry-content">
+                    {{ post.excerpt }}
+                    </div>
+                </div>
+                {% endfor %}
+
+                <!-- Pagination links -->
+                <div class="pagination">
+                {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+                {% else %}
+                    <span class="previous">Previous</span>
+                {% endif %}
+                <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                {% if paginator.next_page %}
+                    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                {% else %}
+                    <span class="next">Next</span>
+                {% endif %}
+                </div>
+            </div>
+        </div>
+
+        {% include footer.menu.html %}
+
     </div>
-  </article>
-{% endfor %}
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next">Next</span>
-  {% endif %}
-</div>
+</body>
+

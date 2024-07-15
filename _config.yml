@@ -7,6 +7,13 @@ plugins:
   - jekyll-paginate-categories
   - jekyll-minifier
   - jekyll-paginate-tags
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-tagging-related_posts
+
+url: "https://example.com" # the base hostname & protocol for your site
+
 
 paginate: 10
 paginate_path: '/page-:num/'
@@ -40,3 +47,14 @@ jekyll-minifier:
   preserve_line_breaks: false       # Default: false
   simple_boolean_attributes: false  # Default: false
   compress_js_templates: false      # Default: false
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+  layout: archive
+  permalinks:
+    year: 'archive/:year/'
+    month: 'archive/:year/:month/'
+    day: 'archive/:year/:month/:day/'
