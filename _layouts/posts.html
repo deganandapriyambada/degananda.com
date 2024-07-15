@@ -28,6 +28,12 @@
                     <a href="/tags/{{ tag }}/">{{ tag }}</a> <br />
                     {% endfor %}
                 </div>
+
+                <div class="post-tldr">
+                    <h2> Feedback </h2>
+                    Found an Error? or would like to provide feedback to the writings ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/_posts/{{ page.date | date: "%Y"}}-{{ page.date | date:"%m"}}/{{ page.name }}'>Edit this page</a> on Github
+                </div>
+
                 <div class="post-content">
                     {{  page.content }}
                 </div>
