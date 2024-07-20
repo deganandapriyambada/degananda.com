@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "Pumpkinlaboo",
+    "background_color": "#000",
+    "theme_color": "#00a880",
+    "start_url": "/",
+    "display": "standalone",
+    "description": "Computer science",
+    "icons": [{
+      "src": "/icon.svg",
+      "sizes":"any",
+      "type": "image/svg+xml"
+    }]
+  }
+  

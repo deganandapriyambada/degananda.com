@@ -7,4 +7,9 @@ tags: frontned-dev backend-dev web-services
 topics: programming
 ---
 
-hello world ds
+ {% glossary your %} \
+
+dega\
+nanda\
+
+![test image](/assets/images/2024-07/test-image.jpeg)

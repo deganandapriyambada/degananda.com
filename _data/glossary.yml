@@ -1,0 +1,5 @@
+- term: your           # Can contain spaces
+  definition: A description of the term
+  url: https://jekyllrb.com/  # Is optional
+- term: another term
+  definition: Some other term definition text

@@ -1,0 +1,45 @@
+<div class="stats">
+    <div class="stats-container">
+        <div class="max">
+            <div>
+            Blogging Milestone
+            </div>
+            <div>
+                I will continue to write and documented my journey towards learning computer science and its surroundings.
+            </div>
+        </div>
+        <div>
+
+            <div class="stats-number">
+                {% assign total_posts = site.posts | size %} {{ total_posts }}
+            </div>
+            <div class="stats-desc">
+                Total Posts
+            </div>
+
+        </div>
+        <div>
+            
+            <div class="stats-number">
+                {% assign total_categories = site.categories | size %}
+                {{ total_categories }}
+            </div>
+            <div class="stats-desc">
+                Total Categories
+            </div>
+
+        </div>
+        <div>
+            
+            <div class="stats-number">
+                {% assign all_tags = site.tags | keys %}
+                {% assign total_tags = all_tags | size %}
+                {{ total_tags }}
+            </div>
+            <div class="stats-desc">
+                Total Tags
+            </div>
+
+        </div>
+    </div>
+</div>

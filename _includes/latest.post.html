@@ -2,27 +2,27 @@
     <div class="post-type-1-container">
         <ul>
             <li>
-                <div class="post-type1-content">
+                <div class="post-type1-content first-content">
                     <div class="post-type1-info">
-                        Date
+                        <span class="heading-first">Category</span>
                     </div>
                     <div class="post-type1-info">
-                        Category
-                    </div>
-                    <div class="post-type1-info">
-                        Mins Read
+                        <span class="heading-first">Mins Read</span>
                     </div>
                     <div class="post-type1-title">
-                        Content Title
+                        <span class="heading-first">Post    Title</span>
+                    </div>
+                    <div class="post-type1-info">
+                        <span class="heading-first">Post Date</span>
+                    </div>
+                    <div class="post-type1-info">
+                        <span class="heading-first">Type</span>
                     </div>
                 </div>
             </li>
             {% for post in paginator.posts %}
             <li>
                 <div class="post-type1-content">
-                    <div class="post-type1-info">
-                        {{ post.date | date: "%F" }}
-                    </div>
                     <div class="post-type1-info">
                         <a href="/category/{{post.categories}}">{{ post.categories }}</a>
                     </div>
@@ -41,6 +41,12 @@
                     <a href="{{ post.url }}">
                        {{ post.title }}
                     </a>
+                    </div>
+                    <div class="post-type1-info">
+                        {{ post.date | date: "%F" }}
+                    </div>
+                    <div class="post-type1-info">
+                        A shdjjas
                     </div>
                 </div>
             </li>
@@ -80,7 +86,7 @@
 {% if page.url contains 'page' %}
 {% else %}
 <div  class="section-title">
-    Alter (Non CS)
+    Non Computer Science (Alter)
 </div>
 
 <div class="post-type-2">
@@ -90,9 +96,23 @@
                 <div class="post-type-2-title">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                 </div>
+                <div class="post-type-2-title-desc">
+                    {{ post.date | date: "%F" }}
+                </div>
                 <div class="post-type-2-tldr">
                     {{ post.excerpt }}
                 </div>
+
+                <div class="post-type-2-title-desc">
+                    {% 
+                        assign wordCount = post.content | number_of_words 
+                    %}
+                    {%
+                        assign minsRead = wordCount | divided_by: 200 
+                    %} 
+
+                    {{ minsRead | plus:1 }} Mins Reading.                </div>
+
             </div>
             {% endfor %}
     </div>
@@ -101,5 +121,8 @@
 <div class="section-link">
     <a href="/category/alter"> View All Posts </a>
 </div> 
+{% include bottom.gimmick.schedule.html %}
+{% include bottom.gimmick.stats.html %}
+
 
 {% endif %}

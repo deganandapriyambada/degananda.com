@@ -4,20 +4,24 @@ $bg-color: #ffffff;
 $max-site-global: 1444px;
 
 /* font-sizing */
-$logo: 18px;
-$menu: 17px;
+$logo: 20px;
+$menu: 16px;
 $main: 17px;
 $sub-1: 16px;
 $sub-2: 16px;
 $sub-3: 15px;
+$sub-4: 14px;
+$section-font: 16px;
 
 /* font color */
 $fc-main: #000000;
 $fc-sub-1: #3d3d3d;
 $fc-sub-2: #5f5f5f;
+$fc-sub-3: #4c4c4c;
 
 /* font family */
 $font-type-md: "Rubik", sans-serif;
+$font-type-curve: "Playwrite BE VLG", cursive;
 
 body {
     background: $bg-color;
@@ -53,16 +57,25 @@ body {
     flex-direction: row;
     flex-wrap:wrap;
     align-items: center;
-    padding: 15px 0px 15px 0px;
-    margin: 0px 0px 30px 0px;
-    background: #dadada;
+    padding: 10px 0px 10px 0px;
+    margin: 5px 0px 5px 0px;
+    background: #ffffff;
 }
 
 .topmenu-container > .logo {
-    font-size: $logo;
-    font-weight: bold;
-    width: 20%;
+    font-size: $menu;
+    font-weight: 400;
     text-align: left;
+    font-family: $font-type-curve;
+}
+
+.logo-container > a {
+  text-decoration: none;
+  color: $fc-main;
+}
+
+.logo > .logo-container {
+  padding-left: 25px;
 }
 
 .topmenu-container > .search {
@@ -72,10 +85,72 @@ body {
     text-align: left;
 }
 
+.search > .search-container {
+  padding-left: 25px;
+}
+
+.search-container > input[type="text"] {
+  background: #f5f5f5;
+  padding: 8px 15px 8px 15px;
+  border: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}  
+
+.search-container > input[type="text"]:focus {
+  outline: none;
+}
+
+.search-container > button {
+  background: #f5f5f5;
+  padding: 8px 15px 8px 15px;
+  border: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: -10px;
+  color:$fc-sub-3;
+}
+
 
 .topmenu-container > .navigation {
     width: 60%;
     text-align: right;
+}
+
+.gimmick-landing-top {
+  width: 100%;
+  background: #fafafa;
+}
+
+.gimmick-landing-top > .gimmick-landing-top-container {
+  padding:16px 0px 16px 0px;
+  text-align: center;
+  font-size: $sub-4;
+  margin: 0px 0px 30px 0px;
+}
+
+.gimmick-landing-top-container > a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .topmenu-container > .logo {
+      width: 50%;
+      text-align: center;
+      margin: 0px;
+  }
+
+  .topmenu-container > .search {
+    width: 50%;
+    text-align: center;
+  }
+
+  .topmenu-container > .navigation {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -108,26 +183,56 @@ body {
 }
 
 .topmenu-container > .navigation > ul > li {
-    font-size: $menu;
     display: inline-block;
     padding: 0px 25px 0px 0px;
+  
+}
+
+.topmenu-container > .navigation > ul > li > a {
+  font-size: $sub-3;
+  text-decoration: none;
+  color: $fc-sub-1;
 }
 
 .latest-post-container > .aboutme {
     font-size: $sub-1;
     line-height: 1.4;
-    margin: 0px 0px 10px 0px;
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    font-weight: 300;
+}
+.aboutme > a {
+  text-decoration: none;
+  color: $fc-sub-2;
 }
 
-.latest-post-container > .profpic {
+.profpic-container {
     width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    line-height: 1.3;
+    text-align: center;
+    justify-content: center;
+}
+
+.profpic-container > .profpic {
     margin: 0px 0px 20px 0px;
     text-align: center;
 }
 
-.latest-post-container > .profpic > img {
-    width: 150px;
-    height: 150px;
+.profpic-container > .profpic-info {
+  padding: 0px 0px 0px 20px;
+  font-family: $font-type-curve;
+  font-size: $main;
+  color: $fc-sub-2;
+  font-weight: 400;
+}
+
+.profpic-container > .profpic > img {
+    width: 120px;
+    height: 120px;
     border-radius: 100px;
 }
 
@@ -155,6 +260,14 @@ body {
     padding: 0 0 0 0;
 }
 
+.first-content {
+  background: #f5f5f5;
+}
+
+.heading-first {
+  font-weight: 400;
+}
+
 .post-type-1 > .post-type-1-container {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -169,7 +282,7 @@ body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     list-style-type: none;
-    border-bottom: 1px #f0f0f0 solid;
+    border-bottom: 0px #f0f0f0 solid;
 }
 
 .post-type-1 > .post-type-1-container > ul > li:nth-child(even) {
@@ -206,9 +319,21 @@ body {
 
 
 .post-type-2-content > .post-type-2-title {
-    font-size: $sub-2;
+    font-size: $sub-1;
     width: 90%;
 }
+
+.post-type-2-content > .post-type-2-title  > a {
+  text-decoration: none;
+  color: $fc-sub-3;
+  font-weight: bold;
+}
+
+.post-type-2-content > .post-type-2-title-desc {
+  font-size: $sub-4;
+  width: 90%;
+}
+
 
 .post-type-2-title > a {
     text-decoration: none;
@@ -223,9 +348,10 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* number of lines to show */
-    line-clamp: 2; 
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3; 
     -webkit-box-orient: vertical;
+    margin: 15px 0px 15px 0px;
 }
 
 
@@ -233,22 +359,21 @@ body {
     text-decoration: none;
 }
 
-
-
-
 .post-type1-content > .post-type1-info {
     color: $fc-main;
-    font-size: $sub-2;
-    padding: 10px 10px 10px 0px;
-    width: 12%;
+    font-size: $sub-3;
+    padding: 10px 10px 10px 10px;
+    width: 10%;
     text-transform:capitalize;
+    font-weight: 300;
 }
 
 .post-type1-content > .post-type1-title {
     color: $fc-main;
-    font-size: $sub-2;
+    font-size: $sub-3;
     padding: 10px 10px 10px 0px;
-    width: 58%;
+    width: 48%;
+    font-weight: 300;
 }
 
 
@@ -317,13 +442,14 @@ body {
 
 
 /* post md */
-.post-content > pre,
-.post-content > code {
+.post-content pre,
+.post-content code {
     font-family: $font-type-md;
+    background: #fafafa;
   }
   
-.post-content >  pre {
-    padding: .5rem;
+.post-content pre {
+    padding: 25px;
     line-height: 1.25;
   }
   
@@ -372,7 +498,7 @@ body {
 .post-content >   h2,
   .modest-h2 {
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 500;
   }
   
 .post-content >  h3,
@@ -410,6 +536,7 @@ body {
 .post-content >  textarea {
     max-width: 100%;
   }
+
 
 
 
@@ -459,3 +586,134 @@ body {
     padding-bottom: 10px;
     font-size: 16px;
   }
+
+#results-container {
+    position: fixed;
+    background: none;
+}
+
+.search-result-item a {
+    text-decoration: none;
+
+}
+
+/* Tooltip from https://www.w3schools.com/css/css_tooltip.asp */
+.jekyll-glossary {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted #0074bd;
+    cursor: help;
+  }
+  
+  .jekyll-glossary .jekyll-glossary-tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 0.5em;
+    padding: 5px;
+    border-radius: 6px;
+  
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  
+    width: 160px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -80px; /* Use half of the width to center the tooltip */
+  
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .jekyll-glossary:hover .jekyll-glossary-tooltip {
+    visibility: visible;
+  }
+  
+  /* Style the source link (if there is one provided in the glossary entry). */
+  .jekyll-glossary-source-link:before {
+    content: "[source]";  // "(reference)", "<link>" or whatever you want.
+  }
+  
+  /* Arrow created with borders. */
+  .jekyll-glossary .jekyll-glossary-tooltip::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  /* Animation from invisible to visible on hover. */
+  .jekyll-glossary .jekyll-glossary-tooltip {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .jekyll-glossary:hover .jekyll-glossary-tooltip {
+    opacity: 1;
+  }
+
+/* gimmick */
+
+.stats-container {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.stats-container > .max {
+    width: 100%;
+}
+
+.main-section {
+  font-size: $section-font;
+  font-weight: bold;
+}
+
+.allmenu {
+  font-size: 10px;
+}
+
+.site-category {
+  width: 50%;
+}
+
+.site-category-container {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
+.site-navigation-container {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: start;
+}
+
+
+.site-category-container > .item {
+  width: 33%;
+}
+
+.site-category-container > .item > .item-container {
+  padding: 8px 15px 8px 15px;
+  margin: 0px 10px 0px 0px;
+  border-radius: 5px;
+}
+
+.site-category-container > .item > .item-container > a {
+  color: $fc-sub-1;
+  text-decoration: none;
+  font-size: $sub-4;
+  font-weight: 300;
+}

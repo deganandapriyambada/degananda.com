@@ -15,12 +15,25 @@
             <div class="post-container">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
+                    <div>
+                        Dega on <a href="#">{{ page.categories }}</a>
+                        
+                    </div>
+                    <div>
+                        Last Modified on {% last_modified_at %}
+
+                    </div>
                 </div>
 
                 <div class="post-tldr">
                     <h2> TLDR; </h2>
                     {{ page.excerpt }}
                 </div>
+
+                <div class="post-list-of-content">
+                    <h2> list of content </h2>
+                </div>
+
                 
                 <div class="post-tags">
                     <h2> Tags </h2>
@@ -29,7 +42,7 @@
                     {% endfor %}
                 </div>
 
-                <div class="post-tldr">
+                <div class="post-feedback">
                     <h2> Feedback </h2>
                     Found an Error? or would like to provide feedback to the writings ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/_posts/{{ page.date | date: "%Y"}}-{{ page.date | date:"%m"}}/{{ page.name }}'>Edit this page</a> on Github
                 </div>

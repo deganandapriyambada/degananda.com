@@ -1,22 +1,41 @@
-<div class="profpic">
-    <img src="/assets/images/dfp.jpg" alt="dega profile picture">
+<div class="profpic-container">
+    <div class="profpic">
+        <img src="/assets/images/dfp2.jpeg" alt="dega profile picture">
+    </div>
+    <div class="profpic-info">
+        Degananda Ferdian <br />
+        Solution Architect in Jakarta.
+    </div>
 </div>
 <div class="aboutme">
-    Hello There, Greetings. I Am Dega, a Solution Architect and a Wannabe Writer & Hustler.  I wrote my learning journey about #ComputerScience(CS) on this blogs. I  Hope you enjoy the content. <br />
+    Hello There, Greetings. I Am Dega. Thanks for coming to my blog.  I wrote my learning journey about #ComputerScience(CS) on this blogs. I  Hope you enjoy the content.
     Find me on : <a href="https://www.linkedin.com/in/degananda-ferdian" target="_blank">LinkedIn</a>, <a href="https://github.com/deganandapriyambada" target="_blank">Github</a>, <a href="https://twitter.com/degapriyambada" target="_blank">Twitter</a>
 </div>
-<div class="site-category">
-    <h2> Category Collection </h2>
-    {% for category in site.categories %}
-    <li><a href="{{category.url}}"><strong>{{category|first}}</strong></a></li>
-{% endfor %}
+<div class="site-navigation-container">
+    <div class="site-category">
+        <h2 class="main-section"> Available Topics </h2>
+    </div>
+    <div class="site-category">
+        <h2 class="main-section"> Available Tags </h2>
+    </div>
 </div>
-<div class="site-tags">
-    <h2> Tags List </h2>
-    {% for tag in site.tags %}
-    {{ tag | first }}
-    {% endfor %}
+<div class="site-navigation-container">
+    <div class="site-category">
+        <div class="site-category-container">
+            {% for category in site.categories %}
+            <div class="item"><div class="item-container"><a href="{{category.url}}">{{category|first}}</a></div></div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="site-category">
+        <div class="site-category-container">
+            {% for tag in site.tags %}
+            <div class="item"><div class="item-container"><a href="{{category.url}}">    {{ tag | first }}
+            </a></div></div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="more-topics">
+        Do you enjoy our content & wanted to request some specific topics? <a href="mailto:degananda.ferdian@gmail.com"> let me know </a>
+    </div>
 </div>
-
-
-
