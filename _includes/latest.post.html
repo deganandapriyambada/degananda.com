@@ -1,25 +1,6 @@
 <div class="post-type-1">
     <div class="post-type-1-container">
         <ul>
-            <li>
-                <div class="post-type1-content first-content">
-                    <div class="post-type1-info">
-                        <span class="heading-first">Category</span>
-                    </div>
-                    <div class="post-type1-info">
-                        <span class="heading-first">Mins Read</span>
-                    </div>
-                    <div class="post-type1-title">
-                        <span class="heading-first">Post    Title</span>
-                    </div>
-                    <div class="post-type1-info">
-                        <span class="heading-first">Post Date</span>
-                    </div>
-                    <div class="post-type1-info">
-                        <span class="heading-first">Type</span>
-                    </div>
-                </div>
-            </li>
             {% for post in paginator.posts %}
             <li>
                 <div class="post-type1-content">
@@ -27,6 +8,7 @@
                         <a href="/category/{{post.categories}}">{{ post.categories }}</a>
                     </div>
                     <div class="post-type1-info">
+                        <div class="sub-info">
                         {% 
                             assign wordCount = post.content | number_of_words 
                         %}
@@ -35,6 +17,7 @@
                         %} 
 
                         {{ minsRead | plus:1 }} mins
+                        </div>
                     </div>
                     <div class="post-type1-title">
                     <span class="post-date"> {{ post.date | date: "%F" }} &nbsp;  </span> 
@@ -46,7 +29,17 @@
                         {{ post.date | date: "%F" }}
                     </div>
                     <div class="post-type1-info">
-                        A shdjjas
+                        <div class="content-type-container">
+                            <div class="type-item">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="type-item">
+                                <i class="fa fa-file-video-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="type-item">
+                                <i class="fa fa-code" aria-hidden="true"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </li>
@@ -86,7 +79,7 @@
 {% if page.url contains 'page' %}
 {% else %}
 <div  class="section-title">
-    Non Computer Science (Alter)
+    Others
 </div>
 
 <div class="post-type-2">
@@ -118,11 +111,9 @@
     </div>
 </div>
 
-<div class="section-link">
+<button class="section-link">
     <a href="/category/alter"> View All Posts </a>
-</div> 
-{% include bottom.gimmick.schedule.html %}
-{% include bottom.gimmick.stats.html %}
+</button> 
 
 
 {% endif %}
