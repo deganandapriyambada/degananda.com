@@ -22,11 +22,13 @@
     </div>
 </div>
 
-<div class="width-container">
+<div class="plusbg">
+    <div class="width-container">
     {% if page.url contains 'page' %}
     {% else %}
     {% include top.gimmick.about.html %}
     {% endif %}
+    </div>
 </div>
 
 <div class="latest-post">
@@ -35,7 +37,7 @@
             {% if page.url contains 'page' %}
             Browse All Post
             {% else %}
-            Recent Post
+            Software Engineering
             {% endif %}
         </div>
         {% include latest.post.html %}
@@ -43,6 +45,57 @@
 </div>
 
 <div class="width-container">
+    <div class="site-navigation-container">
+        <div class="site-category">
+            <h2 class="main-section"> Available Topics </h2>
+        </div>
+        <div class="site-category">
+            <h2 class="main-section"> Available Tags </h2>
+        </div>
+        <div class="site-category">
+            <h2 class="main-section"> Series list </h2>
+        </div>
+    </div>
+    <div class="site-navigation-container">
+        <div class="site-category">
+            <div class="site-category-container">
+                {% for category in site.categories %}
+                <div class="item"><div class="item-container"><a href="{{category.url}}">{{category|first}} (2) </a></div></div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="site-category">
+            <div class="site-category-container">
+                {% for tag in site.tags %}
+                <div class="item"><div class="item-container"><a href="{{category.url}}">    {{ tag | first }}
+                </a></div></div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="site-category">
+            <div class="site-category-container">
+                <ul class="series">
+                    <li>
+                        1. PaaS: Wedding Invitation <br />
+                        <span class="series-status">On Going </span>
+                    </li>
+                    <li>
+                        2. Agnostics IoT Gateway Not Started
+                        <br />
+                        <span class="series-status">Not Started </span>
+                    </li>
+                </ul>
+                <div>
+                    <button class="section-link">
+                        <a href="/category/alter"> View Schedule. </a>
+                    </button>
+                </div>
+             </div>
+        </div>
+        <div class="more-topics">
+            Do you enjoy our content & wanted to request some specific topics? <a href="mailto:degananda.ferdian@gmail.com"> let me know </a>
+        </div>
+    </div>
     {% include bottom.gimmick.schedule.html %}
 </div>
 
