@@ -22,6 +22,7 @@ $fc-sub-3: #4c4c4c;
 /* font family */
 $font-type-md: "Rubik", sans-serif;
 $font-type-curve: "Playwrite BE VLG", cursive;
+$font-type-logo: "Plus Jakarta Sans", sans-serif;
 
 body {
     background: $bg-color;
@@ -41,7 +42,7 @@ body {
 
 .whole-site > .topmenu, .whole-site > .latest-post,
 .whole-site > .footer-menu, .whole-site > .post, .whole-site > .category-post, .stats, .post-feedback, .footer-menu, .latest-post, .width-container  {
-    padding: 0px 13% 0px 13%;
+    padding: 0px 15% 0px 15%;
 }
 
 .whole-site > .topmenu {
@@ -65,9 +66,9 @@ body {
 
 .topmenu-container > .logo {
     font-size: $menu;
-    font-weight: 400;
+    font-weight: bold;
     text-align: left;
-    font-family: $font-type-curve;
+    font-family: $font-type-logo;
 }
 
 .logo-container > a {
@@ -229,7 +230,7 @@ body {
 .profpic-container > .profpic-info {
   padding: 20px 0px 20px 0px;
   font-family: $font-type-curve;
-  font-size: $main;
+  font-size: 24px;
   color: $fc-sub-2;
   font-weight: 400;
 }
@@ -389,7 +390,7 @@ body {
     color: $fc-main;
     font-size: $sub-4;
     padding: 10px 10px 10px 0px;
-    width: 42%;
+    width: 38%;
     font-weight: 300;
 }
 
@@ -752,7 +753,7 @@ body {
 /* gimmick */
 
 .stats {
-  background: #ffffff;
+  background: #fafafa;
   margin: 20px 0px 0px 0px;
 }
 
@@ -845,23 +846,56 @@ width: 100%;
 }
 
 .site-category {
-  width: 33%;
+  width: 100%;
 }
+
+.site-category-topics {
+  width: 100%;
+}
+
 
 .site-category-container {
   width: 100%;
   display: inline-flex;
   flex-direction: row;
   flex-wrap:wrap;
-  align-items: center;
+  align-items:safe;
 }
+
+.site-category-box {
+  margin: 0px 50px 0px 0px;
+}
+
+.site-category-content {
+  padding: 0 0 0 0;
+  margin: 0 0 0 10px;
+}
+
+.site-category-content li {
+  list-style-type: none;
+  margin: 0px 0px 12px 0px;
+}
+
+.site-category-content li > a {
+  text-decoration: none;
+  color: $fc-main;
+  font-size: 14px;
+  text-transform:capitalize;
+}
+
+.site-category-title {
+  font-weight: bold;
+  margin: 0px 0px 15px 0px;
+  font-size: 14px;
+  text-transform:capitalize;
+} 
 
 .site-navigation-container {
   width: 100%;
   display: inline-flex;
   flex-direction: row;
   flex-wrap:wrap;
-  align-items: start;
+  align-items:start;
 }
 
 
@@ -876,6 +910,7 @@ width: 100%;
   font-size: 14px;
   border: 1px #dadada solid;
   background: #f0f0f0;
+  text-transform:capitalize;
 }
 
 .site-category-container > .item > .item-container > a {
@@ -883,6 +918,7 @@ width: 100%;
   text-decoration: none;
   font-size: $sub-4;
   font-weight: 300;
+  text-transform:capitalize;
 }
 
 

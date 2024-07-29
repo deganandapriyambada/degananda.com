@@ -51,51 +51,32 @@
 
 <div class="width-container">
     <div class="site-navigation-container">
-        <div class="site-category">
-            <h2 class="main-section"> Available Topics </h2>
-        </div>
-        <div class="site-category">
-            <h2 class="main-section"> Available Tags </h2>
-        </div>
-        <div class="site-category">
-            <h2 class="main-section"> Series list </h2>
+        <div class="site-category-topics">
+            <h2 class="main-section"> Topics & Catalogue </h2>
         </div>
     </div>
     <div class="site-navigation-container">
-        <div class="site-category">
+        <div class="site-category-topics">
             <div class="site-category-container">
-                {% for category in site.categories %}
-                <div class="item"><div class="item-container"><a href="{{category.url}}">{{category|first}} (2) </a></div></div>
+
+                {% assign categories = site.posts | map: 'categories' | uniq %}
+                
+                {% for category in categories %}
+                  <div class="site-category-box">
+                    <div class="site-category-title"> {{ category }} </div>
+                  <ul class="site-category-content">
+                    {% assign category_posts = site.posts | where: 'categories', category %}
+                    {% assign category_tags = category_posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+                    
+                    {% for tag in category_tags %}
+                      <li>
+                        <a href="/tags/{{ tag | slugify }}/">{{ tag }} ({{ site.tags[tag].size }})</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  </div>
                 {% endfor %}
             </div>
-        </div>
-        <div class="site-category">
-            <div class="site-category-container">
-                {% for tag in site.tags %}
-                <div class="item"><div class="item-container"><a href="{{category.url}}">    {{ tag | first }}
-                </a></div></div>
-                {% endfor %}
-            </div>
-        </div>
-        <div class="site-category">
-            <div class="site-category-container">
-                <ul class="series">
-                    <li>
-                        1. PaaS: Wedding Invitation <br />
-                        <span class="series-status">On Going </span>
-                    </li>
-                    <li>
-                        2. Agnostics IoT Gateway Not Started
-                        <br />
-                        <span class="series-status">Not Started </span>
-                    </li>
-                </ul>
-                <div>
-                    <button class="section-link">
-                        <a href="/category/alter"> View Schedule. </a>
-                    </button>
-                </div>
-             </div>
         </div>
         <div class="more-topics">
             Do you enjoy our content & wanted to request some specific topics? <a href="mailto:degananda.ferdian@gmail.com"> let me know </a>
@@ -113,4 +94,41 @@
 
 
 <script src="/assets/js/site.js" type="text/javascript"></script>   
+<script src="/assets/js/dganttchart.min.js" type="text/javascript"></script>   
+<script>
+    var data = [
+      {
+        startDate: "2024-03",
+        endDate: "2024-05",
+        itemName: "Interview with User",
+      },
+      {
+        startDate: "2024-03",
+        endDate: "2024-04",
+        itemName: "Backend Development",
+      },
+      {
+        startDate: "2024-01",
+        endDate: "2025-04",
+        itemName: "Backend Unit Testing",
+      },
+      {
+        startDate: "2025-01",
+        endDate: "2025-06",
+        itemName: "Frontend Development",
+      },
+    ];
+    
+    var separator = [
+      {
+        index: 0,
+        separatorName: "Phase 1: Requirement gathering",
+      },
+      {
+        index: 1,
+        separatorName: "Phase 2: Development",
+      },
+    ];
+    var myChart = new DGanttChart("myganttchart", data, separator);
+</script>
 </body>

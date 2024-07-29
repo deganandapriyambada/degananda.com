@@ -1,0 +1,96 @@
+.gantt-chart {
+    overflow-y: scroll;
+    overflow-x: none;
+    border-bottom: 1px #dadada solid;
+    margin: 0px 0px 15px 0px;
+}
+
+.gantt-chart-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-items: baseline;
+}
+
+.gantt-chart-header {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-items: center;
+    background: #222831; /* month header */
+    color: #dadada;
+}
+
+.gantt-chart-header > .monthHeading {
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.gantt-chart-leftpane > .activity-name {
+    width: 180px;
+    font-size: 14px;
+    height: 50px;
+    text-align: left;
+    background: #fafafa;
+}
+
+
+.vert {
+    top: 50%;
+    position: relative;
+    transform:translateY(-50%);
+    font-size: 12px;
+}
+
+
+.gantt-progress-bar > .progress-bar {
+    height: 50px;
+}
+
+.progress-bar  {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.progress-bar > li {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%);
+}
+
+ .period {
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: #F05454; /* progress bar color */
+    color: #fafafa;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px;
+}
+
+.period-info {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #3d3d3d;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px;
+}
+
+.separator {
+    position: relative;
+    background: #E8E8E8; /* separator topic */
+    color: #3d3d3d;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.vert-left {
+    margin-left: 25px;
+}
