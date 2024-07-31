@@ -16,6 +16,9 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
     	echo "haiii";
     ?>
 
+## Exploring Stack Edit
+Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+
 
 # Files
 

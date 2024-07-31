@@ -41,8 +41,13 @@ body {
 
 
 .whole-site > .topmenu, .whole-site > .latest-post,
-.whole-site > .footer-menu, .whole-site > .post, .whole-site > .category-post, .stats, .post-feedback, .footer-menu, .latest-post, .width-container  {
+.whole-site > .footer-menu, .whole-site > .category-post, .stats, .post-feedback, .footer-menu, .latest-post, .width-container  {
     padding: 0px 15% 0px 15%;
+}
+
+.whole-site > .post {
+  padding: 0px 20% 0px 20%;
+
 }
 
 .whole-site > .topmenu {
@@ -65,7 +70,7 @@ body {
 }
 
 .topmenu-container > .logo {
-    font-size: $menu;
+    font-size: 19px;
     font-weight: bold;
     text-align: left;
     font-family: $font-type-logo;
@@ -530,7 +535,12 @@ body {
 }
 
 
-
+/* 
+  Post Details
+*/
+.post-title > h1 {
+  color: $fc-sub-1;
+}
 
 
 
@@ -940,7 +950,10 @@ width: 100%;
 }
 
 .content-type-container > .type-item {
-  padding: 0px 10px 0px 0px;
+  padding: 3px 5px 3px 5px;
+  background: #dadada;
+  color:#3d3d3d;
+  margin: 0px 2px 0px 0px;
 }
 
 .series {
@@ -960,4 +973,36 @@ width: 100%;
   background: #e1e1e1;
   border-radius: 5px;
   font-size: 13px;
+}
+
+.post-menu {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.post-menu li {
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+
+.post-menu li > a {
+  text-decoration: none;
+  color: #828282;
+}
+
+
+#post-heading {
+margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  display: inline-flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: baseline;
+}
+
+.lang {
+  background: #3d3d3d;
+  color: #fafafa;
+  margin: 0px 5px 0px 0px;
+  padding: 3px 3px 3px 3px;
 }
