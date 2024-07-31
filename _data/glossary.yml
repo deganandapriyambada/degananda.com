@@ -1,5 +1,11 @@
 - term: your           # Can contain spaces
   definition: A description of the term
   url: https://jekyllrb.com/  # Is optional
-- term: another term
-  definition: Some other term definition text
+- term: writer
+  definition: Degananda Ferdian
+- term: website
+  definition: Degananda.com
+- term: employer
+  definition: kindly check my linked in.
+- term: series
+  definition: Serialized article based on single topics and have specific deliverables.

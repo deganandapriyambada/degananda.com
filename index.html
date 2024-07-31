@@ -31,6 +31,15 @@
     </div>
 </div>
 
+<div class="series">
+  <div class="width-container">
+  {% if page.url contains 'page' %}
+  {% else %}
+  {% include top.series.html %}
+  {% endif %}
+  </div>
+</div>
+
 <div class="latest-post">
     <div class="latest-post-container">
         

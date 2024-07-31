@@ -1,15 +1,27 @@
 <div class="footer-menu">
     <div class="footer-menu-container">
+        <div class="social">
+            <div>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div>
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+            <div>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+        </div>
         <div class="disclaimer">
-            All content & publication which are published on this website are subject into writer's opinion and point of view (PoV). None of my content is related with my current employer.
+            All content & publication which are published on this {% glossary website %} are subject into {% glossary writer %} opinion and point of view (PoV). None of my content is related with my current {% glossary employer %}
         </div>
         <div class="copyright">
-            Copyright &copy; Degananda Ferdian 2024
+            &copy; Degananda Ferdian 2024 ~ Present
         </div>
         <div class="last-update">
-            Last updated on : {{ site.time | date_to_string: "ordinal", "US" }}
-
-
+            Last Build : {{ site.time | date_to_string: "ordinal", "US" }}
         </div>
         <div class="footer-info">
             <ul>
@@ -31,7 +43,8 @@
             </ul>
         </div>
         <div class="opensource">
-            This blog is open source. Check Repositories.
+            This blog is open source. Check Repositories <i class="fa fa-git" aria-hidden="true"></i>
+
         </div>
     </div>
 </div>

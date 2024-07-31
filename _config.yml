@@ -13,7 +13,7 @@ plugins:
   - jekyll-tagging-related_posts
   - jekyll-last-modified-at
   - jekyll-loading-lazy
-  - jekyll-glossary_tooltip
+  - jekyll-_tooltip
 
 url: "https://example.com" # the base hostname & protocol for your site
 

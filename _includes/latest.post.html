@@ -125,7 +125,17 @@
                         assign minsRead = wordCount | divided_by: 200 
                     %} 
 
-                    {{ minsRead | plus:1 }} Mins Reading.                </div>
+                    {{ minsRead | plus:1 }} Mins Reading.                
+                </div>
+
+                <div class="post-type-2-title-tags">
+                    <ul>
+                        {% for tags in post.tags %}
+                          <li>{{ tags }}</li>
+                        {% endfor %}
+                      </ul>
+                </div>
+
 
             </div>
             {% endfor %}
