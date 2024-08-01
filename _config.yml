@@ -1,6 +1,7 @@
 ## website general information configuration.
 site_title: "Degananda.com"
 site_description: "My Learning Journey"
+permalink: /:categories/:year/:month/:title
 
 plugins:
   - jekyll-paginate
@@ -13,7 +14,7 @@ plugins:
   - jekyll-tagging-related_posts
   - jekyll-last-modified-at
   - jekyll-loading-lazy
-  - jekyll-_tooltip
+  - jekyll-glossary_tooltip
 
 url: "https://example.com" # the base hostname & protocol for your site
 

@@ -30,28 +30,51 @@
 
         <div class="post">
             <div class="post-container">
+
+                <div>
+                    <i class="fa fa-tags" aria-hidden="true"></i> &nbsp;
+                    <a href="#">{{ page.categories }}</a>
+                </div>
+                
                 <div class="post-title">
+
                     <h1>{{ page.title }}</h1>
                     <div>
-                        Dega on <a href="#">{{ page.categories }}</a> -
-                        5 Mins Read
+                        {{ page.subtitle }}
+                    </div>
+                    <div class="content-type-container">
+                        <div class="type-item">
+                            <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="type-item">
+                            <i class="fa fa-file-video-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="type-item">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </div>
+                        <div class="type-item">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+                <div class="post-author-container">
+                    <div class="post-author-photo">
+                        <img src="/assets/images/dfp2.jpeg">   
                     </div>
                     <div>
-                        Last Modified on {% last_modified_at %}
+                        <span class="typo1">Degananda Ferdian</span>
+                        <span class="typo2"> - 5 Mins Read </span> <br />
+                       <span class="typo3"> Last Modified on {{ page.date | date_to_string: "ordinal", "US"}} </span>
+                       
 
-                    </div>
+                    </div>    
                 </div>
 
-
-                <div class="post-list-of-content">
-                    <div> list of content </div>
-                    <div id="post-heading">
-
-                    </div>
-                </div>
-
-                <div class="post-gmmick">
-                    <div class="post-gmmick-container">
+                <div class="post-gimmick">
+                    <div class="post-gimmick-container">
                         <div>
                             <i class="fa fa-bookmark-o" aria-hidden="true"></i>
                         </div>
@@ -61,51 +84,69 @@
                         <div>
                             <i class="fa fa-share-square-o" aria-hidden="true"></i>
                         </div>
-                        <div>
-                            Comment
+                        <div class="comment-button">
+                            <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i>Comment </a>
                         </div>
                     </div>
                 </div>
 
-                
 
+
+                <div class="post-list-of-content">
+                    <div class="section-title"><u> List of content </u> </div>
+                    <div id="post-heading">
+
+                    </div>
+                </div>
 
                 <div class="post-content">
                     {{  page.content }}
                 </div>
                 
+                <div class="section-title"> Tags </div>
+
                 <div class="post-tags">
-                    <div> Tags </div>
                     {% for tag in page.tags %}
-                    <a href="/tags/{{ tag }}/">{{ tag }}</a> <br />
+                    <div class="post-tags-item">
+                    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+                    </div>
                     {% endfor %}
                 </div>
 
-                <div class="gimmick-twitter-updates">
-                    <a href="https://x.com/intent/follow?screen_name=degapriyambada" target="_blank">Get Updates on Twitter</a>
+                <div class="section-title"> Support Us </div>
+
+                <div class="post-sponsor">
+                    Enjoy our publications? <a href="">Sponsor this article</a> or Subscribe to our <a href="#">Newsletter</a>
                 </div>
 
-                <div class="related-post">
-                    <div> Related Article </div>
-                    <div class="related-post-container">
-                        {% if site.related_posts.size >= 1 %}
-                            <ul>
-                            {% for related_post in site.related_posts limit: 5 %}
-                                <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
-                            {% endfor %}
-                            </ul>
-                            {% endif %}
-                    </div>
-                </div>
+
+               
 
                 {% include bottom.comment.html %}
 
             </div>
         </div>
 
-        {% include footer.menu.html %}
 
     </div>
+    <div class="width-post-container bg-gray">
+        <div class="related-post">
+            <div class="section-title"> Read More </div>
+            <div class="related-post-container">
+   
+
+                {% if site.related_posts.size >= 1 %}
+                    <ul>
+                    {% for related_post in site.related_posts limit: 5 %}
+                        <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    {% endif %}
+            </div>
+        </div>
+    </div>
+    {% include footer.menu.html %}
+
     <script src="/assets/js/post.js" type="text/javascript"></script>   
     <!-- mermaid diagram -->
     <script type="module">

@@ -8,7 +8,7 @@ for(var tt = 0 ; tt<elems.length; tt++){
   var currentElement = elems[tt];
   if(currentElement.localName == "h1"){
     if(tt > 0){
-    var itemLi = '<div><a href="#'+currentElement.id+'">' + currentElement.innerHTML + "</a>";
+    var itemLi = '<div class="post-section"><a href="#'+currentElement.id+'" class="post-heading-title">' + currentElement.innerHTML + "</a>";
     if(tt < (elems.length-1) && (elems[tt+1].localName == "h1")){
         itemLi += '</div>'
     }
