@@ -132,17 +132,46 @@
     <div class="width-post-container bg-gray">
         <div class="related-post">
             <div class="section-title"> Read More </div>
-            <div class="related-post-container">
+
    
 
                 {% if site.related_posts.size >= 1 %}
-                    <ul>
-                    {% for related_post in site.related_posts limit: 5 %}
-                        <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+                <div class="related-post-container">
+                    <div class="post-type-2">
+                        <div class="post-type-2-container">
+                    {% for related_post in site.related_posts limit: 6 %}
+                                <div class="post-type-2-content">
+                                    <div class="post-type-2-category"> 
+                                        {{ related_post.categories }}
+                                    </div>
+                                    <div class="post-type-2-title">
+                                        <a href="{{ post.url }}">{{ related_post.title }}</a>
+                                    </div>
+                                    <div class="post-type-2-title-desc">
+                                        {{ related_post.date | date: "%F" }}
+                                    </div>
+                                    <div class="post-type-2-tldr">
+                                        {{ related_post.excerpt }}
+                                    </div>
+                    
+                                    <div class="post-type-2-title-desc">
+                                        {% 
+                                            assign wordCount = related_post.content | number_of_words 
+                                        %}
+                                        {%
+                                            assign minsRead = wordCount | divided_by: 200 
+                                        %} 
+                    
+                                        {{ minsRead | plus:1 }} Mins Reading             
+                                    </div>
+                    
+                                </div>
+
                     {% endfor %}
-                    </ul>
-                    {% endif %}
-            </div>
+                        </div>
+                    </div>
+                </div> 
+                {% endif %}
         </div>
     </div>
     {% include footer.menu.html %}
