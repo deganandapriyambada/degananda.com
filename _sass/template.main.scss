@@ -41,8 +41,16 @@ body {
 
 
 .whole-site > .topmenu, .whole-site > .latest-post,
-.whole-site > .footer-menu, .whole-site > .category-post, .stats, .post-feedback, .footer-menu, .latest-post, .width-container  {
-    padding: 0px 15% 0px 15%;
+.whole-site > .footer-menu, .whole-site > .category-post, .stats, .post-feedback, .latest-post, .width-container  {
+    padding: 0px 14% 0px 14%;
+}
+
+.post-width-half {
+  padding: 0px 20% 0px 20%;
+}
+
+.full-width {
+  padding: 0px 14% 0px 14%;
 }
 
 .whole-site > .post, .width-post-container {
