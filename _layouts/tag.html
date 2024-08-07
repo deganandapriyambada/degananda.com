@@ -17,16 +17,77 @@
 
                 <h1>Tag: {{ page.tag }}</h1>
                 <!-- This loops through the paginated posts -->
-                {% for post in paginator.posts %}
-                <article>
-                    <header>
-                    <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-                    </header>
-                    <div class="entry-content">
-                    {{ post.excerpt }}
+                <div class="post-type-1">
+                    <div class="post-type-1-container">
+                        <ul>
+                            <li>
+                                <div class="post-type1-content">
+                                    <div class="post-type1-info">
+                                        Topic
+                                    </div>
+                                    <div class="post-type1-info">
+                                        Mins Read
+                                    </div>
+                                    <div class="post-type1-title">
+                                        Post Title
+                                    </div>
+                                    <div class="post-type1-info">
+                                        Date
+                                    </div>
+                                    <div class="post-type1-info">
+                                        Content Type
+                                    </div>
+                            </li>
+                            {% for post in paginator.posts %}
+                            <li>
+                                <div class="post-type1-content">
+                                    <div class="post-type1-info">
+                                        <a href="/category/{{post.categories}}">{{ post.categories }}</a>
+                                    </div>
+                                    <div class="post-type1-info">
+                                        <div class="sub-info">
+                                        {% 
+                                            assign wordCount = post.content | number_of_words 
+                                        %}
+                                        {%
+                                            assign minsRead = wordCount | divided_by: 200 
+                                        %} 
+                
+                                        {{ minsRead | plus:1 }} mins
+                                        </div>
+                                    </div>
+                                    <div class="post-type1-title">
+                                    <span class="post-date"> {{ post.date | date: "%F" }} &nbsp;  </span> 
+                                    <a href="{{ post.url }}">
+                                       <span class="lang">EN</span>{{ post.title }}
+                                    </a>
+                                    </div>
+                                    <div class="post-type1-info">
+                                        {{ post.date | date: "%F" }}
+                                    </div>
+                                    <div class="post-type1-info">
+                                        <div class="content-type-container">
+                                            <div class="type-item">
+                                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="type-item">
+                                                <i class="fa fa-file-video-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="type-item">
+                                                <i class="fa fa-code" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="type-item">
+                                                <i class="fa fa-download" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            {% endfor %}
+                            
+                        </ul>
                     </div>
-                </article>
-                {% endfor %}
+                </div>
 
                 <!-- Pagination links -->
                 <div class="pagination">

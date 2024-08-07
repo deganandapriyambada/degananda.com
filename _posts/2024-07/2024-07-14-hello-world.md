@@ -6,6 +6,8 @@ excerpt: If you want to learn about StackEdit, you can read me. If you want to p
 tags: frontned-dev backend-dev web-services
 topics: programming
 subtitle: Hello world subtitle of this post
+references: 1
+illustrations: 2
 ---
 
 # Welcome to StackEdit!

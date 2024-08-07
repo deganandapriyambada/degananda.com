@@ -16,25 +16,97 @@
 
         <div class="category-post">
 
-            <div class="other-category">
-                other categories
-            </div>
 
             <div class="category-post-container">
 
                 <!-- Category title -->
                 <h1> {{ page.category }} </h1>
-                <h2> 25 Posts - 10 tags </h2>
+                <div class="related-tags">
+                <ul class="post-menu">
+                    {% assign post_category = 'info' %}
+                    {% assign category_posts = site.posts | where: 'categories', post_category %}
+                    {% assign category_tags = category_posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+                    
+                    {% for tag in category_tags %}
+                      <li>
+                        <a href="/tags/{{ tag | slugify }}/">{{ tag }} </a>
+                      </li>
+                    {% endfor %}
+                    </ul>
+                </div>
 
                 <!-- This loops through the paginated posts -->
-                {% for post in paginator.posts %}
-                <div>
-                    <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-                    <div class="entry-content">
-                    {{ post.excerpt }}
+<div class="post-type-1">
+    <div class="post-type-1-container">
+        <ul>
+            <li>
+                <div class="post-type1-content">
+                    <div class="post-type1-info">
+                        Topic
+                    </div>
+                    <div class="post-type1-info">
+                        Mins Read
+                    </div>
+                    <div class="post-type1-title">
+                        Post Title
+                    </div>
+                    <div class="post-type1-info">
+                        Date
+                    </div>
+                    <div class="post-type1-info">
+                        Content Type
+                    </div>
+            </li>
+            {% for post in paginator.posts %}
+            <li>
+                <div class="post-type1-content">
+                    <div class="post-type1-info">
+                        <a href="/category/{{post.categories}}">{{ post.categories }}</a>
+                    </div>
+                    <div class="post-type1-info">
+                        <div class="sub-info">
+                        {% 
+                            assign wordCount = post.content | number_of_words 
+                        %}
+                        {%
+                            assign minsRead = wordCount | divided_by: 200 
+                        %} 
+
+                        {{ minsRead | plus:1 }} mins
+                        </div>
+                    </div>
+                    <div class="post-type1-title">
+                    <span class="post-date"> {{ post.date | date: "%F" }} &nbsp;  </span> 
+                    <a href="{{ post.url }}">
+                       <span class="lang">EN</span>{{ post.title }}
+                    </a>
+                    </div>
+                    <div class="post-type1-info">
+                        {{ post.date | date: "%F" }}
+                    </div>
+                    <div class="post-type1-info">
+                        <div class="content-type-container">
+                            <div class="type-item">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="type-item">
+                                <i class="fa fa-file-video-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="type-item">
+                                <i class="fa fa-code" aria-hidden="true"></i>
+                            </div>
+                            <div class="type-item">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                {% endfor %}
+            </li>
+            {% endfor %}
+            
+        </ul>
+    </div>
+</div>
 
                 <!-- Pagination links -->
                 <div class="pagination">
