@@ -1,13 +1,34 @@
 ---
 permalink: /search
 ---
+{% include meta.header.html title ="Search" %}
 
-<!-- Html Elements for Search -->
-<div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-<button id="bsearch" type="button">search</button>
-<ul id="results-container"></ul>
+<body>
+
+<div class="whole-site">
+    <div class="post-feedback">
+        Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/{{ page.name }}'>Edit This Page </a> on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
+    </div>
+    <div class="topmenu">
+        <div class="topmenu-container">
+            {% include top.menu.html %}
+        </div>
+    </div>
 </div>
+
+
+  <div class="width-container">
+    <!-- Html Elements for Search -->
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="search...">
+      <button id="bsearch" type="button">search</button>
+      <ul id="results-container"></ul>
+    </div>
+  </div>
+
+  {% include footer.menu.html widthconfig="full" %}
+
+
 
 <!-- Script pointing to search-script.js -->
 <script>
@@ -47,3 +68,6 @@ window.addEventListener(
 
 
 </script>
+
+
+</body>
