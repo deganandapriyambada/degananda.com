@@ -22,14 +22,16 @@
     </div>
 </div>
 
-<div class="plusbg">
-    <div class="width-container">
+
     {% if page.url contains 'page' %}
     {% else %}
+    <div class="plusbg">
+      <div class="width-container">
     {% include top.gimmick.about.html %}
-    {% endif %}
     </div>
-</div>
+  </div>
+    {% endif %}
+
 
 <div class="series bg-series">
   <div class="width-container">
@@ -38,7 +40,7 @@
   {% include top.series.html %}
   {% endif %}
   </div>
-</div>
+</div>  
 
 <div class="latest-post">
     <div class="latest-post-container">
@@ -56,6 +58,9 @@
     </div>
 </div>
 
+
+{% if page.url contains 'page' %}
+{% else %}
 <div class="width-container">
     <div class="site-navigation-container">
         <div class="site-category-topics">
@@ -94,6 +99,7 @@
 
 
 {% include bottom.gimmick.stats.html %}
+{% endif %}
 
 
 
@@ -138,4 +144,5 @@
     ];
     var myChart = new DGanttChart("myganttchart", data, separator);
 </script>
+
 </body>

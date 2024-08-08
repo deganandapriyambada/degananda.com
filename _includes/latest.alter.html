@@ -13,12 +13,7 @@
                 </div>
                 <div class="post-type-2-title-desc">
                     {{ post.date | date: "%F" }}
-                </div>
-                <div class="post-type-2-tldr">
-                    {{ post.excerpt }}
-                </div>
-
-                <div class="post-type-2-title-desc">
+                    &nbsp;
                     {% 
                         assign wordCount = post.content | number_of_words 
                     %}
@@ -26,15 +21,20 @@
                         assign minsRead = wordCount | divided_by: 200 
                     %} 
 
-                    {{ minsRead | plus:1 }} Mins Reading.                
+                    {{ minsRead | plus:1 }} Mins Reading.     
+                </div>
+                <div class="post-type-2-tldr">
+                    {{ post.excerpt }}
                 </div>
 
                 <div class="post-type-2-title-tags">
-                    <ul>
+                    <div class="post-tags">
                         {% for tags in post.tags %}
-                          <li>{{ tags }}</li>
+                            <div class="post-tags-item-lite">
+                                <a href="/tags/{{ tags }}/">{{ tags }}</a>
+                            </div>
                         {% endfor %}
-                      </ul>
+                    </div>
                 </div>
 
 
