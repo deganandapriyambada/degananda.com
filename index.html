@@ -64,7 +64,7 @@
 <div class="width-container">
     <div class="site-navigation-container">
         <div class="site-category-topics">
-            <h2 class="main-section"> Topics & Catalogue </h2>
+            <h2 class="main-section"> Topics & Tags </h2>
         </div>
     </div>
     <div class="site-navigation-container">
@@ -82,7 +82,7 @@
                     
                     {% for tag in category_tags %}
                       <li>
-                        <a href="/tags/{{ tag | slugify }}/">{{ tag }} ({{ site.tags[tag].size }})</a>
+                        <a href="/tags/{{ tag | slugify }}/">{{ tag }} </a>
                       </li>
                     {% endfor %}
                   </ul>

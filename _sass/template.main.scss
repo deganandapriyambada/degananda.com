@@ -780,7 +780,7 @@ body {
 
 .stats {
   background: #fafafa;
-  margin: 20px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
 }
 
 .stats-container {
@@ -789,7 +789,7 @@ body {
     flex-direction: row;
     flex-wrap:wrap;
     align-items: center;
-    padding: 50px 0px 50px 0px;
+    padding: 70px 0px 60px 0px;
 }
 
 .stats-whole-container {
@@ -845,6 +845,7 @@ width: 100%;
   font-size: $sub-1;
   width: 100%;
   text-align: center;
+  margin: 30px 0px 20px 0px;
 }
 
 .stats-number-container {
@@ -898,8 +899,8 @@ width: 100%;
 }
 
 .site-category-content li {
-  list-style-type: none;
-  margin: 0px 0px 12px 0px;
+  list-style-type: decimal-leading-zero;
+  margin: 0px 0px 12px 35px;
 }
 
 .site-category-content li > a {
@@ -1044,7 +1045,7 @@ width: 100%;
 
 #post-heading ol > li > a {
   color: #696969;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -1117,8 +1118,8 @@ width: 100%;
 }
 
 .comment-button {
-  text-align: right;
-  margin-left: auto;
+  text-align: left;
+  margin-right: auto;
 }
 
 .comment-button i {

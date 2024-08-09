@@ -32,7 +32,7 @@
                     
                     {% for tag in category_tags %}
                       <li>
-                        <a href="/tags/{{ tag | slugify }}/">{{ tag }} </a>
+                        <a href="/tags/{{ tag | slugify }}/">{{ tag }}  ({{ site.tags[tag].size }}) </a>
                       </li>
                     {% endfor %}
                     </ul>
@@ -131,6 +131,6 @@
         {% include footer.menu.html widthconfig="full" %}
 
     </div>
-
+    <script src="/assets/js/site.js" type="text/javascript"></script>   
 </body>
 
