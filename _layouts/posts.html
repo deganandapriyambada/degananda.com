@@ -11,7 +11,7 @@
             <div class="topmenu-container">
                 {% include top.menu.html %}
             </div>
-            <div id="gimmick-landing-top">
+            <div class="gimmick-landing-top">
                 <div class="gimmick-landing-top-container">
                     <ul class="post-menu">
                     {% assign post_category = 'info' %}
@@ -40,19 +40,41 @@
             </div>
             <div id="twoblock-right">
                 <div class="twoblock-marg-r">
+                    
+                 
+                    
+
+                    <div class="post-author-container">
+                        <div class="post-author-photo">
+                            <img src="/assets/images/dfp2.jpeg">   
+                        </div>
+                        <div>
+                            <span class="typo1">Degananda Ferdian</span>
+                            <span class="typo2"> - 5 Mins Read </span> <br />
+                        <span class="typo3"> Last Modified on {{ page.date | date_to_string: "ordinal", "US"}} </span>
+                        
+
+                        </div>    
+                    </div>
+
+              
+
+
                     <div class="post-list-of-content">
                         <div class="section-title"><u> List of content </u> </div>
                         <div id="post-heading">
             
                         </div>
                     </div>
+                    
+
                 </div>
             </div>
         </div>
     </div>
 
     <div id="footer-page">
-        <div class="width-post-container bg-gray">
+        <div class="width-container bg-gray">
             <div class="related-post">
                 <div class="section-title"> Read More </div>
 
@@ -98,7 +120,7 @@
             </div>
         </div>
     </div>
-    {% include footer.menu.html widthconfig="post" %}
+    {% include footer.menu.html widthconfig="full" %}
     <script src="https://giscus.app/client.js"
         data-repo="deganandapriyambada/degananda.com"
         data-repo-id="R_kgDOMWP-GQ"

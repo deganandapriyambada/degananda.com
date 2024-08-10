@@ -132,12 +132,12 @@ body {
     text-align: right;
 }
 
-#gimmick-landing-top {
+.gimmick-landing-top {
   width: 100%;
   background: #ffffff;
 }
 
-#gimmick-landing-top > .gimmick-landing-top-container {
+.gimmick-landing-top > .gimmick-landing-top-container {
   padding:12px 0px 12px 0px;
   text-align: center;
   font-size: $sub-4;
@@ -1101,7 +1101,7 @@ width: 100%;
   flex-direction: row;
   flex-wrap:wrap;
   align-items: center;
-  margin: 40px 0px 40px 0px;
+  margin: 20px 0px 0px 0px;
   line-height: 1.4;
 }
 
@@ -1290,17 +1290,25 @@ width: 100%;
 }
 
 .twoblock-left {
-  width: 70%;
+  width: 65%;
 }
 
 #twoblock-right {
-  width: 30%;
+  width: 35%;
   position: relative;
 }
 
 .twoblock-marg-l {
   padding-left: 20%;
+  padding-right: 25px;
+  border-right: 1px #f0f0f0 solid;
 }
 .twoblock-marg-r {
   padding-right: 20%;
+  padding-left: 25px;
+}
+
+.post-list-of-content {
+  height: 500px;
+  overflow-y: scroll;
 }
