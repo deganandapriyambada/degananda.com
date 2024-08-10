@@ -30,3 +30,27 @@ for(var tt = 0 ; tt<elems.length; tt++){
   }
 }
 postHeadingUl.innerHTML += finalMenuTree;
+
+var observer = new IntersectionObserver(function(entries) {
+  if(entries[0].isIntersecting === true){
+      document.getElementById("twoblock-right").style.position = null;
+      document.getElementById("twoblock-right").style.position = null;
+      document.getElementById("twoblock-right").style.position = null;   
+  } else {
+      document.getElementById("twoblock-right").style.position = "fixed";
+      document.getElementById("twoblock-right").style.top = "0%";
+      document.getElementById("twoblock-right").style.right = "0%";   
+  }
+}, { threshold: [0] });
+
+var observerSiteFooter = new IntersectionObserver(function(entries) {
+  if(entries[0].isIntersecting === true){
+      document.getElementById("twoblock-right").style.display = "none";   
+  } else {
+      document.getElementById("twoblock-right").style.display = null;  
+  }
+}, { threshold: [0] });
+
+
+observer.observe(document.querySelector("#okoy"));
+observerSiteFooter.observe(document.querySelector("#footer-page"));

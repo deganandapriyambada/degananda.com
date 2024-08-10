@@ -132,12 +132,12 @@ body {
     text-align: right;
 }
 
-.gimmick-landing-top {
+#gimmick-landing-top {
   width: 100%;
   background: #ffffff;
 }
 
-.gimmick-landing-top > .gimmick-landing-top-container {
+#gimmick-landing-top > .gimmick-landing-top-container {
   padding:12px 0px 12px 0px;
   text-align: center;
   font-size: $sub-4;
@@ -1011,11 +1011,13 @@ width: 100%;
 #post-heading {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    /* enable for horizontal view
     display: inline-flex;
     flex-direction: row;
     flex-wrap:wrap;
     align-items: baseline;
     justify-content: left;
+    */
 
 }
 
@@ -1035,7 +1037,8 @@ width: 100%;
 }
 
 .post-section {
-  width: 33%;
+  //width: 33%; enable for horizontal
+  width: 100%;
   margin: 0px 0px 25px 0px;
 }
 
@@ -1262,5 +1265,42 @@ width: 100%;
 }
 
 .menu-sidebar-container {
-  padding: 50px 25px 50px 25px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+  width: 100%;
+} 
+
+.menu-sidebar-container > .menu-title {
+  width: 50%;
+}
+
+.menu-sidebar-container > .menu-close {
+  width: 50%;
+  text-align: right;
+}
+
+.twoblock-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: baseline;
+  width: 100%;
+}
+
+.twoblock-left {
+  width: 70%;
+}
+
+#twoblock-right {
+  width: 30%;
+  position: relative;
+}
+
+.twoblock-marg-l {
+  padding-left: 20%;
+}
+.twoblock-marg-r {
+  padding-right: 20%;
 }

@@ -1,0 +1,97 @@
+<div class="post">
+    <div class="post-container">
+        <div class="content-type-container">
+            <div>
+                <i class="fa fa-tags" aria-hidden="true"></i> &nbsp;
+                <a href="/category/{{page.categories}}/">{{ page.categories }}</a>
+                &nbsp; &nbsp; &mdash; &nbsp; &nbsp;
+            </div>
+            <div class="type-item">
+                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+            </div>
+            <div class="type-item">
+                <i class="fa fa-file-video-o" aria-hidden="true"></i>
+            </div>
+            <div class="type-item">
+                <i class="fa fa-code" aria-hidden="true"></i>
+            </div>
+            <div class="type-item">
+                <i class="fa fa-download" aria-hidden="true"></i>
+            </div>
+        </div>
+        
+        <div class="post-title">
+
+            <h1>{{ page.title }}</h1>
+            <div>
+                {{ page.subtitle }}
+            </div>
+            
+        </div>
+
+       
+
+        <div class="post-author-container">
+            <div class="post-author-photo">
+                <img src="/assets/images/dfp2.jpeg">   
+            </div>
+            <div>
+                <span class="typo1">Degananda Ferdian</span>
+                <span class="typo2"> - 5 Mins Read </span> <br />
+               <span class="typo3"> Last Modified on {{ page.date | date_to_string: "ordinal", "US"}} </span>
+               
+
+            </div>    
+        </div>
+
+        <div class="post-gimmick">
+            <div class="post-gimmick-container">
+                <div class="comment-button">
+                    <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i>Comment</a>
+                    <div id="okoy">
+                        &nbsp;
+                    </div>
+                </div>
+                <div>
+                    <i class="fa fa-print" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="post-content">
+            {{  page.content }}
+        </div>
+        
+        <div class="section-title"> Tags </div>
+
+        <div class="post-tags">
+            {% for tag in page.tags %}
+            <div class="post-tags-item">
+            <a href="/tags/{{ tag }}/">{{ tag }}</a>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="section-title"> Support Us </div>
+
+        <div class="post-sponsor">
+            Enjoy our publications? <a href="">Sponsor this article</a> or Subscribe to our <a href="#">Newsletter</a>
+        </div>
+
+
+       
+
+        {% include bottom.comment.html %}
+
+    </div>
+</div>
