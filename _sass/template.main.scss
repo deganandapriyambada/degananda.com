@@ -89,8 +89,8 @@ body {
   color: $fc-main;
 }
 
-.logo > .logo-container {
-  padding-left: 25px;
+.pl-logo {
+  padding: 0px 15px 0px 30px;
 }
 
 .topmenu-container > .search {
@@ -1247,4 +1247,20 @@ width: 100%;
 #results-info {
   padding: 25px 0px 30px 0px;
   font-size: 18px;
+}
+
+#menu-sidebar {
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  z-index: 99;
+  box-shadow: 0px 0px 20px 0px #e6e6e6;
+  display: none;
+}
+
+.menu-sidebar-container {
+  padding: 50px 25px 50px 25px;
 }

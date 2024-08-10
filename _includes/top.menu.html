@@ -1,9 +1,13 @@
+<div>
+    <div class="pl-logo">
+    <img src="/assets/images/pl-logo.svg" height="30">
+    </div>
+</div>
 <div class="logo">
     <div class="logo-container">
         <a href="/"> PUMPKINLABOO </a>
         &nbsp;
-        <i class="fa fa-bars allmenu" aria-hidden="true"></i>
-
+        <i class="fa fa-bars allmenu" aria-hidden="true" onclick="openMenu()"></i>
     </div>
 </div>
 <div class="search">
@@ -36,3 +40,5 @@
         </li>
     </ul>
 </div>
+
+{% include menu.sidebar.html %}

@@ -37,6 +37,38 @@
   <div class="width-container">
   {% if page.url contains 'page' %}
   {% else %}
+  <div class="site-navigation-container">
+    <div class="site-category-topics">
+        <h2 class="main-section"> Topics & Tags </h2>
+    </div>
+</div>
+<div class="site-navigation-container">
+    <div class="site-category-topics">
+        <div class="site-category-container">
+
+            {% assign categories = site.posts | map: 'categories' | uniq %}
+            
+            {% for category in categories %}
+              <div class="site-category-box">
+                <div class="site-category-title"> {{ category }} </div>
+              <ul class="site-category-content">
+                {% assign category_posts = site.posts | where: 'categories', category %}
+                {% assign category_tags = category_posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+                
+                {% for tag in category_tags %}
+                  <li>
+                    <a href="/tags/{{ tag | slugify }}/">{{ tag }} </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="more-topics">
+        Do you enjoy our content & wanted to request some specific topics? <a href="mailto:degananda.ferdian@gmail.com"> let me know </a>
+    </div>
+</div>
   {% include top.series.html %}
   {% endif %}
   </div>
@@ -62,38 +94,6 @@
 {% if page.url contains 'page' %}
 {% else %}
 <div class="width-container">
-    <div class="site-navigation-container">
-        <div class="site-category-topics">
-            <h2 class="main-section"> Topics & Tags </h2>
-        </div>
-    </div>
-    <div class="site-navigation-container">
-        <div class="site-category-topics">
-            <div class="site-category-container">
-
-                {% assign categories = site.posts | map: 'categories' | uniq %}
-                
-                {% for category in categories %}
-                  <div class="site-category-box">
-                    <div class="site-category-title"> {{ category }} </div>
-                  <ul class="site-category-content">
-                    {% assign category_posts = site.posts | where: 'categories', category %}
-                    {% assign category_tags = category_posts | map: 'tags' | join: ',' | split: ',' | uniq %}
-                    
-                    {% for tag in category_tags %}
-                      <li>
-                        <a href="/tags/{{ tag | slugify }}/">{{ tag }} </a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                  </div>
-                {% endfor %}
-            </div>
-        </div>
-        <div class="more-topics">
-            Do you enjoy our content & wanted to request some specific topics? <a href="mailto:degananda.ferdian@gmail.com"> let me know </a>
-        </div>
-    </div>
     {% include bottom.gimmick.schedule.html %}
 </div>
 
