@@ -6,6 +6,7 @@ excerpt: If you want to learn about StackEdit, you can read me. If you want to p
 tags: frontned-dev backend-dev web-services
 topics: programming
 hidden: true
+ptype: news
 ---
 
 # Welcome to StackEdit!
