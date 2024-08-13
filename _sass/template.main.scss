@@ -90,13 +90,12 @@ body {
 }
 
 .pl-logo {
-  padding: 0px 15px 0px 30px;
+  padding: 0px 15px 0px 50px;
 }
 
 .topmenu-container > .search {
     font-size: $logo;
     font-weight: bold;
-    width: 20%;
     text-align: left;
 }
 
@@ -197,7 +196,7 @@ body {
 
 .topmenu-container > .navigation > ul {
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    padding: 0 25px 0 0px;
 }
 
 .topmenu-container > .navigation > ul > li {
@@ -1352,4 +1351,31 @@ font-weight: 500;
   padding: 10px 0px 10px 0px;
   margin: 0px 0px 10px 0px;
   font-size: 14px;
+}
+
+.series-post-container {
+  margin: 0px 0px 15px 0px;
+}
+
+.series-post {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: baseline;
+}
+
+.series-post > .title {
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.series-post > .keyword {
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.series-post > .progress-series {
+  width: 100%;
 }

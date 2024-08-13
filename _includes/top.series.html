@@ -15,5 +15,30 @@
 </div>
 
 <div class="series-list-container">
-
+    {% for item in site.data.series %}
+    <div class="series-post-container">
+        <div class="series-post">
+                <div class="title">
+                    {{ item.title }}
+                </div>
+                <div class="keyword">
+                    {{ item.topics }}
+                </div>
+                <div>
+                    <div class="start">
+                        {{ item.start }}
+                    </div>
+                    <div class="end">
+                        {{ item.end }}
+                    </div>
+                    <div class="status">
+                        {{ item.statusq }}
+                    </div>
+                </div>
+                <div class="progress-series">
+                    0 0 0 
+                </div>
+        </div>
+    </div>
+    {% endfor %}
 </div>
