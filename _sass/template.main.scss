@@ -807,9 +807,9 @@ width: 100%;
 }
 
 .gimmick-view-stats {
-  margin: 15px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
   background: #ffffff;
-  padding: 6px 15px 6px 15px;
+  padding: 12px 15px 12px 15px;
   border: 1px #3d3d3d solid;
   border-radius: 5px;
   line-height: 1.4;
@@ -817,9 +817,25 @@ width: 100%;
   text-align: center;
 }
 
+.growth {
+  margin: 0px 0px 25px 0px;
+}
+
+.growth > .number {
+  font-size:15px;
+  background: #3d3d3d;
+  color: #fafafa;
+  padding: 2px 6px 2px 6px;
+  border-radius: 5px;
+}
+
 .gimmick-view-stats > .gimmick-stats-title {
   font-weight: bold;
   font-size: $sub-4;
+}
+
+.gimmick-view-stats > .gimmick-stats-title > i {
+  font-weight: bold;
 }
 
 .gimmick-view-stats > .gimmick-stats-desc {
@@ -1378,4 +1394,13 @@ font-weight: 500;
 
 .series-post > .progress-series {
   width: 100%;
+}
+
+.subscribe {
+  position: relative;
+  width: 500px;
+  background:#ffffff;
+  border: 1px hsl(0, 0%, 24%) solid;
+  padding-bottom: 150px;
+  float:right;
 }

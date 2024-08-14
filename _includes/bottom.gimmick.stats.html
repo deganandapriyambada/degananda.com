@@ -12,7 +12,9 @@
         <div class="stats-whole-container">
             <div class="enmax">
                 <div class="stats-number-container">
-
+                    <div class="growth">
+                        <span class="number"+>+0</span> From last Month
+                    </div>
                     <div class="stats-number">
                         {% assign total_posts = site.posts | size %} {{ total_posts }}
                     </div>
@@ -21,12 +23,14 @@
                     </div>
                     <div class="gimmick-view-stats">
                         <span class="gimmick-stats-title"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> &nbsp; View Posts </span><br />
-                        <span class="gimmick-stats-desc">CS or Alter </span>
+                        <span class="gimmick-stats-desc">4 Content Type</span>
                     </div>
 
                 </div>
                 <div class="stats-number-container">
-                    
+                    <div class="growth">
+                        <span class="number"+>+0</span> From last Month
+                    </div>
                     <div class="stats-number">
                         {% assign total_categories = site.categories | size %}
                         {{ total_categories }}
@@ -41,7 +45,9 @@
 
                 </div>
                 <div class="stats-number-container">
-                    
+                    <div class="growth">
+                        <span class="number"+>+0</span> From last Month
+                    </div>
                     <div class="stats-number">
                         {% assign all_tags = site.tags | keys %}
                         {% assign total_tags = all_tags | size %}
@@ -53,7 +59,7 @@
                     <div class="gimmick-view-stats">
                         <span class="gimmick-stats-title"><i class="fa fa-tags" aria-hidden="true"></i> &nbsp;
                              View Tags </span><br />
-                        <span class="gimmick-stats-desc">All Tags</span>
+                        <span class="gimmick-stats-desc">Based on Topics</span>
                     </div>
 
                 </div>
