@@ -72,6 +72,7 @@
     </div>
 </div>
 
+{% if page.url contains 'page' %}
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -96,4 +97,9 @@
     <span>Next &raquo;</span>
   {% endif %}
 </div>
+{% endif %}
+{% else %}
+<button class="section-link section-title">
+    <a href="/page-2/"> Browse All </a>
+</button> 
 {% endif %}

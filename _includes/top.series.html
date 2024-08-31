@@ -14,30 +14,76 @@
     Serialized Article
 </div>
 
+<div class="sesson-serial">
+    Dry Seasson'24
+</div>
+
 <div class="series-list-container">
     {% for item in site.data.series %}
     <div class="series-post-container">
-        <div class="series-post">
-                <div class="title">
-                    {{ item.title }}
+        <div class="series-post-wrapper">
+            <div style="width: 10%">
+                DF
+            </div>
+            <div style="width: 50%;">
+                <div class="series-post">
+                        <div class="title">
+                            {{ item.title }}
+                        </div>
+                        <div class="keyword">
+                            <ul>
+                            {% for topics in item.topics %}
+                            <li>{{ topics }}</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="series-desc">
+                            <div class="start">
+                                {{ item.start }}
+                            </div>
+                            <div class="end">
+                                {{ item.end }}
+                            </div>
+                            <div class="status">
+                                {{ item.status }}
+                            </div>
+                        </div>
                 </div>
-                <div class="keyword">
-                    {{ item.topics }}
-                </div>
-                <div>
-                    <div class="start">
-                        {{ item.start }}
+                <div class="progress-series">
+                    <div class="scale">
+                        0
                     </div>
-                    <div class="end">
-                        {{ item.end }}
+                    <div class="scale">
+                        0
                     </div>
-                    <div class="status">
-                        {{ item.statusq }}
+                    <div class="scale">
+                        0
+                    </div>
+                    <div class="scale">
+                        0
                     </div>
                 </div>
                 <div class="progress-series">
-                    0 0 0 
+                    <div class="scale">
+                        Notes
+                    </div>
+                    <div class="scale">
+                        News
+                    </div>
+                    <div class="scale">
+                        Issues
+                    </div>
+                    <div class="scale">
+                        Review
+                    </div>
                 </div>
+            </div>
+            <div style="width: 20%">
+                Main Topics
+            </div>
+            <div style="width: 20%">
+                Get Zines
+            </div>
         </div>
     </div>
     {% endfor %}

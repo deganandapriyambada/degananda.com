@@ -39,11 +39,8 @@
                 </div>
             </div>
             <div id="twoblock-right">
+                <div class="twoblock-right-maxw">
                 <div class="twoblock-marg-r">
-                    
-                 
-                    
-
                     <div class="post-author-container">
                         <div class="post-author-photo">
                             <img src="/assets/images/dfp2.jpeg">   
@@ -51,22 +48,23 @@
                         <div>
                             <span class="typo1">Degananda Ferdian</span>
                             <span class="typo2"> - 5 Mins Read </span> <br />
-                        <span class="typo3"> Last Modified on {{ page.date | date_to_string: "ordinal", "US"}} </span>
-                        
+                        <span class="typo3"> {{ page.date | date_to_string: "ordinal", "US"}} </span>
+                        <span class="typo2"> &#9679; Follow </span> <br />
+
 
                         </div>    
                     </div>
 
                     <div class="sponsor">
-                        Enjoy our content? <a href="#">Sponsor This Article</a>
+                        <a href="#"><button>Support This Writings</button></a>
                     </div>
 
                     <div class="post-navigation">
-                        <div>
-                            Next
+                        <div class="next">
+                            <a href="#"><button>Prev</button></a>
                         </div>
-                        <div>
-                            Prev
+                        <div class="prev">
+                            <a href="#"><button>Next</button></a>
                         </div>
                     </div>
 
@@ -79,6 +77,7 @@
                     </div>
                     
 
+                </div>
                 </div>
             </div>
         </div>

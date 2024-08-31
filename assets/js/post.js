@@ -38,7 +38,7 @@ var observer = new IntersectionObserver(function(entries) {
       document.getElementById("twoblock-right").style.position = null;   
   } else {
       document.getElementById("twoblock-right").style.position = "fixed";
-      document.getElementById("twoblock-right").style.top = "0%";
+      document.getElementById("twoblock-right").style.top = "2%";
       document.getElementById("twoblock-right").style.right = "0%";   
   }
 }, { threshold: [0] });

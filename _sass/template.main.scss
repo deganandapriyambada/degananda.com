@@ -385,7 +385,7 @@ body {
 
 .plusbg {
   background:#ffffff url('/assets//images/plusbg.svg');
-  padding: 60px 0px 80px 0px;
+  padding: 60px 0px 60px 0px;
   margin: 0px 0px 15px 0px;
 }
 
@@ -433,7 +433,7 @@ body {
 }
 
 .findmore {
-  padding: 25px 0px 15px 0px;
+  padding: 35px 0px 35px 0px;
 }
 
 .section-link-reverse {
@@ -493,6 +493,13 @@ body {
     font-size: $sub-2;
 }
 
+.footer-menu-container  > .craftmanship {
+  margin: 15px 0px 0px 0px;
+  width: 100%;
+  color: #fafafa;
+  font-size: $sub-3;
+}
+
 .footer-menu-container  > .disclaimer {
     padding: 20px 0px 20px 0px;
     margin: 15px 0px 15px 0px;
@@ -546,8 +553,54 @@ body {
   Post Details
 */
 
+.post-navigation {
+  width: 100%;
+  margin: 5px 0px 0px 0px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
+.twoblock-right-maxw {
+  max-width: 400px;
+}
+
+.sponsor {
+  width: 100%;
+  margin: 5px 0px 0px 0px;
+}
+
+.sponsor button {
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  background: #3d3d3d;
+  color: #ffffff;
+}
+
+.post-navigation .next {
+  width: 50%;
+  text-align: left;
+}
+
+.post-navigation .prev {
+  width: 50%;
+  text-align: right;
+
+}
+
+.next button, .prev button {
+  width: 98%;
+  background: none;
+  border: 1px #000000 solid;
+  padding: 5px 0px 5px 0px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
 .post {
-  margin: 60px 0px 60px 0px;
+  margin: 80px 0px 60px 0px;
 }
 
 .post-title {
@@ -1373,6 +1426,14 @@ font-weight: 500;
   margin: 0px 0px 15px 0px;
 }
 
+.series-post-wrapper  {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
 .series-post {
   display: inline-flex;
   flex-direction: row;
@@ -1384,6 +1445,7 @@ font-weight: 500;
   font-size: 14px;
   font-weight: 500;
   width: 100%;
+  margin: 0px 0px 5px 0px;
 }
 
 .series-post > .keyword {
@@ -1404,3 +1466,32 @@ font-weight: 500;
   padding-bottom: 150px;
   float:right;
 }
+
+.series-top {
+  background: none;
+  padding: 5px 12px 5px 12px;
+  border: 1px #000000 solid;
+  border-radius: 10px;
+}
+
+.series-desc {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: baseline;
+}
+
+.progress-series {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+  width: 500px;
+}
+
+.progress-series .scale {
+  width: 25%;
+  text-align: center;
+}
+
