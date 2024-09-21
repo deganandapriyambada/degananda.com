@@ -54,3 +54,24 @@ var observerSiteFooter = new IntersectionObserver(function(entries) {
 
 observer.observe(document.querySelector("#okoy"));
 observerSiteFooter.observe(document.querySelector("#footer-page"));
+
+
+const progressBar = document.querySelector('#reading-progress');
+const section = document.querySelector('.post-content');
+
+const scrollProgressBar = () => {
+	let scrollDistance = -(section.getBoundingClientRect().top);
+  let lengthVal = (scrollDistance/section.getBoundingClientRect().height)*100;
+  console.log(lengthVal);
+ if(scrollDistance > 0){
+    progressBar.style.width = lengthVal + '%';
+  } else if(scrollDistance >= 100){
+    progressBar.style.width =  '100%';
+  } else {
+    progressBar.style.width =  '0%';
+  }
+
+
+};
+
+window.addEventListener('scroll', scrollProgressBar);

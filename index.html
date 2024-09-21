@@ -4,7 +4,7 @@
 {% include meta.header.html title ="Degananda Ferdian" %}
 <body>
 
-<div class="whole-site">
+  <div class="whole-site">
     <div class="post-feedback">
         Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/{{ page.name }}'>Edit This Page </a> on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
     </div>
@@ -23,21 +23,45 @@
 </div>
 
 
+<div class="landing-container">
+<div style="width: 70%;">
+
+
     {% if page.url contains 'page' %}
     {% else %}
     <div class="plusbg">
-      <div class="width-container">
-    {% include top.gimmick.about.html %}
+      <div class="width-container" style="padding: 0 0 0 8%;">
+      {% include top.gimmick.about.html %}
     </div>
   </div>
     {% endif %}
 
 
 <div class="series bg-series">
-  <div class="width-container">
+  <div class="width-container" style="padding: 0 0 0 8%;">
   {% if page.url contains 'page' %}
   {% else %}
   <div class="site-navigation-container">
+    <div style="margin-bottom: -20px;">
+      <img src="/assets/images/line-black.svg" height="60px"> 
+    </div>
+    <div class="blog-contributor">
+      <div>
+          From: &nbsp; &nbsp; 
+      </div>
+      <div class="contributor">
+          DF
+      </div>
+      <div class="contributor">
+          AD
+      </div>
+      <div class="nton">
+        <img src="/assets/images/gimmick1n1.svg">
+      </div>
+      <div>
+        &nbsp; To Fellow CS Enthusiast
+    </div>
+  </div>
     <div class="site-category-topics">
         <h2 class="main-section"> Topics & Tags </h2>
     </div>
@@ -74,7 +98,7 @@
   </div>
 </div>  
 
-<div class="latest-post">
+<div class="latest-post" style="padding: 0 0 0 8%;">
     <div class="latest-post-container">
         
         <div class="section-title">
@@ -85,17 +109,41 @@
             {% endif %}
         </div>
         {% include latest.post.html %}
-        {% include latest.alter.html %}
 
     </div>
 </div>
 
 
+<div class="latest-post" style="padding: 0 0 0 8%;">
+  <div class="latest-post-container">
+{% include latest.alter.html %}
+    </div>
+</div>
+
+</div>
+<div style="width: 30%;">
+  asda
+</div>
+</div>
+
+
+
 {% if page.url contains 'page' %}
 {% else %}
+
 <div class="width-container">
-    {% include bottom.gimmick.schedule.html %}
+    <div class="schedule-container">
+      <div style="width: 75%;">
+      {% include bottom.gimmick.schedule.html %}
+      </div>
+      <div>
+        asd
+      </div>
+    </div>
 </div>
+
+
+
 
 
 {% include bottom.gimmick.stats.html %}

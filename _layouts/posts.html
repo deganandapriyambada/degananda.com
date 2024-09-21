@@ -2,7 +2,6 @@
 ---
 {% include meta.header.html title =page.title %}
 <body>
-
     <div class="whole-site">
         <div class="post-feedback">
             Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/_posts/{{ page.date | date: "%Y"}}-{{ page.date | date:"%m"}}/{{ page.name }}'>Edit this page</a>  on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
@@ -61,11 +60,15 @@
 
                     <div class="post-navigation">
                         <div class="next">
-                            <a href="#"><button>Prev</button></a>
+                            <a href="{{page.previous.url}}"><button>Prev</button></a>
                         </div>
                         <div class="prev">
-                            <a href="#"><button>Next</button></a>
+                            <a href="{{page.next.url}}"><button>Next</button></a>
                         </div>
+                    </div>
+
+                    <div>
+                        total Word | Total Char | Total References
                     </div>
 
                     <div class="section-title"><u> List of content </u> </div>
@@ -87,9 +90,6 @@
         <div class="width-container bg-gray">
             <div class="related-post">
                 <div class="section-title"> Read More </div>
-
-    
-
                     {% if site.related_posts.size >= 1 %}
                     <div class="related-post-container">
                         <div class="post-type-2">
@@ -97,7 +97,7 @@
                         {% for related_post in site.related_posts limit: 6 %}
                                     <div class="post-type-2-content">
                                         <div class="post-type-2-category"> 
-                                            {{ related_post.categories }}
+                                                Degananda On {{ related_post.categories }}
                                         </div>
                                         <div class="post-type-2-title">
                                             <a href="{{ post.url }}">{{ related_post.title }}</a>
@@ -119,9 +119,19 @@
                         
                                             {{ minsRead | plus:1 }} Mins Reading             
                                         </div>
+
+                                        <div class="post-type-2-title-tags">
+                                            <div class="post-tags">
+                                                {% for tags in related_post.tags %}
+                                                    <div class="post-tags-item-lite">
+                                                        <a href="/tags/{{ tags }}/">{{ tags }}</a>
+                                                    </div>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
                         
                                     </div>
-
+                                    
                         {% endfor %}
                             </div>
                         </div>

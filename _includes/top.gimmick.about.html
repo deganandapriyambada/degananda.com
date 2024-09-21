@@ -1,3 +1,4 @@
+
 <div class="explore-series">
     <div class="available-series">
      Available {% glossary Series %} <i class="fa fa-compass" aria-hidden="true"></i>
@@ -18,6 +19,7 @@
         </div>
     </div>
 </div>
+
 <div class="welcome-container">
     <div class="welcome-left">
         <div class="profpic-container">
@@ -26,7 +28,7 @@
             </div>
         </div>
         <div class="aboutme">
-            Thanks for coming!  We wrote our learning journey about (but not limited to) Computer Science on this webiste. In short, this blog is Our <b>living study notes</b>.
+            Thanks for coming!  We wrote our learning journey about (but not limited to) Computer Science on this webiste. In short, this blog is Our <b class="living">living study notes</b>.
             Find me on : <a href="https://www.linkedin.com/in/degananda-ferdian" target="_blank">LinkedIn</a>, <a href="https://github.com/deganandapriyambada" target="_blank">Github</a>, <a href="https://twitter.com/degapriyambada" target="_blank">Twitter</a>
             <div class="findmore">
                 <button class="section-link-reverse"><a href="#">Browse Topic</a></button>
@@ -39,7 +41,7 @@
     </div>
     <div class="welcome-right">
         <div class="section-title" style="margin-bottom: 10px;">
-            Editor Picks
+            Monthly Picks
         </div>
         <div class="highlighted-post">
             <div class="highlighted-post-container">
@@ -52,10 +54,33 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 </div>
                 <div>
-                    Get Exclusive Bi-Weekly Zines <button>Subscribe</button>
+                    <button class="section-link-reverse"><a>Subscribe</a></button> to Get Exclusive Bi-Weekly Zines.
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<div class="latest-content-all">
+    <div class="section-title">
+        Latest Content
+    </div>
+    <div class="latest-content-container">
+    {% for post in site.posts limit: 4 %}
+        <div class="latest-content-item">
+            <div class="date">
+                {{ post.date | date: "%-d %B %Y" }}
+            </div>
+            <div class="title">
+                {{ post.title }}
+            </div>
+            <div class="categories">
+                {{ post.categories }}
+            </div>
+            <div class="shortdesc">
+                {{ post.excerpt }}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
