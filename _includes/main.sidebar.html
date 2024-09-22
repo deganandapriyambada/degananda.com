@@ -1,0 +1,72 @@
+
+<div id="sidebar-main">
+    <div class="sidebar-main-container">
+    <div class="section-title-light">
+        Latest Publications
+    </div>
+    {% for post in paginator.posts limit: 5 %}
+    <div class="latest-content-container">
+        <div class="latest-content-item">
+            <div class="title-container">
+                <div class="profpic">
+                    <div class="contributor-small">
+                        DF
+                    </div>
+                </div>
+                <div class="incat">
+                    <b>Degananda</b> in  <u><b>{{ post.categories }}</b></u>
+                </div>
+            </div>
+            <div class="title">
+                {{ post.title }}
+            </div>
+            <div class="date">
+                {{ post.date | date: "%-d %B %Y" }} 
+                ·
+                5 Mins read                
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="button-light">
+        View More
+    </div>
+
+    <div class="section-title-light">
+        Latest Tags
+    </div>
+
+    <div class="post-type-2-title-tags">
+        <div class="post-tags">
+         {% for tag in site.tags limit: 6 %}
+        <div class="post-tags-item-side">
+            <a href="/tags/{{ tags | first }}/">{{tag | first }}</a>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+
+    <div class="section-title-light">
+        Snippets Collections
+    </div>
+
+    {% for post in site.categories.snippet limit: 5 %}
+    <div class="latest-content-container">
+        <div class="latest-content-item">
+            <div class="title">
+                {{ post.title }}
+            </div>
+            <div class="date">
+                {{ post.date | date: "%-d %B %Y" }} 
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="button-light">
+        View Snippets
+    </div>
+
+
+    </div>
+</div>

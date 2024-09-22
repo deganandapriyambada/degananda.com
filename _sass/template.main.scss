@@ -42,11 +42,12 @@ body {
 
 .whole-site > .topmenu, .whole-site > .latest-post,
 .whole-site > .footer-menu, .whole-site > .category-post, .stats, .post-feedback, .latest-post, .width-container  {
-    padding: 0px 14% 0px 14%;
+    padding: 0px 10% 0px 10%;
 }
 
-.landing-container {
-  padding: 0px 2% 0px 2%;
+
+.width-container-main {
+  padding: 0 8% 0 8%;
 }
 
 .post-width-half {
@@ -71,13 +72,6 @@ body {
 /* TopMenu Section */
 
 
-.landing-container {
-  width: 100%;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap:wrap;
-  align-items: baseline;
-}
 
 .topmenu-container {
     width: 100%;
@@ -150,7 +144,7 @@ body {
 }
 
 .gimmick-landing-top > .gimmick-landing-top-container {
-  padding:12px 0px 12px 0px;
+  padding:15px 0px 15px 0px;
   text-align: center;
   font-size: $sub-4;
   margin: 0px 0px 0px 0px;
@@ -264,12 +258,12 @@ body {
 
 /* End of topmenu Section */
 .latest-post {
-  background: #fafafa;
+  background: #ffffff;
 }
 
-.latest-post > .latest-post-container {
+.latest-post-container {
     margin: 0px 0px 0px 0px;
-    padding: 50px 0 50px 0;
+    padding: 30px 0 30px 0;
 }
 
 
@@ -277,6 +271,17 @@ body {
     font-size: $sub-1;
     font-weight: bold;
     margin: 30px 0 30px 0px;
+}
+
+.section-title-light {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 25px 0 25px 0px;
+}
+
+.button-light {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .post-type-1, .post-type-2  {
@@ -487,7 +492,7 @@ body {
 
 .more-topics {
   font-size: $sub-4;
-  margin: 20px 0px 5px 0px;
+  width: 100%;
 }
 
 /* footer section */
@@ -1035,8 +1040,7 @@ width: 100%;
 .post-feedback {
   font-size: 13px;
   text-align: center;
-  padding: 12px 0px 12px 0px;
-  border-bottom: 1px #f0f0f0 solid;
+  padding: 15px 0px 15px 0px;
   color: #3d3d3d;
   background: #fafafa;
 }
@@ -1256,6 +1260,21 @@ font-weight: 500;
   border-radius: 15px;
 }
 
+.post-tags-item-side {
+  background: #f3f3f3;
+  padding: 10px 12px 10px 12px;
+  margin: 0px 10px 12px 0px;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+.post-tags-item-side a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
 .post-tags-item-lite {
   margin: 0px 10px 0px 0px;
   font-size: 13px;
@@ -1304,6 +1323,14 @@ font-weight: 500;
   font-size: 15px;
   margin: 0px 10px 0px 0px;
 }
+
+.contributor-small {
+  padding: 6px 6px 6px 6px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
 
 .category-post-container {
   padding: 30px 0px 30px 0px;
@@ -1390,6 +1417,7 @@ font-weight: 500;
   width: 65%;
 }
 
+
 #twoblock-right {
   width: 35%;
   position: relative;
@@ -1448,8 +1476,8 @@ font-weight: 500;
 }
 
 .series-post-container {
-  margin: 0px 0px 25px 0px;
-  padding: 15px 0px 30px 0px;
+  margin: 0px 0px 15px 0px;
+  padding: 15px 0px 15px 0px;
 }
 
 .series-post-container:nth-child(odd){
@@ -1542,7 +1570,7 @@ font-weight: 500;
 }
 
 .series-list-container {
-  padding: 0px 0px 50px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .series-mt-container {
@@ -1618,15 +1646,30 @@ font-weight: 500;
   align-items: baseline;
 }
 .latest-content-container {
+  width: 100%;
+}
+
+.title-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
   align-items: center;
-  width: 100%;
 }
 
+.incat {
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.incat b {
+  font-weight: 500;
+  color: #000000;
+}
+
+
 .latest-content-container > .latest-content-item {
-  width: 25%;
+  width: 100%;
   background: #ffffff;
   height: 100px;
   margin: 0px 5px 0px 0px;
@@ -1634,10 +1677,62 @@ font-weight: 500;
 }
 
 .latest-content-item > .title {
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 0px 10px 0px;
+  color: #000000;
 }
 
 .latest-content-item > .date {
   font-size: 14px;
 }
 
+
+#sidebar-main {
+  position: sticky;
+  width: 100%;
+  z-index: -1;
+}
+
+.sidebar-main-container {
+  margin: 80px 0px 0px 0px;
+  padding: 0px 0px 0px 25px;
+}
+
+
+#snippets-list {
+}
+
+/* Landing */
+/* Basic layout */
+
+.padding-container {
+  padding: 0 8% 0 8%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    width: 70%;
+}
+
+
+
+.sidebar {
+    width: 30%;
+    position: relative;
+}
+
+/* Make sidebar sticky */
+.sidebar-inner {
+    position: sticky;
+    top: 0;
+}
+
+
+.landing-container {
+ 
+}

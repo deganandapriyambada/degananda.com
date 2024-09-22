@@ -1,4 +1,8 @@
 /* detect heading */
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 var tags = [ "h1", "h2" ];
 var all_headings = [];
 var elems = document.querySelectorAll('h1, h2');

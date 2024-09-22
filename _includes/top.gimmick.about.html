@@ -1,5 +1,8 @@
 
 <div class="explore-series">
+    <div id="top-reset">
+        &nbsp;
+      </div>
     <div class="available-series">
      Available {% glossary Series %} <i class="fa fa-compass" aria-hidden="true"></i>
     </div>
@@ -61,26 +64,3 @@
     </div>
 </div>
 
-<div class="latest-content-all">
-    <div class="section-title">
-        Latest Content
-    </div>
-    <div class="latest-content-container">
-    {% for post in site.posts limit: 4 %}
-        <div class="latest-content-item">
-            <div class="date">
-                {{ post.date | date: "%-d %B %Y" }}
-            </div>
-            <div class="title">
-                {{ post.title }}
-            </div>
-            <div class="categories">
-                {{ post.categories }}
-            </div>
-            <div class="shortdesc">
-                {{ post.excerpt }}
-            </div>
-        </div>
-    {% endfor %}
-    </div>
-</div>
