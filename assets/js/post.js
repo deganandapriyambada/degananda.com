@@ -3,6 +3,7 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
+
 var tags = [ "h1", "h2" ];
 var all_headings = [];
 var elems = document.querySelectorAll('h1, h2');
@@ -35,6 +36,7 @@ for(var tt = 0 ; tt<elems.length; tt++){
 }
 postHeadingUl.innerHTML += finalMenuTree;
 
+/*
 var observer = new IntersectionObserver(function(entries) {
   if(entries[0].isIntersecting === true){
       document.getElementById("twoblock-right").style.position = null;
@@ -58,10 +60,10 @@ var observerSiteFooter = new IntersectionObserver(function(entries) {
 
 observer.observe(document.querySelector("#okoy"));
 observerSiteFooter.observe(document.querySelector("#footer-page"));
-
+*/
 
 const progressBar = document.querySelector('#reading-progress');
-const section = document.querySelector('.post-content');
+const section = document.querySelector('.post-container');
 
 const scrollProgressBar = () => {
 	let scrollDistance = -(section.getBoundingClientRect().top);
@@ -78,4 +80,7 @@ const scrollProgressBar = () => {
 
 };
 
+
 window.addEventListener('scroll', scrollProgressBar);
+
+

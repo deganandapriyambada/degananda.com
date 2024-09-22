@@ -26,120 +26,26 @@
                 </div>
             </div>        
         </div>
-
-
-
     </div>
-    <div class="twoblock">
-        <div class="twoblock-container">
-            <div class="twoblock-left">
-                <div class="twoblock-marg-l">
-                    {% include post.content.html %}
-                </div>
-            </div>
-            <div id="twoblock-right">
-                <div class="twoblock-right-maxw">
-                <div class="twoblock-marg-r">
-                    <div class="post-author-container">
-                        <div class="post-author-photo">
-                            <img src="/assets/images/dfp2.jpeg">   
-                        </div>
-                        <div>
-                            <span class="typo1">Degananda Ferdian</span>
-                            <span class="typo2"> - 5 Mins Read </span> <br />
-                        <span class="typo3"> {{ page.date | date_to_string: "ordinal", "US"}} </span>
-                        <span class="typo2"> &#9679; Follow </span> <br />
-
-
-                        </div>    
-                    </div>
-
-                    <div class="sponsor">
-                        <a href="#"><button>Support This Writings</button></a>
-                    </div>
-
-                    <div class="post-navigation">
-                        <div class="next">
-                            <a href="{{page.previous.url}}"><button>Prev</button></a>
-                        </div>
-                        <div class="prev">
-                            <a href="{{page.next.url}}"><button>Next</button></a>
-                        </div>
-                    </div>
-
-                    <div>
-                        total Word | Total Char | Total References
-                    </div>
-
-                    <div class="section-title"><u> List of content </u> </div>
-
-                    <div class="post-list-of-content">
-                        <div id="post-heading">
-            
-                        </div>
-                    </div>
-                    
-
-                </div>
-                </div>
-            </div>
-        </div>
+ <div class="padding-container-post">
+    <div class="container">
+    <!-- Main content -->
+    <div class="content-post">
+        <!-- start main -->
+        {% include post.content.html %}
+        <!-- end main -->
+      </div>
+  
+      <!-- Sidebar -->
+      <div class="sidebar-post">
+          <div class="sidebar-inner">
+            {% include post.sidebar.html %}
+          </div>
+      </div>
+      <!-- end sidebar -->
     </div>
-
-    <div id="footer-page">
-        <div class="width-container bg-gray">
-            <div class="related-post">
-                <div class="section-title"> Read More </div>
-                    {% if site.related_posts.size >= 1 %}
-                    <div class="related-post-container">
-                        <div class="post-type-2">
-                            <div class="post-type-2-container">
-                        {% for related_post in site.related_posts limit: 6 %}
-                                    <div class="post-type-2-content">
-                                        <div class="post-type-2-category"> 
-                                                Degananda On {{ related_post.categories }}
-                                        </div>
-                                        <div class="post-type-2-title">
-                                            <a href="{{ post.url }}">{{ related_post.title }}</a>
-                                        </div>
-                                        <div class="post-type-2-title-desc">
-                                            {{ related_post.date | date: "%F" }}
-                                        </div>
-                                        <div class="post-type-2-tldr">
-                                            {{ related_post.excerpt }}
-                                        </div>
-                        
-                                        <div class="post-type-2-title-desc">
-                                            {% 
-                                                assign wordCount = related_post.content | number_of_words 
-                                            %}
-                                            {%
-                                                assign minsRead = wordCount | divided_by: 200 
-                                            %} 
-                        
-                                            {{ minsRead | plus:1 }} Mins Reading             
-                                        </div>
-
-                                        <div class="post-type-2-title-tags">
-                                            <div class="post-tags">
-                                                {% for tags in related_post.tags %}
-                                                    <div class="post-tags-item-lite">
-                                                        <a href="/tags/{{ tags }}/">{{ tags }}</a>
-                                                    </div>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                        
-                                    </div>
-                                    
-                        {% endfor %}
-                            </div>
-                        </div>
-                    </div> 
-                    {% endif %}
-            </div>
-        </div>
-    </div>
+  </div>
+  {% include post.footer.html %}
     {% include footer.menu.html widthconfig="full" %}
     <script src="https://giscus.app/client.js"
         data-repo="deganandapriyambada/degananda.com"

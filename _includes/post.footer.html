@@ -1,0 +1,54 @@
+<div id="footer-page">
+    <div class="width-container-post bg-gray">
+        <div class="related-post">
+            <div class="section-title"> Read More </div>
+                {% if site.related_posts.size >= 1 %}
+                <div class="related-post-container">
+                    <div class="post-type-2">
+                        <div class="post-type-2-container">
+                    {% for related_post in site.related_posts limit: 6 %}
+                                <div class="post-type-2-content">
+                                    <div class="post-type-2-category"> 
+                                            Degananda On {{ related_post.categories }}
+                                    </div>
+                                    <div class="post-type-2-title">
+                                        <a href="{{ post.url }}">{{ related_post.title }}</a>
+                                    </div>
+                                    <div class="post-type-2-title-desc">
+                                        {{ related_post.date | date: "%F" }}
+                                    </div>
+                                    <div class="post-type-2-tldr">
+                                        {{ related_post.excerpt }}
+                                    </div>
+                    
+                                    <div class="post-type-2-title-desc">
+                                        {% 
+                                            assign wordCount = related_post.content | number_of_words 
+                                        %}
+                                        {%
+                                            assign minsRead = wordCount | divided_by: 200 
+                                        %} 
+                    
+                                        {{ minsRead | plus:1 }} Mins Reading             
+                                    </div>
+
+                                    <div class="post-type-2-title-tags">
+                                        <div class="post-tags">
+                                            {% for tags in related_post.tags %}
+                                                <div class="post-tags-item-lite">
+                                                    <a href="/tags/{{ tags }}/">{{ tags }}</a>
+                                                </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                                
+                    {% endfor %}
+                        </div>
+                    </div>
+                </div> 
+                {% endif %}
+        </div>
+    </div>
+</div>

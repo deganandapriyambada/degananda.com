@@ -45,13 +45,17 @@ body {
     padding: 0px 10% 0px 10%;
 }
 
+.width-container-post {
+  padding: 0 12% 0 12%;
+
+}
 
 .width-container-main {
   padding: 0 8% 0 8%;
 }
 
 .post-width-half {
-  padding: 0px 20% 0px 20%;
+  padding: 0px 14% 0px 14%;
 }
 
 .full-width {
@@ -1197,6 +1201,11 @@ font-weight: 500;
   color: #3d3d3d;
 }
 
+.available-series i {
+  font-size: 25px;
+  color: #565656;
+}
+
 .post-author-container, .post-gimmick-container {
   display: flex;
   flex-direction: row;
@@ -1429,12 +1438,16 @@ font-weight: 500;
   border-right: 1px #f0f0f0 solid;
 }
 .twoblock-marg-r {
-  padding-right: 20%;
+  padding-right: 0%;
   padding-left: 25px;
+  margin-left: 25px;
+  border-left: 1px #f0f0f0 solid;
+  padding-top: 30px;
+  margin-top: 20px;
 }
 
 .post-list-of-content {
-  height: 500px;
+  height: 400px;
   overflow-y: scroll;
 }
 
@@ -1710,6 +1723,10 @@ font-weight: 500;
   padding: 0 8% 0 8%;
 }
 
+.padding-container-post {
+  padding: 0 12% 0 12%;
+}
+
 .container {
     display: flex;
     width: 100%;
@@ -1719,6 +1736,15 @@ font-weight: 500;
     width: 70%;
 }
 
+.content-post {
+  width: 65%;
+}
+
+
+.sidebar-post {
+  width: 35%;
+  position: relative;
+}
 
 
 .sidebar {
@@ -1751,15 +1777,25 @@ font-weight: 500;
   font-size: 13px;
   font-weight: 400;
   color:#2f2f2f;
-  padding: 5px 0px 0px 0px;
+  padding: 12px 15px 12px 15px;
+  background: #fafafa;
+  margin: 5px 0px 0px 0px;
 }
 
 .commit-list {
   padding: 0 0 0 0px;
-  margin: 0 0 0 0;
+  margin: 0 0 0 10px;
 }
 
 .commit-list li {
   list-style-type: none;
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 20px 20px;
+  border-left: 3px #dadada solid;
+}
+
+.gray-explore {
+  background: #fafafa;
+  padding-top: 35px;
+  padding-bottom: 60px;
+  margin: 30px 0px 30px 0px;
 }

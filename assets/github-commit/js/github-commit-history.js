@@ -14,7 +14,7 @@
 
 
 
-            jQuery.getJSON("https://api.github.com/repos/" + options["username"] + "/" + options["repo"] + "/commits?per_page=5", function(data) {
+            jQuery.getJSON("https://api.github.com/repos/" + options["username"] + "/" + options["repo"] + "/commits?per_page=4", function(data) {
                 var commitHistory = document.getElementById("commitHistory");
                 var htmlTemplate = "<ul class='commit-list'>";
                 $.each(data, function(idx, commit) {
@@ -36,11 +36,11 @@
                             </div>
                         </div>
                         <div class="incat">
-                            <div> ${commit.commit.author.name} 
+                            <div> <a href="#">${commit.commit.author.name}</a> 
                             </div>
                                                 <div class="commit-date">
                         ${formattedDate} ·
-                        <a href="${commit.commit.url}">${hashSha.substring(0, 5)}</a>
+                        <b><a href="${commit.commit.url}">${hashSha.substring(0, 5)}</a></b>
                     </div>
                         </div>
                     </div>
