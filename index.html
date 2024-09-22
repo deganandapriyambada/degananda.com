@@ -112,6 +112,9 @@
 
 
 <div class="width-container-main" style="background: #ffffff;">
+  <div style="margin-bottom: -20px;">
+    <img src="/assets/images/line-black.svg" height="60px" loading="lazy"> 
+  </div>
   <div class="site-category-topics">
     <h2 class="main-section"> Explore Tags </h2>
   </div>
@@ -148,7 +151,7 @@
       {% include bottom.gimmick.schedule.html %}
       </div>
       <div style="width: 25%;">
-        asd
+        {% include commit.history.html %}
       </div>
     </div>
 </div>
@@ -202,6 +205,17 @@
     var myChart = new DGanttChart("myganttchart", data, separator);
 </script>
 <script src="/assets/js/indexmain.js" type="text/javascript"></script>   
+<script type="text/javascript" src="/assets/github-commit/js/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/github-commit/js/github-commit-history.js"></script>
+<script type="text/javascript">
 
-
+$(function() {
+  $('#commitHistory').GithubCommitHistory( {
+          username: "deganandapriyambada",
+          repo: "degananda.com",
+          limit: 5, 
+          offset: 0
+      })
+  });
+  </script>
 </body>
