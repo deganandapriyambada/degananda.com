@@ -1,14 +1,12 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Cloud
+categories: bikers
 excerpt: If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the 
-tags: frontned-dev backend-dev web-services
+tags: mencintai ku selama lamanya
 topics: programming
 subtitle: Hello world subtitle of this post
 ptype: others
-series: Agnostics IoT Gateway & Middleware using Azure Cloud
-series-url: 
 ---
 
 # Welcome to StackEdit!

@@ -9,7 +9,6 @@
                 <span class="typo2"> · Profile   </span>
                 <br />
             <span class="typo3"> {{ page.date | date_to_string: "ordinal", "US"}} </span>
-            <span class="typo2"> - 5 Mins Read </span>
 
 
             </div>    
@@ -28,9 +27,18 @@
                 <a href="{{page.next.url}}"><button>Next</button></a>
             </div>
         </div>
+        {% 
+            assign charCount = page.content | size
+        %}
+        {% 
+            assign wordCount = page.content | number_of_words 
+        %}
+        {%
+            assign minsRead = wordCount | divided_by: 200 
+        %} 
 
         <div>
-            total Word | Total Char | Total References
+            {{ wordCount }} total Word | {{ minsRead }} Mins Read | {{ charCount }} Total Characters
         </div>
 
         <div class="section-title-light"><u> List of content </u> </div>
