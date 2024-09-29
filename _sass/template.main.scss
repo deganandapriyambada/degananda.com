@@ -267,7 +267,7 @@ body {
 
 .latest-post-container {
     margin: 0px 0px 0px 0px;
-    padding: 30px 0 30px 0;
+    padding: 15px 0 15px 0;
 }
 
 
@@ -407,6 +407,7 @@ body {
 
 .plusbg {
   background:#ffffff url('/assets//images/plusbg.svg');
+  //background:#ffffff
   padding: 60px 0px 60px 0px;
   margin: 0px 0px 15px 0px;
 }
@@ -1183,7 +1184,7 @@ font-weight: 500;
   flex-direction: row;
   flex-wrap:wrap;
   align-items: center;
-  padding: 15px 0px 25px 0px;
+  padding: 30px 0px 30px 0px;
 }
 
 .series-name {
@@ -1264,7 +1265,7 @@ font-weight: 500;
 .post-tags-item {
   background: #f3f3f3;
   padding: 8px 12px 8px 12px;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 10px 10px 0px;
   font-size: 14px;
   border-radius: 15px;
 }
@@ -1487,6 +1488,24 @@ font-weight: 500;
 .seasson-serial {
   margin: 0px 0px 30px 0px;
 }
+
+.seasson-serial > ul {
+  margin: 0 0 0 0;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px #dadada solid;
+}
+
+.seasson-serial > ul > li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+.serial-choosed {
+  border-bottom: 4px #3d3d3d solid;
+  padding: 10px 0 10px 0;
+}
+
 
 .series-post-container {
   margin: 0px 0px 15px 0px;
@@ -1798,4 +1817,38 @@ font-weight: 500;
   padding-top: 35px;
   padding-bottom: 60px;
   margin: 30px 0px 30px 0px;
+}
+
+.post-header-container, .post-header-summary, .digitalization-container {
+  display: flex;
+  width: 100%;
+}
+
+.digitalization-container {
+  padding: 0px 0px 50px 0px;
+  background: none;
+}
+
+.post-header-desc {
+  flex: 3;
+}
+
+.post-header-outline {
+  flex: 1;
+}
+
+.post-header-summary > .background {
+  width: 33%;
+}
+
+.post-header-summary > .objective {
+  width: 33%;
+}
+
+.post-header-summary > .deliverables {
+  width: 33%;
+}
+
+.digitalization-container > .digi-item  {
+  flex: 1;
 }

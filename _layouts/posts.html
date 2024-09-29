@@ -13,12 +13,18 @@
             <div class="gimmick-landing-top">
                 <div class="gimmick-landing-top-container">
                     <ul class="post-menu">
-
+                      <li>
+                        Bookmark
+                      </li>
+                      <li>
+                        |
+                      </li>
                     {% for category in site.categories limit : 8  %}
                       <li>
                         <a href="/tags/{{ tag | slugify }}/">{{ category | first | capitalize }} </a>
                       </li>
                     {% endfor %}
+                    <li> | </li>
                     {% assign post_category = page.categories %}
                     {% assign category_posts = site.posts | where: 'categories', post_category %}
                     {% assign category_tags = category_posts | map: 'tags' | join: ',' | split: ',' | uniq %}
@@ -32,6 +38,7 @@
             </div>        
         </div>
     </div>
+{% include post.header.html %}
  <div class="padding-container-post">
     <div class="container">
     <!-- Main content -->

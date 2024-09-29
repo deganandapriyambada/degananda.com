@@ -48,7 +48,20 @@
 
             </div>
         </div>
+
+        <div class="section-title-light"> Read On Github </div>
+
+        <div class="section-title-light"> Read as Video </div>
         
+        <div class="section-title"> Tags </div>
+
+        <div class="post-tags">
+            {% for tag in page.tags %}
+            <div class="post-tags-item">
+            <a href="/tags/{{ tag }}/">{{ tag }}</a>
+            </div>
+            {% endfor %}
+        </div>
 
     </div>
 </div>

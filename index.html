@@ -20,14 +20,14 @@
     </div>
   </div>
 
-<div class="padding-container">
+<div class="padding-container plusbg">
   <div class="container">
     <!-- Main content -->
     <div class="content">
       <!-- start main -->
         {% if page.url contains 'page' %}
         {% else %}
-        <div class="plusbg">
+        <div class="">
           <div class="landing-container">
             {% include top.gimmick.about.html %}
           </div>
@@ -52,6 +52,25 @@
         <div class="landing-container">
         {% if page.url contains 'page' %}
         {% else %}
+
+        <div class="section-title">
+          Digitalization Stuff
+        </div>
+
+        <div class="digitalization-container">
+          <div class="digi-item">
+            Application Layout
+          </div>
+          <div class="digi-item">
+            Algo Cracking
+          </div>
+          <div class="digi-item">
+            Analytics Usecase
+          </div>
+          <div class="digi-item">
+            Industry Business Process
+          </div>
+        </div>
         
         <div class="site-navigation-container">
           Contributor
@@ -76,7 +95,7 @@
             </div>
             <div>
               &nbsp; To Fellow CS Enthusiast
-          </div>
+            </div>
         </div>
       
       </div>
