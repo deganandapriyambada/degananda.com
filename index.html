@@ -20,6 +20,12 @@
     </div>
   </div>
 
+  {% if page.url contains 'page' %}
+  {% else %}
+  {% include top.headline.html %}
+  {% endif %}
+
+
 <div class="padding-container">
   <div class="container">
     <!-- Main content -->
@@ -53,88 +59,8 @@
         {% if page.url contains 'page' %}
         {% else %}
 
-        <div class="section-title">
-          Digitalization <br />
-          <span class="desc-info">Grinding and Level up</span>
-        </div>
-
-        <div class="guidance">
-          asdf
-        </div>
-        <div class="digitalization-container">
-          <div class="digi-item">
-            <i class="fa fa-object-group" aria-hidden="true"></i>
-            <br />
-            Digital Layout
-            <div class="digi-desc">
-              collections of web component layout, deck, apps mockup until icon.
-            </div>
-          </div>
-          <div class="digi-item">
-            <i class="fa fa-code" aria-hidden="true"></i>
-            <br />
-            Algo Cracking
-            <div class="digi-desc">
-              We try to solve coding challanges on the web.
-            </div>
-          </div>
-          <div class="digi-item">
-            <i class="fa fa-line-chart" aria-hidden="true"></i>
-            <br />
-            Analytics Usecase
-            <div class="digi-desc">
-              try to extract useful and beneficial insight from given raw data.
-            </div>
-          </div>
-          <div class="digi-item">
-            <i class="fa fa-flask" aria-hidden="true"></i>
-            <br />
-            Industry Insight
-            <div class="digi-desc">
-              Learn various business process over different industry.
-            </div>
-          </div>
-          <div class="digi-item">
-            <i class="fa fa-book" aria-hidden="true"></i>
-            <br />
-            Certification Prep
-            <div class="digi-desc">
-              Learn and prepare for upcoming tech or non certifications.
-            </div>
-          </div>
-        </div>
         
-        <div class="site-navigation-container">
-          <i class="fa fa-users" aria-hidden="true"></i>
- &nbsp; Contributor
-        </div>
-        <div style="margin-bottom: -20px;">
-          <img src="/assets/images/line-black.svg" height="60px"> 
-        </div>
-        <div class="site-navigation-container">
-
-          <div class="blog-contributor">
-            <div>
-                From: &nbsp; &nbsp; 
-            </div>
-            <div class="contributor">
-              DF
-            </div>
-            <div class="contributor">
-              AD
-            </div>
-            <div class="contributor">
-              MM
-            </div>
-            <div class="nton">
-              <img src="/assets/images/gimmick1n1.svg">
-            </div>
-            <div>
-              &nbsp; To Fellow CS Enthusiast
-            </div>
-        </div>
       
-      </div>
         {% include top.series.html %}
         {% endif %}
         </div>
@@ -172,9 +98,63 @@
   <div style="margin-bottom: -20px;">
     <img src="/assets/images/line-black.svg" height="60px" loading="lazy"> 
   </div>
+
+  <div class="section-title">
+    Digitalization <br />
+    <span class="desc-info">Grinding and Level up</span>
+  </div>
+
+  <div class="guidance">
+    asdf
+  </div>
+  <div class="digitalization-container">
+    <div class="digi-item">
+      <i class="fa fa-object-group" aria-hidden="true"></i>
+      <br />
+      Digital Layout
+      <div class="digi-desc">
+        collections of web component layout, deck, apps mockup until icon.
+      </div>
+    </div>
+    <div class="digi-item">
+      <i class="fa fa-code" aria-hidden="true"></i>
+      <br />
+      Algo Cracking
+      <div class="digi-desc">
+        We try to solve coding challanges on the web.
+      </div>
+    </div>
+    <div class="digi-item">
+      <i class="fa fa-line-chart" aria-hidden="true"></i>
+      <br />
+      Analytics Usecase
+      <div class="digi-desc">
+        try to extract useful and beneficial insight from given raw data.
+      </div>
+    </div>
+    <div class="digi-item">
+      <i class="fa fa-flask" aria-hidden="true"></i>
+      <br />
+      Industry Insight
+      <div class="digi-desc">
+        Learn various business process over different industry.
+      </div>
+    </div>
+    <div class="digi-item">
+      <i class="fa fa-book" aria-hidden="true"></i>
+      <br />
+      Certification Prep
+      <div class="digi-desc">
+        Learn and prepare for upcoming tech or non certifications.
+      </div>
+    </div>
+  </div>
+
   <div class="site-category-topics">
     <h2 class="main-section"> Explore Tags </h2>
   </div>
+
+  
   <div class="site-category-topics">
       <div class="site-category-container">
 
