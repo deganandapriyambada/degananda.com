@@ -48,7 +48,8 @@
                     <div class="commit-title">
                         ${commit.commit.message}
                     </div>
-                        
+                                        <div>View in Repo | comment (0) </div>
+
                     </li>`;
                     
                 });

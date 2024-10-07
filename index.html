@@ -5,16 +5,19 @@
 <body>
   <div class="whole-site">
     <div class="post-feedback">
-          Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/{{ page.name }}'>Edit This Page </a> on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
+          Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/{{ page.name }}'>Edit This Page</a> &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; 
+          Or &nbsp; <a href="#"> Bookmark</a> &nbsp; This Blog.
     </div>
     <div class="topmenu">
       <div class="topmenu-container">
-              {% include top.menu.html %}
+        {% include top.menu.html type = "withoutserach" %}      
       </div>
       <div class="gimmick-landing-top">
         <div class="gimmick-landing-top-container"> 
-    <a href="#">Install</a>  as Progressive Web App (PWA) or <a href="#"> &nbsp;  <i class="fa fa-bookmark-o" aria-hidden="true"></i> &nbsp; Bookmark 
-                    </a> &nbsp; This Blog.
+          <input type="search">
+          <input type="search">
+          <button> Search  </button>
+          Available Topics
         </div>
       </div>        
     </div>
@@ -105,7 +108,13 @@
   </div>
 
   <div class="guidance">
-    asdf
+    <div class="guid-item">
+      Tech
+    </div class="guid-item">
+      Business
+    <div>
+
+    </div>
   </div>
   <div class="digitalization-container">
     <div class="digi-item">
