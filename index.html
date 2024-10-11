@@ -13,11 +13,23 @@
         {% include top.menu.html type = "withoutserach" %}      
       </div>
       <div class="gimmick-landing-top">
-        <div class="gimmick-landing-top-container"> 
-          <input type="search">
-          <input type="search">
-          <button> Search  </button>
-          Available Topics
+        <div class="padding-container">
+          <div class="top-search">
+            <div class="search-box">
+              <input type="search">
+            </div>
+            <div class="search-box">
+              <input type="search">
+            </div>
+            <div class="search-box">
+              <input type="search">
+            </div>
+            <div class="search-box"> 
+              <button> Search  </button>
+              &nbsp;    Available Topics
+            </div>
+          </div>
+
         </div>
       </div>        
     </div>
@@ -61,18 +73,10 @@
         <div class="landing-container">
         {% if page.url contains 'page' %}
         {% else %}
-
-        
-      
         {% include top.series.html %}
         {% endif %}
         </div>
       </div>  
-      
-
-
-      
-      
         <div class="landing-container">
           <div class="latest-post-container">
         {% include latest.alter.html %}
@@ -191,6 +195,7 @@
   </div>
 </div>
 
+
 <div class="width-container-main" style="background: #ffffff;">
     <div class="schedule-container">
       <div style="width: 70%;">
@@ -201,6 +206,7 @@
       </div>
     </div>
 </div>
+
 
 
 

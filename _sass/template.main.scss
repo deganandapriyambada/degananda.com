@@ -148,6 +148,19 @@ body {
   background: #ffffff;
 }
 
+.top-search {
+  display: flex;
+  width: 100%;
+}
+
+.top-search > .search-box {
+  width: 25%;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+}
+
 .gimmick-landing-top > .gimmick-landing-top-container {
   padding:15px 0px 15px 0px;
   text-align: center;
