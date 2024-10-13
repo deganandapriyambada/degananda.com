@@ -59,7 +59,7 @@ body {
 }
 
 .full-width {
-  padding: 0px 14% 0px 14%;
+  padding: 0 8% 0 8%;
 }
 
 .whole-site > .post, .width-post-container {
@@ -157,8 +157,12 @@ body {
   width: 25%;
 }
 
-.search-box input[type="text"] {
-  width: 100%;
+.search-box input[type="text"], .search-box select {
+  width: 97%;
+  background: #ffffff;
+  border:1px #1f1f1f solid;
+  border-bottom: 2px #1f1f1f solid;
+  padding: 5px 5px 5px 5px;
 }
 
 .gimmick-landing-top > .gimmick-landing-top-container {
