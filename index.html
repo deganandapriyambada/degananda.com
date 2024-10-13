@@ -13,24 +13,7 @@
         {% include top.menu.html type = "withoutserach" %}      
       </div>
       <div class="gimmick-landing-top">
-        <div class="padding-container">
-          <div class="top-search">
-            <div class="search-box">
-              <input type="search">
-            </div>
-            <div class="search-box">
-              <input type="search">
-            </div>
-            <div class="search-box">
-              <input type="search">
-            </div>
-            <div class="search-box"> 
-              <button> Search  </button>
-              &nbsp;    Available Topics
-            </div>
-          </div>
-
-        </div>
+        {% include gimmick.input.html %}
       </div>        
     </div>
   </div>
@@ -197,6 +180,15 @@
 
 
 <div class="width-container-main" style="background: #ffffff;">
+    <div>
+        Browser By Post Theme Categories : 
+        <ul>
+          <li> Notes </li>
+          <li> News </li>
+          <li> Issues </li>
+          <li> Review </li>
+        </ul>
+    </div>
     <div class="schedule-container">
       <div style="width: 70%;">
       {% include bottom.gimmick.schedule.html %}

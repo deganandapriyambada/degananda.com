@@ -2,67 +2,23 @@
     <div class="stats-container">
         <div class="max">
             <div class="stats-title">
-            Blogging Milestone
+                {% assign total_posts = site.posts | size %} {{  total_posts }} articles are published on PumpkinLaboo with open access.
             </div>
             <div class="stats-title-desc">
-                I will continue to write and documented learning journey <br /> 
-                of computer science and its surroundings knowledge.
+                The published article is openly accessible to everyone and can be edited by users, thanks to its placement in a public repository. This allows anyone to view, interact with, and contribute to the article's content. By clicking the "Edit Page" link, you have the opportunity to provide feedback and make direct changes or updates to the article, ensuring that the information remains accurate and up-to-date.
             </div>
-        </div>
-        <div class="stats-whole-container">
-            <div class="enmax">
-                <div class="stats-number-container">
-                    <div class="growth">
-                        <span class="number"+>+0</span> From last Month
-                    </div>
-                    <div class="stats-number">
-                        {% assign total_posts = site.posts | size %} {{ total_posts }}
-                    </div>
-                    <div class="stats-desc">
-                        Total Posts
-                    </div>
-                    <div class="gimmick-view-stats">
-                        <span class="gimmick-stats-title"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> &nbsp; View Posts </span><br />
-                        <span class="gimmick-stats-desc">4 Content Type</span>
-                    </div>
-
-                </div>
-                <div class="stats-number-container">
-                    <div class="growth">
-                        <span class="number"+>+0</span> From last Month
-                    </div>
-                    <div class="stats-number">
-                        {% assign total_categories = site.categories | size %}
-                        {{ total_categories }}
-                    </div>
-                    <div class="stats-desc">
-                        Total Topics
-                    </div>
-                    <div class="gimmick-view-stats">
-                        <span class="gimmick-stats-title"><i class="fa fa-dashcube" aria-hidden="true"></i> &nbsp; View Topics </span><br />
-                        <span class="gimmick-stats-desc">All Topics</span>
-                    </div>
-
-                </div>
-                <div class="stats-number-container">
-                    <div class="growth">
-                        <span class="number"+>+0</span> From last Month
-                    </div>
-                    <div class="stats-number">
-                        {% assign all_tags = site.tags | keys %}
-                        {% assign total_tags = all_tags | size %}
-                        {{ total_tags }}
-                    </div>
-                    <div class="stats-desc">
-                        Total Tags
-                    </div>
-                    <div class="gimmick-view-stats">
-                        <span class="gimmick-stats-title"><i class="fa fa-tags" aria-hidden="true"></i> &nbsp;
-                             View Tags </span><br />
-                        <span class="gimmick-stats-desc">Based on Topics</span>
-                    </div>
-
-                </div>
+            <div class="stats-list-desc">
+                <ul>
+                    <li>
+                        View the list of comperhensive <a href="#">available categories </a>
+                    </li>
+                    <li>
+                        View the list of <a href="#"> available topics </a> within every categories.
+                    </li>
+                    <li>
+                        Readmore about <a href="#">publication schedule </a> and timeline.
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
