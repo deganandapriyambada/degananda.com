@@ -151,6 +151,7 @@ body {
 .top-search {
   display: flex;
   width: 100%;
+  padding: 5px 0px 5px 0px;
 }
 
 .top-search > .search-box {
@@ -163,6 +164,12 @@ body {
   border:1px #1f1f1f solid;
   border-bottom: 2px #1f1f1f solid;
   padding: 5px 5px 5px 5px;
+}
+
+.search-box button {
+  padding: 5px 5px 5px 5px;
+  border:1px #1f1f1f solid;
+  border-bottom: 2px #1f1f1f solid;
 }
 
 .gimmick-landing-top > .gimmick-landing-top-container {
@@ -1707,8 +1714,8 @@ font-weight: 400;
 }
 
 .living {
-  border-bottom: 4px #dadada solid;
   color: #3d3d3d;
+  font-weight: 400;
 }
 
 .schedule-container {
