@@ -556,6 +556,21 @@ body {
     font-size: $sub-3;
 }
 
+.list-of-navigation {
+  width: 100%;
+  display: flex;
+}
+
+.list-of-navigation > .nav-foot-menu {
+  width: 25%;
+  color: #fafafa;
+}
+
+.nav-foot-menu > ul {
+
+}
+
+
 .opensource {
   padding: 50px 0px 0px 0px;
   width: 100%;
@@ -1359,6 +1374,20 @@ font-weight: 400;
   margin: 15px 0px 0px 0px;
 }
 
+.subscribe-me {
+  display: flex;
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+}
+
+.sbs-left {
+  width: 35%;
+}
+
+.sbs-right {
+  width: 65%;
+}
+
 .related-post-container {
 
 }
@@ -1917,6 +1946,10 @@ font-weight: 400;
 .digi-item i {
   font-size: 30px;
 }
+.browse-alphabet > li {
+  display: inline;
+  padding-right: 15px;
+}
 
 .pink-gradient {
   background: #fafafa url('/assets//images/plusbg.svg');
@@ -1954,4 +1987,8 @@ font-weight: 400;
 .headline-container {
   display: flex;
   width: 100%;
+}
+
+.translate > ul > li {
+  display: inline;
 }
