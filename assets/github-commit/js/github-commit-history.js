@@ -25,7 +25,9 @@
                     //console.log(commit.commit.url);
                     //console.log(commit.commit.tree);
                     const dateCommit = new Date(commit.commit.author.date);
-                    const formattedDate = dateCommit.toISOString().split('T')[0];
+                    const options = { day: '2-digit', month: 'long', year: 'numeric' };
+                    const formattedDate = dateCommit.toLocaleDateString('en-US', options);
+                    
                     var hashSha = commit.commit.tree.sha;
 
                     htmlTemplate += `<li>  
@@ -38,17 +40,17 @@
                         <div class="incat">
                             <div> <a href="#">${commit.commit.author.name}</a> 
                             </div>
-                                                <div class="commit-date">
-                        ${formattedDate} ·
-                        <b><a href="${commit.commit.url}">${hashSha.substring(0, 5)}</a></b>
-                    </div>
                         </div>
                     </div>
 
-                    <div class="commit-title">
-                        ${commit.commit.message}
+                    <div class="commit-date">
+                        ${formattedDate} · <b><a href="${commit.commit.url}">${hashSha.substring(0, 5)}</a></b>
                     </div>
-                                        <div>View in Repo | comment (0) </div>
+
+                    <div class="commit-title">
+                          ${commit.commit.message}
+                    </div>
+
 
                     </li>`;
                     

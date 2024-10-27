@@ -1871,24 +1871,37 @@ font-weight: 400;
 }
 
 .commit-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   color:#2f2f2f;
-  padding: 12px 15px 12px 15px;
-  background: #fafafa;
-  margin: 5px 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
 }
 
 .commit-list {
-  padding: 0 0 0 0px;
-  margin: 0 0 0 10px;
+  padding: 20px 0 15px 0px;
+  margin: 0 0 0 0px;
 }
 
-.commit-list li {
+.commit-list > li {
   list-style-type: none;
-  padding: 0px 0px 20px 20px;
-  border-left: 3px #dadada solid;
+  padding: 0px 0px 20px 0px;
 }
+
+.commit-desc > ul  {
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+}
+
+.commit-desc > ul > li {
+  display: inline;
+  font-size: 14px;
+  padding: 0px 10px 0px 0px;
+}
+
+.commit-desc > ul > li > a {
+  text-decoration: none;
+}
+
 
 .gray-explore {
   background: #fafafa;
@@ -1991,4 +2004,33 @@ font-weight: 400;
 
 .translate > ul > li {
   display: inline;
+}
+
+/*
+  Landing Headline
+*/
+
+.headline-tags > ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.headline-tags > ul > li {
+  display: inline;
+}
+
+.theme-divider > ul {
+  padding: 0px;
+  margin: 0px;
+  border-bottom: 2px #f0f0f0 solid;
+  padding: 10px 0px 10px 0px;
+}
+
+.theme-divider > ul > li {
+  display: inline;
+  padding: 0px 30px 0px 0px;
+}
+
+.site-updates-content {
+  display: flex;
 }

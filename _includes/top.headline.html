@@ -4,7 +4,7 @@
             <div style="flex: 1;">
                 <!-- test -->
                 <div>
-                    Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
+                    {{ post.title }}
                 </div>
                 <div style="padding-left: 5px; padding-right: 5px;">
                     <img src="https://hackernoon.imgix.net/images/6aqvE9BUBZWe8iOoQIq5MuJze9P2-nj032ey.png?w=800&auto=format&fit=max" style="width: 100%; max-height: 180px;">
@@ -17,21 +17,25 @@
                             </div>
                         </div>
                         <div class="incat">
-                            <b>Degananda</b> in  <u><b>bikers</b></u>
+                            <b>Degananda</b> On  <u><b>{{ post.categories }}</b></u>
                         </div>
                     </div>
                 </div>
+
                 <!-- end test -->
             </div>
             <div style="flex: 1;">
                 <!-- test -->
                 <div>
+                    <div>Background</div>
                     Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
                 </div>
                 <div>
+                    <div>Background</div>
                     Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
                 </div>
                 <div>
+                    <div>Background</div>
                     Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
                 </div>
                 <div>
@@ -40,7 +44,22 @@
                 <!-- end test -->
             </div>
             <div style="flex: 1;">
-asdsa
+                <div> TLDR; </div>
+                <div>
+                {{ post.excerpt }}
+                </div>
+                <div class="headline-tags">
+                    Tags
+                    <ul>
+                    {% for tags in post.tags %}
+                        <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
+                    {% endfor %}
+                    </ul>
+                </div>
+                <div>
+                    <button>Read Article</button>
+                    <button>Save for Later</button>
+                </div>
             </div>
     </div>
 
@@ -48,7 +67,16 @@ asdsa
 {% endfor %}
 
 <div class="padding-container">
-    Explore scientific, technical, and medical research on ScienceDirect
-    <br/ >
-    Software Engineering | Projects | Alter | Math & Statitics | Site Updates
+    <div>
+        Browse our publication based on the content theme or types
+    </div>
+    <div class="theme-divider">
+        <ul>
+            <li>Software Engineering </li>
+            <li>Projects</li>
+            <li>Alter</li>
+            <li>Grinding</li>
+            <li>Site Updates</li>
+        </ul>
+    </div>
 </div>
