@@ -1,0 +1,105 @@
+<!-- Category title -->
+<div class="section-title">
+    Available Topics
+</div>
+<div class="related-tags">
+<ul class="post-menu">
+    {% assign post_category = 'info' %}
+    {% assign category_posts = site.posts | where: 'categories', post_category %}
+    {% assign category_tags = category_posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+    
+    {% for tag in category_tags %}
+      <li>
+        <a href="/tags/{{ tag | slugify }}/">{{ tag }}  ({{ site.tags[tag].size }}) </a>
+      </li>
+    {% endfor %}
+    </ul>
+</div>
+
+<!-- This loops through the paginated posts -->
+<div class="post-type-1">
+<div class="post-type-1-container">
+<ul>
+<li>
+<div class="post-type1-content">
+    <div class="post-type1-info">
+        Topic
+    </div>
+    <div class="post-type1-info">
+        Mins Read
+    </div>
+    <div class="post-type1-title">
+        Post Title
+    </div>
+    <div class="post-type1-info">
+        Date
+    </div>
+    <div class="post-type1-info">
+        Content Type
+    </div>
+</li>
+{% for post in paginator.posts %}
+<li>
+<div class="post-type1-content">
+    <div class="post-type1-info">
+        <a href="/category/{{post.categories}}">{{ post.categories }}</a>
+    </div>
+    <div class="post-type1-info">
+        <div class="sub-info">
+        {% 
+            assign wordCount = post.content | number_of_words 
+        %}
+        {%
+            assign minsRead = wordCount | divided_by: 200 
+        %} 
+
+        {{ minsRead | plus:1 }} mins
+        </div>
+    </div>
+    <div class="post-type1-title">
+    <span class="post-date"> {{ post.date | date: "%F" }} &nbsp;  </span> 
+    <a href="{{ post.url }}">
+       <span class="lang">EN</span>{{ post.title }}
+    </a>
+    </div>
+    <div class="post-type1-info">
+        {{ post.date | date: "%F" }}
+    </div>
+    <div class="post-type1-info">
+        <div class="content-type-container">
+            <div class="type-item">
+                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+            </div>
+            <div class="type-item">
+                <i class="fa fa-file-video-o" aria-hidden="true"></i>
+            </div>
+            <div class="type-item">
+                <i class="fa fa-code" aria-hidden="true"></i>
+            </div>
+            <div class="type-item">
+                <i class="fa fa-download" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</div>
+</li>
+{% endfor %}
+
+</ul>
+</div>
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+{% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+{% else %}
+    <span class="previous">Previous</span>
+{% endif %}
+<span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+{% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+{% else %}
+    <span class="next">Next</span>
+{% endif %}
+</div>

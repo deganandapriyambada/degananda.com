@@ -139,8 +139,8 @@ body {
 
 
 .topmenu-container > .navigation {
-    width: 60%;
-    text-align: right;
+    text-align: right;  
+    flex: 1;
 }
 
 .gimmick-landing-top {
@@ -194,7 +194,6 @@ body {
   }
 
   .topmenu-container > .search {
-    width: 50%;
     text-align: center;
   }
 
@@ -2037,4 +2036,21 @@ font-weight: 400;
 
 .site-updates-content {
   display: flex;
+}
+
+.site-layout-two-col-a {
+  display: flex;
+  width: 100%;
+}
+
+.site-layout-two-col-a > .site-layout-a-left {
+    width: 30%;
+}
+
+.site-layout-two-col-a > .site-layout-a-right {
+  width: 70%;
+}
+
+.topic-covered {
+
 }
