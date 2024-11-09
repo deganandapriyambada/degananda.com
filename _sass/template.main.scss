@@ -90,14 +90,15 @@ body {
 
 .topmenu-container > .logo {
     font-size: 19px;
-    font-weight: bold;
+    font-weight: 450;
     text-align: left;
     font-family: $font-type-logo;
 }
 
 .logo-container > a {
   text-decoration: none;
-  color: $fc-main;
+  color: #FB8500;
+  padding-left: 5px;
 }
 
 .pl-logo {
@@ -156,6 +157,9 @@ body {
 
 .top-search > .search-box {
   width: 25%;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 300;
 }
 
 .search-box input[type="text"], .search-box select {
@@ -163,13 +167,17 @@ body {
   background: #ffffff;
   border:1px #1f1f1f solid;
   border-bottom: 2px #1f1f1f solid;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 6px 5px;
+  height: 30px;
 }
 
 .search-box button {
-  padding: 5px 5px 5px 5px;
-  border:1px #1f1f1f solid;
-  border-bottom: 2px #1f1f1f solid;
+  padding: 7px 12px 7px 12px;
+  border:0px #1f1f1f solid;
+  background: #023047;
+  color: #fafafa;
+  font-size: 14px;
+  height: 30px;
 }
 
 .gimmick-landing-top > .gimmick-landing-top-container {
@@ -241,9 +249,16 @@ body {
 }
 
 .topmenu-container > .navigation > ul > li > a {
-  font-size: $sub-3;
+  font-size: 14.5px;
   text-decoration: none;
   color: $fc-sub-1;
+}
+
+.top-left-link a {
+  font-size: 14.5px;
+  text-decoration: none;
+  color: $fc-sub-1;
+  margin-left: 20px;
 }
 
 .aboutme {
@@ -251,7 +266,8 @@ body {
     line-height: 1.4;
     margin: 15px 0px 15px 0px;
     text-align: left;
-    font-weight: 300;
+    font-weight: 350;
+    color: #000000;
     width: 100%;
 }
 .aboutme > a {
@@ -1647,7 +1663,6 @@ font-weight: 400;
   background: none;
   padding: 5px 12px 5px 12px;
   border: 1px #000000 solid;
-  border-radius: 10px;
 }
 
 .series-desc {
