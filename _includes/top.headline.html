@@ -1,15 +1,27 @@
 {% for post in paginator.posts limit: 1 %}
+<div class="padding-container">
+    <div class="headline-title-container">
+        <div class="headline-title">
+            {{ post.title }}
+        </div>
+        <div class="healine-switcher">
+            Latest Article &nbsp; <i class="fa fa-chevron-left" aria-hidden="true"></i>  ; 
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
 <div class="padding-container headline-bg">
     <div class="headline-container">
-            <div style="flex: 1;">
-                <!-- test -->
-                <div>
-                    {{ post.title }}
+            <div style="flex: 1.5; padding: 15px 15px 15px 0px;">
+                <!-- start headline most left -->
+
+                
+
+                <div class="headline-image">
+                    <img src="https://hackernoon.imgix.net/images/ky6HWvfhfoZE0fBExBIhhok81De2-w803dqn.jpeg" style="width: 100%; max-height:300px;">
                 </div>
-                <div style="padding-left: 5px; padding-right: 5px;">
-                    <img src="https://hackernoon.imgix.net/images/6aqvE9BUBZWe8iOoQIq5MuJze9P2-nj032ey.png?w=800&auto=format&fit=max" style="width: 100%; max-height: 180px;">
-                </div>
-                <div>
+
+                <div class="headline-author">
                     <div class="title-container">
                         <div class="profpic">
                             <div class="contributor-small">
@@ -17,66 +29,123 @@
                             </div>
                         </div>
                         <div class="incat">
-                            <b>Degananda</b> On  <u><b>{{ post.categories }}</b></u>
+                            Degananda Ferdian on <u><b>{{ post.categories }}</b></u>
                         </div>
                     </div>
                 </div>
 
-                <!-- end test -->
+                <div class="highlight-link">
+                    <button class="button-theme1">Read Article
+                     </button>
+                     <button class="button-theme1-reversed">Save For Later
+                     </button>
+
+
+                </div>
+                
+                <!-- end headline most left -->
             </div>
-            <div style="flex: 1;">
-                <!-- test -->
+            <div style="flex: 1.2; padding: 15px 0px 15px 0px;">
+                
                 <div>
-                    <div>Background</div>
-                    Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
+                    Published on {{ post.date | date: "%F" }}
                 </div>
-                <div>
-                    <div>Background</div>
-                    Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
+                <div class="headline-post-info-item-title">
+                    TLDR; Too Long, Didn't Read.
                 </div>
-                <div>
-                    <div>Background</div>
-                    Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
+                <div class="headline-post-info-tldr">
+                    {{ post.excerpt }}
                 </div>
-                <div>
-                    1155 total Word | 5 Mins Read | 9696 Total Characters
+                <div class="headline-ext">
+                    <a href="#"> Jump to Content </a>
                 </div>
-                <!-- end test -->
-            </div>
-            <div style="flex: 1;">
-                <div> TLDR; </div>
-                <div>
-                {{ post.excerpt }}
+
+                <div class="headline-infography">
+                    <div class="info-g">
+                        <b>5</b> <br /> Mins Read
+                    </div> 
+
+                    <div class="info-g">
+                        <b>1155</b> <br /> Total Words
+                    </div> 
+
+                    <div class="info-g">
+                        <b>9696</b> <br />Total Chars
+                    </div>
+                </div>
+
+                <div class="headline-post-info-item-title">
+                    Subtopic
                 </div>
                 <div class="headline-tags">
-                    Tags
                     <ul>
                     {% for tags in post.tags %}
                         <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
                     {% endfor %}
                     </ul>
                 </div>
-                <div>
-                    <button>Read Article</button>
-                    <button>Save for Later</button>
+                
+
+
+            </div>
+            <div style="flex: 1.2; background: #fafafa;">
+                <div class="headline-post-info">
+                    <!-- start headline info -->
+
+                    <div class="highlight-misc">
+                        <span class="h-lang">EN</span><span class="h-lang">Others</span>
+                    </div>
+
+                    <div class="headline-post-info-item-title">
+                    Background
+                    </div>
+
+                    <div class="headline-post-info-item"> 
+                    Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
+                    </div>
+
+
+
+                    <div class="headline-post-info-item-title">
+                        Objectives
+                        </div>
+    
+                        <div class="headline-post-info-item"> 
+                        Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
+                        </div>
+
+
+
+                    <div class="headline-post-info-item-title">
+                    Deliverables    
+                    </div>
+
+                    <div class="headline-post-info-item"> 
+                    Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
+                    </div>
+                    <!-- end headline info -->
                 </div>
             </div>
+            
     </div>
-
 </div>
 {% endfor %}
 
-<div class="padding-container">
-    <div>
-        Browse our publication based on the content theme or types
-    </div>
+<div class="padding-container bg-gray2">
+
     <div class="theme-divider">
         <ul>
-            <li>Software Engineering </li>
+            <li style="border-bottom: 3px #FB8500 solid;"><b>Software Engineering</b></li>
             <li>Projects</li>
             <li>Alter</li>
             <li>Grinding</li>
             <li>Site Updates</li>
         </ul>
+    </div>
+
+</div>
+<div class="padding-container">
+    <div class="theme-divider-word">
+        Browse our publication based on the content theme or types
     </div>
 </div>
