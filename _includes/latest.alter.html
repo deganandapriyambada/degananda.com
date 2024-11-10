@@ -11,6 +11,18 @@
     <div class="post-type-2-container">
             {% for post in site.categories.alter %}
             <div class="post-type-2-content">
+                <div class="headline-author">
+                    <div class="title-container">
+                        <div class="profpic">
+                            <div class="contributor-small">
+                                DF
+                            </div>
+                        </div>
+                        <div class="incat">
+                            Degananda Ferdian on <u><b>{{ post.categories }}</b></u>
+                        </div>
+                    </div>
+                </div>
                 <div class="post-type-2-title">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                 </div>
@@ -39,6 +51,7 @@
                         {% endfor %}
                     </div>
                 </div>
+                
 
 
             </div>

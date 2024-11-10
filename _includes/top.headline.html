@@ -2,11 +2,14 @@
 <div class="padding-container">
     <div class="headline-title-container">
         <div class="headline-title">
-            {{ post.title }}
+            Recent: {{ post.title }}
         </div>
-        <div class="healine-switcher">
-            Latest Article &nbsp; <i class="fa fa-chevron-left" aria-hidden="true"></i>  ; 
-            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        <div class="headline-switcher">
+            <ul>
+                <li><a href="#">Subtopics</a></li>
+                <li><a href="#">Blog</a></li>
+                <li style="padding-right: 0px;"><a href="#">Offering</a></li>
+            </ul>
         </div>
     </div>
 </div>
@@ -14,12 +17,6 @@
     <div class="headline-container">
             <div style="flex: 1.5; padding: 15px 15px 15px 0px;">
                 <!-- start headline most left -->
-
-                
-
-                <div class="headline-image">
-                    <img src="https://hackernoon.imgix.net/images/ky6HWvfhfoZE0fBExBIhhok81De2-w803dqn.jpeg" style="width: 100%; max-height:300px;">
-                </div>
 
                 <div class="headline-author">
                     <div class="title-container">
@@ -29,25 +26,39 @@
                             </div>
                         </div>
                         <div class="incat">
-                            Degananda Ferdian on <u><b>{{ post.categories }}</b></u>
+                            Posted By <u>Degananda Ferdian</u> In <b>{{ post.categories }}</b>
                         </div>
                     </div>
                 </div>
+
+                <div class="headline-image">
+                    <img src="https://hackernoon.imgix.net/images/ky6HWvfhfoZE0fBExBIhhok81De2-w803dqn.jpeg" style="width: 100%; max-height:300px;">
+                </div>
+
+                <div class="highlight-redirect">
+                    <ul>
+                         <li><a href="#">View Discussion</a></li>
+                         <li><a href="#">Read on Repo</a></li>
+                         <li><a href="#">Read as Video</a></li>
+                    </ul>
+                 </div>
 
                 <div class="highlight-link">
                     <button class="button-theme1">Read Article
                      </button>
                      <button class="button-theme1-reversed">Save For Later
                      </button>
-
-
                 </div>
+
+
+
+
                 
                 <!-- end headline most left -->
             </div>
             <div style="flex: 1.2; padding: 15px 0px 15px 0px;">
                 
-                <div>
+                <div class="headline-published-date">
                     Published on {{ post.date | date: "%F" }}
                 </div>
                 <div class="headline-post-info-item-title">
@@ -84,11 +95,31 @@
                     {% endfor %}
                     </ul>
                 </div>
-                
+
+                                
+                <div class="headline-selector">
+                    <ul>
+                        <li>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            &nbsp;
+                            Publication
+                        </li>                           
+                        <li>
+                            <i class="fa fa-circle-o" aria-hidden="true"></i>
+                            &nbsp;
+                            Recent Topic
+                        </li>
+                        <li>
+                            <i class="fa fa-circle-o" aria-hidden="true"></i>
+                            &nbsp;
+                            New Tags
+                        </li>
+                    </ul>
+                </div>
 
 
             </div>
-            <div style="flex: 1.2; background: #fafafa;">
+            <div style="flex: 1.2; background: #fafafa; padding-bottom: 25px;">
                 <div class="headline-post-info">
                     <!-- start headline info -->
 
@@ -123,6 +154,7 @@
                     <div class="headline-post-info-item"> 
                     Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
                     </div>
+                
                     <!-- end headline info -->
                 </div>
             </div>
@@ -140,6 +172,8 @@
             <li>Alter</li>
             <li>Grinding</li>
             <li>Site Updates</li>
+            <li><i class="fa fa-plus" aria-hidden="true"></i></li>
+
         </ul>
     </div>
 

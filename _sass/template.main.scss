@@ -173,10 +173,10 @@ body {
 
 .search-box button {
   padding: 7px 12px 7px 12px;
-  border:0px #1f1f1f solid;
-  background: #023047;
-  color: #fafafa;
-  font-size: 14px;
+  border:1px #023047 solid;
+  background: #fff;
+  color: #023047;
+  font-size: 13px;
   height: 30px;
 }
 
@@ -262,9 +262,8 @@ body {
 }
 
 .aboutme {
-    font-size: $sub-1;
-    line-height: 1.4;
-    margin: 15px 0px 15px 0px;
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
     text-align: left;
     font-weight: 350;
     color: #000000;
@@ -1382,7 +1381,11 @@ font-weight: 400;
 }
 
 .bg-gray2 {
+  position: sticky;
+  top: 0;
   margin-bottom: 15px;
+  background: #fbfbfb;
+  box-shadow: 0px -5px 10px 0px #f0f0f0;
 }
 
 
@@ -1575,6 +1578,7 @@ font-weight: 400;
 
 .highlighted-post {
 }
+
 
 .highlighted-post-container {
   padding: 20px 30px 20px 30px;
@@ -1797,25 +1801,46 @@ font-weight: 400;
 }
 
 .headline-post-info-item-title {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 450;
   padding: 5px 0px 5px 0px;
   color: #023047;
 }
 
 .headline-post-info-item {
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px 0px 5px 0px;
   color: #3d3d3d;
   line-height: 1.5;
 }
 
 .h-lang {
-  background: #000000;
+  background: #023047;
   color: #fafafa;
   padding: 5px 7px 5px 7px;
   margin-right: 2px;
   font-size: 12px;
+}
+
+.headline-selector {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0px 25px 0px;
+}
+
+.headline-selector ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.headline-selector > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #023047;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .headline-separator {
@@ -1825,7 +1850,11 @@ font-weight: 400;
 }
 
 .highlight-misc {
-  padding: 5px 0px 5px 0px;
+  padding: 5px 0px 15px 0px;
+}
+
+.highlight-link {
+  padding: 10px 0px 10px 0px;
 }
 
 .headline-ext {
@@ -1876,7 +1905,7 @@ font-weight: 400;
   background: #023047;
   padding: 7px 12px 7px 12px;
   border: 0px #000000 solid;
-  font-size: 14px;
+  font-size: 13px;
   color: #fafafa;
 }
 
@@ -1884,8 +1913,19 @@ font-weight: 400;
   background: #fff;
   padding: 7px 12px 7px 12px;
   border: 1px #023047 solid;
-  font-size: 14px;
+  font-size: 13px;
   color: #023047;
+}
+
+.highlight-redirect ul {
+  margin: 0;
+  padding: 0;
+}
+
+.highlight-redirect ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size:  13px;
 }
 
 .button-theme1 i {
@@ -1903,12 +1943,19 @@ font-weight: 400;
 }
 
 .headline-post-info-tldr {
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px 15px 5px 0px;
   line-height: 1.5;
   color: #000000;
   font-weight: 300;
   text-align: left;
+}
+
+
+.headline-published-date {
+  font-size: 14px;
+  color: #3d3d3d;
+  font-weight: 300;
 }
 
 .theme-divider-word {
@@ -1919,7 +1966,7 @@ font-weight: 400;
 }
 
 .incat {
-  font-size: 15px;
+  font-size: 14px;
   padding-left: 15px;
 }
 
@@ -2151,9 +2198,8 @@ font-weight: 400;
 }
 
 .headline-bg {
-  background:#ffffff url('/assets//images/plusbg.svg');
-  margin: 10px 0px 0px 0px;
-  padding-bottom: 5px;
+  background:#fff url('/assets//images/plusbg.svg');
+  margin: 0px 0px 0px 0px;
 }
 
 .headline-container {
@@ -2164,22 +2210,39 @@ font-weight: 400;
 
 .headline-title-container {
   display: flex;
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .headline-title {
-  font-size: 20px;
-  font-weight: 450;
+  font-size: 16px;
+  font-weight: 400;
   color: #023047; 
   text-align: left;
   flex: 2;
 }
 
-.healine-switcher {
+.headline-switcher {
   justify-content: right;
   text-align: right;
   flex: 1;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.headline-switcher ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.headline-switcher ul li {
+  display: inline;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.headline-switcher ul li  a {
+  text-decoration: underline;
+  color: #023047;
 }
 
 .headline-image, .headline-author {
@@ -2223,17 +2286,23 @@ font-weight: 400;
 .theme-divider > ul {
   margin: 0px;
   border-bottom: 1px #f0f0f0 solid;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px 12px 0px;
   text-align: left;
-  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .theme-divider > ul > li {
   display: inline;
-  padding: 15px 40px 15px 40px;
-  font-size: 15px;
-  color: #000;
+  padding: 12px 35px 12px 35px;
+  font-size: 14px;
+  color: #3d3d3d;
   font-weight: 350;
+}
+
+.theme-divider > ul > li > b {
+  font-weight: 400;
+  color: #000000;
+
 }
 
 .site-updates-content {
