@@ -19,7 +19,7 @@ plugins:
 url: "https://example.com" # the base hostname & protocol for your site
 
 
-paginate: 2
+paginate: 5
 paginate_path: '/page-:num/'
 
 paginate_category_basepath: '/category/:name/'

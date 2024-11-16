@@ -1,0 +1,51 @@
+<!--
+                <div class="headline-author">
+                    <div class="title-container">
+                        <div class="profpic">
+                            <div class="contributor-small">
+                                DF
+                            </div>
+                        </div>
+                        <div class="incat">
+                            Posted By <u>Degananda Ferdian</u> In <b>{{ post.categories }}</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="headline-image">
+                    <img src="https://hackernoon.imgix.net/images/ky6HWvfhfoZE0fBExBIhhok81De2-w803dqn.jpeg" style="width: 100%; max-height:300px;">
+                </div>
+
+                <div class="highlight-redirect">
+                    <ul>
+                         <li><a href="#">View Discussion</a></li>
+                         <li><a href="#">Read on Repo</a></li>
+                         <li><a href="#">Read as Video</a></li>
+                    </ul>
+                 </div>
+
+                <div class="highlight-link">
+                    <button class="button-theme1">Read Article
+                     </button>
+                     <button class="button-theme1-reversed">Save For Later
+                     </button>
+                </div>
+                -->
+
+
+
+
+                <div class="headline-infography">
+                    <div class="info-g">
+                        <b>5</b> <br /> Mins Read
+                    </div> 
+
+                    <div class="info-g">
+                        <b>1155</b> <br /> Total Words
+                    </div> 
+
+                    <div class="info-g">
+                        <b>9696</b> <br />Total Chars
+                    </div>
+                </div>
+  

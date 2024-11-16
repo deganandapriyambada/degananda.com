@@ -166,9 +166,9 @@ body {
   width: 97%;
   background: #ffffff;
   border:1px #1f1f1f solid;
-  border-bottom: 2px #1f1f1f solid;
+  border-bottom: 3px #1f1f1f solid;
   padding: 5px 5px 6px 5px;
-  height: 30px;
+  height: 35px;
 }
 
 .search-box button {
@@ -177,7 +177,7 @@ body {
   background: #fff;
   color: #023047;
   font-size: 13px;
-  height: 30px;
+  height: 35px;
 }
 
 .gimmick-landing-top > .gimmick-landing-top-container {
@@ -244,7 +244,7 @@ body {
 
 .topmenu-container > .navigation > ul > li {
     display: inline-block;
-    padding: 0px 25px 0px 0px;
+    padding: 0px 40px 0px 0px;
   
 }
 
@@ -263,7 +263,7 @@ body {
 
 .aboutme {
     font-size: 15px;
-    margin: 10px 0px 10px 0px;
+    margin: 30px 0px 15px 0px;
     text-align: left;
     font-weight: 350;
     color: #000000;
@@ -1385,7 +1385,8 @@ font-weight: 400;
   top: 0;
   margin-bottom: 15px;
   background: #fbfbfb;
-  box-shadow: 0px -5px 10px 0px #f0f0f0;
+  box-shadow: 0px -45px 100px 0px #eaeaea;
+  z-index: 5;
 }
 
 
@@ -1801,9 +1802,9 @@ font-weight: 400;
 }
 
 .headline-post-info-item-title {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 450;
-  padding: 5px 0px 5px 0px;
+  padding: 10px 0px 10px 0px;
   color: #023047;
 }
 
@@ -1820,12 +1821,14 @@ font-weight: 400;
   padding: 5px 7px 5px 7px;
   margin-right: 2px;
   font-size: 12px;
+  text-transform: capitalize;
 }
 
 .headline-selector {
   width: 100%;
-  text-align: center;
-  padding: 25px 0px 25px 0px;
+  text-align: left;
+  padding: 5px 0px 5px 0px;
+  flex: 1;
 }
 
 .headline-selector ul {
@@ -1836,11 +1839,16 @@ font-weight: 400;
 .headline-selector > ul > li {
   display: inline-block;
   list-style-type: none;
-  font-size: 14px;
-  margin-right: 10px;
-  color: #023047;
+  font-size: 13px;
+  color: #3d3d3d;
   font-weight: 300;
   line-height: 1.5;
+  padding-right: 10px;
+}
+
+.headline-selector > ul > li i {
+  color: #023047;
+  font-size: 10px;
 }
 
 .headline-separator {
@@ -1870,13 +1878,13 @@ font-weight: 400;
 .headline-infography {
   display: flex;
   width: 100%;
-  padding: 5px 0px 5px 0px;
+  padding: 15px 0px 15px 0px;
 }
 
 .headline-infography .info-g {
   flex: 1;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color: #000000;
   font-weight: 400;
   padding-right: 15px;
@@ -1904,7 +1912,7 @@ font-weight: 400;
 .button-theme1 {
   background: #023047;
   padding: 7px 12px 7px 12px;
-  border: 0px #000000 solid;
+  border: 1px #023047 solid;
   font-size: 13px;
   color: #fafafa;
 }
@@ -1918,14 +1926,25 @@ font-weight: 400;
 }
 
 .highlight-redirect ul {
-  margin: 0;
+  margin: 0px 0px 10px 0px;
   padding: 0;
+  text-align: left;
 }
 
 .highlight-redirect ul li {
   display: inline-block;
   list-style-type: none;
   font-size:  13px;
+}
+
+.highlight-redirect ul li a {
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+
+.highlight-redirect ul li i, .highlight-redirect ul li a  {
+  color: #023047;
 }
 
 .button-theme1 i {
@@ -1953,9 +1972,10 @@ font-weight: 400;
 
 
 .headline-published-date {
-  font-size: 14px;
+  font-size: 13px;
   color: #3d3d3d;
-  font-weight: 300;
+  font-weight: 200;
+  text-align: left;
 }
 
 .theme-divider-word {
@@ -1968,11 +1988,13 @@ font-weight: 400;
 .incat {
   font-size: 14px;
   padding-left: 15px;
+  font-weight: 300;
 }
 
 .incat b {
   font-weight: 500;
   color: #000000;
+  text-transform: capitalize;
 }
 
 
@@ -2199,32 +2221,69 @@ font-weight: 400;
 
 .headline-bg {
   background:#fff url('/assets//images/plusbg.svg');
-  margin: 0px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
 }
 
 .headline-container {
   display: flex;
   width: 100%;
   margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .headline-title-container {
   display: flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
 }
 
 .headline-title {
-  font-size: 16px;
-  font-weight: 400;
-  color: #023047; 
+  font-size: 17px;
+  font-weight: 425;
+  color: #3d3d3d; 
   text-align: left;
   flex: 2;
+  padding: 0px 0px 0px 0px;
 }
 
+.quality-name {
+  font-size: 14px;
+  font-weight: 420;
+  color: #023047;
+}
+
+.quality-meter {
+  display: flex;
+  width: 95%;
+  background: #eeeeee;
+  margin: 6px 0px 6px 0px;
+  border-radius: 20px;
+
+}
+
+.quality {
+  background: #023047;
+  font-size: 4px;
+  font-weight: 300;
+  text-align: center;
+  padding: 1px 0px 1px 0px;
+  border-radius: 20px;
+}
+
+.quality-sub {
+  background: #02304779;
+  font-size: 4px;
+  font-weight: 300;
+  text-align: center;
+  padding: 1px 0px 1px 0px;
+  border-radius: 20px;
+}
+
+
 .headline-switcher {
-  justify-content: right;
-  text-align: right;
+  justify-content: left;
+  text-align: left;
   flex: 1;
   font-size: 14px;
 }
@@ -2237,7 +2296,6 @@ font-weight: 400;
 .headline-switcher ul li {
   display: inline;
   padding-right: 15px;
-  padding-left: 15px;
 }
 
 .headline-switcher ul li  a {
@@ -2249,8 +2307,32 @@ font-weight: 400;
   padding: 5px 0px 5px 0px;
 }
 
+
+.outline-headline {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.outline-headline ul {
+  margin: 0 0 0 0;
+  padding: 5px 0 5px 0;
+  width: 90%;
+}
+
+.outline-headline ul li {
+  display: inline-block;
+  font-size: 13px;
+  padding: 4px 10px 4px 10px;
+  background: #f2f2f2;
+  margin: 0px 0px 5px 0px;
+  color: #000000;
+  border-radius: 0px;
+}
+
 .headline-author {
   background: none;
+  text-align: right;
+  justify-content: right;
 }
 
 .headline-author > .title-container {
@@ -2267,22 +2349,25 @@ font-weight: 400;
 
 .headline-tags > ul {
   padding: 0px;
-  margin: 15px 0px 15px 0px;
+  margin: 5px 0px 5px 0px;
 }
 
 .headline-tags > ul > li {
-  display: inline;
-  padding: 6px 10px 6px 10px;
-  background: #f5f5f5;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  background: #fafafa;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-bottom: 0px #0230477c solid;
 }
 
 .headline-tags > ul > li > a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: capitalize;
   color: #000000;
+  font-weight: 300;
 }
-
 .theme-divider > ul {
   margin: 0px;
   border-bottom: 1px #f0f0f0 solid;
@@ -2324,4 +2409,10 @@ font-weight: 400;
 
 .topic-covered {
 
+}
+
+.latest-two-container {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  
 }

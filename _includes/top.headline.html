@@ -1,130 +1,73 @@
 {% for post in paginator.posts limit: 1 %}
+<!--
 <div class="padding-container">
     <div class="headline-title-container">
-        <div class="headline-title">
-            Recent: {{ post.title }}
-        </div>
-        <div class="headline-switcher">
-            <ul>
-                <li><a href="#">Subtopics</a></li>
-                <li><a href="#">Blog</a></li>
-                <li style="padding-right: 0px;"><a href="#">Offering</a></li>
-            </ul>
-        </div>
     </div>
 </div>
+-->
 <div class="padding-container headline-bg">
+    
     <div class="headline-container">
-            <div style="flex: 1.5; padding: 15px 15px 15px 0px;">
-                <!-- start headline most left -->
-
-                <div class="headline-author">
-                    <div class="title-container">
-                        <div class="profpic">
-                            <div class="contributor-small">
-                                DF
-                            </div>
-                        </div>
-                        <div class="incat">
-                            Posted By <u>Degananda Ferdian</u> In <b>{{ post.categories }}</b>
+        <div style="flex: 1.2; padding: 15px 15px 30px 0px;">
+            <div class="headline-author">
+                <div class="title-container">
+                    <div class="profpic">
+                        <div class="contributor-small">
+                            DF
                         </div>
                     </div>
+                    <div class="incat">
+                        <b>Degananda Ferdian</b> 
+                    </div>
                 </div>
+            </div>
+            <div class="headline-title">
+                {{ post.title }} 
+            </div>
 
-                <div class="headline-image">
-                    <img src="https://hackernoon.imgix.net/images/ky6HWvfhfoZE0fBExBIhhok81De2-w803dqn.jpeg" style="width: 100%; max-height:300px;">
-                </div>
+            
+            <div class="headline-post-info-item-title">
+                Short Description
+            </div>
+            <div class="headline-post-info-tldr">
+                {{ post.excerpt }}
+            </div>
 
-                <div class="highlight-redirect">
-                    <ul>
-                         <li><a href="#">View Discussion</a></li>
-                         <li><a href="#">Read on Repo</a></li>
-                         <li><a href="#">Read as Video</a></li>
-                    </ul>
-                 </div>
+            <div class="headline-ext">
+                <a href="#"> Jump to Content </a>
+            </div>
 
-                <div class="highlight-link">
-                    <button class="button-theme1">Read Article
-                     </button>
-                     <button class="button-theme1-reversed">Save For Later
-                     </button>
-                </div>
+            <div class="headline-post-info-item-title">
+                Subtopic
+            </div>
+            <div class="headline-tags">
+                <ul>
+                {% for tags in post.tags %}
+                    <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+              <div class="highlight-link">
+                  <button class="button-theme1">Read Article
+                  </button>
+                  <button class="button-theme1-reversed">Save For Later
+                  </button>
+              </div>
 
 
 
-
-                
+        </div>
+            <div style="flex: 1.3; padding: 15px 0px 30px 0px;">
+                <!-- start headline most left -->
+                {% include top.latest.two.html %}
                 <!-- end headline most left -->
             </div>
-            <div style="flex: 1.2; padding: 15px 0px 15px 0px;">
-                
-                <div class="headline-published-date">
-                    Published on {{ post.date | date: "%F" }}
-                </div>
-                <div class="headline-post-info-item-title">
-                    TLDR; Too Long, Didn't Read.
-                </div>
-                <div class="headline-post-info-tldr">
-                    {{ post.excerpt }}
-                </div>
-                <div class="headline-ext">
-                    <a href="#"> Jump to Content </a>
-                </div>
-
-                <div class="headline-infography">
-                    <div class="info-g">
-                        <b>5</b> <br /> Mins Read
-                    </div> 
-
-                    <div class="info-g">
-                        <b>1155</b> <br /> Total Words
-                    </div> 
-
-                    <div class="info-g">
-                        <b>9696</b> <br />Total Chars
-                    </div>
-                </div>
-
-                <div class="headline-post-info-item-title">
-                    Subtopic
-                </div>
-                <div class="headline-tags">
-                    <ul>
-                    {% for tags in post.tags %}
-                        <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
-                    {% endfor %}
-                    </ul>
-                </div>
-
-                                
-                <div class="headline-selector">
-                    <ul>
-                        <li>
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            &nbsp;
-                            Publication
-                        </li>                           
-                        <li>
-                            <i class="fa fa-circle-o" aria-hidden="true"></i>
-                            &nbsp;
-                            Recent Topic
-                        </li>
-                        <li>
-                            <i class="fa fa-circle-o" aria-hidden="true"></i>
-                            &nbsp;
-                            New Tags
-                        </li>
-                    </ul>
-                </div>
-
-
-            </div>
-            <div style="flex: 1.2; background: #fafafa; padding-bottom: 25px;">
+            <div style="flex: 1.2; background: #fafafa; padding-bottom: 30px;">
                 <div class="headline-post-info">
                     <!-- start headline info -->
 
                     <div class="highlight-misc">
-                        <span class="h-lang">EN</span><span class="h-lang">Others</span>
+                        <span class="h-lang">{{ post.categories }}</span><span class="h-lang">Others</span>
                     </div>
 
                     <div class="headline-post-info-item-title">
@@ -154,7 +97,8 @@
                     <div class="headline-post-info-item"> 
                     Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o woow
                     </div>
-                
+
+
                     <!-- end headline info -->
                 </div>
             </div>
@@ -173,7 +117,6 @@
             <li>Grinding</li>
             <li>Site Updates</li>
             <li><i class="fa fa-plus" aria-hidden="true"></i></li>
-
         </ul>
     </div>
 

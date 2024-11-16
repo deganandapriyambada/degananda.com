@@ -10,4 +10,6 @@
 - term: series
   definition: Serialized article based on single topics and have specific deliverables.
 - term: quality-meter
-  definition: Judge whether its worth your time. 1 Star = 
+  definition: Judge whether its worth your time. 
+- term: Quality
+  definition: Article Quality. Judge before read the article whether its worth your time.

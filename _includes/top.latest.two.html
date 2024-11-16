@@ -1,0 +1,78 @@
+<div class="latest-two-container">
+
+    <div class="headline-selector">
+        <ul>
+            <li>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                &nbsp;
+                Statistics & Description
+            </li>                           
+            <li>
+                <i class="fa fa-circle-o" aria-hidden="true"></i>
+                &nbsp;
+                View Full Outline
+            </li>
+        </ul>
+</div>
+    <div class="headline-post-info-item-title">
+        Content Statistics 
+    </div>
+    
+    <div class="headline-published-date">
+        Overall Article {% glossary Quality %}: <b>Good</b> 
+    </div>
+    <div class="quality-meter">
+        <div class="quality" style="width: 80%;">
+            &nbsp;
+        </div>
+    </div>
+
+    <div class="quality-name">Covered Topic</div>
+    <div class="quality-meter">
+        <div class="quality-sub" style="width: 70%;">
+            &nbsp;
+        </div>
+    </div>
+    <div class="quality-name">Words Count</div>
+    <div class="quality-meter">
+        <div class="quality-sub" style="width: 50%;">
+            &nbsp;
+        </div>
+    </div>
+    <div class="quality-name">Mins Read  </div>
+    <div class="quality-meter">
+        <div class="quality-sub" style="width: 80%;">
+            &nbsp;
+        </div>
+    </div>
+
+    <div class="headline-post-info-item-title">
+        Outline of Content
+    </div>
+
+
+    <div class="headline-tags">
+        <ul>
+      {% for heading in post.headings %}
+        {% if forloop.index > 1 %}
+            <li><a href="#">{{ heading }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+
+
+    <div class="highlight-redirect">
+        <ul>
+            <li><a href="#">
+                 Discussion</a></li>
+            <li><a href="#">Read on Repo</a></li>
+            <li>                       
+                <div class="headline-published-date">
+                    · &nbsp; {{ post.date | date: "%F" }}
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
