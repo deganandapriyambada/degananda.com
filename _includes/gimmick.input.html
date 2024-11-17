@@ -1,42 +1,24 @@
 <div class="padding-container">
+  <div class="big-search-container">
     <div class="aboutme">
       Greetings!  We wrote our learning journey on Digital Tech Consulting. It's our <b class="living">living learning notes</b>.
     </div>
 
-    <div class="top-search">
-        <div class="search-box">
-          Data Sources
-        </div>
-        <div class="search-box">
-          Topics
-        </div>
-        <div class="search-box">
-          Article Title
-        </div>
-        <div class="search-box"> 
-          &nbsp;
-        </div>
+   <div class="big-search">
+      <input type="text" placeholder="what are you looking for?">
+   </div>
+   <div class="post-type-2-title-tags">
+    <div class="post-tags">
+      <div class="post-tags-item-side" style="background: none;">
+        Recent Tags
+      </div>
+     {% for tag in site.tags limit: 6 %}
+      <div class="post-tags-item-side">
+          <a href="/tags/{{ tags | first }}/">{{tag | first }}</a>
+      </div>
+    {% endfor %}
     </div>
-
-    <div class="top-search">
-      <div class="search-box">
-        <select disabled>
-            <option selected>All</option>
-        </select>
-      </div>
-      <div class="search-box">
-        <select disabled>
-          <option selected>Backend</option>
-      </select>
-      </div>
-      <div class="search-box">
-        <input type="text">
-      </div>
-      <div class="search-box"> 
-        <button> <i class="fa fa-search" aria-hidden="true"></i> Search
-         </button>
-        &nbsp;    Available Topics
-      </div>
-    </div>
+  </div>
+</div>
 
   </div>

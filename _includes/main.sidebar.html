@@ -45,19 +45,8 @@
         <a href="">View Writing Timeline</a> &nbsp; | &nbsp; <a href="#"> Site Updates. </a> 
     </div>
 
-    <div class="section-title-light">
-        Latest Tags
-    </div>
 
-    <div class="post-type-2-title-tags">
-        <div class="post-tags">
-         {% for tag in site.tags limit: 6 %}
-        <div class="post-tags-item-side">
-            <a href="/tags/{{ tags | first }}/">{{tag | first }}</a>
-        </div>
-        {% endfor %}
-        </div>
-    </div>
+
 
     <div class="button-light">
         View Tags

@@ -49,3 +49,82 @@
                     </div>
                 </div>
   
+
+
+   <div class="top-search">
+        <div class="search-box">
+          Data Sources
+        </div>
+        <div class="search-box">
+          Topics
+        </div>
+        <div class="search-box">
+          Article Title
+        </div>
+        <div class="search-box"> 
+          &nbsp;
+        </div>
+    </div>
+
+    <div class="top-search">
+      <div class="search-box">
+        <select disabled>
+            <option selected>All</option>
+        </select>
+      </div>
+      <div class="search-box">
+        <select disabled>
+          <option selected>Backend</option>
+      </select>
+      </div>
+      <div class="search-box">
+        <input type="text">
+      </div>
+      <div class="search-box"> 
+        <button> <i class="fa fa-search" aria-hidden="true"></i> Search
+         </button>
+        &nbsp;    Available Topics
+      </div>
+    </div>
+
+
+
+            <div class="headline-post-info-item-title">
+                Latest Publications
+            </div>
+
+            <div class="headline-author">
+                <div class="title-container">
+                    <div class="profpic">
+                        <div class="contributor-small">
+                            DF
+                        </div>
+                    </div>
+                    <div class="incat">
+                        <b>Degananda Ferdian</b>
+                           &nbsp; · &nbsp; {{ post.date | date: "%F" }}
+                    </div>
+                </div>
+            </div>
+            <div class="headline-title">
+                {{ post.title }} 
+            </div>
+
+            
+            <div class="headline-post-info-item-title">
+                Short Description
+            </div>
+            <div class="headline-post-info-tldr">
+                {{ post.excerpt }}
+            </div>
+
+            <div class="headline-post-info-item-title">
+                Tagged Tags
+            </div>
+            <div class="headline-tags">
+                <ul>
+                {% for tags in post.tags %}
+                    <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>

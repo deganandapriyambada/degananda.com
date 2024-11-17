@@ -1,21 +1,20 @@
 <div class="latest-two-container">
 
-    <div class="headline-selector">
-        <ul>
-            <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                &nbsp;
-                Statistics & Description
-            </li>                           
-            <li>
-                <i class="fa fa-circle-o" aria-hidden="true"></i>
-                &nbsp;
-                View Full Outline
-            </li>
-        </ul>
-</div>
+    <div class="headline-author">
+        <div class="title-container">
+            <div class="profpic">
+                <div class="contributor-small">
+                    DF
+                </div>
+            </div>
+            <div class="incat">
+                <b>Degananda Ferdian</b> on <b>{{ post.categories }}</b>
+            </div>
+        </div>
+    </div>
+
     <div class="headline-post-info-item-title">
-        Content Statistics 
+        Quantified Content Statistics 
     </div>
     
     <div class="headline-published-date">
@@ -46,6 +45,7 @@
         </div>
     </div>
 
+
     <div class="headline-post-info-item-title">
         Outline of Content
     </div>
@@ -61,18 +61,5 @@
       </ul>
     </div>
 
-
-    <div class="highlight-redirect">
-        <ul>
-            <li><a href="#">
-                 Discussion</a></li>
-            <li><a href="#">Read on Repo</a></li>
-            <li>                       
-                <div class="headline-published-date">
-                    · &nbsp; {{ post.date | date: "%F" }}
-                </div>
-            </li>
-        </ul>
-    </div>
 
 </div>
