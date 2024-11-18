@@ -105,6 +105,13 @@ body {
   padding: 0px 25px 0px 50px;
 }
 
+.pl-logo i {
+  background: #f5f5f5;
+  padding: 7px 7px 7px 7px;
+  border-radius: 5px;
+  color: #000000;
+}
+
 .topmenu-container > .search {
     font-size: $logo;
     font-weight: bold;
@@ -1799,12 +1806,13 @@ font-weight: 400;
 .headline-image {
   background: #f5f5f5;
   border-radius: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
-.headline-image img {
-
+.headline-image-post {
+  margin-top: 10px;
 }
+
 
 .headline-post-info {
   padding: 0px 15px 0px 15px;
@@ -1924,7 +1932,7 @@ font-weight: 400;
   background: #023047;
   padding: 7px 12px 7px 12px;
   border: 1px #023047 solid;
-  font-size: 13px;
+  font-size: 14px;
   color: #fafafa;
 }
 
@@ -1932,7 +1940,7 @@ font-weight: 400;
   background: #fff;
   padding: 7px 12px 7px 12px;
   border: 1px #023047 solid;
-  font-size: 13px;
+  font-size: 14px;
   color: #023047;
   border-radius: 15px;
 }
@@ -2387,7 +2395,7 @@ font-weight: 400;
 }
 .theme-divider > ul {
   margin: 0px;
-  border-bottom: 0px #eaeaea solid;
+  border-bottom: 1px #eaeaea solid;
   padding: 20px 0px 20px 0px;
   text-align: left;
   margin-top: 0px;
@@ -2427,6 +2435,20 @@ font-weight: 400;
   color: #000000;
 }
 
+.big-search button {
+  background: #f5f5f5;
+  border: 0px;
+  padding: 15px 30px 15px 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #000000;
+  margin-left: -50px;
+}
+
+.big-search button i {
+  color: #3d3d3d;
+}
+
 .big-search input[type="text"]::placeholder {
   color: #000000;
   font-size: 14px;
@@ -2461,6 +2483,7 @@ font-weight: 400;
 
 .post-landing-1 {
   display: flex;
+  padding: 0px 0px 20px 0px;
 }
 
 .post-landing-desc {
