@@ -77,17 +77,17 @@ var sjs = SimpleJekyllSearch({
           `
           <li>
             <div class="post-type1-content">
-                      <div class="post-type1-title" style="width: 35%;">
+                      <div class="post-type1-title">
                           <span class="post-date"> {date} &nbsp;  </span> 
                           <a class="post-link" href="{url}">{title}</a>
                       </div>
-                      <div class="post-type1-info" style="width: 15%;">
+                      <div class="post-type1-info">
                           <a href="/category/{categories}/">{categories}</a>
                       </div>
-                      <div class="post-type1-info" style="width: 15%;">
+                      <div class="post-type1-info">
                           {date}
                       </div>
-                      <div class="post-type1-info" style="width: 20%;">
+                      <div class="post-type1-info">
                           {tags}
                       </div>
             </div>  

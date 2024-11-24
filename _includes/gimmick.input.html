@@ -18,7 +18,7 @@
         </div>
        {% for tag in site.tags limit: 6 %}
         <div class="post-tags-item-side">
-            <a href="/tags/{{ tags | first }}/">{{tag | first }}</a>
+            <a href="/tags/{{ tag | first }}/">{{tag | first }}</a>
         </div>
       {% endfor %}
       <div class="post-tags-item-side" style="background: none; font-weight: 300; color: #3d3d3d">

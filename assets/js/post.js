@@ -12,7 +12,7 @@ for(var tt = 0 ; tt<elems.length; tt++){
 
     topHeadingItem += `<li>${currentElement.innerHTML}</li>`;
 
-    if(tt > 0){
+    if(tt >= 0){
     var itemLi = '<div class="post-section"><a href="#'+currentElement.id+'" class="post-heading-title">' + currentElement.innerHTML + "</a>";
     if(tt < (elems.length-1) && (elems[tt+1].localName == "h1")){
         itemLi += '</div>'
