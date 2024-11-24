@@ -1,0 +1,56 @@
+
+<div class="post-landing-1">
+    {% for post in paginator.posts %}
+        <div class="post-landing-desc">
+          <div class="post-landing-title">
+            <a href="{{post.url}}">{{ post.title }}</a>
+          </div>
+          <div class="post-lading-thumb">
+            <img src="/assets/images/Arch 3.svg" height="200px" width="100%">
+          </div>
+          <div class="post-landing-excerpt">
+            {{post.excerpt}}
+          </div>
+          <div class="post-landing-info">
+            <div>
+              DF
+            </div>
+            <div>
+              asdfx
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% if page.url contains 'page' %}
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/' | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+{% else %}
+<button class="section-link section-title">
+    <a href="/page-2/"> Browse All </a>
+</button> 
+{% endif %}

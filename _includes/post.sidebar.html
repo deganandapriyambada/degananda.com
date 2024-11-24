@@ -1,82 +1,12 @@
 <div class="twoblock-right-maxw">
     <div class="twoblock-marg-r">
-        <div class="post-author-container">
-            <div class="post-author-photo">
-                <img src="/assets/images/dfp2.jpeg">   
-            </div>
-            <div>
-                <span class="typo1">Degananda Ferdian</span>
-                <span class="typo2"> · Profile   </span>
-                <br />
-            <span class="typo3"> {{ page.date | date_to_string: "ordinal", "US"}} </span> 
-            <span class="typo2"> · Blog   </span>
 
-
-            </div>    
-        </div>
-
-        <div class="sponsor">
-            <a href="#"><button> <i class="fa fa-bookmark" aria-hidden="true"></i> &nbsp;
-                 Save & Read Later </button></a>
-        </div>
-
-        <div class="post-navigation">
-            <div class="next">
-                <a href="{{page.previous.url}}"><button>Prev</button></a>
-            </div>
-            <div class="prev">
-                <a href="{{page.next.url}}"><button>Next</button></a>
-            </div>
-        </div>
-        {% 
-            assign charCount = page.content | size
-        %}
-        {% 
-            assign wordCount = page.content | number_of_words 
-        %}
-        {%
-            assign minsRead = wordCount | divided_by: 200 
-        %} 
-
-        <div>
-            {{ wordCount }} total Word | {{ minsRead }} Mins Read | {{ charCount }} Total Characters
-        </div>
         <div class="post-list-of-content">
             <div id="post-heading">
 
             </div>
         </div>
 
-        <div class="section-title-light"> Read On Github </div>
-
-
-    <div class="read-more">
-        <input type="text" value="hello">
-    </div>
-        <div class="section-title-light"> Read as Video </div>
-        
-        <div class="section-title"> Tags </div>
-
-        <div class="post-tags">
-            {% for tag in page.tags %}
-            <div class="post-tags-item">
-            <a href="/tags/{{ tag }}/">{{ tag }}</a>
-            </div>
-            {% endfor %}
-        </div>
-
-        <div class="section-title"> Contribute </div>
-
-        <button class="section-link-reverse">
-                <a href="#">  <i class="fa fa-diamond" aria-hidden="true"></i>   Support This Writings</a></button>
-
-        <div>
-            <ul>
-                <li>Donate</li>
-                <li>Sponsor this Article (Permanent)</li>
-                <li>Sponsor this Article (Monthly)</li>
-            </ul>
-        </div>
 
     </div>
 </div>

@@ -4,7 +4,6 @@ var all_headings = [];
 var elems = document.querySelectorAll('h1, h2');
 var postHeadingUl = document.getElementById("post-heading");
 var finalMenuTree = "";
-var topHeading = document.getElementById("top-heading");
 var topHeadingItem = "<ul>";
 
 for(var tt = 0 ; tt<elems.length; tt++){
@@ -37,7 +36,6 @@ for(var tt = 0 ; tt<elems.length; tt++){
 }
 postHeadingUl.innerHTML += finalMenuTree;
 topHeadingItem += "</ul>";
-topHeading.innerHTML = topHeadingItem;
 
 /*
 var observer = new IntersectionObserver(function(entries) {

@@ -6,8 +6,10 @@ excerpt: If you want to learn about StackEdit, you can read me. If you want to p
 tags: frontned-dev backend-dev web-services
 topics: programming
 subtitle: Hello world subtitle of this post
-ptype: others
-hidden: true
+ptype: Issues
+background: If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have
+objective: If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have
+deliverables: If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have
 ---
 
 # Welcome to StackEdit!

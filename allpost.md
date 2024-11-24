@@ -6,9 +6,6 @@ permalink: /search
 <body>
 
 <div class="whole-site">
-    <div class="post-feedback">
-        Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/{{ page.name }}'>Edit This Page </a> on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
-    </div>
     <div class="topmenu">
         <div class="topmenu-container">
             {% include top.menu.html type = "withoutserach" %}
@@ -17,14 +14,15 @@ permalink: /search
 </div>
 
 
-  <div class="width-container">
-    <h2>
-    Search
-    </h2>
-    <div id="search-container">
-      <input type="text" id="search-input" placeholder="search..."><button id="bsearch" type="button">
-      <i class="fa fa-search" aria-hidden="true"></i>
-      </button>
+<div class="padding-container">
+    <h2> Search </h2>
+    <div class="big-search-container">
+      <div class="big-search">
+          <input type="text" placeholder="what are you looking for?" id="search-input" >
+          <button id="bsearch">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+      </div>
     </div>
     <div id="results-info">
       Results for "<b><span id="results-info-text"></span></b>"

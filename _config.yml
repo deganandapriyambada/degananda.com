@@ -1,5 +1,5 @@
 ## website general information configuration.
-site_title: "DigitalArtisan"
+site_title: "Pipeloone"
 site_description: "My Learning Journey"
 permalink: /:categories/:year/:month/:title
 
@@ -19,7 +19,7 @@ plugins:
 url: "https://example.com" # the base hostname & protocol for your site
 
 
-paginate: 5
+paginate: 8
 paginate_path: '/page-:num/'
 
 paginate_category_basepath: '/category/:name/'

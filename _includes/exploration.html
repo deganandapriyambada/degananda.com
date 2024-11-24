@@ -1,0 +1,33 @@
+
+
+<div class="site-category-topics">
+  <h2 class="main-section"> Tags </h2>
+</div>
+
+
+<div class="site-category-topics">
+  <div class="site-category-container">
+
+    {% assign categories = site.posts | map: 'categories' | uniq %}
+
+    {% for category in categories %}
+    <div class="site-category-box">
+      <div class="site-category-title"><a href="/category/{{category}}"> {{ category }} </a></div>
+      <ul class="site-category-content">
+        {% assign category_posts = site.posts | where: 'categories', category %}
+        {% assign category_tags = category_posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+
+        {% for tag in category_tags %}
+        <li>
+          <a href="/tags/{{ tag | slugify }}/">{{ tag }} </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="more-topics">
+  Do you enjoy our content & wanted to request some specific topics? <a href="mailto:degananda.ferdian@gmail.com"> let
+    me know </a>
+</div>

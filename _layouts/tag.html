@@ -1,134 +1,149 @@
 ---
 ---
-{% include meta.header.html title =page.tag %}
+{% include meta.header.html title =page.category %}
 
 <body>
 
-    <div class="whole-site bg-gray">
-        
+    <div class="whole-site">
+
         <div class="topmenu">
-            <div class="post-feedback">
-                Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/_layouts/category.html'>Edit this page</a>  on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
-            </div>
             <div class="topmenu-container">
                 {% include top.menu.html %}
             </div>
         </div>
 
-        <div class="category-post">
-            <div class="section-title">
-                Search On this Topics
-            </div>
-            <div>
-                <input type="text">
-                <button>Search</button>
-            </div>
-        </div>
 
-        <div class="category-post">
-            Spotlight First Article
-        </div>
 
-        <div class="category-post">
+        <div class="padding-container">
             <div class="category-post-container">
-
-                <h1>Tag: {{ page.tag }}</h1>
+                <div class="headline-post-info-item-title">
+                    <h2>{{ page.tag }}</h2>
+                </div>
+                {% for post in paginator.posts %}
                 <!-- This loops through the paginated posts -->
-                <div class="post-type-1">
-                    <div class="post-type-1-container">
-                        <ul>
-                            <li>
-                                <div class="post-type1-content">
-                                    <div class="post-type1-info">
-                                        Topic
-                                    </div>
-                                    <div class="post-type1-info">
-                                        Mins Read
-                                    </div>
-                                    <div class="post-type1-title">
-                                        Post Title
-                                    </div>
-                                    <div class="post-type1-info">
-                                        Date
-                                    </div>
-                                    <div class="post-type1-info">
-                                        Content Type
-                                    </div>
-                            </li>
-                            {% for post in paginator.posts %}
-                            <li>
-                                <div class="post-type1-content">
-                                    <div class="post-type1-info">
-                                        <a href="/category/{{post.categories}}">{{ post.categories }}</a>
-                                    </div>
-                                    <div class="post-type1-info">
-                                        <div class="sub-info">
-                                        {% 
-                                            assign wordCount = post.content | number_of_words 
-                                        %}
-                                        {%
-                                            assign minsRead = wordCount | divided_by: 200 
-                                        %} 
-                
-                                        {{ minsRead | plus:1 }} mins
-                                        </div>
-                                    </div>
-                                    <div class="post-type1-title">
-                                    <span class="post-date"> {{ post.date | date: "%F" }} &nbsp;  </span> 
-                                    <a href="{{ post.url }}">
-                                       <span class="lang">EN</span>{{ post.title }}
-                                    </a>
-                                    </div>
-                                    <div class="post-type1-info">
-                                        {{ post.date | date: "%F" }}
-                                    </div>
-                                    <div class="post-type1-info">
-                                        <div class="content-type-container">
-                                            <div class="type-item">
-                                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="type-item">
-                                                <i class="fa fa-file-video-o" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="type-item">
-                                                <i class="fa fa-code" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="type-item">
-                                                <i class="fa fa-download" aria-hidden="true"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            {% endfor %}
-                            
-                        </ul>
+                {% if forloop.first %}
+                <!-- Code for the first post -->
+                <div class="headline-container">
+                    <div style="flex: 1.1; padding: 15px 15px 15px 0px;  background: #fff;
+            ">
+                        <div class="headline-post-info-item-title">
+                            Published Date
+                        </div>
+                        <div class="headline-post-info-item-title">
+                            {{ post.date | date: "%-d %B %Y %-I %p" }}
+                        </div>
+
+                        <div class="headline-post-info-item-title">
+                            Article Title
+                         </div>
+
+                        <div class="headline-title">
+                            {{ post.title }}
+                        </div>
+
+                        <div class="headline-post-info-item-title">
+                           Short Description
+                        </div>
+
+                        <div class="headline-post-info-item"> 
+                            {{ post.excerpt }}
+                        </div>
+                        
+                        
+
+                    </div>
+                    <div style="flex: 1.3; padding: 15px 0px 15px 0px; background: #fff;">
+                        <!-- start headline most left -->
+                        {% include top.latest.two.html %}
+                        <!-- end headline most left -->
+                    </div>
+                    <div style="flex: 1.2; background: #fafafa; padding: 15px 0px 15px 0px;">
+                        <div class="headline-post-info">
+                            <!-- start headline info -->
+                            <div class="headline-post-info-item-title">
+                                Background
+                            </div>
+                            <div class="headline-post-info-item">
+                                Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o
+                                woow
+                            </div>
+                            <div class="headline-post-info-item-title">
+                                Objectives
+                            </div>
+                            <div class="headline-post-info-item">
+                                Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o
+                                woow
+                            </div>
+
+                            <div class="headline-post-info-item-title">
+                               Deliverables
+                            </div>
+                            <div class="headline-post-info-item">
+                                Loren Lpsum lalala papper blod rawr ku ingin memiliki dunia ini panggung sandiwara wo o
+                                woow
+                            </div>
+                            <!-- end headline info -->
+                        </div>
+                    </div>
+
+                </div>
+                {% else %}
+                <!-- Code for all other posts -->
+                <div class="hl-content-top3">
+                    <div class="hl-post-date">
+                      <div class="mins-read"> 
+                        {% 
+                            assign wordCount = post.content | number_of_words 
+                        %}
+                        {%
+                            assign minsRead = wordCount | divided_by: 200 
+                        %} 
+      
+                        {{ minsRead | plus:1 }} Mins Read. 
+                      </div>
+                      <div class="mins-date">
+                        {{ post.date | date: "%-d %B %Y" }}
+                      </div>
+                    </div>
+                    <div class="hl-post-title">
+                      <div class="hl-c-title">
+                          <a href="{{post.url}}">{{ post.title }}</a>
+                      </div>
+                      <div class="hl-c-excerpt">
+                          {{ post.excerpt }}
+                      </div>
+                    </div>
+                    <div class="hl-post-option">
+                      <a href="/category/{{post.categories}}">{{post.categories}}</a>
                     </div>
                 </div>
+                {% endif %}
 
-                <!-- Pagination links -->
-                <div class="pagination">
+                {% endfor %}
+
+                </ul>
+            </div>
+            <!-- Pagination links -->
+            <div class="pagination">
                 {% if paginator.previous_page %}
-                    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+                <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
                 {% else %}
-                    <span class="previous">Previous</span>
+                <span class="previous">Previous</span>
                 {% endif %}
                 <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
                 {% if paginator.next_page %}
-                    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
                 {% else %}
-                    <span class="next">Next</span>
+                <span class="next">Next</span>
                 {% endif %}
-                </div>
-
-                
             </div>
         </div>
+    </div>
+    </div>
 
-        {% include footer.menu.html widthconfig="full" %}
+    {% include footer.menu.html widthconfig="full" %}
 
     </div>
-    <script src="/assets/js/site.js" type="text/javascript"></script>   
+    <script src="/assets/js/site.js" type="text/javascript"></script>
 
 </body>
-

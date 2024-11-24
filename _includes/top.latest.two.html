@@ -1,5 +1,4 @@
 <div class="latest-two-container">
-
     <div class="headline-author">
         <div class="title-container">
             <div class="profpic">
@@ -14,40 +13,7 @@
     </div>
 
     <div class="headline-post-info-item-title">
-        Quantified Content Statistics 
-    </div>
-    
-    <div class="headline-published-date">
-        Overall Article {% glossary Quality %}: <b>Good</b> 
-    </div>
-    <div class="quality-meter">
-        <div class="quality" style="width: 80%;">
-            &nbsp;
-        </div>
-    </div>
-
-    <div class="quality-name">Covered Topic</div>
-    <div class="quality-meter">
-        <div class="quality-sub" style="width: 70%;">
-            &nbsp;
-        </div>
-    </div>
-    <div class="quality-name">Words Count</div>
-    <div class="quality-meter">
-        <div class="quality-sub" style="width: 50%;">
-            &nbsp;
-        </div>
-    </div>
-    <div class="quality-name">Mins Read  </div>
-    <div class="quality-meter">
-        <div class="quality-sub" style="width: 80%;">
-            &nbsp;
-        </div>
-    </div>
-
-
-    <div class="headline-post-info-item-title">
-        Outline of Content
+        Table of Content
     </div>
 
 
@@ -60,6 +26,28 @@
       {% endfor %}
       </ul>
     </div>
+
+
+    <div class="headline-post-info-item-title">
+        Topics Covered
+    </div>
+    <div class="headline-tags">
+        <ul>
+            {% for tags in post.tags %}
+            <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="highlight-redirect">
+        <ul>
+            <li>
+                <a href="{{post.url}}"><button class="button-theme1-reversed">Read Article
+                </button></a>
+            </li>
+        </ul>
+    </div>
+
 
 
 </div>

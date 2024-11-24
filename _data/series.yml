@@ -1,7 +1,7 @@
-- title: Agnostics IoT Gateway & Middleware  using Azure Cloud
-  start: 1 September 2024
-  end: 31 December 2024
-  status: not started
+- title: AZ-220 IoT Developer Certification Prep
+  start: 1 Dec'24
+  end: 1 Jan'2024
+  status: In Progress
   category: IOT
   issues: 0
   review: 0
@@ -9,48 +9,34 @@
   notes: 0
   total: 0
   topics:
-    - cloud
-    - azure
-    - iot
-- title: Building Event Invitation Platform As a Services (PaaS) Complete with Self Payment Journey
-  start: 1 January 2025
-  end: 22 June 2025
-  category: Product
-  status: not started
+    - Cloud
+    - Azure
+    - IoT
+- title: Understanding best practices in digital logistics and supply chain processes across various industries.
+  start: 1 Dec'24
+  end: 1 Mar'2024
+  status: In Progress
+  category: IOT
   issues: 0
   review: 0
   news: 0
   notes: 0
   total: 0
   topics:
-    - fe-development
-    - be-development
-    - expressjs
-    - nextjs
-- title: Deep Dive Into Manufacturing System Solution Nowdays
-  start: 19 August 2024
-  category: Manufacturing
-  end: 31 December 2024
-  status: not started
+    - Digtal Thread
+    - Industry Process
+- title: Descriptive Classification on X Scrapped Data to find potential customer for talent mapping agencies.
+  start: 1 Dec'24
+  end: 1 Mar'2024
+  status: In Progress
+  category: IOT
   issues: 0
   review: 0
   news: 0
   notes: 0
   total: 0
   topics:
-    - MES
-- title: Relearn Computer Science as if we were `isekaied`
-  start: 16 August 2024
-  category: Edu
-  end: 17 August 2025
-  status: not started
-  issues: 0
-  review: 0
-  news: 0
-  notes: 0
-  total: 0
-  topics:
-    - S/W
-    - H/W
-    - Network
-    - Database  
+    - Scrapping
+    - Python
+    - Descriptive Classification
+

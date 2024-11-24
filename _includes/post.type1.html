@@ -1,46 +1,48 @@
-<div class="post-type-1">
+
+
+<div class="theme-divider-word">
+  Recent Publications
+</div>
+
+<div class="post-landing-1">
     {% for post in paginator.posts %}
-
-    <div class="post-landing-1">
-        <div class="post-landing-desc">
-            <!--start post content -->
-            <div class="headline-author">
-                <div class="title-container">
-                    <div class="profpic">
-                        <div class="contributor-small">
-                            DF
-                        </div>
-                    </div>
-                    <div class="incat">
-                        <b>Degananda Ferdian</b>
-                           &nbsp; · &nbsp; {{ post.date | date: "%F" }}
-                    </div>
-                </div>
-            </div>
-            <div>
-                {{ post.title }}
-            </div>
-            <div>
-                {{ post.excerpt }}
-            </div>
-        
-        
-            <div class="highlight-redirect">
-                <ul>
-                    <li><a href="#">
-                         Discussion</a></li>
-                    <li><a href="#">Read on Repo</a></li>
-                </ul>
-            </div>
-            <!-- end post content -->
-        </div>
-        <div class="post-landing-info">
-          <div class="headline-image-post">
-            <img src="/assets/images/Arch 3.svg" height="100px" width="100%">
+    <div class="headline-author">
+      <div class="title-container">
+          <div class="profpic">
+              <div class="contributor-small">
+                  DF
+              </div>
           </div>
-        </div>
-    </div>
+          <div class="incat">
+              Degananda Ferdian on <b><a href="/category/{{ post.categories }}">{{ post.categories }}</a></b>
+          </div>
+      </div>
+  </div>
+    <div class="hl-content-top3">
+      <div class="hl-post-date">
+        <div class="mins-read"> 
+          {% 
+              assign wordCount = post.content | number_of_words 
+          %}
+          {%
+              assign minsRead = wordCount | divided_by: 200 
+          %} 
 
+          {{ minsRead | plus:1 }} Mins Read. 
+        </div>
+        <div class="mins-date">
+          {{ post.date | date: "%-d %B %Y" }}
+        </div>
+      </div>
+      <div class="hl-post-title">
+        <div class="hl-c-title">
+            <a href="{{post.url}}">{{ post.title }}</a>
+        </div>
+      </div>
+      <div class="hl-post-option">
+        {{post.ptype}}
+      </div>
+  </div>
     {% endfor %}
 </div>
 
@@ -71,7 +73,7 @@
 </div>
 {% endif %}
 {% else %}
-<button class="section-link section-title">
-    <a href="/page-2/"> Browse All </a>
-</button> 
+<a href="/page-2"><button class="button-theme1">
+ Browse All
+</button> </a>
 {% endif %}

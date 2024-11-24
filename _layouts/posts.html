@@ -3,43 +3,47 @@
 {% include meta.header.html title =page.title %}
 <body>
     <div class="whole-site">
-        <div class="post-feedback">
-            Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/_posts/{{ page.date | date: "%Y"}}-{{ page.date | date:"%m"}}/{{ page.name }}'>Edit this page</a>  on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
-        </div>
         <div class="topmenu">
             <div class="topmenu-container">
                 {% include top.menu.html %}
             </div>
-            <div class="gimmick-landing-top">
-                <div class="gimmick-landing-top-container">
-                    <ul class="post-menu">
-                      <li>
-                        Bookmark
-                      </li>
-                      <li>
-                        |
-                      </li>
-                    {% for category in site.categories limit : 8  %}
-                      <li>
-                        <a href="/tags/{{ tag | slugify }}/">{{ category | first | capitalize }} </a>
-                      </li>
-                    {% endfor %}
-                    <li> | </li>
-                    {% assign post_category = page.categories %}
-                    {% assign category_posts = site.posts | where: 'categories', post_category %}
-                    {% assign category_tags = category_posts | map: 'tags' | join: ',' | split: ',' | uniq %}
-                    {% for tag in category_tags limit : 8 %}
-                      <li>
-                        <a href="/tags/{{ tag | slugify }}/">{{ tag }} </a>
-                      </li>
-                    {% endfor %}
-                    </ul>
-                </div>
-            </div>        
         </div>
     </div>
-{% include post.header.html %}
  <div class="padding-container-post">
+    <div class="new-post-title">
+        {{page.title}}
+    </div>
+    <div class="new-post-excerpt">
+        {{ page.excerpt }}
+    </div>
+
+    <div class="post-header-summary">
+      <div class="background">
+          <div class="section-title">
+              Background
+          </div>
+          <div class="summary-content">
+            {{ page.background }}
+          </div>
+      </div>
+      <div class="objective">
+          <div class="section-title">
+              Objective
+          </div>
+          <div class="summary-content">
+            {{ page.objective }}
+          </div>
+      </div>
+      <div class="deliverables">
+          <div class="section-title">
+              Deliverables
+          </div>
+          <div class="summary-content">
+            {{ page.deliverables }}
+          </div>
+      </div>
+  </div>
+
     <div class="container">
     <!-- Main content -->
     <div class="content-post">
