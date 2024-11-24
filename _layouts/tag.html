@@ -19,6 +19,23 @@
                 <div class="headline-post-info-item-title">
                     <h2>{{ page.tag }}</h2>
                 </div>
+
+                <div class="headline-category">
+                    <ul>
+                      <li>
+                        <a class="button-theme1-gray">
+                          <b>Recent</b>
+                        </a>
+                      </li>
+                      {% for category in site.categories limit : 8  %}
+                          <li>
+                          <a href="/category/{{category | first}}">{{ category | first | capitalize }} </a>
+                          </li>
+                      {% endfor %}
+                      <li><a href="/explore"> More </a></li>
+                  </ul>
+                </div>
+
                 {% for post in paginator.posts %}
                 <!-- This loops through the paginated posts -->
                 {% if forloop.first %}

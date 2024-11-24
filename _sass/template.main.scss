@@ -274,7 +274,7 @@ body {
 }
 
 .topmenu-container > .navigation > ul > li > a {
-  font-size: 14.5px;
+  font-size: 14px;
   text-decoration: none;
   color: $fc-sub-1;
 }
@@ -924,6 +924,11 @@ body {
   border-radius: 50%;
   font-size: 15px;
   margin: 0px 10px 0px 0px;
+}
+
+.blog-contributor a {
+  text-decoration: none;
+  color: #000;
 }
 
 .contributor-small {
@@ -2460,5 +2465,9 @@ img[alt=postimage60] {
 
 img[alt=postimage100] { 
   width: 100%; 
+}
+
+.previous, .page_number, .next {
+  padding: 0px 10px 0px 10px;
 }
 
