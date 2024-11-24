@@ -10,6 +10,20 @@
         </div>
     </div>
  <div class="padding-container-post">
+  
+    <div class="headline-author">
+        <div class="title-container">
+            <div class="profpic">
+                <div class="contributor-small">
+                    DF
+                </div>
+            </div>
+            <div class="incat">
+                Degananda Ferdian on <b><a href="/category/{{ page.categories }}">{{ page.categories }}</a></b>
+            </div>
+        </div>
+    </div>
+
     <div class="new-post-title">
         {{page.title}}
     </div>
@@ -43,6 +57,17 @@
           </div>
       </div>
   </div>
+
+    <div class="section-title">
+      Topic Covered
+  </div>
+    <div class="headline-tags">
+        <ul>
+            {% for tags in page.tags %}
+            <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 
     <div class="container">
     <!-- Main content -->

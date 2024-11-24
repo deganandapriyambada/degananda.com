@@ -1,0 +1,37 @@
+<div class="headline-author">
+    <div class="title-container">
+        <div class="profpic">
+            <div class="contributor-small">
+                DF
+            </div>
+        </div>
+        <div class="incat">
+            Degananda Ferdian on <b><a href="/category/{{ post.categories }}">{{ post.categories }}</a></b>
+        </div>
+    </div>
+</div>
+  <div class="hl-content-top3">
+    <div class="hl-post-date">
+      <div class="mins-read"> 
+        {% 
+            assign wordCount = post.content | number_of_words 
+        %}
+        {%
+            assign minsRead = wordCount | divided_by: 200 
+        %} 
+
+        {{ minsRead | plus:1 }} Mins Read. 
+      </div>
+      <div class="mins-date">
+        {{ post.date | date: "%-d %B %Y" }}
+      </div>
+    </div>
+    <div class="hl-post-title">
+      <div class="hl-c-title">
+          <a href="{{post.url}}">{{ post.title }}</a>
+      </div>
+    </div>
+    <div class="hl-post-option">
+      {{post.ptype}}
+    </div>
+</div>

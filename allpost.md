@@ -72,7 +72,7 @@ var sjs = SimpleJekyllSearch({
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   limit: 10,
-  noResultsText: '<li style="background: none; padding: 30px 0px 30px 0px;"><u>Result not found.</u> Try another keyword. <br /> Or maybe try to browse our <a href="#">content catalogue</a> ?</li>',
+  noResultsText: '<li style="background: none; padding: 30px 0px 30px 0px;"><u>Result not found.</u> Try another keyword. <br /> Or maybe try to browse our <a href="/explore">content catalogue</a> ?</li>',
       searchResultTemplate: 
           `
           <li>

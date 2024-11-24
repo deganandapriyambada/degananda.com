@@ -21,7 +21,6 @@ $fc-sub-3: #4c4c4c;
 
 /* font family */
 $font-type-md: "Rubik", sans-serif;
-$font-type-curve: "Playwrite BE VLG", cursive;
 $font-type-logo: "Plus Jakarta Sans", sans-serif;
 
 body {
@@ -92,7 +91,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     text-align: left;
-    font-family: $font-type-logo;
+    font-family: $font-type-md;
 }
 
 .logo > a {
@@ -104,6 +103,11 @@ body {
 .bar-menu {
   padding: 0px 25px 0px 50px;
 }
+
+.bar-menu i {
+  cursor: pointer;
+}
+
 
 @media only screen and (max-width: 1000px) {
 
@@ -519,7 +523,7 @@ body {
   .modest-p {
     font-size: 17px;
     margin-bottom: 1.3rem;
-    line-height: 1.7rem;
+    line-height: 1.8;
     color: #5a5a5a;
   }
   
@@ -1012,6 +1016,10 @@ body {
   text-align: right;
 }
 
+.menu-sidebar-container > .menu-close i {
+  cursor: pointer;
+}
+
 .twoblock-container {
   display: inline-flex;
   flex-direction: row;
@@ -1233,8 +1241,8 @@ body {
   z-index: 99;
   bottom: 0;
   left: 0;
-	background: linear-gradient(to right, #ff5f6d, #ffc371);
-	width: 0%;
+  background: rgb(238,238,238);
+  background: linear-gradient(90deg, rgba(56, 56, 56, 0.049)  0%, rgb(188, 188, 188) 100%);
 	z-index: 100;
 	transition: width 0.2s ease-out;
   height: 10px;
@@ -1334,6 +1342,7 @@ body {
   font-weight: 400;
   padding: 10px 0px 10px 0px;
   color: #023047;
+  text-transform: capitalize;
 }
 
 .headline-post-info-item {
@@ -2014,6 +2023,10 @@ body {
   color: #000000;
 }
 
+.big-search input[type="text"]:focus {
+  outline: none;
+}
+
 @media only screen and (max-width: 1000px) {
 
   .big-search input[type="text"] {
@@ -2177,6 +2190,7 @@ body {
   font-size: 14px;
   text-decoration: underline;
   color: #000;
+  text-transform: capitalize;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2259,7 +2273,7 @@ body {
 }
 
 .new-post-title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
 }
 
@@ -2414,3 +2428,37 @@ body {
   color: #000;
   text-decoration: none;
 }
+
+.disclaimer {
+  padding: 30px 0px 0px 0px;
+  font-size: 15px;
+}
+
+.pagination a {
+  text-decoration: underline;
+  color: #000;
+  padding-right: 5px;
+}
+
+.pagination em {
+  text-decoration: none;
+  color: #000;
+  padding-right: 5px;
+}
+
+img[alt=postimage80] { 
+  width: 80%; 
+  display: block; 
+  margin: 0 auto;
+}
+
+img[alt=postimage60] { 
+  width: 60%; 
+  display: block; 
+  margin: 0 auto;
+}
+
+img[alt=postimage100] { 
+  width: 100%; 
+}
+
