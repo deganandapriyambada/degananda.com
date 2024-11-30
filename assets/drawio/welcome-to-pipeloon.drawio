@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.9.1">
+  <diagram name="Page-1" id="kyPbU2uZHtpGJjnjVwyu">
+    <mxGraphModel dx="808" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Add4bD9MX13TCG2GWAhE-8" value="Issues" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="162.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Add4bD9MX13TCG2GWAhE-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="21" y="54" as="sourcePoint" />
+            <mxPoint x="481" y="54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Add4bD9MX13TCG2GWAhE-11" value="Storyline of every Article Series / Project" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Add4bD9MX13TCG2GWAhE-7" value="Review" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="220" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Add4bD9MX13TCG2GWAhE-6" value="News" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Add4bD9MX13TCG2GWAhE-5" value="Notes" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

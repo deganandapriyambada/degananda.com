@@ -15,6 +15,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-loading-lazy
   - jekyll-glossary_tooltip
+  - jekyll-drawio
 
 url: "https://example.com" # the base hostname & protocol for your site
 

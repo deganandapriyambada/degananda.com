@@ -12,6 +12,7 @@ objective: to tell the readers regarding information available on the website.
 deliverables: just a post.
 ---
 
+{% drawio path="./assets/drawio/welcome-to-pipeloon.drawio" page_number=0 height=250 %}
 
 
 # About Pipeloon and Me
