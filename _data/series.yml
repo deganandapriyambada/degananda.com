@@ -1,6 +1,22 @@
+- title: Exploring the Trend of IT/OT Convergence on Oil&Gas Port
+  start: 23 Dec '24
+  end: 2 Jan'2025
+  status: In Progress
+  category: IOT
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - ITOT
+    - Convergence
+    - Cloud
+    - Edge
+
 - title: AZ-220 IoT Developer Certification Prep
-  start: 1 Dec'24
-  end: 1 Jan'2024
+  start: 25 Dec'24
+  end: 25 Jan'2024
   status: In Progress
   category: IOT
   issues: 0
@@ -12,10 +28,10 @@
     - Cloud
     - Azure
     - IoT
-- title: Understanding best practices in digital logistics and supply chain processes across various industries.
-  start: 1 Dec'24
-  end: 1 Mar'2024
-  status: In Progress
+- title: AZ-104 Administrator Associate Certification Prep
+  start: 25 Dec'24
+  end: 25 Jan'2024
+  status: Not Started
   category: IOT
   issues: 0
   review: 0
@@ -23,12 +39,13 @@
   notes: 0
   total: 0
   topics:
-    - Digtal Thread
-    - Industry Process
-- title: Descriptive Classification on X Scrapped Data to find potential customer for talent mapping agencies.
-  start: 1 Dec'24
+    - Cloud
+    - Azure
+    - IoT
+- title: Data Engineering with Python for Data Warehousing
+  start: 25 Dec'24
   end: 1 Mar'2024
-  status: In Progress
+  status: Not Started
   category: IOT
   issues: 0
   review: 0
@@ -36,7 +53,21 @@
   notes: 0
   total: 0
   topics:
-    - Scrapping
-    - Python
-    - Descriptive Classification
+    - ETL
+    - Data Warehousing
+    - Data Mart
+- title: AZ-305 Designing Microsoft Azure Infrastructure Solutions Certification Prep
+  start: 25 Jan'24
+  end: 25 Mar'2024
+  status: Not Started
+  category: IOT
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Cloud
+    - Azure
+    - Infrastructure
 

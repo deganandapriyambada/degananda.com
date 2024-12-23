@@ -39,8 +39,7 @@ body {
 }
 
 
-.whole-site > .topmenu, .whole-site > .latest-post,
-.whole-site > .footer-menu, .whole-site > .category-post, .stats, .post-feedback, .latest-post, .width-container  {
+.whole-site > .topmenu, .whole-site > .latest-post, .whole-site > .category-post, .stats, .post-feedback, .latest-post, .width-container  {
     padding: 0px 10% 0px 10%;
 }
 
@@ -255,8 +254,7 @@ body {
         margin-top: 0px;
     }
 
-    .whole-site > .topmenu, .whole-site > .latest-post,
-    .whole-site > .footer-menu  {
+    .whole-site > .topmenu, .whole-site > .latest-post {
         padding: 0px 5% 0px 5%;
     }
 
@@ -459,7 +457,8 @@ body {
 
 
 .footer-info {
-  text-align: right;
+  text-align: left;
+  width: 100%;
 }
 
 .footer-info > ul {
@@ -2436,7 +2435,8 @@ body {
 }
 
 .disclaimer {
-  padding: 30px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
+  padding: 40px 0px 10px 0px;
   font-size: 15px;
 }
 

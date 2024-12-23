@@ -12,7 +12,7 @@ objective: to tell the readers regarding information available on the website.
 deliverables: just a post.
 ---
 
-{% drawio path="./assets/drawio/welcome-to-pipeloon.drawio" page_number=0 height=250 %}
+![postimage80](/assets/images/2024-12/welcome-to-pipeloon.svg)
 
 
 # About Pipeloon and Me
@@ -21,6 +21,7 @@ Hello, my name is Degananda Ferdian and welcome to pipeloon where we try to solv
 Currently i work for an Information technology (IT) company as Digital technology consultant. I would like to share my journey and things that i've learned over the past of seven years (not as experienced as you, but i believe there is something that i can share).
 
 for now, we only have one writer (which is me!)
+
 
 # Content Types and Key Differentiator
 We're thinking to have more structured publication by having dif
