@@ -2,6 +2,7 @@
 layout: posts
 author: Degananda Ferdian
 categories: blog
+series-code: none
 excerpt: hello greetings. a warm welcome to anyone seeing this post. we're creating pipeloon to share our journey in digital tech consulting. i hope you can find some interesting stuff while lurking in here.
 tags: site-updates
 topics: programming

@@ -3,6 +3,9 @@
 {% include meta.header.html title =page.title %}
 <body>
     <div class="whole-site">
+        <div class="post-feedback">
+            Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/_posts/{{ page.date | date: "%Y"}}-{{ page.date | date:"%m"}}/{{ page.name }}'>Edit this page</a>  on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
+        </div>
         <div class="topmenu">
             <div class="topmenu-container">
                 {% include top.menu.html %}
@@ -19,7 +22,7 @@
                 </div>
             </div>
             <div class="incat">
-                Degananda Ferdian on <b><a href="/category/{{ page.categories }}">{{ page.categories }}</a></b>
+                Degananda Ferdian on <b><a href="/category/{{ page.categories }}">{{ page.categories }}</a></b> at {{ page.date | date: "%F" }}
             </div>
         </div>
     </div>
@@ -58,11 +61,14 @@
       </div>
   </div>
 
-    <div class="section-title">
+   <div class="section-title">
       Topic Covered
   </div>
     <div class="headline-tags">
         <ul>
+            <li style="background: none;">
+                Series: <b>{{page.series-code}}</b>
+            </li>
             {% for tags in page.tags %}
             <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
             {% endfor %}

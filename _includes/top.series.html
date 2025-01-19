@@ -15,7 +15,7 @@
         <div class="series-new-topic">
              <ul>
                 <li>
-                    <div class="series-new-status">
+                    <div class="series-new-status {{ item.status }}">
                         {{ item.status }}
                     </div>
                 </li>
@@ -29,7 +29,8 @@
         </div>
 
         <div class="series-new-option">
-            Learn More
+            <div><a href="/tags/{{ item.code }}">Learn More</a></div>
+            <div class="series-code">{{ item.code }}</div>
         </div>
     </div> 
     {% endfor %}

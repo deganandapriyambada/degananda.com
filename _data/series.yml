@@ -1,24 +1,38 @@
-- title: Exploring the Trend of IT/OT Convergence on Oil&Gas Port
-  start: 23 Dec '24
-  end: 2 Jan'2025
-  status: In Progress
-  category: IOT
+- title: College search guide with ReactNative, GO and GEN-AI
+  code: CUSTOM001
+  start: 20 Jan '25
+  end: 5 Feb'2025
+  status: in-progress
+  category: Custom Apps Developer
   issues: 0
   review: 0
   news: 0
   notes: 0
   total: 0
   topics:
-    - ITOT
-    - Convergence
-    - Cloud
-    - Edge
-
-- title: AZ-220 IoT Developer Certification Prep
-  start: 25 Dec'24
-  end: 25 Jan'2024
+    - Mobile Dev
+    - Backend Dev
+- title: Data Engineering with Python for Data Warehousing
+  code: DE001
+  start: 20 Jan '25
+  end: 20 Feb'2025
   status: In Progress
-  category: IOT
+  category: Data Engineering
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - ETL
+    - Data Warehousing
+    - Data Mart
+- title: AZ-220 IoT Developer Certification Prep
+  code: ITOT001
+  start: 20 Jan'24
+  end: 24 Feb'2024
+  status: in-progress
+  category: ITOT Convergence
   issues: 0
   review: 0
   news: 0
@@ -29,10 +43,11 @@
     - Azure
     - IoT
 - title: AZ-104 Administrator Associate Certification Prep
-  start: 25 Dec'24
-  end: 25 Jan'2024
+  code: CA001
+  start: 25 Feb'24
+  end: 31 March'2024
   status: Not Started
-  category: IOT
+  category: Cloud Architecture
   issues: 0
   review: 0
   news: 0
@@ -42,25 +57,12 @@
     - Cloud
     - Azure
     - IoT
-- title: Data Engineering with Python for Data Warehousing
-  start: 25 Dec'24
-  end: 1 Mar'2024
-  status: Not Started
-  category: IOT
-  issues: 0
-  review: 0
-  news: 0
-  notes: 0
-  total: 0
-  topics:
-    - ETL
-    - Data Warehousing
-    - Data Mart
 - title: AZ-305 Designing Microsoft Azure Infrastructure Solutions Certification Prep
-  start: 25 Jan'24
-  end: 25 Mar'2024
+  code: CA002
+  start: 25 Feb'24
+  end: 31 March'2024
   status: Not Started
-  category: IOT
+  category: Cloud Architecture
   issues: 0
   review: 0
   news: 0

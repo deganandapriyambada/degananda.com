@@ -14,9 +14,11 @@
         {% if include.type == 'withoutserach' %} 
             &nbsp;
         {% else %}
-        <input type="text" id="search-pl" placeholder="Search..">
-        <button onclick="search()"><i class="fa fa-search" aria-hidden="true"></i>
-        </button>        
+        <div class="small-search">
+            <input type="text" id="search-pl" placeholder="Search..">
+            <button onclick="search()"><i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </div>        
         {% endif %}
 
     </div>
