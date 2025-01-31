@@ -1,7 +1,7 @@
-- title: College search guide with ReactNative, GO and GEN-AI
+- title: College Search Advisor Platofmr for Student with ReactNative, GO and GEN-AI
   code: CUSTOM001
-  start: 20 Jan '25
-  end: 5 Feb'2025
+  start: 1 Feb '25
+  end: 28 Feb'2025
   status: in-progress
   category: Custom Apps Developer
   issues: 0
@@ -14,7 +14,7 @@
     - Backend Dev
 - title: Data Engineering with Python for Data Warehousing
   code: DE001
-  start: 20 Jan '25
+  start: 1 Feb '25
   end: 20 Feb'2025
   status: In Progress
   category: Data Engineering
@@ -29,7 +29,7 @@
     - Data Mart
 - title: AZ-220 IoT Developer Certification Prep
   code: ITOT001
-  start: 20 Jan'24
+  start: 1 Feb'24
   end: 24 Feb'2024
   status: in-progress
   category: ITOT Convergence
