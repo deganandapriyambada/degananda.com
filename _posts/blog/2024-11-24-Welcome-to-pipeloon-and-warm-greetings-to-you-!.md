@@ -15,7 +15,6 @@ deliverables: just a post.
 
 ![postimage80](/assets/images/2024-12/welcome-to-pipeloon.svg)
 
-
 # About Pipeloon and Me
 Hello, my name is Degananda Ferdian and welcome to pipeloon where we try to solve a problem using digital pipeline. i am an IoT/IIoT enthusiast and somehow like to write and documenting stuff in my meantime. 
 
