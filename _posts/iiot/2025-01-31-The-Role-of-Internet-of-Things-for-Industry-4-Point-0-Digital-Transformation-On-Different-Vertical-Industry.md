@@ -4,7 +4,7 @@ author: Degananda Ferdian
 categories: industrialiot
 series-code: ITOT001
 excerpt: Industrial Internet of things is one of the hottest topic especially on digital transformation initiative. It play a critical role especially on manufacturing, oil and gas and energy.
-tags: ITOT-Convergence,Industrial-IOT
+tags: ITOT-Convergence Industrial-IOT
 topics: ITOT
 subtitle: Hello world subtitle of this post
 ptype: News
@@ -22,7 +22,8 @@ Industry 4.0 is a concept where all **machine** on shop floor (we are borrowing 
 
 ## Different Vertical of IOT Strategy and Implementation
 
-![postimage80](/assets/images/2025-02/vertical-of-iot.jpg)
+![postimage100](/assets/images/2025-02/vertical-of-iot.jpg)
+[Vertical of Internet of Things](/assets/images/2025-02/vertical-of-iot.jpg){: .center-image }
 
     Industrial vertical (IIoT) has the most ITOT Convergence process compared to other vertical. by far its the most complex vertical.
 
@@ -39,12 +40,23 @@ Based on general consensus, there are at least 10 different of IOT Vertical and 
 - **Aero Spaces and Defense** - modern warfare emphasizes the importance of technology over courage. for example the combination of Drone and IoT can be really deadly.
 - **Education** - Almost similar with smart home / consumer sector, IoT generally applied to monitor the classroom, detect attendance using face recognition.
 
-Industrial internet of things (IIoT) is the largest vertical of IOT because it has the **most technology enabler** compared to other vertical like eduction/financial services/agriculture/smart cities, industry often has an old and outdated legacy system that use SCADA and PLC that are not IoT ready. hence the ITOT convergence must ensure we do have agnostics protocol gateway that can retrieve any data from any protocol. 
+## Most Complex IoT Vertical
 
-# Difference Between Industry 4.0 and M2M
+    Industry often has an old and outdated legacy system that use SCADA and PLC that are not IoT ready. hence the ITOT convergence must ensure we do have agnostics protocol gateway that can retrieve any data from any protocol. 
+
+
+Industrial internet of things (IIoT) is the largest vertical of IOT because it has the **most technology enabler** compared to other vertical like eduction/financial services/agriculture/smart cities.
+
+
+# Industry 4.0 Vs M2M
+
     We might wondering that the ability of machine to speak already been there over some decades and its been implemented word wides. it was called as M2M (machine to machine). So whats the differences between M2M and Industry 4.0 ?
 
+## M2M (Machine to Machine)
+
 What makes industry 4.0 and M2M differ is how to the machine data processed and analyzed. On M2M system, machine data often only retrieved as a digital raw data(usually its called as telemetry data) and not further processed/mined. for example : retrieving the vibration level and hydraulic level of bench press bending machine and predicting when the machine going to have breakdown (predictive maintenance).
+
+## Industry 4.0 is a M2M System but on Steroid
 
 On other hand, Industry 4.0 is the extended version of machine to machine (M2M) system. Instead of only retrieving telemetry data from machine, Industry 4.0 will combining M2M data (telemetry data) with the whole vertical process chain on the industry. For example, if we take production rate data on laser cutting machine and combine it with raw material stock data on warehouse, it can be further analyzed into material requirement planning with the help of analytics engine. 
 
@@ -60,9 +72,9 @@ For example on aviation industry, by just reducing 1% fuel consumption of the ai
 ## Sample of capability that can increase efficiencies on manufacturing industry
 
 Imagine if the efficiencies happened on all functional vertical, the economical benefit would be astronomical. Lets take a look on functional vertical/process stages of manufacturing industry which generally consist of following component:
-- SCM (supply chain management) - trace realtime material movement and material stock monitoring to ensure 360 of material visibility end to end. Visibility can prevent delay in material readiness (Outhouse or in house).
-- Material Preparation - the use of smart laser cutting machine instead of conventional cutting machine can make use differences. Combining laser cutting machine and IoT can reduce the energy consumption of the machine and ensuring the best laser parameter for different types of material which will result in overall better process efficiencies.
-- Fabrication & Assembly - Breakdown of the machine will cause production rate disruption. Combination of predictive maintenance, conditional based monitoring, auto MRP (material requirement planning) for machine's spare part and integration with shop floor schedule will ensure minimal downtime of the machine.
+- **SCM (supply chain management)** - trace realtime material movement and material stock monitoring to ensure 360 of material visibility end to end. Visibility can prevent delay in material readiness (Outhouse or in house).
+- **Material Preparation** - the use of smart laser cutting machine instead of conventional cutting machine can make use differences. Combining laser cutting machine and IoT can reduce the energy consumption of the machine and ensuring the best laser parameter for different types of material which will result in overall better process efficiencies.
+- **Fabrication & Assembly** - Breakdown of the machine will cause production rate disruption. Combination of predictive maintenance, conditional based monitoring, auto MRP (material requirement planning) for machine's spare part and integration with shop floor schedule will ensure minimal downtime of the machine.
 - Etc
 
 Hence, it really important and mission critical for industrial company to continuously pursue 1% efficiencies improvement on each of their function vertical/process stages and gain the economic benefit. 
