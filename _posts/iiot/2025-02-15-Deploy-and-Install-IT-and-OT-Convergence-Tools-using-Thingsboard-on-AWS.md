@@ -1,7 +1,7 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: industrialiot
+categories: Industrial-IoT
 series-code: ITOT001
 excerpt: Industrial Internet of things is one of the hottest topic especially on digital transformation initiative. It play a critical role especially on manufacturing, oil and gas and energy.
 tags: ITOT-Convergence Industrial-IOT Thingsboard

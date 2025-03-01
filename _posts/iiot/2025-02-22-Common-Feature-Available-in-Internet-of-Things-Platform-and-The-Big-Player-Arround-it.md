@@ -1,10 +1,10 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: industrialiot
+categories: Industrial-IoT
 series-code: ITOT001
 excerpt: IoT Platform manage and control devices related operation from edge activities until analytics capabilities on the cloud. IoT platform serve as middleware.
-tags: ITOT-Convergence Industrial-IOT IoT-Platofrm
+tags: ITOT-Convergence Industrial-IOT IoT-Platofrm AWS
 topics: ITOT
 subtitle: Hello world subtitle of this post
 ptype: News

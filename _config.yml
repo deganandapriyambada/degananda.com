@@ -1,5 +1,5 @@
 ## website general information configuration.
-site_title: "Pipeloone"
+site_title: "Pipe N' Poof - a Journey to Experiment on Design, Build and Proof the Data Pipeline"
 site_description: "My Learning Journey"
 permalink: /:categories/:year/:month/:title
 
