@@ -1,0 +1,72 @@
+<html lang="en-us">
+<head>
+    <title> {{ include.title }} </title>
+    <link href="/assets/css/styles.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="/assets/lightbox/lightbox.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+
+    <meta charset="utf-8">
+    <meta data-rh="true" name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="degananda.com">
+    <!-- font -->
+    <link rel="stylesheet" href="/assets/fav4/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <!-- Script pointing to search-script.js -->
+    <script src="/assets/js/simple-jekyll-search.min.js" type="text/javascript" defer></script>
+    <!-- Configuration -->
+    <script defer>
+    document.addEventListener("DOMContentLoaded", function () {
+    var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    limit: 10,
+    noResultsText: '<li style="background: none; padding: 30px 0px 30px 0px;"><u>Result not found.</u> Try another keyword. <br /> Or maybe try to browse our <a href="/explore">content catalogue</a> ?</li>',
+        searchResultTemplate: 
+            `
+            <li>
+                <div class="post-type1-content">
+                        <div class="post-type1-title">
+                            <span class="post-date"> {date} &nbsp;  </span> 
+                            <a class="post-link" href="{url}">{title}</a>
+                        </div>
+                        <div class="post-type1-info">
+                            <a href="/category/{categories}/">{categories}</a>
+                        </div>
+                        <div class="post-type1-info">
+                            {date}
+                        </div>
+                        <div class="post-type1-info">
+                            {tags}
+                        </div>
+                </div>  
+            </li>
+            `
+    });
+
+    window.addEventListener(
+    "load",
+    function () {
+        var searchParam = new URLSearchParams(window.location.search).get("search");
+        if (searchParam != null) {
+        document.getElementById("search-input").value = searchParam;
+        document.getElementById("results-info-text").innerHTML =  searchParam;
+        sjs.search(searchParam);
+        }
+        document.getElementById("search-input").placeholder =
+        "Search some topics or title";
+
+        document.getElementById("search-input").addEventListener('input', function (evt) {
+            document.getElementById("results-info-text").innerHTML =  document.getElementById("search-input").value;
+        });
+
+    },
+    false
+    );
+
+    });
+    </script>
+</head>

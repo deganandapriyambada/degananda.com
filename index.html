@@ -47,5 +47,18 @@
     {% include footer.menu.html widthconfig="full" %}
     <script src="/assets/js/site.js" type="text/javascript"></script>
     <script src="/assets/js/indexmain.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/github-commit/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/github-commit/js/github-commit-history.js"></script>
+    <script type="text/javascript">
+
+    $(function() {
+      $('#commitHistory').GithubCommitHistory( {
+              username: "deganandapriyambada",
+              repo: "degananda.com",
+              limit: 1, 
+              offset: 0
+          })
+      });
+    </script>
   </div>
 </body>

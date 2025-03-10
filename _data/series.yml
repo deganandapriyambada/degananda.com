@@ -73,7 +73,7 @@
     - Azure
     - Infrastructure
 
-- title: Learning Journey and Documentation Towards Hyperstack Developer
+- title: Our Learning  and Documentation Journey in Hyperstack and Generalist IT Consultant
   code: HSD001
   start: 22 Feb'25
   end: 21 April'2025
@@ -95,4 +95,18 @@
     - Business Analyst
     - Change Management
 
-
+- title: AZ900 Azure Fundamental Certification Preparation
+  code: AZBSC001
+  start: 10 Mar'25
+  end: 1 April'2025
+  status: Not Started
+  category: Cloud Architecture
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Architecture
+    - Azure
+    - Cloud

@@ -26,11 +26,21 @@
             </div>
         </div>
     </div>
-
     <div class="new-post-title">
         {{page.title}}
     </div>
     <div class="new-post-excerpt">
+        <b class="mins-read">
+            {% 
+                assign wordCount = page.content | number_of_words 
+            %}
+            {%
+                assign minsRead = wordCount | divided_by: 200 
+            %} 
+    
+            {{ minsRead | plus:1 }} Mins Read 
+        </b>
+        &mdash; 
         {{ page.excerpt }}
     </div>
 
@@ -74,6 +84,8 @@
             {% endfor %}
         </ul>
     </div>
+
+    
 
     <div class="container">
     <!-- Main content -->

@@ -1,7 +1,7 @@
 ---
 permalink: /search
 ---
-{% include meta.header.html title ="Search" %}
+{% include meta.header.search.html title ="Search" %}
 
 <body>
 
@@ -60,61 +60,6 @@ permalink: /search
   </div>
 
   {% include footer.menu.html widthconfig="full" %}
-
-
-
-<!-- Script pointing to search-script.js -->
-<script src="/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
-<!-- Configuration -->
-<script>
-var sjs = SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json',
-  limit: 10,
-  noResultsText: '<li style="background: none; padding: 30px 0px 30px 0px;"><u>Result not found.</u> Try another keyword. <br /> Or maybe try to browse our <a href="/explore">content catalogue</a> ?</li>',
-      searchResultTemplate: 
-          `
-          <li>
-            <div class="post-type1-content">
-                      <div class="post-type1-title">
-                          <span class="post-date"> {date} &nbsp;  </span> 
-                          <a class="post-link" href="{url}">{title}</a>
-                      </div>
-                      <div class="post-type1-info">
-                          <a href="/category/{categories}/">{categories}</a>
-                      </div>
-                      <div class="post-type1-info">
-                          {date}
-                      </div>
-                      <div class="post-type1-info">
-                          {tags}
-                      </div>
-            </div>  
-          </li>
-          `
-});
-
-window.addEventListener(
-  "load",
-  function () {
-    var searchParam = new URLSearchParams(window.location.search).get("search");
-    if (searchParam != null) {
-      document.getElementById("search-input").value = searchParam;
-      document.getElementById("results-info-text").innerHTML =  searchParam;
-      sjs.search(searchParam);
-    }
-    document.getElementById("search-input").placeholder =
-      "Search some topics or title";
-
-    document.getElementById("search-input").addEventListener('input', function (evt) {
-        document.getElementById("results-info-text").innerHTML =  document.getElementById("search-input").value;
-    });
-
-  },
-  false
-);
-</script>
 
 
 </body>

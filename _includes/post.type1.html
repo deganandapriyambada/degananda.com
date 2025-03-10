@@ -12,6 +12,16 @@
       <div class="headline-container">
         <div style="flex: 1.1; padding: 15px 15px 15px 0px;  background: #fff;
 ">
+
+
+            <div class="headline-post-info-item-title">
+              Article Title
+            </div>
+
+            <div class="headline-title">
+              {{ post.title }}
+            </div>
+
             <div class="headline-post-info-item-title">
                 Published Date
             </div>
@@ -20,11 +30,18 @@
             </div>
 
             <div class="headline-post-info-item-title">
-                Article Title
-             </div>
+              Content Length
+            </div>
 
-            <div class="headline-title">
-                {{ post.title }}
+            <div class="mins-read"> 
+              {% 
+                  assign wordCount = post.content | number_of_words 
+              %}
+              {%
+                  assign minsRead = wordCount | divided_by: 200 
+              %} 
+
+              {{ minsRead | plus:1 }} Mins Read. 
             </div>
 
             <div class="headline-post-info-item-title">
@@ -71,8 +88,11 @@
         </div>
 
     </div>
+    <div class="theme-divider-word">
+      More on this Category
+    </div>
     {% else %}
-      {% include landing.post.html %}
+    {% include landing.post.html %}
     {% endif %}
   {% endfor %} 
 {% else %}

@@ -6,26 +6,33 @@
             About the Writer
         </div>
         <div class="about-writer">
-
             <div class="photo">
                 <div class="post-author-photo-bottom">
-                    <img src="/assets/images/dfp2.jpeg">   
+                    <img src="/assets/images/dfp.jpg">   
                 </div>
             </div>
             <div class="profile-desc">
-                <div>
+                <div class="profile-name">
                     <b><u>Degananda Ferdian</u></b>
                 </div>
                 <div>
-                    a Solution Architect, Software Engineer and ITOT Enthusiast on Jakarta, Indonesia.
+                    a Versatile Tech Consultant: Solution Architect, Software Engineer and ITOT Integrator on Jakarta, Indonesia.
                 </div>
                 <div>
                     Currently work as Digital Tech Arch in Consulting Company.
                 </div>
-                <div>
-                    <a href="https://www.linkedin.com/in/degananda-ferdian?originalSubdomain=id" target="_blank">LinkedIn</a>
+                <div class="profile-contact">
+                    <a href="https://www.linkedin.com/in/degananda-ferdian?originalSubdomain=id" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    &nbsp;                    
+                    <a href="https://github.com/deganandapriyambada" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    &nbsp;
+                    <a href="https://medium.com/@deganandaferdian" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+
+
                 </div>
             </div>
+
+
 
         </div>
         <div class="related-post">
@@ -36,8 +43,8 @@
                         <div class="post-type-2-container">
                     {% for related_post in site.related_posts limit: 6 %}
                                 <div class="post-type-2-content">
-                                    <div class="post-type-2-category"> 
-                                            Degananda On {{ related_post.categories }}
+                                    <div class="post-type-2-category related-author"> 
+                                            {{ related_post.author }} On <b><a href="./category/{{ related_post.categories }}">{{ related_post.categories }}</a></b>
                                     </div>
                                     <div class="post-type-2-title">
                                         <a href="{{ related_post.url }}">{{ related_post.title }}</a>

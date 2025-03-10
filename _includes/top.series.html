@@ -9,7 +9,7 @@
         </div>
 
         <div class="series-new-title">
-            {{ item.title }}
+            <a href="/series/{{item.code}}">{{ item.title }}</a>
         </div>
 
         <div class="series-new-topic">
@@ -22,16 +22,21 @@
                 <li>
                     ·
                 </li>
+                <!--
                 {% for topics in item.topics %}
                     <li>{{ topics }}</li>
                 {% endfor %}
+                -->
+                <li>
+                    <div class="series-new-option">
+                        <div><a href="/series/{{ item.code }}">Learn More</a></div>
+                        <div class="series-code"><a href="/series/{{ item.code }}">{{item.code}}</a></div>
+                    </div>
+                </li>
              </ul>
         </div>
 
-        <div class="series-new-option">
-            <div><a href="/tags/{{ item.code }}">Learn More</a></div>
-            <div class="series-code">{{ item.code }}</div>
-        </div>
+
     </div> 
     {% endfor %}
 </div>
