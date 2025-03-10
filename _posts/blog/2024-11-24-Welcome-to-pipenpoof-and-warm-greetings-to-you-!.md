@@ -3,7 +3,7 @@ layout: posts
 author: Degananda Ferdian
 categories: blog
 series-code: none
-excerpt: hello greetings. a warm welcome to anyone seeing this post. we're creating pipeloon to share our journey in digital tech consulting. i hope you can find some interesting stuff while lurking in here.
+excerpt: hello greetings. a warm welcome to anyone seeing this post. we're creating Pipenpoof.com to share our journey in digital tech consulting. i hope you can find some interesting stuff while lurking in here.
 tags: site-updates
 topics: programming
 subtitle: Hello world subtitle of this post
@@ -15,8 +15,8 @@ deliverables: just a post.
 
 ![postimage80](/assets/images/2024-12/welcome-to-pipeloon.svg)
 
-# About Pipeloon and Me
-Hello, my name is Degananda Ferdian and welcome to pipeloon where we try to solve a problem using digital pipeline. i am an IoT/IIoT enthusiast and somehow like to write and documenting stuff in my meantime. 
+# About Pipe and Poof (PipenPoof.com) and Me
+Hello, my name is Degananda Ferdian and welcome to Pipenpoof.com where we try to solve a problem using digital pipeline. i am an IoT/IIoT enthusiast and somehow like to write and documenting stuff in my meantime. 
 
 Currently i work for an Information technology (IT) company as Digital technology consultant. I would like to share my journey and things that i've learned over the past of seven years (not as experienced as you, but i believe there is something that i can share).
 
