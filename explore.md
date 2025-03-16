@@ -9,6 +9,11 @@ permalink: /explore
       <div class="topmenu-container">
         {% include top.menu.html type = "withoutserach" %}      
       </div>
+      <div class="padding-container">
+        <div class="site-category-topics">
+          <h2 class="main-section"> Explore </h2>
+        </div>
+      </div>
       <div class="gimmick-landing-top">
         {% include gimmick.input.html %}
       </div>        
