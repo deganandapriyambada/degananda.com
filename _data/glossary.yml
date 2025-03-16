@@ -2,11 +2,11 @@
   definition: A description of the term
   url: https://jekyllrb.com/  # Is optional
 - term: writer
-  definition: Degananda Ferdian
+  definition: Article Author who wrote the post.
 - term: website
   definition: pipenpoof.com
 - term: employer
-  definition: kindly check my linked in.
+  definition: kindly check writer's linked in.
 - term: series
   definition: Serialized article based on single topics and have specific deliverables.
 - term: quality-meter
