@@ -2,9 +2,5 @@
 /.jekyll-cache
 _site
 /_site
-./_includes/footer.menu.html
-/)includes/footer.menu.html
-h.bak
-./h.bak
-h.bak
 _includes/footer.menu.html
+backup/footer.menu.html
