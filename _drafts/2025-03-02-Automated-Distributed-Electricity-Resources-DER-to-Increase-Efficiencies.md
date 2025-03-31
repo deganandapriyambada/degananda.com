@@ -7,7 +7,7 @@ excerpt: Industrial Internet of things is one of the hottest topic especially on
 tags: ITOT-Convergence Industrial-IOT
 topics: ITOT
 subtitle: Hello world subtitle of this post
-ptype: News
+ptype: Draft
 background: a Need to Figure Out on How to Increase Process Effectiveness to Achieve Cost Reduction on Industry
 objective: to understand the importance of IIoT on Industry 4.0 Transformation
 deliverables: Article & Illustration

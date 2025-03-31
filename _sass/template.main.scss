@@ -428,7 +428,7 @@ font-weight: 400;
 }
 
 .post-type-2-title-tags {
-  margin: 20px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
 }
 
 .post-type-2-content > .post-type-2-title-desc {
@@ -1883,7 +1883,7 @@ font-weight: 400;
 .headline-container {
   display: flex;
   width: 100%;
-  margin: 15px px 15px 0px;
+  margin: 30px 0px 30px 0px;
   padding: 15px 0px 15px 0px;
   flex-direction: row;
 }
@@ -2195,7 +2195,7 @@ font-weight: 400;
 
 .hl-content-top3 {
   display: flex;
-  padding: 0px 0px 15px 0px;
+  margin: 0px 0px 25px 0px;
   align-items: left;
 }
 
@@ -2373,7 +2373,10 @@ font-weight: 400;
 }
 
 .new-series-container {
-  padding: 0px 0px 25px 0px;
+  margin: 0px 0px 10px 0px;
+  border: 1px #f0f0f0 solid;
+  padding: 25px 25px 25px 25px;
+  border-radius: 10px;
 }
 
 .new-post-title {

@@ -7,7 +7,7 @@ excerpt: hello greetings. a warm welcome to anyone seeing this post. we're creat
 tags: Batch-Analytics Pandas
 topics: programming
 subtitle: Hello world subtitle of this post
-ptype: News
+ptype: Draft
 background: just want you give an info regarding this website.
 objective: to tell the readers regarding information available on the website.
 deliverables: just a post.
