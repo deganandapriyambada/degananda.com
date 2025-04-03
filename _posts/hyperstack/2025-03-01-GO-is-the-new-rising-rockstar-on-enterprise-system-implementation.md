@@ -18,7 +18,7 @@ Despite the reside of python due to the age of AI/ML (Artificial intelligence & 
 
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/4017_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/09gbxjr","geo":"SG","time":"today 5-y"},{"keyword":"/m/0bbxf89","geo":"SG","time":"today 5-y"},{"keyword":"/m/05z1_","geo":"SG","time":"today 5-y"},{"keyword":"/m/07sbkfb","geo":"SG","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=SG&q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89,%2Fm%2F05z1_,%2Fm%2F07sbkfb&hl=en","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
 
-As you may see from above diagram, its quite shocking that GO become more popular on search engine compared to NodeJS. Eventhrough it still below the popularity of Python and Java which i believe its not an apple to apple comparison.
+As you may see from above diagram, its quite shocking that GO become more popular on search engine compared to NodeJS. Eventhough it still below the popularity of Python and Java which i believe its not an apple to apple comparison.
 
     Python is really popular for their AI/ML capabiliities and java is ahead because most of the legacy system that has been built from 90s till now are mostly done in Java.
 
@@ -31,7 +31,7 @@ This may also be an additional backup statement towards the data pointed by goog
 
     Simplicity and Performance
 
-Syntax wise, GO is much lean compared to their predecessor such as Java & .NET which for some poeple or organization is a benefit (note that: different organization may see this as a downside as well).
+Syntax wise, GO is much lean compared to their predecessor such as Java & .NET which for some poeple or organization see as a benefit (note that: different organization may see this as a downside as well).
 
 ## The Big Apps that use Go Lang
 
