@@ -2622,6 +2622,33 @@ th {
   padding: 0px 0px 10px 0px;
 }
 
+.odos {
+  margin: 5px 25px 5px 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+.odos-blue {
+  background: #d0e9fe;
+  border: 1px #8a9fb1 dotted;
+}
+
+.odos-green {
+  background: #fefae0;
+  border: 1px #ccd5ae solid;
+}
+
+
+.odos-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.odos span {
+  font-size: 13px;
+}
+
 /* Media Query Mobile App */
 @media only screen and (max-width: 1000px) {
 
