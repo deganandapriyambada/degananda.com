@@ -63,3 +63,8 @@ jekyll-archives:
     year: 'archive/:year/'
     month: 'archive/:year/:month/'
     day: 'archive/:year/:month/:day/'
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
