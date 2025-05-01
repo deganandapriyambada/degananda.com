@@ -2393,6 +2393,8 @@ font-weight: 400;
 .summary-content {
   font-size: 15px;
   font-weight: 300;
+  color: #5a5a5a;
+  line-height: 1.4;
   width: 95%;
 }
 
@@ -2632,13 +2634,13 @@ th {
 }
 
 .odos-blue {
-  background: #d0e9fe;
-  border: 1px #8a9fb1 dotted;
+  background: #fff;
+  border: 0.5px #3d3d3d solid;
 }
 
 .odos-green {
-  background: #fefae0;
-  border: 1px #ccd5ae solid;
+  background: #fff;
+  border: 0.5px #3d3d3d solid;
 }
 
 
