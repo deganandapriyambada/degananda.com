@@ -1906,13 +1906,18 @@ font-weight: 400;
 }
 
 .headline-title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   color: #000000; 
   text-align: left;
   flex: 2;
   padding: 0px 0px 0px 0px;
   width: 100%;
+}
+
+.headline-title a {
+  text-decoration: none;
+  color: #000;
 }
 
 .quality-name {
@@ -2000,8 +2005,6 @@ font-weight: 400;
 
 .headline-author {
   background: none;
-  text-align: right;
-  justify-content: right;
 }
 
 .headline-author > .title-container {
@@ -2195,7 +2198,8 @@ font-weight: 400;
 
 .hl-content-top3 {
   display: flex;
-  margin: 0px 0px 25px 0px;
+  margin: 0px 0px 15px 0px;
+  padding: 0px 0px 15px 0px;
   align-items: left;
 }
 
@@ -2228,6 +2232,7 @@ font-weight: 400;
   padding: 0px 0px 15px 0px;
 }
 
+
 .hl-c-title a {
   font-size: 15px;
   text-decoration: none;
@@ -2258,6 +2263,7 @@ font-weight: 400;
 
 .hl-post-option {
   width: 20%;
+  text-align: center;
 }
 
 .hl-post-option a {
@@ -2269,9 +2275,12 @@ font-weight: 400;
 
 @media only screen and (max-width: 1000px) {
 
-  .hl-post-date, .hl-post-title, .hl-post-option {
+  .hl-post-date, .hl-post-title {
     padding: 5px 0px 5px 0px;
     width: 100%;
+  }
+  .hl-post-option {
+    display: none;
   }
 
   .hl-c-title {

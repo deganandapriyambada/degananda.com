@@ -71,12 +71,12 @@
               <b>Recent</b>
             </a>
           </li>
-          {% for category in site.categories limit : 8  %}
+          {% for category in site.categories limit : 5  %}
               <li>
               <a href="/category/{{category | first}}">{{ category | first | capitalize }} </a>
               </li>
           {% endfor %}
-          <li><a href="/explore"> More </a></li>
+          <li><a href="/explore"> More Category </a></li>
       </ul>
     </div>
   </div>

@@ -7,7 +7,7 @@ excerpt: the beginning of product development until software engineering phases.
 tags: Product
 topics: Product
 subtitle: Hello world subtitle of this post
-ptype: Draft
+ptype: Issues
 background: a tech consultant should understand software development life cycle.
 objective: to demonstrate end to end software development life cycle with actual execution.
 deliverables: article & illustration
@@ -20,6 +20,10 @@ deliverables: article & illustration
 
 
 **Milestoneku** or "My Milestone" in english. Philosophically, it means a personal growth "milestones" lighthouse. a **tools** and **social media** for <i>career growth guidance</i>, <i>reflective assessment</i> and <i>milestone marker</i>.
+
+# Key Jargon
+
+you're not defined based on your race, your physique, your salary or your education degree. you're what you're. its shaped by tremendous of unique life experience and archievement. Craft your growth milestone with milestoneku.com. keep alive.
 
 # Project Information
 this project will cover end to end process of software delivery life cycle (SDLC) from the begininng until product roll out on production. On this preliminary phases, business requirement and technology design are not yet discovered. Eventually, the writings will arrived at that point. This is an living article.

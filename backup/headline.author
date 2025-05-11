@@ -1,0 +1,12 @@
+<div class="headline-author">
+    <div class="title-container">
+        <div class="profpic">
+            <div class="contributor-small">
+                DF
+            </div>
+        </div>
+        <div class="incat">
+            {{post.author}} on <b><a href="/category/{{ post.categories }}">{{ post.categories }}</a></b>
+        </div>
+    </div>
+</div>

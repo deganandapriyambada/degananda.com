@@ -7,7 +7,7 @@ excerpt: How to Prepare OKD (Origin community distribution for Kubernetes) Insta
 tags: OKD Kubernetes
 topics: OKD
 subtitle: Hello world subtitle of this post
-ptype: Draft
+ptype: Review
 background: Nowdays, the digital system backbone is shifting from traditional VM into container (on top of VM or Baremetal) to achieve more agility, versatality, scalability and availability. 
 objective: to understand how to prepare OKD installation program (openshift installer) on cloud VM using openshift-install mode.
 deliverables: article & illustration
