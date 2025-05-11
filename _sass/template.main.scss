@@ -480,6 +480,11 @@ font-weight: 400;
   width: 100%;
 }
 
+.foot-stats {
+  font-size: 14px;
+  color: #5e5e5e;
+}
+
 .footer-info > ul {
   margin: 2px 0 2px 0;
   padding: 0 0 0 0;
@@ -528,7 +533,7 @@ font-weight: 400;
     word-wrap: break-word;
   }
 
-.post-content ul li {
+.post-content ul li, .post-content ol li {
   line-height: 1.8;
 }
   
@@ -904,6 +909,8 @@ font-weight: 400;
 .bg-gray {
   background: #fafafa;
 }
+
+
 
 .bg-gray2 {
   position: sticky;
@@ -1636,6 +1643,11 @@ font-weight: 400;
   padding: 0 8% 0 8%;
 }
 
+.bg-pad-up-down {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .padding-post-heading-container {
   padding: 0 5% 0 5%;
 }
@@ -2230,6 +2242,7 @@ font-weight: 400;
 
 .hl-c-title {
   padding: 0px 0px 15px 0px;
+  width: 95%;
 }
 
 
@@ -2386,6 +2399,7 @@ font-weight: 400;
   border: 1px #f0f0f0 solid;
   padding: 25px 25px 25px 25px;
   border-radius: 10px;
+  background: #ffffff;
 }
 
 .new-post-title {
@@ -2417,12 +2431,14 @@ font-weight: 400;
   display: inline-flex;
   flex-direction: row;
   flex-wrap:wrap;
-  align-items:safe;
+  align-items:baseline;
 }
 
 .site-category-box {
-  margin: 0px 50px 0px 0px;
+  width: 20%;
+  padding: 0px 0px 25px 0px;
 }
+
 
 .site-category-content {
   padding: 0 0 0 0;
@@ -2637,19 +2653,25 @@ th {
 }
 
 .odos {
-  margin: 5px 25px 5px 0px;
-  padding: 5px;
+  margin: 5px 0px 5px 0px;
+  padding: 15px 5px 15px 5px;
   text-align: center;
+  width: 95%;
 }
 
 .odos-blue {
+  background: url('/assets/images/banner/geo1.svg');
+  border-radius: 5px;
+  background-size: 120%;
+}
+
+.odos-blue span {
   background: #fff;
-  border: 0.5px #3d3d3d solid;
 }
 
 .odos-green {
-  background: #fff;
-  border: 0.5px #3d3d3d solid;
+  background: #dadada;
+  border-radius: 5px;
 }
 
 
@@ -2866,9 +2888,6 @@ th {
     padding: 15px 0px 15px 0px;
   }
 
-  .site-category-box {
-    width: 100%;
-  }
 
   .site-category-content li > a  {
     font-size: 28px;

@@ -1,7 +1,7 @@
-- title: College Search Advisor Platofmr for Student with ReactNative, GO and GEN-AI
+- title: Building Personal Milestone Management Software as A Services (SaaS)
   code: CUSTOM001
-  start: 1 Feb '25
-  end: 21 Mar'2025
+  start: 12 May '25
+  end: 24 May'2025
   status: in-progress
   category: Custom Apps Developer
   issues: 0
@@ -12,11 +12,12 @@
   topics:
     - Mobile Dev
     - Backend Dev
-- title: Data Engineering with Python for Data Warehousing
+
+- title: a Typical End to End Data Engineering with Apache Stack (Hadoop/HDFS, Spark, Flink, Airlfow and Superset)
   code: DE001
-  start: 1 Feb '25
-  end: 21 Mar'2025
-  status: In Progress
+  start: 25 May '25
+  end: 11 June'2025
+  status: Not-Started
   category: Data Engineering
   issues: 0
   review: 0
@@ -27,11 +28,51 @@
     - ETL
     - Data Warehousing
     - Data Mart
+
+- title: Developing Consuling Kit:IamPPTEngineers.com
+  code: HSD001
+  start: TBC
+  end: TBC
+  status: Not Started
+  category: Cloud Architecture
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Architecture
+    - Python
+    - React
+    - AWS
+    - Azure
+    - Devops
+    - UIUX
+    - Business Analyst
+    - Change Management
+
+- title: AZ900 Azure Fundamental Certification Preparation
+  code: AZBSC001
+  start: 12 May'25
+  end: 12 June'2025
+  status: Not Started
+  category: Cloud Architecture
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Architecture
+    - Azure
+    - Cloud
+
+  
 - title: AZ-220 IoT Developer Certification Prep
   code: ITOT001
-  start: 1 Feb'25
-  end: 21 Mar'2025
-  status: in-progress
+  start: TBC
+  end: TBC
+  status: Not Started
   category: ITOT Convergence
   issues: 0
   review: 0
@@ -57,10 +98,11 @@
     - Cloud
     - Azure
     - IoT
+
 - title: AZ-305 Designing Microsoft Azure Infrastructure Solutions Certification Prep
   code: CA002
-  start: 25 Feb'25
-  end: 31 March'2025
+  start: TBC
+  end: TBC
   status: Not Started
   category: Cloud Architecture
   issues: 0
@@ -73,40 +115,4 @@
     - Azure
     - Infrastructure
 
-- title: Our Learning  and Documentation Journey in Hyperstack and Generalist IT Consultant
-  code: HSD001
-  start: 22 Feb'25
-  end: 21 April'2025
-  status: Not Started
-  category: Cloud Architecture
-  issues: 0
-  review: 0
-  news: 0
-  notes: 0
-  total: 0
-  topics:
-    - Architecture
-    - Python
-    - React
-    - AWS
-    - Azure
-    - Devops
-    - UIUX
-    - Business Analyst
-    - Change Management
 
-- title: AZ900 Azure Fundamental Certification Preparation
-  code: AZBSC001
-  start: 10 Mar'25
-  end: 1 April'2025
-  status: Not Started
-  category: Cloud Architecture
-  issues: 0
-  review: 0
-  news: 0
-  notes: 0
-  total: 0
-  topics:
-    - Architecture
-    - Azure
-    - Cloud

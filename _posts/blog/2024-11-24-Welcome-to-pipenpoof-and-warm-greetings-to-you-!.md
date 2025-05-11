@@ -11,6 +11,7 @@ ptype: News
 background: just want you give an info regarding this website.
 objective: to tell the readers regarding information available on the website.
 deliverables: just a post.
+hidden: true
 ---
 
 ![postimage80](/assets/images/2024-12/welcome-to-pipeloon.svg)
