@@ -235,6 +235,12 @@ Done.
 
 # Full Code
 
+can be found on following github repostiory (public)
+    
+    https://github.com/deganandapriyambada/battery-performance-ml
+
+or below
+
 ```python
 #Pandas
 import pandas as pd

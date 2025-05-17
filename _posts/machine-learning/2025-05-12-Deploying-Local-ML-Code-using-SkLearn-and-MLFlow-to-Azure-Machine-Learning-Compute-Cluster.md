@@ -3,13 +3,13 @@ layout: posts
 author: Degananda Ferdian
 categories: ML
 series-code: HSD001
-excerpt: Create an API to expose battery performance grading machine learnig model using FastAPI. The API will be able to classify battery specs grade.
-tags: ML Azure-ML ML-Model-API
+excerpt: Deploying local machine learning code to the azure machine learning notebook
+tags: ML Azure-ML Deployment
 topics: ML
 subtitle: Hello world subtitle of this post
 ptype: Issue
-background: Once the model is generated, the model should be able to be exported to a model file. so that API can consume the model and receiving user input.
-objective: create API to consume the model.
+background: before executing the training job on compute cluster, at least the code should be runnable on compute intances (notebook)
+objective: to understand the local ML code deployment method  on azure ML workspaces (Notebook)
 deliverables: Article, Source Code,  Ilustration
 ---
 
@@ -23,12 +23,6 @@ deliverables: Article, Source Code,  Ilustration
 
 To deploy machine learning code from local to Azure Machine Learning Workpaces.
 
-# Install Azure ML
-
-Execute following command to install azure ml sdk to the python environment
-
-    pip install azure-ai-ml
-
 # Create requirement.txt
 
 list down all the package / library that used on the project.
@@ -36,7 +30,7 @@ list down all the package / library that used on the project.
     pip freeze > requirements.txt
 
 
-## Train.py
+# Train.py
 
 ```python
 #Pandas
@@ -129,6 +123,7 @@ with mlflow.start_run() as run:
     )
 ```
 
+# Deployment 
 ## Project Structure
 
 below is the current code structure
@@ -141,78 +136,22 @@ below is the current code structure
 - train.py
 - app.py
 
-## Create deployment script to Azure ML Studio
+## Push it to the repository
 
-on the root directory of project, create a file named as azure_ml_jobs.py
+initiate git
 
-```python
-from azure.identity import DefaultAzureCredential
-from azure.ai.ml import MLClient
-from azure.ai.ml.entities import Environment, Command, CommandComponent
+    git init
 
-# 1. Connect to Azure ML Workspace
-ml_client = MLClient(
-    DefaultAzureCredential(),
-    subscription_id="<subscription_id>",       
-    resource_group_name="<resource_group_name>",     
-    workspace_name="<workspace_name>>"            
-)
+push it to the repostiory (can be github, gitlab, azure devops repository, etc)
 
+    git push -u origin main (simplified)
 
-env = Environment(
-    name="battery-env",
-    description="Environment for battery grading ML model",
-    conda_file="requirements.txt", 
-    image="mcr.microsoft.com/azureml/sklearn-1.0-ubuntu20.04-py38-cpu:latest",  # A prebuilt Azure ML image
-)
+## Clone the repo on Compute Intances
 
+    compute instances need to be created first.
 
-job = CommandComponent(
-    code="./",                      # Path to folder containing train.py
-    command="python train.py",      # Command to run
-    environment=env,                # Reference to the environment
-    compute="<compute_engine_on_azure_ml_studio>",          # Must match a compute target in your Azure ML workspace
-    experiment_name="battery-grading-exp",
-    display_name="battery-training-job"
-)
+Go to azure ML instances workspaces and ssh to the compute intances. basically its same method with deploying any BE code to the VPS (Virtual private server)
 
-job = Command(component=job)
+    git clone <repostiroy_url>
 
-returned_job = ml_client.jobs.create_or_update(job)
-ml_client.jobs.stream(returned_job.name)
-
-
-print("Submitted run ID:", returned_job.name)
-
-```
-
-and replace each variable with the target azure ML workspaces/subscriptions id etc.
-
-# Login to Azure via VSC
-
-Install azure CLI
-
-On Mac
-
-    brew update && brew install azure-cli
-
-On Windows
-
-    https://aka.ms/installazurecliwindows
-    
-execute following command on the terminal
-
-    az login
-
-once logged in, validate the login status
-
-    az account show
-
-![postimage100](/assets/images/2025-05/azlogin.jpg)
-[if account details is showing meaning login status is success.](/assets/images/2025-05/azlogin.jpg){: .center-image }
-
-# Submit
-
-deploy the job by executing azure_ml_jobs.py
-
-    python3 azure_ml_jobs.py
+Done
