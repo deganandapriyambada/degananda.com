@@ -57,6 +57,18 @@ there are B2C (Business to Customer) that will be assessed through out the artic
 ![postimage100](/assets/images/2025-05/websitex-ls.jpg)
 [Google Chrome Lighthouse assessment Result for Website X](/assets/images/2025-05/websitex-ls.jpg){: .center-image }
 
+## Check if a website is using MPA or SPA
+
+    curl -I https://websitex.com
+
+to find whether a web is using traditional multi page application like PHP CI/Lararavel/Django or single page application can be done by inspecting the request responses.
+
+![postimage100](/assets/images/2025-05/mpa.jpg)
+[Check server response to find out server side authentication validation](/assets/images/2025-05/mpajpg){: .center-image }
+
+
+As shown on the image above, website X request response is returning cookie data and csrf parameter. These are strong indicator that the backend will check and validate browser session.
+
 ## Performance Matrix Breakdown
 
 ![postimage100](/assets/images/2025-05/websitex-metrics.jpg)
@@ -189,3 +201,16 @@ Indicator : **9 mb page size**
 | R5 | P5 |  Minify JS and CSS | 
 | R6 | P6 |  Fix JS Error | 
 
+# Findings Double Click
+
+## Image format
+
+![postimage100](/assets/images/2025-05/youtube-avif.jpg)
+[Youtube's thumbnail images is formatted in AVIF](/assets/images/2025-05/youtube-avif.jpg){: .center-image }
+
+
+a big apps such as youtube already use AVIF(AV1 Image file format) instead of traditional jpeg/png to display their thumbnail. AVIF is called as next generation image format for some reasons.
+
+1. Better compression ratio. AVIF has smaller file size (after compression) compared with jpeg (same quality).
+2. a fusion of GIF and PNG. AVIF beaucse it support animation AVIF support transparancy.
+3. Wider color gamut range. AVIF can support up to 12 bit color, BT.2020 and HDR10).

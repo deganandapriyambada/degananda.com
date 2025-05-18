@@ -13,7 +13,7 @@
     - Mobile Dev
     - Backend Dev
 
-- title: a Typical End to End Data Engineering with Apache Stack (Hadoop/HDFS, Spark, Flink, Airlfow and Superset)
+- title: a Typical End to End Data Engineering with Apache Stack (Hadoop/HDFS,Cassandra, Spark, Flink, Airlfow and Superset)
   code: DE001
   start: 25 May '25
   end: 11 June'2025
@@ -53,8 +53,8 @@
 
 - title: AZ900 Azure Fundamental Certification Preparation
   code: AZBSC001
-  start: 12 May'25
-  end: 12 June'2025
+  start: TBC
+  end: TBC
   status: Not Started
   category: Cloud Architecture
   issues: 0
@@ -85,8 +85,8 @@
     - IoT
 - title: AZ-104 Administrator Associate Certification Prep
   code: CA001
-  start: 25 Feb'25
-  end: 31 March'2025
+  start: TBC
+  end: TBC
   status: Not Started
   category: Cloud Architecture
   issues: 0
