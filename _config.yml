@@ -16,6 +16,7 @@ plugins:
   - jekyll-loading-lazy
   - jekyll-glossary_tooltip
   - jekyll-drawio
+  - jekyll-jupyter-notebook
 
 url: "https://example.com" # the base hostname & protocol for your site
 
