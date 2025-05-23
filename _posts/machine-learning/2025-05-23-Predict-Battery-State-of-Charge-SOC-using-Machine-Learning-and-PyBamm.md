@@ -57,6 +57,11 @@ Lets say the initial SOC is 100%. Each time electric charge is flow in or flow o
 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+## Script: Predict SOC Using Coulomb Counting
+
+{% jupyter_notebook "/assets/notebook/battery.soc.coulomb.ipynb" %}
+
+
 ## Extended Kalman Filter (EKF)	
 
     EKF Widely used by EV (Electric vehicle) manufacturer such as GM and Tesla
