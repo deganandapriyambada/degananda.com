@@ -10,7 +10,7 @@ subtitle: Hello world subtitle of this post
 ptype: Issue
 background: a Battery capacity information is critical for researcher/manufacturer and end consumer depend on the cases. End consumer will need those information to plan their battery usage and researcher/manufacturer will need to create the most efficient battery's SOC during the simulation.
 objective: to understand on how to compute battery SOC using pre defined sets of parameter and alogirthm that commonly used on the best practices.
-deliverables: Article,  Ilustration
+deliverables: Article,  Ilustration, Source Code
 ---
 
 # Definition of SOC
