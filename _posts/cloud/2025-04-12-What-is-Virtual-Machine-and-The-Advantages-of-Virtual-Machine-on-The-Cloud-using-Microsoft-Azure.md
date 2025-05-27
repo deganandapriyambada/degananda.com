@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Cloud
+categories: cloud
 series-code: AZBSC001
 excerpt: Deep dive on the advantages and disadvanteges of deploying virtual machine (VM) on the cloud vs on premises virtual machine.
-tags: Azure Virtual-Machine Azure-VM
-topics: Azure
+tags: azure vm virtual-machine azure-vm
+topics: azure
 subtitle: Hello world subtitle of this post
 ptype: News
 background: Nowdays more companies are trying to cut their operation cost and trim the fat on their headcount. One of the approach is to have a slim IT Organization.

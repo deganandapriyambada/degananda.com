@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: ML
+categories: ml
 series-code: HSD001
 excerpt: Deploying local machine learning code to the azure machine learning notebook
-tags: ML Azure-ML Deployment
-topics: ML
+tags: ml azure-ml deployment
+topics: ml
 subtitle: Hello world subtitle of this post
 ptype: Issue
 background: before executing the training job on compute cluster, at least the code should be runnable on compute intances (notebook)

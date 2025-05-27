@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: ML
+categories: ml
 series-code: HSD001
 excerpt: Given sets of battery performance metrics, classify the feature based on the battery grade. Each grading will determine the application of battery. Highest grade will go to EV factory. Lowest grade goes to toys manufacturer.
-tags: ML Azure-ML Classification
-topics: GO-Lang Installation
+tags: ml azure-ml classification
+topics:  ml azure-ml classification
 subtitle: Hello world subtitle of this post
 ptype: Issue
 background: Manufacturing company that use battery as their product BOM will need to source a battery from a correct supplier.

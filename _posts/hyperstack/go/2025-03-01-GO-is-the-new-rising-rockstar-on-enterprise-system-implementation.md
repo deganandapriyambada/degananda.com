@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Hyperstack
+categories: go
 series-code: HSD001
 excerpt: GO Lang is become popular in the last five years. Lets try to install and learn GO Lang.
-tags: GO-Lang
-topics: GO-Lang Installation
+tags: go-Lang
+topics: go-lang installation
 subtitle: Hello world subtitle of this post
 ptype: News
 background: try and handson on GO-Lang

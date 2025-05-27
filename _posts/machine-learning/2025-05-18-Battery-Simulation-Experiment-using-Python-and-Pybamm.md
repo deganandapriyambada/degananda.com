@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: ML
+categories: ml
 series-code: HSD001
 excerpt: Simulating several scenario on battery such as discharge-charge-rest cycle using python, miniconda and pybamm.
-tags: ML Azure-ML Regression
-topics: ML Azure-ML Regression
+tags: ml azure-ml regression
+topics: ml azure-ml regression
 subtitle: Hello world subtitle of this post
 ptype: Issue
 background: Before procuring or creating a battery, its important for a research to understand how the battery works. The simulation result then can be used as baseline to design the battery.

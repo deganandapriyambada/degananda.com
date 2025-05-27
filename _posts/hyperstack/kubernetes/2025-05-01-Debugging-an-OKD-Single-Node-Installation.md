@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Containerization
+categories: containerization
 series-code: HSD001
 excerpt: Must used debugging command to check openshift and bootkube status during bootstrapping process
-tags: OKD Kubernetes
-topics: OKD
+tags: okd kubernetes
+topics: okd
 subtitle: Hello world subtitle of this post
 ptype: Review
 background: Installing OKD (especially single node with user provisioned infrastructure) is challenging. There are some important command that need to be used to debug the boostrapping process

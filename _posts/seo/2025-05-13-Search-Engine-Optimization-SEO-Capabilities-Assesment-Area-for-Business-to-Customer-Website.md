@@ -1,10 +1,10 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: SEO
+categories: seo
 series-code: CUSTOM001
 excerpt: the beginning of product development until software engineering phases. Build a hybrid web based and mobile application to manage personal growth milestone. 
-tags: SEO GSC Lighthouse
+tags: seo gsc ligthouse performance-assessment
 topics: seo
 subtitle: Hello world subtitle of this post
 ptype: Issues

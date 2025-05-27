@@ -1,12 +1,12 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Product
+categories: product
 series-code: CUSTOM001
 
 excerpt: Install and select correct figma package plan for web design and development
-tags: Wireframe Figma
-topics: Web-Design
+tags: wireframe figma mockup
+topics: web-design
 subtitle: Hello world subtitle of this post
 ptype: Review
 background: List of screen need to be derrived from user stories. Each screen will be created on figma to understand the user journey. Once the wireframe is finalized then ERD can be created.

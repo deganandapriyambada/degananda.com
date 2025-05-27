@@ -1,10 +1,10 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Containerization
+categories: containerization
 series-code: HSD001
 excerpt: How to Prepare OKD (Origin community distribution for Kubernetes) Installation Program on cloud virtual machine for learning/testing purposes.
-tags: OKD Kubernetes
+tags: kubernetes okd
 topics: OKD
 subtitle: Hello world subtitle of this post
 ptype: Review

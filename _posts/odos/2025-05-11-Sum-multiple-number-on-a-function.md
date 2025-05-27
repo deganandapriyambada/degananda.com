@@ -1,16 +1,16 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: ODOS-Snippet
+categories: odos-snippet
 series-code: n/a
 excerpt: One Day One Snippet:Function to sum multiple numbers
-tags: ODOS-Snippet typescript algorithms
-topics: ODOS
+tags: odos-snippet typescript algorithms
+topics: odos
 subtitle: Hello world subtitle of this post
 ptype: Review
-background: a Market validation is required before full burst invesment on product development to reduce potential risk.
-objective: to launch a bare minimum MVP for Personal Milestone Management Platform.
-deliverables: article & illustration
+background: create a function that can predict sequence number addition.
+objective: to create function that can Return two Index of Variable A that if those two value of the Index summed up it should be equal to the variable B.
+deliverables: source code
 ---
 
 # Problem Statement

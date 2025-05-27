@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: ML
+categories: ml
 series-code: HSD001
 excerpt: Hello Machine Learning. First step on writing ML Code on Battery Supplier / Procurement recommendation use cases.
-tags: ML Azure-ML Regression
-topics: ML Azure-ML Regression
+tags: ml azure-ml regression
+topics: ml azure-ml regression
 subtitle: Hello world subtitle of this post
 ptype: Issue
 background: Trying machine learning for the first time. Attempt to create "hello world" like in microservices world.

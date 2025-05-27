@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: ML
+categories: ml
 series-code: HSD001
 excerpt: List of Paramete and Algorithm that commonly used to predict Battery State of Charge (SOC) based on the best practices.
-tags: ML Battery SOC
-topics: Prediction of Battery SOC
+tags: ml battery battery-soc
+topics: battery-soc prediction battery-prediction
 subtitle: Hello world subtitle of this post
 ptype: Issue
 background: a Battery capacity information is critical for researcher/manufacturer and end consumer depend on the cases. End consumer will need those information to plan their battery usage and researcher/manufacturer will need to create the most efficient battery's SOC during the simulation.

@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Product
+categories: product
 series-code: CUSTOM001
 excerpt: Market research activity need to be started before starting a B2C (Business to Customer) product. There are several form of the research. MVP is one of it.
-tags: Product
-topics: Product
+tags: product
+topics: product
 subtitle: Hello world subtitle of this post
 ptype: Issues
 background: a Market validation is required before full burst invesment on product development to reduce potential risk.

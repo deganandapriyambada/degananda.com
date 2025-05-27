@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: ML
+categories: ml
 series-code: HSD001
 excerpt: Generate dataset for Battery SOC prediction using Pybamm based on several scenarios and use cases.
-tags: ML Battery SOC
-topics: Prediction of Battery SOC
+tags: ml battery battery-soc
+topics: battery-soc prediction battery-prediction
 subtitle: Hello world subtitle of this post
 ptype: Issue
 background: Predicting SOC using ML(machine learning) will require at least thousands of dataset (higher is better) 

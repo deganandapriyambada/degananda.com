@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Industrial-IoT
+categories: industrial-iot
 series-code: ITOT001
 excerpt: IoT Platform manage and control devices related operation from edge activities until analytics capabilities on the cloud. IoT platform serve as middleware.
-tags: ITOT-Convergence Industrial-IOT IoT-Platofrm AWS
-topics: ITOT
+tags: itot-convergence iot iot-platform aws
+topics: itot
 subtitle: Hello world subtitle of this post
 ptype: News
 background: What is the avaialble capabilities of IoT Platofrm MLP (Minimum loveable product)

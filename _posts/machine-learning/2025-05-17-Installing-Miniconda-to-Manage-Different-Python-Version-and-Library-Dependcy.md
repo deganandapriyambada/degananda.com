@@ -1,10 +1,10 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Python
+categories: python
 series-code: HSD001
 excerpt: Designing Milestoneku Data Model using ERD based on must have feature for Minimum viable product (MVP).
-tags: python package-management conda pip
+tags: python package-management conda pip ml
 topics: be-engineering
 subtitle: Hello world subtitle of this post
 ptype: Review

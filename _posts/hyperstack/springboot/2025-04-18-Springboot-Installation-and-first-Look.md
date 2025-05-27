@@ -1,7 +1,7 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Java
+categories: java
 series-code: HSD001
 excerpt: Describe springboot characteristics, differentiation betweeen spring boot and Java EE also The Quick step to setup, install and configure springboot based on official documentation
 tags: spring springboot java

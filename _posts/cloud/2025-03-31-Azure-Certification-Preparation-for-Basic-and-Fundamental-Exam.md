@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Azure
+categories: azure
 series-code: ITOTB001
 excerpt: AZ900 is an exam to obtain Microsoft azure fundamental(and general) certification which is really important for cloud practitioner that has interest in microsoft product. The certification is needed before proceed to more advanced and specialized certification 
-tags: Azure
-topics: Azure
+tags: azure azure-exam
+topics: azure
 subtitle: Hello world subtitle of this post
 ptype: Draft
 background: a Need to understand the scope of AZ900 certification

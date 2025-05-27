@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: ML
+categories: ml
 series-code: HSD001
 excerpt: Create an API to expose battery performance grading machine learnig model using FastAPI. The API will be able to classify battery specs grade.
-tags: ML Azure-ML ML-Model-API
-topics: ML
+tags: ml azure-ml ml-model-api
+topics: ml azure-ml ml-model-api
 subtitle: Hello world subtitle of this post
 ptype: Issue
 background: Once the model is generated, the model should be able to be exported to a model file. so that API can consume the model and receiving user input.

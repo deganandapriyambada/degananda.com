@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Cloud
+categories: cloud
 series-code: HSD001
 excerpt: Add custom domain on AWS Amplify 
-tags: AWS AWS-Amplify
-topics: AWS
+tags: aws aws-amplify
+topics: aws
 subtitle: Hello world subtitle of this post
 ptype: News
 background: by default, apps hosted on AWS Amplify doesnt get a dedicated domain.

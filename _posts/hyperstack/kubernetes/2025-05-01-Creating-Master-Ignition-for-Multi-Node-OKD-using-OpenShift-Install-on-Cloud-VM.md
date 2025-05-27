@@ -1,10 +1,10 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Containerization
+categories: containerization
 series-code: HSD001
 excerpt: How to Prepare OKD (Origin community distribution for Kubernetes) Master igintion for SNO (Single Node OKD)
-tags: OKD Kubernetes
+tags: kubernetes containerization okd single-node
 topics: OKD
 subtitle: Hello world subtitle of this post
 ptype: Review

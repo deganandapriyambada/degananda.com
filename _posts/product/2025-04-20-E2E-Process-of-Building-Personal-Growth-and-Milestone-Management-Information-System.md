@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Product
+categories: product
 series-code: CUSTOM001
 excerpt: the beginning of product development until software engineering phases. Build a hybrid web based and mobile application to manage personal growth milestone. 
-tags: Product
-topics: Product
+tags: product
+topics: product
 subtitle: Hello world subtitle of this post
 ptype: Issues
 background: a tech consultant should understand software development life cycle.

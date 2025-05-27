@@ -1,11 +1,11 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: Product
+categories: product
 series-code: CUSTOM001
 
 excerpt: Designing Milestoneku Data Model using ERD based on must have feature for Minimum viable product (MVP).
-tags: ERD Data-Modelling
+tags: erd data-Modelling product
 topics: be-engineering
 subtitle: Hello world subtitle of this post
 ptype: Review
