@@ -14,8 +14,8 @@ deliverables: article
 
 # Major Factor That Affect Productivity
 
-![postimage100](/assets/images/2025-07/nasal5.png)
-[Sleep Quality and Occupational well being affect productivity](/assets/images/2025-07/nasal5.png){: .center-image }
+![postimage100](/assets/images/2025-07/nasal5.jpg)
+[Sleep Quality and Occupational well being affect productivity](/assets/images/2025-07/nasal5.jpg){: .center-image }
 
 Health and Sleep are the foundation of productivity. As a professional, maintaining healthy body and consistent sleep quality are critical. Same as keeping the work deliverables.
 
@@ -118,8 +118,8 @@ Physical activity can help in better sleep quality. it has following effect :
 ## Physical Exercises Option for Better Sleep Quality
 
 
-![postimage100](/assets/images/2025-07/nasal4.png)
-[Recommended Exercies for Better Sleep Quality](/assets/images/2025-07/nasal4.png){: .center-image }
+![postimage100](/assets/images/2025-07/nasal4.jpg)
+[Recommended Exercies for Better Sleep Quality](/assets/images/2025-07/nasal4.jpg){: .center-image }
 
 
     Some scientiest recommended to mix below three activities daily. 
