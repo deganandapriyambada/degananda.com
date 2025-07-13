@@ -154,6 +154,10 @@ Some benefit of taking magnesium daily which can resulted in better sleep.
 
 ### Source of Magnesium
 
+
+![postimage100](/assets/images/2025-07/nasal8.jpg)
+[Food with high magnesium for Better Sleep Quality](/assets/images/2025-07/nasal8.jpg){: .center-image }
+
 Below are the numerous sources of magnesium. Ordered from higher magnesium content until the lower one.
 
 1. **Nuts** - (almond/cashew) 28 gram of almond contain 83 mg of magnesium
