@@ -1,7 +1,7 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: agentic-ai
+categories: agenticai
 series-code: AGENTIC01
 excerpt: Cypher Query is used to perform casual relationship between node in Neo4J. Unlike SQL Query which is meant for tabular data, Neo4J is based on graph databases (connected data). 
 tags: agentic-ai neo4j graphdb
@@ -289,13 +289,13 @@ Below are the summarized data flow from all of query mentioned on previous secti
 
 ### Happy Path
 
-1. Incoming#1 - Battery Master Data Node (BMS-003)
+1.Incoming#1 - Battery Master Data Node (BMS-003)
 ```
 MERGE (b:Battery {id: "BMS-003"})
 ON CREATE SET b.manufacturer = "Samsung", b.chemical = "Lithium-Ion"
 ON MATCH SET b.manufacturer = "Samsung", b.chemical = "Lithium-Ion"
 ```
-2. Incoming#2 - Telemetry 05:00:00 Node for BMS-003
+2.Incoming#2 - Telemetry 05:00:00 Node for BMS-003
 
 ```
 MERGE (b:Battery {id: "BMS-003"})  // Ensure the Battery node exists
@@ -308,7 +308,7 @@ ON MATCH SET t.voltage = 4.3, t.current = 1.2, t.temperature = 80  // Set Teleme
 MERGE (b)-[:SEND]->(t)  // Create relationship between Battery and Telemetry, ensuring it’s only created once
 ```
 
-3. Incoming#3 - Telemetry 01:00:00 Node for BMS-003
+3.Incoming#3 - Telemetry 01:00:00 Node for BMS-003
 
 ```
 MERGE (b:Battery {id: "BMS-003"})  // Ensure the Battery node exists
@@ -321,7 +321,7 @@ ON MATCH SET t.voltage = 5.3, t.current = 3.2, t.temperature = 130  // Set Telem
 MERGE (b)-[:SEND]->(t)  // Create relationship between Battery and Telemetry, ensuring it’s only created once
 ```
 
-4. Incoming#4 - Telemetry 03:00:00 Node for BMS-003
+4.Incoming#4 - Telemetry 03:00:00 Node for BMS-003
 
 ```
 MERGE (b:Battery {id: "BMS-003"})  // Ensure the Battery node exists
@@ -334,7 +334,8 @@ ON MATCH SET t.voltage = 6.3, t.current = 8.2, t.temperature = 150  // Set Telem
 MERGE (b)-[:SEND]->(t)  // Create relationship between Battery and Telemetry, ensuring it’s only created once
 ```
 
-5. Incoming#5 - Fault Node for BMS-003
+5.Incoming#5 - Fault Node for BMS-003
+
 ```
 MERGE (b:Battery {id: "BMS-003"})  // Ensure the Battery node exists
 
