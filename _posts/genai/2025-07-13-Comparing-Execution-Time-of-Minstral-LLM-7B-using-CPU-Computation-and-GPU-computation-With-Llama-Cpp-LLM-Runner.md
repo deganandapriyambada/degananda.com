@@ -112,7 +112,7 @@ print(f"⚡ Tokens per second: {tokens_per_sec:.2f}")
 | 1  | CPU-Instructional | 201.46 Second | 0.15 | 30 |
 | 2  | CPU-Open Ended Generation | 857.34 Second | 0.15 | 127 |
 | 3  | CPU-Question and Answer | 74.6 Second | 0.13 | 10 |
-| 4  | CPU-Mathematical Equation | 90303 Second | 0.13 | 128 |
+| 4  | CPU-Mathematical Equation | 903.03 Second | 0.13 | 128 |
 
 ### Run Record
 
@@ -141,6 +141,9 @@ conda is used to managing the cross platform compatibility on Mac M1.
 llama cpp python need to be built from the source in order to enable the GPU computing. 
 
 Ensure the python and pip are pointed to conda environment. it will utilize the arm version of python instead of the default rosetta emullated python.
+
+    which pip
+    which python
 
 First install cmake and ninja for build tools
 

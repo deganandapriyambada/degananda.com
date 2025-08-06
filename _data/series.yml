@@ -1,8 +1,8 @@
 - title: Building Personal Milestone Management Software as A Services (SaaS)
   code: CUSTOM001
-  start: 12 May'25
-  end: 11 June'25
-  status: in-progress
+  start: 1 August Jul'25
+  end: 31 August'25
+  status: Not-Started
   category: Custom Apps Developer
   issues: 0
   review: 0
@@ -15,8 +15,8 @@
 
 - title: a Typical End to End Data Engineering with Apache Stack (Hadoop/HDFS,Cassandra, Spark, Flink, Airlfow and Superset)
   code: DE001
-  start: 25 May '25
-  end: 11 June'2025
+  start: TBD
+  end: TBD
   status: Not-Started
   category: Data Engineering
   issues: 0
@@ -29,11 +29,11 @@
     - Data Warehousing
     - Data Mart
 
-- title: Developing Consuling Kit:IamPPTEngineers.com
-  code: HSD001
-  start: TBC
-  end: TBC
-  status: Not Started
+- title: Building Agentic AI for Detecting Machine Fault on Manufacturing Industry.
+  code: AGENTIC001
+  start: 22 Jul
+  end: 30 Jul
+  status: in-progress
   category: Cloud Architecture
   issues: 0
   review: 0
@@ -41,15 +41,8 @@
   notes: 0
   total: 0
   topics:
-    - Architecture
-    - Python
-    - React
-    - AWS
-    - Azure
-    - Devops
-    - UIUX
-    - Business Analyst
-    - Change Management
+    - LLM
+    - NEO4J
 
 - title: AZ900 Azure Fundamental Certification Preparation
   code: AZBSC001
