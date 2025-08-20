@@ -18,7 +18,7 @@ plugins:
   - jekyll-drawio
   - jekyll-jupyter-notebook
 
-url: "https://pipenpoof.com/" # the base hostname & protocol for your site
+url: "https://pipenpoof.com" # the base hostname & protocol for your site
 
 
 paginate: 8
