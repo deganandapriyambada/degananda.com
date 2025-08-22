@@ -1,0 +1,111 @@
+- title: Building Personal Milestone Management Software as A Services (SaaS)
+  code: CUSTOM001
+  start: 1 Sept'25
+  end: 30 Sept'25
+  status: Not-Started
+  category: Custom Apps Developer
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Mobile Dev
+    - Backend Dev
+
+- title: a Typical End to End Data Engineering with Apache Stack (Hadoop/HDFS,Cassandra, Spark, Flink, Airlfow and Superset)
+  code: DE001
+  start: TBD
+  end: TBD
+  status: Not-Started
+  category: Data Engineering
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - ETL
+    - Data Warehousing
+    - Data Mart
+
+- title: Building Agentic AI for Detecting Machine Fault on Manufacturing Industry.
+  code: AGENTIC001
+  start: 7 Aug'25
+  end: 14 Aug'25
+  status: in-progress
+  category: Cloud Architecture
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - LLM
+    - NEO4J
+
+- title: AZ900 Azure Fundamental Certification Preparation
+  code: AZBSC001
+  start: TBC
+  end: TBC
+  status: Not Started
+  category: Cloud Architecture
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Architecture
+    - Azure
+    - Cloud
+
+  
+- title: AZ-220 IoT Developer Certification Prep
+  code: ITOT001
+  start: TBC
+  end: TBC
+  status: Not Started
+  category: ITOT Convergence
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Cloud
+    - Azure
+    - IoT
+- title: AZ-104 Administrator Associate Certification Prep
+  code: CA001
+  start: TBC
+  end: TBC
+  status: Not Started
+  category: Cloud Architecture
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Cloud
+    - Azure
+    - IoT
+
+- title: AZ-305 Designing Microsoft Azure Infrastructure Solutions Certification Prep
+  code: CA002
+  start: TBC
+  end: TBC
+  status: Not Started
+  category: Cloud Architecture
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Cloud
+    - Azure
+    - Infrastructure
+
+
