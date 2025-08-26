@@ -6,7 +6,7 @@ permalink: /:categories/:year/:month/:title
 plugins:
   - jekyll-paginate
   - jekyll-paginate-categories
-  - jekyll-minifier
+  #- jekyll-minifier
   - jekyll-paginate-tags
   - jekyll-feed
   - jekyll-sitemap
