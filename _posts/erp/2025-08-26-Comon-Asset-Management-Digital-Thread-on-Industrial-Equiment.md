@@ -243,9 +243,9 @@ based on the post maintenance analysis, lesson learned document will be created 
 | 5 | Maintenance Planning & Scheduling | Master Data Preparation | SAP PM, SAP MM |
 | 6 | Maintenance Planning & Scheduling | Create Master Plan | SAP PM + SAP PS |
 | 7 | Maintenance Planning & Scheduling | Create Notification (Preventive Maintenance, Corrective & Overhaul) | Notification: SAP PM, Non preventive maintenance : Trigger: SAP PCO |
-| 8 | Maintenance Planning & Scheduling | [CRTD] Create Work Order (WO) | SAP PM |
+| 8 | Maintenance Planning & Scheduling | [CRTD] Create Work Order (WO), Task List | SAP PM |
 | 9 | Maintenance Planning & Scheduling | [CRTD] Permit Order / Approval | SAP PM |
-| 10 | Maintenance Planning & Scheduling | [CRTD] Create Suborder for Material & Manpower | SAP PM |
+| 10 | Maintenance Planning & Scheduling | [CRTD] Create Job Plan & Suborder detail: Tasklist, Material, Manpower | SAP PM |
 | 11 | Maintenance Planning & Scheduling | [PLANNED] Material Requistion Planning | SAP MM |
 | 12 | Maintenance Sourcing | [PLANNED] Purchase Requsition for external services | SAP MM |
 | 13 | Maintenance Sourcing | [PLANNED] Vendor Selection | SAP SRM / ARIBA |
