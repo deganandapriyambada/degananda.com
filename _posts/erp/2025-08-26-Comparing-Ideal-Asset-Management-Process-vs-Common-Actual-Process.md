@@ -35,7 +35,7 @@ This comparison aims to highlight the gap between best-practice frameworks and t
 | Maintenance Sourcing & Contractor Management  | Procure Maintenance Services                       | External Services Procurement, Material Procurement           |
 | Maintenance Sourcing & Contractor Management  | Manage Contracts and Contractors                   | Contractor  Management System: Pre Qualification, tender, Invitation to Bid and Evaluation   |
 | Maintenance Execution                                  | Approve Maintenance Work                             | Permit Approval               |
-| Maintenance Execution                                  | Manage Work Permit                                   | Create Job Ticket   & Control Ticket          |
+| Maintenance Execution                                  | Manage Work Permit                                   | Create Job Ticket  & Control Ticket          |
 | Maintenance Execution                                  | Execute Maintenance Work                             | Execute Maintenance Work, Workshop Management               |
 | Maintenance Execution                                  | Document and Close Out Work                          | Service Acceptance                |
 | Work & Asset Performance Monitoring                    | Monitor Equipment Condition and Health               | Condition Monitoring, Inspection Program, Basic of Care (BOC),               |
