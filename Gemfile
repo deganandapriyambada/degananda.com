@@ -7,7 +7,7 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-paginate-categories"
-gem "jekyll-minifier"
+#gem "jekyll-minifier"
 gem "jekyll-paginate-tags"
 gem 'jekyll-feed'
 gem 'jekyll-sitemap'
