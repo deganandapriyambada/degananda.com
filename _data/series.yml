@@ -1,7 +1,21 @@
+- title: Re-Learn on Software Engineering As if I Were Starting Over
+  code: RELEARNSWE01
+  start: 29 Aug'25
+  end: 31 Dec'25
+  status: in-progress
+  category: Custom Apps Developer
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Software Engineering
+
 - title: Building Personal Milestone Management Software as A Services (SaaS) using Modern Enterprise Architecture
   code: CUSTOM001
   start: 1 Sept'25
-  end: 30 Nov'25
+  end: 31 Dec'25
   status: Not-Started
   category: Custom Apps Developer
   issues: 0
@@ -15,9 +29,9 @@
 
 - title: Building Agentic AI for Detecting Machine Fault on Manufacturing Industry.
   code: AGENTIC001
-  start: 22 Aug'25
-  end: 31 Aug'25
-  status: in-progress
+  start: 15 Sept'25
+  end: 15 OCt'25
+  status: Not-Started
   category: Cloud Architecture
   issues: 0
   review: 0
