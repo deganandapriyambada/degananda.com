@@ -1,8 +1,6 @@
 ---
-permalink: /series/CUSTOM001
 ---
-
-{% include meta.header.html title ="Explore Pipenpoof" %}
+{% include meta.header.html title=page.title %}
 <body>
   <div class="whole-site">
     <div class="topmenu">
@@ -13,10 +11,13 @@ permalink: /series/CUSTOM001
   </div>    
 
 <div class="padding-container">
-    No Posts on this series yet.
+    <div class="new-post-title">
+        {{ page.title }}
+    </div>
+    <div class="post-content">
+        {{ content }}
+    </div>
 </div>
-
-
 
 {% include footer.menu.html widthconfig="full" %}
 
