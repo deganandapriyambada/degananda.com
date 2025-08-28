@@ -63,7 +63,7 @@ PS C:\Users\degananda.ferdian>
 
 ## Check specific process using taskmgr
 
-![postimage](/assets/images/2025-08/net2.jpg){: .center-image-2 }
+![postimage80](/assets/images/2025-08/net2.jpg){: .center-image-2 }
 [Mysql services on task manager is running with name of mysqld.exe](/assets/images/2025-08/net2.jpg){: .center-image }
 
 classic and the most user friendly (non poweruser or developer) solution is to open taskmanager and find the specific process. Least favorite for developer.
@@ -80,12 +80,12 @@ In order to prevent mysql auto start after startup / login, a configuration need
 
 Go to Search bar and type msconfig
 
-![postimage](/assets/images/2025-08/net3.jpg){: .center-image-2 }
+![postimage80](/assets/images/2025-08/net3.jpg){: .center-image-2 }
 [MSCONFIG is used to activate or deactivate auto start of services on windows](/assets/images/2025-08/net3.jpg){: .center-image }
 
 go to services tab => find **MySQL80** => deactivate the auto start option.
 
-![postimage100](/assets/images/2025-08/net4.jpg){: .center-image-2 }
+![postimage80](/assets/images/2025-08/net4.jpg){: .center-image-2 }
 [Deactivate MySQL80 services on Msconfig: Services TAB](/assets/images/2025-08/net4.jpg){: .center-image }
 
 Done. The configuration will take places after restart. Now, after login/startup, mysql wont spawn mysqld.exe or MySQL80 services on the background. meanign, Mysql no longer has auto start capability.
