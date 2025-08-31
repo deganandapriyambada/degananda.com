@@ -5,6 +5,14 @@
     })
   }
 
+// search handler
+  document.getElementById("search-pl").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault(); 
+      search(); 
+    }
+  });
+
 function search(){
     var searchValue = document.getElementById("search-pl").value;
     window.location.href = "/search?search=" + searchValue;

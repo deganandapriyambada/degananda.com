@@ -1,7 +1,7 @@
 ---
 permalink: /series/RELEARNSWE01
 layout: series
-title: Re-Learn on Software Engineering As if I Were Starting Over
+title: Re-Learn on Software Engineering As if I Were Starting Over. a Mini Home Weather Station with Enterprise Modern Architecture
 ---
 
 ![postimage](/assets/images/series/banner1.jpg){: .center-image-2 }
@@ -52,12 +52,6 @@ Like a drama movie, every conflict need to be followed by resolution.
 - Field Area: IoT/IT-OT
 - Architectural Style: Cloud based with Modern-Enterprise Style Technology Architecture
 
-Here we go, lets start.
-
-<h2>Re-Learn on Software Engineering As if I Were <u>Isekaied</u> (Start over)</h2>
-
-> First week would be on 1 September
-
 ## Use Cases
 
 To ensure the learning journey is understandable from start to end, all the posted article related to this series will be tied with following use cases:
@@ -73,7 +67,22 @@ To ensure the learning journey is understandable from start to end, all the post
 | User Story#5 | as a house resident, i would like to manage the assistant agent which can help me put neccesary item to my ecommerce basket base knowledge and set the budgeting control.  | 
 | User Story#5 | as a house resident, i would like to have my own weather prediction (humidity and temperature) based on my house telematics data  | 
 
+<h2>Re-Learn on Software Engineering As if I Were <u>Isekaied</u> (Start over)</h2>
 
-## Week 1 - 1st September Learning Topic
+Once article is published, the topics covered per week will be highlighted in hyperlink.
 
-... To be updated on D-1 Before the weekly period started ...
+# Topics
+
+## Week 1 (1st September) - Design Phases 
+
+
+First week will be cover design phases of the Mini Home Weather Station Platform.
+
+- 1 Sept | Ingestion Architecture from OT to IT/Cloud
+- 3 Sept | Entity Relationship Diagram (ERD) / Databases Design
+- 5 Sept | Application Architecture
+- 7 Sept | Network Architecture
+
+## Week 2 (8th September) - TBD
+
+... To be updated on 7 September 2025...
