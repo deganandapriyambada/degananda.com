@@ -1,7 +1,7 @@
 ---
 permalink: /series/RELEARNSWE01
 layout: series
-title: Re-Learn on Software Engineering As if I Were Starting Over
+title: Re-Learn on Software Engineering As if I Were Starting Over. a Mini Home Weather Station with Enterprise Modern Architecture
 ---
 
 ![postimage](/assets/images/series/banner1.jpg){: .center-image-2 }
@@ -54,11 +54,19 @@ Here we go, lets start.
 
 <h2>Re-Learn on Software Engineering As if I Were <u>Isekaied</u> (Start over)</h2>
 
+Once article is published, the topics covered per week will be highlighted in hyperlink.
 
-> First week would be on 1 September
+# Topics
 
-Ganbatte.
+## Week 1 (1st September) - Design Phases 
 
-## Week 1 - 1st September Learning Topic
+First week will be cover design phases of the Mini Home Weather Station Platform.
 
-... To be updated on D-1 Before the weekly period started ...
+- 1 Sept | Ingestion Architecture from OT to IT/Cloud
+- 3 Sept | Entity Relationship Diagram (ERD) / Databases Design
+- 5 Sept | Application Architecture
+- 7 Sept | Network Architecture
+
+## Week 2 (8th September) - TBD
+
+... To be updated on 7 September 2025...
