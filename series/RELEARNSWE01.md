@@ -51,6 +51,7 @@ Like a drama movie, every conflict need to be followed by resolution.
 - Programming Language: Matured=> **NodeJS**, **Python**, **Dart** & **Java** + Emerging => **Rust** & **GO**
 - Field Area: IoT/IT-OT
 - Architectural Style: Cloud based with Modern-Enterprise Style Technology Architecture
+- Services will be hosted on Azure Cloud.
 
 ## Use Cases
 
