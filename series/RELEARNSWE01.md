@@ -41,7 +41,7 @@ Like a drama movie, every conflict need to be followed by resolution.
 3. Create weekly learning plan
 4. Document the learning plan by write it on this website (pipenpoof).
 5. Following up elon musk's strategy to handle context switching: <q> One Field per Day </q>. 
-6. Over 6 Month period with weekly learning plan.
+6. Over **6 Month** period with weekly learning plan.
 
 &mdash; **The decision**
 
@@ -49,8 +49,23 @@ Like a drama movie, every conflict need to be followed by resolution.
 
 - Specific Pair of Field: **Cloud Infra Engineer** & **Data Engineer**
 - Programming Language: Matured=> **NodeJS**, **Python**, **Dart** & **Java** + Emerging => **Rust** & **GO**
+- Field Area: IoT/IT-OT
+- Architectural Style: Cloud based with Modern-Enterprise Style Technology Architecture
 
-Here we go, lets start.
+## Use Cases
+
+To ensure the learning journey is understandable from start to end, all the posted article related to this series will be tied with following use cases:
+
+| Property | Value  | 
+|----|----------|
+| Project Name  | Mini Smart Weather Station on the House   | 
+| Main Use Cases  | Generate, Acquire and Create Insight Temperature and Humidity telemetry Data  | 
+| User Story#1 | as a house resident, i would like to see humidity and temperature level on my house so that i adjust my daily routine (eg: food, clothes, activities, mask, etc)  | 
+| User Story#2 | as a house resident, i would like to be able to register my house on the system so i can view it interactively on maps | 
+| User Story#3 | as a house resident, i would like to be suggested with my daily routines (eg: food, clothes, activities, mask, etc) depend on the humidity and temperature condition  | 
+| User Story#4 | as a house resident, i would like to have an assistant agent that able to give me warning on harsh temperature or humidity and able to put neccesary items on my choosen ecommerce basket.  | 
+| User Story#5 | as a house resident, i would like to manage the assistant agent which can help me put neccesary item to my ecommerce basket base knowledge and set the budgeting control.  | 
+| User Story#5 | as a house resident, i would like to have my own weather prediction (humidity and temperature) based on my house telematics data  | 
 
 <h2>Re-Learn on Software Engineering As if I Were <u>Isekaied</u> (Start over)</h2>
 
@@ -59,6 +74,7 @@ Once article is published, the topics covered per week will be highlighted in hy
 # Topics
 
 ## Week 1 (1st September) - Design Phases 
+
 
 First week will be cover design phases of the Mini Home Weather Station Platform.
 

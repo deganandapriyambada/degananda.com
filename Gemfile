@@ -7,7 +7,7 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-paginate-categories"
-gem "jekyll-minifier"
+#gem "jekyll-minifier"
 gem "jekyll-paginate-tags"
 gem 'jekyll-feed'
 gem 'jekyll-sitemap'
@@ -18,3 +18,4 @@ gem 'jekyll-loading-lazy'
 gem 'jekyll-glossary_tooltip'
 gem "jekyll-drawio"
 gem "jekyll-jupyter-notebook"
+gem 'wdm', '>= 0.1.0', platform: :mingw
