@@ -8,7 +8,11 @@ title: Building Personal Milestone Management Software as A Services (SaaS) usin
 
 > The system will be over engineered using modern enterprise architecture and robust design pattern as the series is intended for learning purposes.
 
-the series is intended to cover following software engineering lifecycle
+All of the backend and data pipeline component will be deployed on top of AWS Cloud. Not all AWS cloud native will be used, it will be based mix and match per cases dependening on the scenario/requirement.
+
+# Coverages
+
+the series is intended to cover following software engineering lifecycle:
 
 - Product Deisgn & Requirement Gathering
 - Design phases
