@@ -8,7 +8,11 @@ title: Building Personal Milestone Management Software as A Services (SaaS) usin
 
 > The system will be over engineered using modern enterprise architecture and robust design pattern as the series is intended for learning purposes.
 
-the series is intended to cover following software engineering lifecycle
+All of the backend and data pipeline component will be deployed on top of AWS Cloud. Not all AWS cloud native will be used, it will be based mix and match per cases dependening on the scenario/requirement.
+
+# Coverages
+
+the series is intended to cover following software engineering lifecycle:
 
 - Product Deisgn & Requirement Gathering
 - Design phases
@@ -22,9 +26,9 @@ the series is intended to cover following software engineering lifecycle
 
 Focus on defining the product capabiltiies, architecture, logo & wireframe
 
-1. [Product Feature & High Level (L0) Application Architecture](/_posts/product/2025-04-30-Quick-Market-Research-for-Milestoneku-Product-Development.md)
-2. [Desgining Milestoneku Product Logo Based On Predefined Brand Identity And Target Audience](/_posts/product/2025-06-06-Desgining-Milestoneku-Product-Logo-Based-on-Predefined-Brand-Identity-and-Target-Audience.md)
-3. [Project Implementation Approach: Software Development Life Cycle](/_posts/product/2025-04-20-E2E-Process-of-Building-Personal-Growth-and-Milestone-Management-Information-System.md)
+1. [Product Feature & High Level (L0) Application Architecture]({% post_url 2025-04-30-Quick-Market-Research-for-Milestoneku-Product-Development %})
+2. [Desgining Milestoneku Product Logo Based On Predefined Brand Identity And Target Audience]({% post_url 2025-06-06-Desgining-Milestoneku-Product-Logo-Based-on-Predefined-Brand-Identity-and-Target-Audience %})
+3. [Project Implementation Approach: Software Development Life Cycle]({% post_url 2025-04-20-E2E-Process-of-Building-Personal-Growth-and-Milestone-Management-Information-System %})
 4. (2 September) - Map Business Requirement into Workable Feature
 5. (4 September) - Application Architecture & Stack Selection
 6. TBD
