@@ -35,7 +35,7 @@ It might not represent full fit-gap analysis on the process, but it will give he
 ###  Develop Overall Mainenance Philosophy 
 
 | No | Ideal Output Document | Typical Output Document |
-|--------------|----------|---------------|
+------------|----------|---------------|
 | 1 | Organization Risk Assessment Matrix | a | 
 | 2 | Methodology RBI (Risk Based Inspection)| a   | 
 | 3 | Methodology FMEA (Failure Mode and Effect Analysis) |a | 

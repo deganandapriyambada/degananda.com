@@ -79,10 +79,10 @@ Once article is published, the topics covered per week will be highlighted in hy
 
 First week will be cover design phases of the Mini Home Weather Station Platform.
 
-- 1 Sept | Ingestion Architecture from OT to IT/Cloud
-- 3 Sept | Entity Relationship Diagram (ERD) / Databases Design
-- 5 Sept | Application Architecture
-- 7 Sept | Network Architecture
+- 8 Sept: Three way of Environmental Data Aquisition Architecture from Device to Cloud (D2C) and Cloud to Cloud (C2C)
+- 9 Sept: Entity Relationship Diagram (ERD) / Databases Design
+- 10 Sept: Application Architecture
+- 11 Sept: Network Architecture
 
 ## Week 2 (8th September) - TBD
 
