@@ -79,11 +79,13 @@ Once article is published, the topics covered per week will be highlighted in hy
 
 First week will be cover design phases of the Mini Home Weather Station Platform.
 
-- 8 Sept: Three way of Environmental Data Aquisition Architecture from Device to Cloud (D2C) and Cloud to Cloud (C2C)
-- 9 Sept: Entity Relationship Diagram (ERD) / Databases Design
-- 10 Sept: Application Architecture
-- 11 Sept: Network Architecture
+1. [15 Sept: Three way of Environmental Data Aquisition Architecture from Device to Cloud (D2C) and Cloud to Cloud (C2C)]({% post_url /series/sudutkota/2025-09-02-Three-Way-to-Acquire-City-Safety-and-Environmental-Data-from-Device-to-Cloud-(D2C)-and-Cloud-to-Cloud-(C2C)-Data-Pipeline-Architecture %})
+2. 16 Sept: Entity Relationship Diagram (ERD) / Databases Design
+3. 17 Sept: Application Architecture
+4. 18 Sept: Network Architecture
 
 ## Week 2 (8th September) - TBD
 
 ... To be updated on 7 September 2025...
+
+
