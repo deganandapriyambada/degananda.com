@@ -27,10 +27,26 @@
     - Mobile Dev
     - Backend Dev
 
+- title: Create Tools as a Platform to Convert Markdownfile Into Slides (Microsoft Powerpoint/PPT and Google Slides) using GO
+  code: PPT001
+  start: 14 Sept'25
+  end: 24 Feb'26
+  status: in-progress
+  category: GO
+  issues: 0
+  review: 0
+  news: 0
+  notes: 0
+  total: 0
+  topics:
+    - Architecture
+    - Azure
+    - Cloud
+
 - title: Building Agentic AI for Detecting Machine Fault on Manufacturing Industry.
   code: AGENTIC001
-  start: 15 Sept'25
-  end: 15 OCt'25
+  start: 20 Sept'25
+  end: 20 OCt'25
   status: Not-Started
   category: Cloud Architecture
   issues: 0

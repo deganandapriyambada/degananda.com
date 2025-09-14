@@ -4,8 +4,8 @@ author: Degananda Ferdian
 categories: jekyll
 series-code: JEKYL001
 excerpt: Out of the box World wide CDN support is the key strength of AWS Amplify espcially for a blog. Jekyll can take the benefit of AWS CDN so that the user request will be responded by the nearest AWS CDN Server. Resulting in faster page loading time and better SEO(Search engine optimization)
-tags: python pip pip-issue conda
-topics: agenticai
+tags: jekyll
+topics: jekyll
 ptype: News
 background: Jekyll is a SSG (static site generator) framework that will generate a static website in plain html. Each of the post or page will have their own html files. Jekyll project can be hosted on AWS amplify and will have CDN(Content delivery network) capabilities out of the box.
 objective: to Deploy jekyll on AWS Amplify from github repositories.

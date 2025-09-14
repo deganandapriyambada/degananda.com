@@ -12,7 +12,7 @@ objective: to create a data pipeline which support device to cloud data acqusiti
 deliverables: article & illustration
 ---
 
-![postimage80](/assets/images/2025-09/sdarch2.svg)
+![postimage100](/assets/images/2025-09/sdarch2.svg)
 [Sudutkota as Automated City News Content Aggregator Platform: Safety, Environment and Lifestyle](/assets/images/2025-09/sdarch2.jpg){: .center-image }
 
 
@@ -97,7 +97,7 @@ As the pilot experimental project, the data will be limited for Jakarta (Indones
 
 # L0 High Level Data Acquisition Architecture
 
-![postimage80](/assets/images/2025-09/sdarch1.svg)
+![postimage100](/assets/images/2025-09/sdarch1.svg)
 [Data Acquisition Architecture from Surroundings to OTLP/OLAP Databases](/assets/images/2025-09/sdarch1.jpg){: .center-image }
 
 Below are the applied architectural principles/pattern :
@@ -105,18 +105,36 @@ Below are the applied architectural principles/pattern :
 1. lambda architecture (batch and streaming segregation)
 2. layered event driven architecture
 3. Medallion / Lakehouse
+4. All of those architecture style will be **stitched** by data fabric
 
 it will be deployed on azure cloud using a combination of cloud native component and opensource component which deployed on Container.  
 
-## Data Fabric
+## Data Fabric Architecture
 
-a Data extraction layer will be called as a data fabric if its capable to access and extract data from different platform's surroundings through **diverse integration protocol and method**. The flexibility differs dependenent on the surroundings integration capability.
+![postimage100](/assets/images/2025-09/sdarch3.svg)
+[Data Fabric Architecture Pattern/Style](/assets/images/2025-09/sdarch3.jpg){: .center-image }
+
+main data fabric capability: discover, integrate and access the data without storing the data. It is a middleware that **connect various data platform component** into single digital thread.
+
+### Data Extraction
+
+a Data pipeline will be called as a data fabric if it is capable to access and extract data from different platform's surroundings through **diverse integration protocol and method**. The flexibility differs based on the platform's surroundings integration capability.
+
+### Data Governance & Integration
 
 Althrough it also has several supporting capabilities such as :
 
 1. **data catalog** - any incoming data metadata to the data fabric will be organized into active meta data (usually in form of knowledge graph / object mind map). an Organized metadata will make data analytics easier as the data already catageorized and labelled. Then it can be easily tied to the use cases description and scope.
+
 2. **data governance & security** - Data Access control using RBAC (role based access control). &mdash; "Who can access which data"
+
 3. **unified life cycle** - a data fabric can and should coexist with entire data pipeline lifecycle. For example, it should be integrated to lakehouse platform starting from data extraction (bronze) until (gold) data visualization. 
+
+4. **Integration to AI/ML/Ops Platfrorm** - Data fabric will faciliate the routing of datainto various data plaform within the architecture, Such as AI/ML environments, relational databases, lakehouse platform, message broker, etc.
+
+### Data Consumption
+
+Apart from data extraction, data fabric will also function as an integration bridge/middleware between client application and the data platform, enabling seamless data consumption by the client applications
 
 ### Data Extraction
 
