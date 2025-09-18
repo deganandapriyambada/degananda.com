@@ -20,7 +20,7 @@ $fc-sub-2: #5f5f5f;
 $fc-sub-3: #4c4c4c;
 
 /* font family */
-$font-type-md: "Rubik", sans-serif;
+$font-type-md: "PT Sans", sans-serif;
 $font-type-logo: "Plus Jakarta Sans", sans-serif;
 
 body {
@@ -102,7 +102,7 @@ font-weight: 400;
 
 .topmenu-container > .logo {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
     font-family: $font-type-md;
 }
@@ -582,7 +582,7 @@ font-weight: 400;
 .post-content >   h2,
   .modest-h2 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
   }
   
 .post-content >  h3,
@@ -774,7 +774,7 @@ font-weight: 400;
   color: #000000;
   font-size: 15px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #post-heading ol {
@@ -798,7 +798,7 @@ font-weight: 400;
 
 #post-heading ol > li > a {
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -1179,7 +1179,7 @@ font-weight: 400;
 
 .series-post > .title {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   width: 100%;
   margin: 0px 0px 5px 0px;
 }
@@ -1590,7 +1590,7 @@ font-weight: 400;
 }
 
 .incat b {
-  font-weight: 500;
+  font-weight: 600;
   color: #000000;
   text-transform: capitalize;
 }
@@ -1919,7 +1919,7 @@ font-weight: 400;
 
 .headline-title {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000000; 
   text-align: left;
   flex: 2;
@@ -2038,18 +2038,19 @@ font-weight: 400;
 
 .headline-tags > ul > li {
   display: inline-block;
-  padding: 8px 10px 8px 10px;
+  padding: 6px 15px 6px 15px;
   background: #f5f5f5;
   margin-bottom: 5px;
   margin-right: 5px;
   border-bottom: 0px #0230477c solid;
-  border-radius: 20px;
+  border-radius: 2px;
+  text-transform: lowercase;
 }
 
 .headline-tags > ul > li > a {
   text-decoration: none;
   font-size: 14px;
-  text-transform: capitalize;
+  text-transform: lowercase;
   color: #000000;
   font-weight: 400;
 }
@@ -2249,7 +2250,7 @@ font-weight: 400;
 .hl-c-title a {
   font-size: 15px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
 }
 
@@ -2261,7 +2262,7 @@ font-weight: 400;
 
 .mins-read {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .mins-date {
@@ -2335,14 +2336,14 @@ font-weight: 400;
   font-size: 15px;
   padding: 5px 0px 5px 0px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
 }
 
 .series-new-title a {
   text-decoration: none;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
 }
 
@@ -2404,8 +2405,8 @@ font-weight: 400;
 
 .new-post-title {
   font-size: 40px;
-  font-weight: 500;
-  padding: 5px 0px 5px 0px;
+  font-weight: 600;
+  padding: 15px 0px 15px 0px;
 }
 
 .new-post-excerpt {
@@ -2656,6 +2657,7 @@ img[alt=postimage100]:hover, img[alt=postimage80]:hover, img[alt=postimage60]:ho
 
 table {
   border-collapse: collapse;
+  width: auto;
   margin: 20px 0;
   display: block;
   overflow-x: auto;
@@ -2679,8 +2681,8 @@ table::after {
 
 
 thead {
-  background: #4a90e2; /* nice blue */
-  color: #fff;
+  background: #dadada; /* nice blue */
+  color: #000;
 }
 
 th, td {

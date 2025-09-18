@@ -12,11 +12,11 @@ objective: to ensure no duplicated pages crawled by google search engine and det
 deliverables: article & illustration
 ---
 
+&mdash; Duplicated canonical issue is occured because one or multiplage page exist on the sites with identical content.
 
 ![postimage100](/assets/images/2025-09/searchconsole1.jpg)
 [Pipenpoof.com is encountering duplicated canonical issue on google search console](/assets/images/2025-09/searchconsole1.jpg){: .center-image }
 
-&mdash; Duplicated canonical issue is occured because one or multiplage page exist on the sites with identical content.
 
     Until the identical content is resolved, search engine will hold the indexing process.
 
@@ -142,6 +142,15 @@ below is the final rewrite rule on aws amplify
 ![postimage100](/assets/images/2025-09/canon4.jpg)
 [rewrite rule to redirect www, amplifyapp to non www main domain ](/assets/images/2025-09/canon4.jpg){: .center-image }
 
+### Adjust Route 53 DNS Config
+
+![postimage100](/assets/images/2025-09/canon7.jpg)
+[ www CNAME config remapped to aws-amplify server ](/assets/images/2025-09/canon7.jpg){: .center-image }
+
+ensure the www.pipenpoof.com (www of the site main domain name) **CNAME** config is present and pointed to the server hostname instead of to the cache server(eg: cloudfront)
+
+
+
 ### Testing
 
 Curl can be used to test whether the rule is successfully applied or not using following command
@@ -155,6 +164,14 @@ curl -I https://master.dysiqo9435rfi.amplifyapp.com
 [amplifyapp redirected to the main pipenpoof.com](/assets/images/2025-09/canon5.jpg){: .center-image }
 
 Look for the http header 301 (redirect status) on the console
+
+its better to use tools such as httpstatus.io to check the url canonical.
+
+![postimage100](/assets/images/2025-09/canon6.jpg)
+[pipenpoof.com canonical url check](/assets/images/2025-09/canon6.jpg){: .center-image }
+
+from above images, all url except the non url (https://pipenpoof.com) are redirected (301)
+
 
 ## add canonical link on tags page
 
