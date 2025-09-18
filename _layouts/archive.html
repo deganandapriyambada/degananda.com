@@ -1,4 +1,24 @@
-
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title> {{ include.title }} </title>
+    <link href="/assets/css/styles.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="/assets/lightbox/lightbox.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link rel="icon" type="image/x-icon" href="/assets/images/pl-logo-black5.svg">
+    <meta charset="utf-8">
+    <meta data-rh="true" name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="pipenpoof.com">
+    <!-- font -->
+    <link rel="stylesheet" href="/assets/css/highlighter.css">
+    <link rel="stylesheet" href="/assets/fav4/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+</head>
+<body>
 <h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
 <ul class="posts">
@@ -9,3 +29,5 @@
   </li>
 {% endfor %}
 </ul>
+</body>
+</html>
