@@ -16,4 +16,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="manifest" href="/manifest.json">
+    {% if page.url == "/" %}
+    <link rel="canonical" href="{{ site.url }}">
+    {% elsif page.url contains '/category/' %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    {% elsif page.url contains '/tags/' %}
+    {% assign first_post = site.posts | where_exp:"post","post.tags contains page.tag" | first %}
+    {% if first_post %}
+    {% assign parent_category = first_post.categories | first %}
+    <link rel="canonical" href="{{ site.url }}/{{ parent_category }}/">
+    {% endif %}
+    {% else %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    {% endif %}
 </head>
