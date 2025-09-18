@@ -69,7 +69,7 @@ const section = document.querySelector('.post-container');
 const scrollProgressBar = () => {
 	let scrollDistance = -(section.getBoundingClientRect().top);
   let lengthVal = (scrollDistance/section.getBoundingClientRect().height)*100;
-  console.log(lengthVal);
+  //console.log(lengthVal);
  if(scrollDistance > 0){
     progressBar.style.width = lengthVal + '%';
   } else if(scrollDistance >= 100){

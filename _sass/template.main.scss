@@ -2584,19 +2584,49 @@ font-weight: 400;
 
 img[alt=postimage80] { 
   width: 80%; 
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;              
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 20px 0;                  
+  display: block;
+  object-fit: cover;               
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: block; 
   margin: 0 auto;
 }
 
 img[alt=postimage60] { 
   width: 60%; 
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;              
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+  margin: 20px 0;                  
+  display: block;
+  object-fit: cover;             
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: block; 
   margin: 0 auto;
 }
 
-img[alt=postimage100] { 
-  width: 100%; 
+img[alt=postimage100] {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;              
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 20px 0;                  
+  display: block;
+  object-fit: cover;               
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+img[alt=postimage100]:hover, img[alt=postimage80]:hover, img[alt=postimage60]:hover {
+  transform: scale(1.02);          
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+
 
 .previous, .page_number, .next {
   padding: 0px 10px 0px 10px;
@@ -2626,19 +2656,53 @@ img[alt=postimage100] {
 
 table {
   border-collapse: collapse;
-  width: 100%;
   margin: 20px 0;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+table::after {
+  content: "";
+  position: sticky;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to left, white, transparent);
+}
+
+
+thead {
+  background: #4a90e2; /* nice blue */
+  color: #fff;
 }
 
 th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
+  border: 1px solid #e6e6e6;
+  padding: 12px 16px;
+  text-align: left;
 }
 
 th {
-  background-color: #3d3d3d;
-  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* zebra striping */
+}
+
+tbody tr:hover {
+  background-color: #f1f7ff; /* subtle hover effect */
+  transition: background 0.2s ease-in-out;
 }
 
 
