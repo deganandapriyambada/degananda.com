@@ -1,28 +1,29 @@
+<div class="hl-post-date">
+  <span class="mins-read">
+    {%
+    assign wordCount = post.content | number_of_words
+    %}
+    {%
+    assign minsRead = wordCount | divided_by: 200
+    %}
+
+    {{ post.date | date: "%-d %B %Y" }}
+  </span> &nbsp;
+  <span class="mins-read" style="font-weight: 300;">
+    {{ minsRead | plus:1 }} Mins Read
+  </span>
+</div>
+
 <div class="hl-c-title">
   <a href="{{post.url}}">{{ post.title }}</a>
 </div>
-<div class="hl-content-top3">
-    <div class="hl-post-date">
-      <div class="mins-read"> 
-        {% 
-            assign wordCount = post.content | number_of_words 
-        %}
-        {%
-            assign minsRead = wordCount | divided_by: 200 
-        %} 
 
-        {{ minsRead | plus:1 }} Mins Read. 
-      </div>
-      <div class="mins-date">
-        {{ post.date | date: "%-d %B %Y" }}
-      </div>
+<div class="hl-content-top3">
+  <div class="hl-post-title">
+    <div class="hl-c-excerpt">
+      {{post.excerpt}}
     </div>
-    <div class="hl-post-title">
-      <div class="hl-c-excerpt">
-        {{post.excerpt}}
-      </div>
-    </div>
-    <div class="hl-post-option post-type-ft">
-      {{post.ptype}}
-    </div>
+  </div>
+
+
 </div>
