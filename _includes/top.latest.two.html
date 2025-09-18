@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="incat">
-                <b>Degananda Ferdian</b> on <b>{{ post.categories }}</b>
+                <b>Degananda Ferdian</b> on <b><a href="/category/{{ post.categories }}">{{ post.categories }}</a></b>
             </div>
         </div>
     </div>
@@ -20,8 +20,8 @@
     <div class="headline-tags">
         <ul>
       {% for heading in post.headings %}
-        {% if forloop.index > 1 %}
-            <li><a href="#">{{ heading }}</a></li>
+        {% if forloop.index > 0 %}
+            <li><a href="{{ post.url }}#{{ heading | replace: ' ', '-' | downcase }}">{{ heading }}</a></li>
         {% endif %}
       {% endfor %}
       </ul>

@@ -1,6 +1,19 @@
 <div class="twoblock-right-maxw">
     <div class="twoblock-marg-r">
-        <div class="toc">
+
+
+   <div class="section-title">
+      Topics Covered
+  </div>
+    <div class="headline-tags">
+        <ul>
+            {% for tags in page.tags %}
+            <li><a href="/tags/{{ tags }}/">{{ tags }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+        <div class="section-title">
             <i class="fa fa-random" aria-hidden="true"></i> &nbsp; Table of Content
         </div>
         <div class="post-list-of-content">

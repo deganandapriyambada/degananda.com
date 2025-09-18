@@ -125,11 +125,8 @@ a Data pipeline will be called as a data fabric if it is capable to access and e
 Althrough it also has several supporting capabilities such as :
 
 1. **data catalog** - any incoming data metadata to the data fabric will be organized into active meta data (usually in form of knowledge graph / object mind map). an Organized metadata will make data analytics easier as the data already catageorized and labelled. Then it can be easily tied to the use cases description and scope.
-
 2. **data governance & security** - Data Access control using RBAC (role based access control). &mdash; "Who can access which data"
-
 3. **unified life cycle** - a data fabric can and should coexist with entire data pipeline lifecycle. For example, it should be integrated to lakehouse platform starting from data extraction (bronze) until (gold) data visualization. 
-
 4. **Integration to AI/ML/Ops Platfrorm** - Data fabric will faciliate the routing of datainto various data plaform within the architecture, Such as AI/ML environments, relational databases, lakehouse platform, message broker, etc.
 
 ### Data Consumption
