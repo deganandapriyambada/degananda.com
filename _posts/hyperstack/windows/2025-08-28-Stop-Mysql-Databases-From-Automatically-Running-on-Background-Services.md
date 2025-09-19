@@ -30,7 +30,7 @@ Note: it is adviseable to ran the command via powershell using administrator mod
 
 sample output from above command.
 
-![postimage](/assets/images/2025-08/net1.jpg){: .center-image-2 }
+![postimage80](/assets/images/2025-08/net1.jpg){: .center-image-2 }
 [List of background process shown by NET command](/assets/images/2025-08/net1.jpg){: .center-image }
 
 the equivalent command on linux is 
