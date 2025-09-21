@@ -17,7 +17,7 @@ deliverables: Article
 below is the application integration landscape between SAP PM(Plant Maintenance), SAP PS(Project System) and Oracle Primavera P6
 
 ![postimage100](/assets/images/2025-09/prim6.svg)
-[Integrated Project Management landscape between Oracle P6 and SAP](/assets/images/2025-09/prim6.jpg){: .center-image }
+[Integrated Project Management landscape between Oracle P6 and SAP](/assets/images/2025-09/p6.jpg){: .center-image }
 
 
 # Primavera P6
