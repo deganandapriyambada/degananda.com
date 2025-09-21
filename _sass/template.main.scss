@@ -2264,6 +2264,28 @@ font-weight: 400;
   align-items: left;
 }
 
+.share-buttons {
+  margin-top: 20px;
+}
+.share-btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.share-btn.twitter {
+  background: #1DA1F2;
+}
+.share-btn.linkedin {
+  background: #0077B5;
+}
+.share-btn i {
+  margin-right: 6px;
+}
+
 @media only screen and (max-width: 1000px) {
 
   .hl-content-top3 {
@@ -2714,7 +2736,7 @@ table {
   display: block;
   overflow-x: auto;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 1.1rem;
   color: #333;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 8px;
