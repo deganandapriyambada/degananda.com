@@ -2,7 +2,7 @@
 ---
 {% include meta.header.html title =page.title %}
 <body>
-    <div class="whole-site">
+<div class="whole-site">
         <div class="post-feedback">
             Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/_posts/{{ page.date | date: "%Y"}}-{{ page.date | date:"%m"}}/{{ page.name }}'>Edit this page</a>  on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
         </div>
@@ -11,8 +11,7 @@
                 {% include top.menu.html %}
             </div>
         </div>
-    </div>
- <div class="padding-container-post">
+ <div class="padding-container-post bg-gray">
   
     <div class="headline-author">
         <div class="title-container">
@@ -75,7 +74,8 @@
       Series: &nbsp; <span style="font-weight: 400;">{{page.series-code}}</span>
   </div>
 
-    
+</div>
+ <div class="padding-container-post">
 
     <div class="container">
     <!-- Main content -->
@@ -124,4 +124,5 @@
         });
       </script>
       <script src="/assets/js/site.js" type="text/javascript"></script>   
+</div>
 </body>
