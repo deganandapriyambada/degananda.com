@@ -33,12 +33,13 @@ full-width
             </ul>
         </div>
         <div class="footer-info foot-stats">
-            v0.0.1 - We Wrote {{ site.posts | size }} Articles; Across {{ site.categories | size }} Topics
+            v0.9 Alpha - We Wrote {{ site.posts | size }} Articles; Across {{ site.categories | size }} Topics
         </div>
     </div>
 </div>
 <!-- google analytics -->
 <!-- Google tag (gtag.js) -->
+{% if jekyll.environment == "production" %}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFS3DLR1S8"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -47,3 +48,4 @@ full-width
 
   gtag('config', 'G-PFS3DLR1S8');
 </script>
+{% endif %}
