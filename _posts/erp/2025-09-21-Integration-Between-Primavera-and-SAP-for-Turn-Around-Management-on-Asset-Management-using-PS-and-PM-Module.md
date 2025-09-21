@@ -89,12 +89,18 @@ Technical Object Comparison From Primavera P6 to SAP PM
 Available Scheduling Analytics on Primavera
 
 1.**Critical Path** - longest sequences of interdependent activities that determine the minimum time to complete the project. If activities on the critical path is delayed 1 day then the whole project is delayed by 1 day.
+
 2.**total float**- time which the activity can be deplayed without impacting the project completion date. Critical path shoudl have 0 total float.
+
 3.**network activity** - a network visualization and representation that created based on activities and its defined **relationship** (predecessor and successor).relationship with link between one or more activities.
+
 4.**network activitiy relationship type** - FS,SS,FF,SF (primavera) vs FS,SS,FF,SF (SAP). both use same relationship type/logic
+
 5.**Activity Constrant** for critical path computation - there several constraint type such as finish on, finish on or after, as late as possible,etc. SAP also has similar capability
+
 1. **project constraint** similar with activity constraint but on project level
-2. **what if analysis/reflection** - basically a simulation if constraint is changed or the start date/end date is changed.
+2. 
+3. **what if analysis/reflection** - basically a simulation if constraint is changed or the start date/end date is changed.
 
 notes:
 1. activities dependencies is added on the activity config/detail
