@@ -36,9 +36,9 @@ There are the main modules on primavera P6
 
 with following integration scenario.
 
-| No | Source Module | CPM Scheduling & Planning |  Resource Management | Cost Management |
+| No | Source Module | CPM Scheduling & Planning |  Resource Management | Cost Management (Optional) |
 |----|----------|--------|--------|--------|
-| 1  | CPM Scheduling & Planning  | 1. create project <br /> 2. create WBS (work breakdown structure) <br /> 3.Create Activities & Ganttchart <br /> 4. Defining Activities Relationship <br />  5. create and freeze baseline (after definiing reosurce & expense/cost) <br /> 6. assign baseline to the project <br /> 7. update project activities status | 1. WBS & Activities will be derrived | WBS & Activities will be derrive |
+| 1  | CPM Scheduling & Planning  | 1. create project <br /> 2. create WBS (work breakdown structure) <br /> 3.Create Activities & Ganttchart <br /> 4. Defining Activities Relationship <br />  5. create and freeze baseline (after definiing reosurce & expense/cost) <br /> 6. assign baseline to the project <br /> 7. update project activities status <br /> 8. Constraint | 1. WBS & Activities will be derrived <br /> 9. Compute Total Float 10. <br /> What if analysis (refactor) | WBS & Activities will be derrive |
 | 2  | Resource Management  | Use activities and WBS data from CPM | 1. Create resource master data <br /> 2. Assign resource to the activities | N/A |
 | 3  | Cost Management  | Use activities and WBS data from CPM | n/a | 1.Create expense item <br /> 2.Assign Expense on the Activities |
 
@@ -110,6 +110,7 @@ notes:
 | Subject |  Primavera P6 | SAP PS |
 |----|----------|--------|
 | Constraint |  Start On <br /> Start on or after <br /> start on or before <br /> finish on <br /> finish on or after <br /> finish on or before <br /> As late as possible <br /> mandatory start / finish | Basic Start/Finish Date(manual) <br /> Must Start On <br />  Must finish on(fixed finish) <br />  As late as possible via backward scheduling/work arround | 
+| What if Analysis | Seamless process with Reflection to automatically create several copy of the project pre-baseline/baseline | Need to copy the project manually |
 | Float Management | Available out of the box, integrated with CPM, constraint, network activities | Need to be configured as there is out of the box float columns/field |
 |UI/UX | P6 is dedicated for project scheduling software, straight foward |  SAP PS has complex UI/UX as has depth integration to other module for budget, finance, etc. |
 | Cost |  Day (affordable) | Night (really expensive) |
