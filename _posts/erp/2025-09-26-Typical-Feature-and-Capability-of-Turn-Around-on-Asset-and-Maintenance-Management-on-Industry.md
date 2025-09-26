@@ -11,7 +11,7 @@ objective: to listdown critical feature for turn around management information s
 deliverables: Article
 ---
 
-below are the list of mandatory turn around management system feature and the preliminary assessment of SAP PM capability based these expected feature
+below are the list of mandatory turn around management system feature and the preliminary assessment of SAP PM capability based these expected features:
 
 # Define Short Term and Long Term Master Plan
 
