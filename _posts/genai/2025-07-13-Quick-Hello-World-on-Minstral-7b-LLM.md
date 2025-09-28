@@ -163,7 +163,7 @@ print(output["choices"][0]["text"].strip())
 run it
 
     python hellollm.py
-    
+
 
 it should expect following responses.
 
