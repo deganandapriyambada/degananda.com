@@ -191,7 +191,7 @@ mandatory process before CLSD
 2. settlement
 
 ## Workforce and Asset Performance Monitoring
- 
+
 this process occured after maintenance process to evaluate and monitor if there any issues encountered on the asset/equipment.
 
 **1. condition monitoring**

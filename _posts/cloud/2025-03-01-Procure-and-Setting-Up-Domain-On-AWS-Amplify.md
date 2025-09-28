@@ -11,6 +11,7 @@ ptype: News
 background: by default, apps hosted on AWS Amplify doesnt get a dedicated domain.
 objective: to add custom domain on application that hosted at AWS Amplify
 deliverables: Article
+typora-root-url: ./../../
 ---
 
 # Built In Domain Registrar for AWS Cloud Native
