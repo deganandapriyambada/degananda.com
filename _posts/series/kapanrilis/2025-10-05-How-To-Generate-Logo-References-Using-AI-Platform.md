@@ -55,14 +55,14 @@ below are the 6 logo candidates based brainstorming process with AI. The advanta
 
 **Option 1**
 
-![postimage50](/assets/images/2025-10/logoshape2.jpg)
+![postimage80](/assets/images/2025-10/logoshape2.jpg)
 [first logo ideas](/assets/images/2025-10/logoshape2.jpg){: .center-image }
 
 a clock with 8 small circle dots arround it. Quite complex as there are lot of shape. Might look bad on the favicon mode (16x16 pixel). how ever it is unique (up leveled clock logo)
 
 **Option 2**
 
-![postimage50](/assets/images/2025-10/logoshape3.jpg)
+![postimage80](/assets/images/2025-10/logoshape3.jpg)
 [second logo ideas](/assets/images/2025-10/logoshape3.jpg){: .center-image }
 
 a standard clock with checkmark logo. Super Simple (compared to the first option) and should be easier to remebered by users as kapanrilis platform core feture is reminder platform for hobby related content.
@@ -71,28 +71,28 @@ a standard clock with checkmark logo. Super Simple (compared to the first option
 
 **Option 3**
 
-![postimage50](/assets/images/2025-10/logoshape4.jpg)
+![postimage80](/assets/images/2025-10/logoshape4.jpg)
 [thrid logo ideas](/assets/images/2025-10/logoshape4.jpg){: .center-image }
 
 similar with the concept of option 1, elevated clock. Unqiue, it leveling up the generic clock icon. Probably little harder to be remembered because it has alot of shape make the logo become complex.
 
 **Option 4**
 
-![postimage50](/assets/images/2025-10/logoshape5.jpg)
+![postimage80](/assets/images/2025-10/logoshape5.jpg)
 [Fourth logo ideas](/assets/images/2025-10/logoshape5.jpg){: .center-image }
 
 a crescent moon with clockwise. a classy icon.
 
 **Option 5**
 
-![postimage50](/assets/images/2025-10/logoshape6.jpg)
+![postimage80](/assets/images/2025-10/logoshape6.jpg)
 [Fifth](/assets/images/2025-10/logoshape6.jpg){: .center-image }
 
 No direct clock nor calendar element, however the hedgedog hair is somehow represent clock. 
 
 # The Decision
 
-![postimage50](/assets/images/2025-10/logoshape4.jpg)
+![postimage80](/assets/images/2025-10/logoshape4.jpg)
 [thrid logo ideas](/assets/images/2025-10/logoshape4.jpg){: .center-image }
 
 after taking several consideration,  option 3 will taken as the logo creation input on convential vector image editor due to following reason:
