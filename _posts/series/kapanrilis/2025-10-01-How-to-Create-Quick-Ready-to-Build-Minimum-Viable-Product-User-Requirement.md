@@ -4,11 +4,10 @@ author: Degananda Ferdian
 categories: product
 series-code: RELEARNSWE02
 excerpt: User stories and Epic are the common tools that used to craft a product requirement before handed over to the developer for development. a clear and scoped user stories are needed especially for MVP to avoid overscope as the timeframe is limited and MVP is meant to for testing the water. need to release the product quickly.
-tags: iot d2c c2d
-topics: iot
-ptype: Issues
+tags: product
 background: First thing to do before built(develop/code) a product apart from market is research is to define the product user requirement in form of epic and user stories. Those user stories will be then handed over to developer.
 objective: to create a sample thought process for shaping user requirement
+deliverables: article & illustration
 ---
 
 below is the sample of MVP (minimum viable product) Product user requirement that reeady to be built. It has four main key component
