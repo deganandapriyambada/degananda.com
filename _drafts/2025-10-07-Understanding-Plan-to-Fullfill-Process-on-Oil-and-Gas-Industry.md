@@ -1,0 +1,1 @@
+a Subset of enterprise resource planning(ERP) that focused on **production planning** called as plan to fullfill module. Plan to fullfill is an end to end (E2E) process from demand forecasting all the way to the production execution.
