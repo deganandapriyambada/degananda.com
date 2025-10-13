@@ -20,7 +20,7 @@ note:each organization might have different ecosystem but generally above apps a
 
 # Domain Segregation
 
-among these 14 apps, it can be categorized into following **bounded context**.
+among these 14 apps, it can be categorized into following ***bounded context**.
 
 |                  Bounded Context | Primary Responsibility                                   | System-of-Record                 | Integration Pattern                   |
 | -------------------------------: | -------------------------------------------------------- | -------------------------------- | ------------------------------------- |
@@ -37,6 +37,3 @@ among these 14 apps, it can be categorized into following **bounded context**.
 |          Change Management (MOC) | MOC requests, approvals, implementation tracking         | MOC service                      | API + Events                          |
 |        Root Cause Analysis (RCA) | Failure investigation, causal trees                      | RCA service                      | API + Events / link artifacts         |
 |      RCM Dashboard / Insight Hub | Composite insights pulled from analytics & events        | Composite read models            | Read models fed from events/analytics |
-
-based on aboe domain segregation, these ecosystem can also be seen in following visualization.
-
