@@ -1,4 +1,7 @@
-Data Driven Long Term RCM Master Planning
+Data Driven Long Term RCM Master Planning which has three output
+1. master program(as maintenance plan and item)
+2. budget project
+3. material requirement
 
 As is Condition
 - SAP PM has been setup to manage master data and work order workflow
@@ -22,3 +25,9 @@ Integration
 
 Administrative
 - WBS / CapEx / OpEX for multiyear RCM planning
+
+# Implementation Roadmap
+
+Data Management foundation > Data Collection Foundation > Integration > Data Driven Long Term RCM Master Planning Custom Program on SAP PM
+
+https://docs.google.com/spreadsheets/d/1PRimGc0By2f03R08x8oIcsMo-5trW-5lgaW58fQns58/edit?usp=sharing

@@ -17,7 +17,26 @@ Below are the typical SAP and available legacy applications arround the RCM (Rel
 
 note:each organization might have different ecosystem but generally above apps are the common surroundings.
 
+
 # Domain Segregation
 
-among these 14 apps, it can be categorized into three domain segregation.
+among these 14 apps, it can be categorized into following **bounded context**.
+
+|                  Bounded Context | Primary Responsibility                                   | System-of-Record                 | Integration Pattern                   |
+| -------------------------------: | -------------------------------------------------------- | -------------------------------- | ------------------------------------- |
+|          WorkOrder Orchestration | WO lifecycle, dispatch, SLA                              | SAP or WorkOrder service         | Sync API (commands) + Events          |
+|                     Asset Master | Asset hierarchy, BOM, master data                        | SAP                              | ACL / Replicated read model           |
+|             Inspection Execution | Field inspection capture, offline sync, evidence storage | Inspection service               | Mobile offline sync + Events          |
+|            Turnaround Management | Plan & execute turnarounds (long-running)                | Turnaround service               | Saga (events + commands)              |
+| Condition Monitoring / Telemetry | Telemetry ingest, alarms, thresholds                     | Telemetry platform (TSDB)        | Event streaming (Kafka/IoT hub)       |
+|           Corrective Maintenance | Corrective job capture, parts, closure                   | Corrective service               | Events + API to WorkOrder             |
+|             Maintenance Planning | Long-term maintenance strategy & 10-year plans           | Planning service                 | API + Batch exports                   |
+|    Basic Operations & Care (BOC) | Daily checks, operator rounds                            | BOC service                      | Offline-capable mobile + Events       |
+|           Predictive Maintenance | ML models, predictions, RUL                              | Prediction service + model store | Event stream -> model -> events/API   |
+|            Analytics & Dashboard | Aggregated KPIs, dashboards, reports                     | Analytics DW                     | Event -> ETL -> DW                    |
+|          Change Management (MOC) | MOC requests, approvals, implementation tracking         | MOC service                      | API + Events                          |
+|        Root Cause Analysis (RCA) | Failure investigation, causal trees                      | RCA service                      | API + Events / link artifacts         |
+|      RCM Dashboard / Insight Hub | Composite insights pulled from analytics & events        | Composite read models            | Read models fed from events/analytics |
+
+based on aboe domain segregation, these ecosystem can also be seen in following visualization.
 
