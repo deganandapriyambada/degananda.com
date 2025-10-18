@@ -1,3 +1,16 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: erp
+series-code: ASM001
+excerpt: Ensuring all the data from CMMS and ERP properly collected, cleansed and currated are important pre-requisite before implementing an Asset Performance Management (APM) Platform
+tags: asset-management
+topics: asset-management
+background: APM is commonly used to perform maintenance and reliability related analytics which can't be done CMMS or ERP. Data quality level will determine the output generated from APM.
+objective: to determine critical data quality points before implementing APM(Asset performance management)
+deliverables: Article
+---
+
 # Data Needed From SAP PM (Plant Maintenance) for APM
 
 Data is the primary foundation on any analytics software. On Asset maintenance context, SAP PM (Plant maintenance) responsible as the core asset master data and work order workflow.
