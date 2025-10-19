@@ -6,6 +6,7 @@ series-code: TLNT001
 excerpt: a Specific strategy is needed to prepare with new job market during GenAI revolution era. Each person might need different strategy as everyone has different natural talent, skill and also background. But, there is one specific data needed to craft the strategy which is job market evolution data
 tags: product linkedin job-hunting
 background: GenAI(generative artificial intelligence) is distrupting the world normal. Some job that previously can only be handled by human now can be done by AI Agents. Whitecollar and blue collar worker need to prepare the revolution in order to stay relevant with the job market.
+objective: to understand linkedin public joblistings html strucutre as the preparation stage before executing web scrapping.
 deliverables: article & illustration
 ---
 
