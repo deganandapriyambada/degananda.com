@@ -17,7 +17,9 @@ TPM which stands for total productive maintenance is maintenance strategy which 
 
 &ndash; TPM is the evolution of reactive maintenance. TPM can be achived by following DIN31051 which define **plant maintenance standard**
 
-based on DIM31051:2012-09 standard released by german institute of standarization, plant maintenance is defined by four main scheduled **activities or task**: 1.inspection, 2.maintenance, 3.repair and 4.improvement to ensure to prevent equipment breakdown and maintain equipment readiness.
+## Definition of Plant Maintenance
+
+based on DIM31051:2012-09 standard released by german institute of standarization, plant maintenance is defined by four main  **activities or task**: 1.inspection, 2.maintenance, 3.repair and 4.improvement to ensure to prevent equipment breakdown and maintain equipment readiness.
 
     some organization uses different plant maintenance measurement such as: inspection, maintenance, monitoring and testing
 
