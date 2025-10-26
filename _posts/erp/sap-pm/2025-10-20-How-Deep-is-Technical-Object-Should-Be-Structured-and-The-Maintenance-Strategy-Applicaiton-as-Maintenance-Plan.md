@@ -51,6 +51,7 @@ some key master data for planning plant
 apart from representing a group of people / workshop, work center also has **work center category**.
 
 a work center category will affect following parameter:
+
 - a work center is assigned to specific cost center.
 - **task list usage**: permitted task list application (SAP PM, PP etc), basically which app that can use the work center. eg: I if for intenance task list. 
 - task list also has task list type. for example: A general maintenance task list E = equipment task list, T= functional location task list
@@ -58,8 +59,6 @@ a work center category will affect following parameter:
 - **task list usage** keys: (sample use cases) a work center can be differentiated for miantenance or inspection.
 
 &mdash; work center type for maintenance is 0005.
-
-## Order
 
 # Pre-Requsite Before Implementing Maintneance Plan
 
@@ -103,7 +102,7 @@ There are several kind of maintenance plan call object (basically the event trig
 ## Maintenance plan -> notification
 
 ideal for an activity which require a feedback 
-rather than actual maintenance work. for example: 1
+rather than actual maintenance work. for example as shown below:
 
 1. routine inspection 
 2. routine monitoring
