@@ -498,7 +498,7 @@ second approach: check via jps command
 
 execute following
 
-    jpc
+    jps
 
 master and worker should listed on the command's output
 
