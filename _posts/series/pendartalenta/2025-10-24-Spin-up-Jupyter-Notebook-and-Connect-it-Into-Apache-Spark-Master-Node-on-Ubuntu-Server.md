@@ -325,7 +325,7 @@ source ~/.bashrc
 
 add this to the ipynb
 
-```
+```python   
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder \

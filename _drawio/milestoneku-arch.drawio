@@ -1,0 +1,273 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.1.2" pages="2">
+  <diagram name="Architecture &amp; Costing" id="_v_yQoFGnGgJXtIGIc9b">
+    <mxGraphModel dx="1078" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="754" y="80" width="236" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="789" y="160" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="509" y="81.5" width="230" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="240" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="130" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="594" y="163" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-7" value="PostgresSQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="243" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-8" value="Stages 1 Milestoneku.com Achitecture" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="35" y="40" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="170" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-1" value="Nodejs.Express&lt;div&gt;BE Pod&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-2" value="Java.Spring&lt;div&gt;BE pod&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="276" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-4" value="Go.Gin&lt;div&gt;BE Pod&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="366" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-11" value="Podman" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-14" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Authentication, Users, Role&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="305" y="240" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-15" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Milestone Management&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="333" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-16" value="VM#1 &lt;span style=&quot;font-weight: normal;&quot;&gt;- ubuntu 24.04 LTS&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-17" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Reminder Management&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="295" y="426" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-18" value="Python.FastAPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="458" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-19" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Joblisting Management&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="295" y="516" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-20" value="Python.JupyterLab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="564" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-22" value="VM#2&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;- ubuntu 24.04 LTS&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="516" y="88" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="509" y="420" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-24" value="VM#3&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;- ubuntu 24.04 LTS&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="539.5" y="430" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-25" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="584" y="490" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-26" value="Apache Kafka + Zookeeper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="570" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-28" value="VM#4&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;- ubuntu 24.04 LTS&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-29" value="Apache &lt;br&gt;Spark Master" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-30" value="Apache&lt;br&gt;Spark Worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-32" value="JVM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="789" y="163" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-33" value="Apache Iceberg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-34" value="Apache Iceberg REST catalog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="754" y="510" width="236" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-36" value="Laksehouse Platform &lt;br&gt;| for Crawler" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="794" y="120.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-38" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="839" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-39" value="AWS S3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="829" y="600" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-40" value="Databases(24/7) &amp;amp; Jupyterlab (On/Off)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="524" y="101" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-41" value="Application Services" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="266" y="103" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-42" value="Message broker services" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="514.5" y="445" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-43" value="Datalake" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="754" y="520" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="35" y="80" width="190" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="146.5" width="150" height="343.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-47" value="Presentation Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="108.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-48" value="React&lt;br&gt;Admin Panel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="161.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-50" value="&lt;b&gt;AWS Amplify&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-51" value="NextJS&lt;br&gt;FE Apps &lt;br&gt;(+Login gate)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-52" value="Jekyll&lt;br&gt;Landing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-53" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="605" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-55" value="AWS CDN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="520" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-58" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="605" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-59" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="605" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-60" value="Github Repository, Github Action" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="650" width="741" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-63" value="&lt;b&gt;milestoneku.com&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-64" value="&lt;b&gt;cfg.milestoneku.com&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="336" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-65" value="&lt;b&gt;app.milestoneku.com&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="227" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-66" value="&lt;b&gt;2gb 1vCPU&amp;nbsp; - $12&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="798" y="83.5" width="182" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-67" value="&lt;b&gt;1gb 1vCPU &lt;/b&gt;- $6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="278" y="76.5" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-68" value="&lt;b&gt;1gb 1vCPU &lt;/b&gt;- $6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="508" y="75" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-69" value="&lt;b&gt;2gb 1vCPU - $12&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="536" y="460" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-70" value="APIM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="546" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-71" value="($12x2) + ($6x2) = $32 dollars per month" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="741" y="40" width="256" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDvjAgUtR0oOhHiI1NzP-72" value="Factory design : Alt+SQS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="519.5" y="590" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YrtU1-pxllqejZLcN17y" name="Business Model">
+    <mxGraphModel dx="1138" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-1" value="Capital Expenditure" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="11" y="37" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-2" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;1. Initial Software Development = &lt;/span&gt;$0&lt;span style=&quot;font-weight: normal;&quot;&gt; (self developed)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;2. Long term physical supporting devices = &lt;/span&gt;$0&lt;span style=&quot;font-weight: normal;&quot;&gt; (personal laptop &amp;amp; using cloud as the infrastructure hosting)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;3. license = &lt;/span&gt;$0&lt;span style=&quot;font-weight: normal;&quot;&gt; (all open sources)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-5" value="Opex (Operational Expenditure)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="38" y="150" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-6" value="Stage 0 Milestoneku" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#1108FF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="38" y="10" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-7" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;1. Cloud Infrastructure = +- &lt;/span&gt;$48 ($36 DO, $12 AWS) = +- Rp. 800.000" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="38" y="180" width="382" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-8" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;2. Salaries = $0&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="38" y="200" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-9" value="Target Sales&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="38" y="260" width="182" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-10" value="(realistic) Target for BEP&amp;nbsp;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;at least 16 users on Milestoneku.com per month&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Or&lt;br&gt;at least 27 users on Kapanrilis.com per month&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="302" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-11" value="Channel#1&lt;span style=&quot;font-weight: 400;&quot;&gt; (Main) Milestoneku SaaS Pricing&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1 month = Rp. 49.000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;3 month = Rp. 99.000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;12 month = Rp 349.000&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="38" y="300" width="212" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-12" value="Channel#2&lt;span style=&quot;font-weight: 400;&quot;&gt; (Secondary) - (Video course) Building SaaS on Pipenpoof.com&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1.Video course = Rp 949.000 (Original Stack @DO)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;2.Video course (Migrate to Azure)= Rp 299.000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;3.Video course (Migrate to AWS) = Rp 299.000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;4.Ebook = Rp 349.000&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="267" y="240" width="423" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-13" value="Channel#3 &lt;span style=&quot;font-weight: 400;&quot;&gt;(Secondary) - Adsense @ Pipenpoof. the journey | Promotion, GTM&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;approx:&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;(web) $5 / month (Web: Pipenpoof.com)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;(youtube) $5 / month (YT: Pipenpoof)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="267" y="345" width="433" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-14" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;3. ADS Budget = (Vary)...&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="38" y="220" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-16" value="Channel#4&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;(Main) Kapanrilis SaaS Pricing&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1 month = Rp. 29.000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;3 month = Rp. 59.000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;12 month = Rp. 149.000&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="38" y="390" width="212" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPLCNGc5iGGRMLeYr-Ve-17" value="Channel#5&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;(Secondary) Talentsmapping&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Single prices = Rp 499.000 (collab with pendartalenta), 10% for operational cost into milestoneku.com&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="267" y="420" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1T39IKu2J2EEIj9fibZV-1" value="Actual Goal" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="267" y="210" width="182" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1T39IKu2J2EEIj9fibZV-2" value="Degananda Ferdian&lt;br&gt;Personal branding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1T39IKu2J2EEIj9fibZV-3" value="Intangible Benefit" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1T39IKu2J2EEIj9fibZV-4" value="Upskilling &amp;amp; Stay sharp on the technology" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="130" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1T39IKu2J2EEIj9fibZV-5" value="Keep the passion alive..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="220" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1T39IKu2J2EEIj9fibZV-6" value="Channel#6&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;(Secondary) Sponsored ads on kapanrilis&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1 month = Rp. 999.000 (Category &amp;amp; Listing page)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1 Month = Rp. 1.499.000 (landing page)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="335" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1T39IKu2J2EEIj9fibZV-8" value="Channel#7&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;(Secondary) permanent ads on milestoneku post&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;support the article | permanent ads(lifetime) : Rp. 999.999 / $59&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="380" width="340" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="1T39IKu2J2EEIj9fibZV-9" value="Channel#8&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;(Secondary) Donation via Saweria / Bagibagi&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Pipenpoof ID channel&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Pipenpoof US channel&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="425" width="340" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
