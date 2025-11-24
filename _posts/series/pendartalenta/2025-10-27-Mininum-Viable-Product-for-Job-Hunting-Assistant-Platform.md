@@ -1,6 +1,6 @@
 # Quater Life Crysis on Youth
  
-For some people, career growth is one of their top priority, especially between their 20s(post collegue graduation) and 30s, consequenty created a **fierce competitive situation** during the **job hunting on the market**. For those who left  behind by their peers will often experiences quater life crysis. 
+For some people, career growth is one of their top priority, especially between their 20s(post school/college graduation) and 30s, consequenty created a **fierce competitive situation** during the **job hunting on the market**. For those who left  behind by their peers will often experiences quater life crysis. 
 
 These kind of situation is escalated by overconsumed social media without a wise content filtering causing unreal life expectation which not match with their as is state (example: not coming from rich family, doesnt have top tier education, physical limitation, etc).
 
@@ -16,7 +16,7 @@ however, its not rare that people also chasing their dream as blue collar worker
 
 &mdash; but does setting up proper career trajectory based on **personal career preferences** is enough to escape FOMO and quarter life crysis?
 
-the general answer is **NO** (backed up by several research) such as :
+the general answer is **NO** (backed up by several research) such as:
 
 1. The Influence of Fear of Missing Out terhadap Quarter Life Crisis for Final Year Student (Ni Kadek Su Wardaniorcid ,  Nani Barorah Nasution  orcid | 2025)
 2. Fear of Missing Out (FoMO) & Psychological Distress (Soraci P | 2025)
@@ -50,8 +50,105 @@ to achieve the realistic financial stability, we must keep growing(on all aspect
 
 Milestoneku.com is a digital spine for your life growth.
 
-# Milestoneku
+# Milestoneku Platform
 
+as a SaaS(software as a services) platform, milestoneku has three pilar of capabilities to support the user to survive on 21st century where information is fully opened to anyone through internet (globalization).
+
+1. Productivity Milestone
+2. Health Milestone
+3. Wellness Milestone
+
+Each pilar is designed to support user to plan, schedule, monitor and track day to day target (milestone) in order to achieve balanced life style and eventually could stay away from FOMO (fear of missing out).
+
+&mdash; lets breakdown how each pilar can fortify ourself by enhancing self awareness and consciousness from the threat of FOMO as it can lead into depression & low self esteem. 
+
+## Productivity Milestone
+
+Scientific research shows that **FOMO is killing human productivity level**.
+
+    FoMO is closely related to SNS(social networking sites) use and has negative effects on academic performance.The effects of problematic internet usage (PIU) and responding to frequent notifications entails repeated switching between tasks. This affects attention span; interrupts work and overall productivity
+
+sources: Alt D. Students’ Wellbeing, Fear of Missing out, and Social Media Engagement for Leisure in Higher Education Learning Environments. Curr Psychol. 2018;37:128–138
+
+In other words, apart from reducing social media consumption, FOMO symptom can also be **surpressed by having high productivity level**.
+
+theoritically, lack of productivity can lead into the urge to open social media, but of course should be enabled along side with goodwill/strong intetion to limit social media consumption.
+
+below is the strategy to **increase productivity** level to kill FOMO.
+
+- set clear, viable and tangible (can be measured through quantitative approach) goals on career development (any collar!)
+- structurized career path. while the outcome of human effort has a lot of factor which sometimes are uncontrollable, career path can be defined and planned properly (its okay if the realization !== planned, human has ability to adapt and improve overtime)
+- to always feel content & proud with our own achievement by defining personal version of success. Because it is differ per human being as every baby born with different starting point, privilages and condition! 
+
+### User Story Mapping
+
+these productivity strategy is translated into following user stories:
+
+## Physical Health Milestone
+
+"a world can turn upside down once human got a chronic or terminal disease."
+
+once we got such disease, our view of the world will be changed, and often to take everything for granted. 
+
+sometimes, we forgot about the natural happiness which naturally given from the creator, as simple as able to see the world without any vision defect, able to breath, able to walk & able to jump.
+
+many scientist conclude that the routine done by human especially on their **30s will significantly affect** the physical and mental health (longetivity) in their 40s, 50s and beyond.
+
+&mdash; it is important to always be grateful with the creator natural gift (vision, ability to move, etc).
+
+and the best action to show the gratitude is by **perserve the health** it self.
+
+there are at least four health related matter which should be planned, scheduled and tracked every day
+
+1. sleep
+2. nutrition
+3. rest
+4. physical exercise
+
+apart from perserving human health, these combination of activity will reduce FOMO symtoms because they influence dophamine production from body (happiness hormore) which surpass the urge to open social media as generally people open social media to get happy (entertaiment).
+
+another benefit of health related activity adherence is lowering the reactiveness towards social media post which often lead into negative emotion (angry, hate, envy).
+
+### User Story Mapping
+
+## Wellness Milestone
+
+Wellness is differ from health. Both good physical and mental health can only be achieved by continuously active to any activities which can lead into healthy mind and body.
+
+&mdash; the process of improving physical and mental health is called as a wellness.
+
+There are at least four component which contribute  to overall parameter
+
+1. mental health
+2. relationship (towards family, friend, coworker, partner)
+3. emotional maturity
+4. life purpose
+
+Various activity need to be planned and scheduled in order to improve each wellness parameter.
+
+Balanced wellness parameter should be the target instead of focus on one of the parameter as each of it contribute(become multiplier) to the overall wellness matrix.
+
+below are suggested list of activities to improve each of the wellness parameter.
+
+| No | Activity | Affected Wellness Parameter |
+|---|---|---|
+| 1 | Journaling | Mental Health |
+| 2 | Meditation/Spiritual Stuff | Mental Health |
+| 3 | Digital Detox (limiting social media time, only follow/watch/read positive content) | Mental Health |
+| 4 | Nature Exposure | Mental Health |
+| 5 | Chat with family member/friend/co worker | Relationship |
+| 6 | Quality time(hang out/intimate moment) with family member/friend/co worker | Relationship |
+| 7 | Express appreciation to others | Relationship |
+| 8 | Journaling (what happend-> why) | Emotional Maturity |
+| 9 | Organize and plan the day | Life Purpose |
+
+### User Story Mapping
+
+# Backlog
+
+Apart from the essential capabilities which is derived from one of the pilar philosophy, some non essential feature will be part of product backlog for future updates.
+
+------
 
 Milestoneku.com - Digital Spine for your Career Growth.
 
