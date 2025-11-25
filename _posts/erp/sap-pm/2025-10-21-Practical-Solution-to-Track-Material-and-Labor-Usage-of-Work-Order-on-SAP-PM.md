@@ -34,7 +34,16 @@ Phase: WO Scheduling
 
 | No | Type | Control Key | Material | Labor | Material Order | Services Order
 |---|---|---|---|---|---|---|
-| 1 | Internal Operation | Valuation Price & Category | Activity Type | Inhouse (IH) | a | b |
+| 1 | Internal Operation | PM01 | Valuation Price & Category | Activity Type | none as it is internal | as it is internal |
+| 2 | Fully Outsource | PM02 | OA/PIR | OA/PIR | PR -> PO (if material source is VMI): <br /> VMI->S Loc -> PR -> PO | PR -> PO |
+| 3 | Labor Outsource | PM03 | Valuation Price & Category | OA/PIR | none as it is internal | PR -> PO |
+
+*PIR = Purchasing info record
+*OA = Outline Agreement
+
+Valuation price & Category
+- Standard price (S)—for internal warehouse
+- Moving average price (V)—for externally purchased but still internal stock
 
 **Cost Collector**
 
@@ -54,12 +63,27 @@ if the actual resource utilized is way more than the planned allocation, an eval
 
 below is the process of capturing actual material,labor and cost consumption
 
-Phase: Just before execution
+Phase: **Just before execution**
 
 to record actual usage
 
-| No | entity | Remarks | T-Code | 
-|---|---|---|---|
-| 1 | Labor | Internal | d |
+| No | entity |T-Code | 
+|---|---|---|
+| 1 | Stock Material | GI(Good Issue) from warehouse to WO |
+| 2 | Non Stock Material | Good Receipt to WO |
 
-Phase: After TECO (technically complete)
+Phase: **After TECO** (technically complete)
+
+to record actual usage
+
+| No | entity |T-Code | 
+|---|---|---|
+| 1 | Internal labor | Time Confirmation |
+| 2 | External labor | SES (Services Entry Sheet) |
+
+## Reconcilliation report
+
+Unfortunately SAP PM doesnt built in feature to create a report which show planned vs actual resources consumption in single view.
+
+It has to be custom developed.
+
