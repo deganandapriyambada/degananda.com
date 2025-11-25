@@ -1,3 +1,15 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: is-it-terminology
+series-code: n/a
+excerpt: Several digital foundation need to be set in places before integrating existing legacy apps with new packaged apps within an organization including application rationalization & provisioning digital spine (EIL, DQM, MDM, ETC)
+tags: digital-spine
+background: a Mature organization usually already has some legacy apps in places which has been used by business users for years. But then, the leadership decided to incorporate new packaged apps (eg: ERP) and naturally cause "integration" problem between the packaged apps with existing legacy app.
+objective: to understand the common practices of integrating new packaged apps into existing legacy apps ecosystem.
+deliverables: article
+--- 
+
 # Does Legacy Apps is a Burden for an Organization Who Is Undergoing Digital Transformation?
 
 Existing legacy apps on an organization are often treated as burden and technical debt from either software engineering or business perspective during digital transformation project.
@@ -61,9 +73,27 @@ Core principle on the event driven
 
 ### CAP Theorem
 
+CAP theorem is a principle on **distributed system** where a system can only choose two out of three resiliencies capabilities:
+
+1. Consistency (C) - all client on the distributed system received most recent same data.
+2. Availability (A) - every request initiated by client always receive responses even one of the server node is down.
+3. Partition tolerances (P) - system should continue to operate despite any network failures.
+
+just like a physics, software engineering also has proven "nature" principle which can't be reversed.
+
 **Master data**
 
+At most cases, Master data is not something that required immediately. Usually it is updated every once a while and doesnt need to be sync at one time.
+
+Hence, distributed master data often prioritize CP (consistency and partition tolerances).
+
 **Transaction data**
+
+On the opposite of master data, a distributed transaction data need to be IN SYNC. If one node failed to sync/update, then all transaction should be aborted (never commited) and finally will be roll back.
+
+CA(Consistency & availability) is ideally choosen for the transaction data.
+
+When one of the node critical is down, and causing transaction distruption, a circuit breaker shall be in place to stop the transaction.
 
 ## Digital Spine
 
@@ -119,5 +149,10 @@ Data lineage focus on tracking the end to end data joureny from the origin/sourc
 
 Mainly monitor following parameters:
 
-1.
+1. Data origin/Sources - where the data is coming? 
+2. Data destination - target of the data transmission (eg: into postgresql, to data lake, etc)
+3. timestamp
+4. latency
+5. data quality matrics(completeness, correctness, etc)
+6. schema and column mapping
 
