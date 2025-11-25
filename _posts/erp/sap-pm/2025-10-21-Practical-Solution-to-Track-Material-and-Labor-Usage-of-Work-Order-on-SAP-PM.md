@@ -32,9 +32,9 @@ internal and external maintenance operation has different way to compute the rat
 
 Phase: WO Scheduling
 
-| No | entity | Remarks | Source | 
-|---|---|---|---|
-| 1 | Labor | Internal | d |
+| No | Type | Control Key | Material | Labor | Material Order | Services Order
+|---|---|---|---|---|---|---|
+| 1 | Internal Operation | Valuation Price & Category | Activity Type | Inhouse (IH) | a | b |
 
 **Cost Collector**
 
@@ -48,6 +48,11 @@ cost center is OPEX to track ongoing operational cost while WBS and AUC is CAPEX
 
 # Realization
 
+One of the key performance indicator (KPI) of reliability and maintenance departement is planned vs actual resource consumption deviation. 
+
+if the actual resource utilized is way more than the planned allocation, an evaluation and improvement is needed as this could lead into bigger problem especially if the budget is affected.
+
+below is the process of capturing actual material,labor and cost consumption
 
 Phase: Just before execution
 
