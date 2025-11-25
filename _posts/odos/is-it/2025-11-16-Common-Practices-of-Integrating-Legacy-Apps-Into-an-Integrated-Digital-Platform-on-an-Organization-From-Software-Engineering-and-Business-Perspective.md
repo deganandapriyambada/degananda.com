@@ -5,7 +5,7 @@ categories: is-it-terminology
 series-code: n/a
 excerpt: Several digital foundation need to be set in places before integrating existing legacy apps with new packaged apps within an organization including application rationalization & provisioning digital spine (EIL, DQM, MDM, ETC)
 tags: digital-spine
-background: a Mature organization usually already has some legacy apps in places which has been used by business users for years. But then, the leadership decided to incorporate new packaged apps (eg: ERP) and naturally cause "integration" problem between the packaged apps with existing legacy app.
+background: a Mature organization usually already has some legacy apps in places which has been used by business users for years. But then, the leadership decided to incorporate new packaged apps (eg ERP) and naturally cause integration problem between the packaged apps with existing legacy app.
 objective: to understand the common practices of integrating new packaged apps into existing legacy apps ecosystem.
 deliverables: article
 --- 
