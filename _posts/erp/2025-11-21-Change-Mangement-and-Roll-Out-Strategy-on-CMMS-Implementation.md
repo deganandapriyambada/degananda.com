@@ -1,3 +1,16 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: erp
+series-code: ASM001
+excerpt: Change management is as important as the CMMS development or rollout it self as poeple will be the one operate the platform. One of the most popular CM framework which adopted by many big organization is ADKAR methodologies.
+tags: erp sap-pm change-management
+topics: sap-pm
+background: any CMMS platform available on the market are just a tools. In the end, human is the one who operate the platform.a bad operator can result in bad data quality. Garbage in and garbage out!. a Proper management need to be put in places to govern the transition and process.
+objective: to understand the practical change management process on CMMS roll-out 
+deliverables: Article
+---
+
 # CMMS is Just a Tools
 
 CMMS (Computerized maintenance management system) is a tools to support reliablity and maintenance departement to execute all maintenance related activities.

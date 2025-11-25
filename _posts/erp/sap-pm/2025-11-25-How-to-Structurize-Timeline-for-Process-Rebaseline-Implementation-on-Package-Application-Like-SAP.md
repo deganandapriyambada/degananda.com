@@ -1,3 +1,16 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: erp
+series-code: ASM001
+excerpt: ADKAR change management methodologies can be used as central or core solution for process re-engineering on packaged apps.
+tags: erp sap-pm change-management
+topics: sap-pm
+background: Not all digital transformation project went smooth especially for packaged apps like SAP.  Most common problem is when user use their own creativity to operate the apps as no clear user manual/guidance available,
+objective: to understand how process re-engineering on packaged apps like SAP. 
+deliverables: Article
+---
+
 # Why process redesign often happened after digital transformation?
 
 In many cases, an organization will soon realize that the new implemented business process on certain application is not optimal after a group of consultant/audit team found a process flaw during the system  after digital transformation go-live process is completed.
