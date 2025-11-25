@@ -2,7 +2,7 @@
 
 In many cases, an organization will soon realize that the new implemented business process on certain application is not optimal after a group of consultant/audit team found a process flaw during the system  after digital transformation go-live process is completed.
 
-&mdash; Such condition can still be considered normal as long as **the discovered flaw not within the solution fundemental**, otherwise it might require fullbown software re-engineering.
+&mdash; Such condition can still be considered normal as long as **the discovered flaw do not affect the core/fundamental solution design**, otherwise it might require fullbown software re-engineering.
 
 Usually these people will propose to re-engineer the process and tried to stich out new workflow based on the solution fundamental standard/best practices within the application.
 
@@ -21,4 +21,69 @@ Assuming the application (in this case is SAP PM) fundamental / core solution is
 
 ## Execution Order
 
-## Final Timeline
+Before creating the timeline, lets breakdown the solution mapping for each flaw.
+
+Change management (CM) will be the main/core solution because it is an process rebaseline implementation and the other solution need to be grouped into blocking or not blocking the change management.
+
+1. Blocking - must be before or during the CM and there is no acceptable workaround.
+2. Non block - put into backlog as it has acceptable "workaround"
+
+| No | Flaw | Solution | Type |
+|---|---|---|---|
+| 1 | Feature is not intended to be use as it was designed | Change Management - Update Documentation  | Blocking | 
+| 2 | Missing Integration | New Application Landscape with integration layer(EIL)  | Non Blocking | 
+| 3 | Decoupled Reporting Process | 1. KPI Re-Definition <br /> 2.Dashboard Creation Based on SAP PM Data  | Blocking | 
+| 4 | Lack of non functional quality gate check (slowness) | Performance & Usability Re-Test for SAP PM and All Surroundings | Blocking | 
+
+# Final Timeline
+
+Once the solution is identified as well as the category (blocking/non-blocking), timeline is ready to structurized.
+
+on this cases, change management is the central of the solution. Hence, the timeline should follow ADKAR methodologies.
+
+&mdash; ADKAR is done in waterfall.
+
+## Awareness
+
+Relaibiltiy & Mainteannce Department Key Performance Indicator Re-definition
+
+a. L1 KPI definition & formula agreement
+b. L2 KPI definition & formula agreement
+
+
+## Desire
+
+a. Define SAP compliance KPI/Key Performance Indicator (Data quality) & SLA
+b. Identify user champion to lead and oversea the changes
+
+## Knowledge
+
+SAP PM Documentation Update
+
+1.BBWO (Business Blueprint Workshop Output) Updates.
+Things to update:
+a. Update to be workflow
+b. configuration
+c. test Script
+2.User Manual Update (positive scenario)
+3.User Manual Update (negative scenario)
+4.Socialization. & Workshop
+
+## Ability
+
+a. User Acceptance Testing (UAT) of the new flow.
+b. Dry run on UAT environment
+
+## ROLLOUT
+
+this is where the new process will be rolled out into production.
+
+## Reinforcement
+
+a. build control tower to track department KPI
+b. build control tower to track SAP Compliance/data quality KPI
+c. monthly socialization (post rollout)
+
+# Backlog
+
+This is where the non blocking solution will be catered. For example, to integrate SAP PM with all the surroundings or to customize SAP PM based on the identified gaps which require custom program.
