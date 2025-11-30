@@ -1,0 +1,1 @@
+OT or operational technology in manufacturing process is sets of hardware and software which control and execute process on the shopfloor.

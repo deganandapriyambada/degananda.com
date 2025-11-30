@@ -1,4 +1,18 @@
-# Quater Life Crysis on Youth
+---
+layout: posts
+author: Degananda Ferdian
+categories: product
+series-code: TLNT001
+excerpt: Milestone management can help human to set their goal over various aspect such as producitivty, health and wellness. It help human to plan & schedule their day to day task properly and produce dopamine to their brain each time the task is completed.
+tags: user-stories market-research product-philosophy
+background: One of dominant factor that contribute to the FOMO symtoms or also known as fear of missing out is the degradation of daily productivity which cause social media attachment to be skyrocketed. 
+objective: to create user stories for pilot phase of a digital product development.
+deliverables: article & illustration
+title: "How to Create User Story: Mininum Viable Product For Productivity Assistant Platform To Prevent FOMO"
+---
+
+
+# Relevancies between Quater Life Crysis and FOMO on Youth
  
 For some people, career growth is one of their top priority, especially between their 20s(post school/college graduation) and 30s, consequenty created a **fierce competitive situation** during the **job hunting on the market**. For those who left  behind by their peers will often experiences quater life crysis. 
 
@@ -6,22 +20,26 @@ These kind of situation is escalated by overconsumed social media without a wise
 
 In order to escape the "FOMO" (a feeling that left behind), a realistic and measureable career growth plan need to be planned with self awareness (understannd his/her strong point, skill and weakness).
 
-## The Resolution
+## The Resolution to Stop QLC
 
-a career means different to each person. On white collar cases, a little portion of population is pursuing enterpreneurship, while some are comfortable with chasing corporate jobs.
+Career means different to each person. On white collar cases, a little portion of population is pursuing enterpreneurship, while some are comfortable with chasing corporate jobs.
 
 however, its not rare that people also chasing their dream as blue collar worker. For example, someone who love to drive and operating a vehicle, might take blue collar job such as driver, heavy machine operating and so on.
 
     no definitive reason to make a job is better than other job. it all goes down to the each person perspective, priority and preferences.
 
-&mdash; but does setting up proper career trajectory based on **personal career preferences** is enough to escape FOMO and quarter life crysis?
+&mdash; but does setting up proper career trajectory based on **personal career preferences** is enough to escape FOMO (**fear of missing out**) and quarter life crysis?
 
 the general answer is **NO** (backed up by several research) such as:
 
-1. The Influence of Fear of Missing Out terhadap Quarter Life Crisis for Final Year Student (Ni Kadek Su Wardaniorcid ,  Nani Barorah Nasution  orcid | 2025)
-2. Fear of Missing Out (FoMO) & Psychological Distress (Soraci P | 2025)
+1. The Influence of Fear of Missing Out terhadap Quarter Life Crisis for Final Year Student (Ni Kadek Su Wardaniorcid ,  Nani Barorah Nasution  orcid, 2025)
+2. Fear of Missing Out (FoMO) & Psychological Distress (Soraci P,  2025)
 
 ## Completely get rid of quater life crysis and life FOMO
+
+FOMO can't be fully prevented due to the human nature (greed), but it can be managed and converted into positive energy.
+
+<hr >
 
 **Self Awareness** is the strongest **antidotes** to these virus (FOMO & Quater life crysis)
 
@@ -48,9 +66,9 @@ The metric to assess our life achievement should NOT be captured from career onl
 
 to achieve the realistic financial stability, we must keep growing(on all aspects) and never surrender.
 
-Milestoneku.com is a digital spine for your life growth.
-
 # Milestoneku Platform
+
+&mdash; Milestoneku.com is a digital spine for your life growth (productivity platform)
 
 as a SaaS(software as a services) platform, milestoneku has three pilar of capabilities to support the user to survive on 21st century where information is fully opened to anyone through internet (globalization).
 
@@ -66,7 +84,11 @@ Each pilar is designed to support user to plan, schedule, monitor and track day 
 
 Scientific research shows that **FOMO is killing human productivity level**.
 
-    FoMO is closely related to SNS(social networking sites) use and has negative effects on academic performance.The effects of problematic internet usage (PIU) and responding to frequent notifications entails repeated switching between tasks. This affects attention span; interrupts work and overall productivity
+    FoMO is closely related to SNS(social networking sites) use and has negative effects on academic performance.
+    
+The effects of problematic internet usage (PIU) and responding to frequent notifications entails repeated switching between tasks. 
+    
+&mdash; This affects attention interrupts work and overall productivity
 
 sources: Alt D. Students’ Wellbeing, Fear of Missing out, and Social Media Engagement for Leisure in Higher Education Learning Environments. Curr Psychol. 2018;37:128–138
 
@@ -82,7 +104,24 @@ below is the strategy to **increase productivity** level to kill FOMO.
 
 ### User Story Mapping
 
+user stories will be written using following common format on the software engineering industries:
+
+    as a <persona>, i want <perform the action>, so that <benefit for the personal>
+
 these productivity strategy is translated into following user stories:
+
+| # | Epic| User Stories |
+|---|---|---|
+| P#1 | Career Goal Management | As a user i want to create a career goal o that i can set my goal over specific period of time | 
+| P#2 | Career Goal Management | As a user i want to correlate some of my career goal so that i can view the depedencies | 
+| P#3 | Career Milestone Management | As a user i want to create important milestone for my career goal so that i can see the runway or path to achieve the goal | 
+| P#4 | Career Milestone Management | As a user i want to get informed regarding my career milestone viability so that i am not creating a mission impossible | 
+| P#5 | Milestone's Task Management | As a user i want to add new task to my milestone | 
+| P#6 | Milestone's KPI Management | As a user i want add key perfromance indicator to the career milestone  so that i can see the milestone progress (where is it, what percentage) 
+| P#7 | Milestone's KPI Management | As a user i want to add daily progress on the milestone as a counter so that my milestone's KPI progress can be quantivied |
+| P#8 | Dashboard Management | As a user i want to view report about my goal, milestone and task progress so that i can see where am i towards the goal |
+| P#9 | Notification Management | As a user i want to get notified days/hours before the goal/milestone/task is started and ended |
+
 
 ## Physical Health Milestone
 
@@ -110,6 +149,16 @@ apart from perserving human health, these combination of activity will reduce FO
 another benefit of health related activity adherence is lowering the reactiveness towards social media post which often lead into negative emotion (angry, hate, envy).
 
 ### User Story Mapping
+
+| # | Epic| User Stories |
+|---|---|---|
+| H#1 | Health Goal Management | As a user i want to create a health goal so that i can have clear and structurized plan to perserve my body fitness. | 
+| H#2 | Health Milestone Management | As a user i want to create a health milestone so that i can have clear path ahead and track the health goal progress | 
+| H#3 | Health Routine Management | As a user i want to create a daily routine so that i can schedule my daily routine and incorporate fitness activity | 
+| H#4 | Health Routine Management | As a user i want to assign the routine to specific health goal's milestone so i can correlate the routine into the specific health milestone | 
+| H#5 | Notification Management | As a user i want to get notified days/hours before the goal/milestone/task is started and ended |
+| H#6 | Health Routine Management | As a user i want to get suggestion regarding my routine to perserve my health so that i can have better body fitness |
+| H#7 | Journaling Management | As a user i want to write daily journal to express my feeling at that day so that i can avoid mental breakdown |
 
 ## Wellness Milestone
 
@@ -144,62 +193,25 @@ below are suggested list of activities to improve each of the wellness parameter
 
 ### User Story Mapping
 
-# Backlog
+| # | Epic| User Stories |
+|---|---|---|
+| W#1 | Wellness Goal Management | As a user i want to create a Wellness goal so that i can have clear and structurized plan to perserve my body & mind wellness. | 
+| W#2 | Wellness Milestone Management | As a user i want to create a Wellness milestone so that i can have clear path ahead and track the Wellness goal progress | 
+| W#3 | Wellness Routine Management | As a user i want to create a wellness daily routine so that i can schedule my daily routine and incorporate wellness activity.  
+| W#4 | Wellness Routine Management | As a user i want to assign the routine to specific Wellness goal's milestone so i can correlate the routine into the specific Wellness milestone | 
+| W#5 | Notification Management | As a user i want to get notified days/hours before the goal/milestone/task is started and ended |
+| W#6 | Wellness Routine Management | As a user i want to get suggestion regarding my routine to perserve my physical and mental wellness so that i can have better wellness |
 
-Apart from the essential capabilities which is derived from one of the pilar philosophy, some non essential feature will be part of product backlog for future updates.
+# Capability Backlog
 
-------
+Apart from the essential capabilities which derrived from the three pilar to surive at 21st century and has been converted into user stores, some non-essential capabilities will be part of product backlog for future product updates.
 
-Milestoneku.com - Digital Spine for your Career Growth.
-
-=> Keep your self anonymous
-
-STEM, Humaniora, Social Science
-
-[core]
-# Job vacancy
-- automatic job vacancy retrieval from trusted sources (linked-in)
-- ** set reminder (via email/wa/push notification)
-
-# Growth & Education Event
-- srapping
-- ** reminder
-
-# Milestone management
-derrived from milestoneku.com (Visual Customization)
-daily schedule freeze
-
-# Daily Routines Scheduler & Planner
-
-# Last Book's Section that you read on this week? Mind to articulate it to confirm your understanding?
-
-this can be downloaded for your future references for work / study / school etc.
-
-or can be formatted to markdown, so you can publish it into your blog / website. 
-
-# (Freetext) Journaling (For mental health)
-
-# Talants mapping **
-
-** => Ads free
-
-[end-of-core]
-
-# Save It / Website Bookmarker (google chrome)
-
-# Life Style Event
-
-# (Gimmick) Daily Motivation
-keep alive.
-
-# Side Hussle Success Story
-
-
-1. automated job vancancy listing
-   1. reminder to setrem
-2. auto match with skill
-3. recommended up skilling program
-4. talent mapping
-5. CV Analyzer
-6. (tutorial) link to pipenpoof.
-7. milestone management (milestoneku)
+1. automatic job vacancy retrieval from trusted sources (linked-in) to view the market trends for supporting career milestone management feature
+2. ability to set reminder (via email/wa/push notification)
+3. feature to check the last book's section that the user read at this week (+user have to write/pharaphrase the her/his understanding)
+4. bookmark /save anything tools on browser which will be integrated to the milestoneku.com account
+5. journal and book readings history downloadable content (md or pdf)
+6. to show daily quotes from famous figure
+7. automated life style event near by the user as reference for their career/health/wellness goal
+8. CV analyzer
+9. cross content with talentsampping
