@@ -9,6 +9,7 @@ topics: sap-pm
 background: any CMMS platform available on the market are just a tools. In the end, human is the one who operate the platform.a bad operator can result in bad data quality. Garbage in and garbage out!. a Proper management need to be put in places to govern the transition and process.
 objective: to understand the practical change management process on CMMS roll-out 
 deliverables: Article
+title: "Change Management and Roll-Out Strategy on CMMS Implementation"
 ---
 
 # CMMS is Just a Tools
