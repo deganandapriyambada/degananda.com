@@ -45,4 +45,9 @@ Following is the typical minimal enterprise architecture framework/guideline for
 - **Incident Management**: process to manage issue (incident) encountered on the application/IT infrastructure
 - **Maintenance**
 
-## Background
+## Scope
+
+# Improvement Opportunity Analysis
+
+Note: below analysis will use manufacturing/oil & gas industry assessment which heavily concerned about their operation technology (OT) reliability, scalability & security.
+
