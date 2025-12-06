@@ -553,6 +553,71 @@ body {
   word-wrap: break-word;
 }
 
+/* Add language label above code blocks rendered by Rouge */
+.language-python::before,
+.language-java::before,
+.language-javascript::before,
+.language-typescript::before,
+.language-ruby::before,
+.language-go::before,
+.language-golang::before,
+.language-rust::before,
+.language-html::before,
+.language-css::before {
+  content: attr(class);
+  display: block;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.2em 0.6em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-bottom: 0.3em;
+}
+
+/* Override full class name (e.g., language-python) with readable label */
+.language-python::before {
+  content: "Python";
+}
+
+.language-java::before {
+  content: "Java";
+}
+
+.language-html::before {
+  content: "HTML";
+}
+
+.language-css::before {
+  content: "CSS";
+}
+
+.language-javascript::before {
+  content: "JavaScript";
+}
+
+.language-rust::before {
+  content: "Rust";
+}
+
+.language-typescript::before {
+  content: "Typescript";
+}
+
+.language-ruby::before {
+  content: "Ruby";
+}
+
+.language-golang::before {
+  content: "Golang";
+}
+
+.language-go::before {
+  content: "Go";
+}
+
 .post-content ul li,
 .post-content ol li {
   /* Add language label above code blocks rendered by Rouge */
@@ -3033,12 +3098,11 @@ tbody tr:hover {
   }
 
   .menu-sidebar-container>.menu-title {
-    display: none;
+    font-size: 40px;
   }
 
   .menu-sidebar-container>.menu-close {
     font-size: 40px;
-    width: 100%;
   }
 
   .menu-sidebar-container>.menu-close i {
@@ -3063,7 +3127,7 @@ tbody tr:hover {
   }
 
   .headline-tags>ul>li>a {
-    font-size: 30px;
+    font-size: 1.4rem;
   }
 
   .post-content>p,
@@ -3071,12 +3135,12 @@ tbody tr:hover {
   .post-content pre,
   .post-content code,
   .post-content ul li {
-    font-size: 32px;
+    font-size: 1.4rem;
   }
 
   th,
   td {
-    font-size: 30px;
+    font-size: 1.4rem;
   }
 
   tr {
@@ -3152,6 +3216,11 @@ tbody tr:hover {
   .footer-info>ul>li,
   .footer-info>ul>li>a {
     font-size: 25px;
+  }
+
+  .disclaimer,
+  .footer-menu {
+    display: none;
   }
 
   .topic-series {
