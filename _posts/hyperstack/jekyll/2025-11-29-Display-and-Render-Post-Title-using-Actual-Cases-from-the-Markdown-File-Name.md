@@ -1,12 +1,12 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: nodejs
+categories: jekyll
 series-code: HSD001
-excerpt: there are at least five mandatory component to be added and configured on the express project framework from the environment variables all the way up to the test script.
-tags: nodejs express
-background: a Proper nodejs express project structure can help the whole team to gain more productivity as the source code are well organized and make debugging easier.
-objective: to understand one of references for nodejs with express framework project structure
+excerpt: jekyll has a feature called frontmatter configuration on each of the markdown file. Post title can be forced (replace the default one from md file name) by adding title as the parameter
+tags: liquid
+background: markdown file name by default will be used as the post title on jekyll. this will cause issue on the capitalization. Jekyll will force each of the words (separated by hypen) from the md file name into PerfectCase
+objective: to understand how to force replace markdown filename as title into configurable title
 deliverables: Article
 ---
 
