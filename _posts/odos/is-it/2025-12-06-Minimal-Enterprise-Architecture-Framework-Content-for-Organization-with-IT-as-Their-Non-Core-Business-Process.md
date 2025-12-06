@@ -8,6 +8,7 @@ tags: enterprise-architecture
 background: Nowdays, information technology (IT) become one of supporting backbone for many business. Majority of the business process are done through combination of operation technology and information technology (digitalization). It force organization to create a standard guideline to manage their IT and OT process.
 objective: to understand the usual embarked guideline on non IT centric company such as manufacturing and oil and gas.
 deliverables: article
+title: "Minimal Enterprise Architecture Framework Content For Organization With Information Technology As Their Non Core Business Process"
 --- 
 
 # Organization Enterprise Architecture Complexity
