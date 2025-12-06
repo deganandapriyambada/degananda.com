@@ -1,5 +1,5 @@
 <div class="theme-divider-word">
-    Series List
+    Long Term Series
 </div>
 <div class="series-list-container">
     {% for item in site.data.series %}
@@ -13,7 +13,7 @@
         </div>
 
         <div class="series-new-topic">
-             <ul>
+            <ul>
                 <li>
                     <div class="series-new-status {{ item.status }}">
                         {{ item.status }}
@@ -32,10 +32,10 @@
                         <div><a href="/series/{{ item.code }}">Learn More</a></div>
                     </div>
                 </li>
-             </ul>
+            </ul>
         </div>
 
 
-    </div> 
+    </div>
     {% endfor %}
 </div>
