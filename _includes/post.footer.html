@@ -1,4 +1,3 @@
-
 {% include bottom.comment.html %}
 <div id="footer-page">
     <div class="width-container-post bg-gray">
@@ -8,25 +7,29 @@
         <div class="about-writer">
             <div class="photo">
                 <div class="post-author-photo-bottom">
-                    <img src="/assets/images/dfp.jpg">   
+                    <img src="/assets/images/dfp.jpg">
                 </div>
             </div>
             <div class="profile-desc">
                 <div class="profile-name">
                     <b><u>Degananda Ferdian</u></b>
                 </div>
-                <div>
-                    a Versatile Technology Consultant: Solution Architect, Cloud/Software Engineer and ITOT Integrator on Jakarta, Indonesia.
+                <div class="profile-shortdesc">
+                    a Versatile Technology Consultant: Solution Architect, Cloud/Software Engineer and ITOT Integrator
+                    on Jakarta, Indonesia.
                 </div>
-                <div>
+                <div class="profile-shortdesc">
                     Currently work as Digital Tech Arch in Consulting Company.
                 </div>
                 <div class="profile-contact">
-                    <a href="https://www.linkedin.com/in/degananda-ferdian?originalSubdomain=id" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    &nbsp;                    
-                    <a href="https://github.com/deganandapriyambada" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/degananda-ferdian?originalSubdomain=id" target="_blank"><i
+                            class="fa fa-linkedin" aria-hidden="true"></i></a>
                     &nbsp;
-                    <a href="https://medium.com/@deganandaferdian" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                    <a href="https://github.com/deganandapriyambada" target="_blank"><i class="fa fa-github"
+                            aria-hidden="true"></i></a>
+                    &nbsp;
+                    <a href="https://medium.com/@deganandaferdian" target="_blank"><i class="fa fa-medium"
+                            aria-hidden="true"></i></a>
 
 
                 </div>
@@ -37,53 +40,54 @@
         </div>
         <div class="related-post">
             <div class="section-title"> Related Article </div>
-                {% if site.related_posts.size >= 1 %}
-                <div class="related-post-container">
-                    <div class="post-type-2">
-                        <div class="post-type-2-container">
-                    {% for related_post in site.related_posts limit: 6 %}
-                                <div class="post-type-2-content">
-                                    <div class="post-type-2-category related-author"> 
-                                            {{ related_post.author }} On <b><a href="./category/{{ related_post.categories }}">{{ related_post.categories }}</a></b>
-                                    </div>
-                                    <div class="post-type-2-title">
-                                        <a href="{{ related_post.url }}">{{ related_post.title }}</a>
-                                    </div>
-                                    <div class="post-type-2-title-desc">
-                                        {{ related_post.date | date: "%F" }}
-                                    </div>
-                                    <div class="post-type-2-tldr">
-                                        {{ related_post.excerpt }}
-                                    </div>
-                    
-                                    <div class="post-type-2-title-desc">
-                                        {% 
-                                            assign wordCount = related_post.content | number_of_words 
-                                        %}
-                                        {%
-                                            assign minsRead = wordCount | divided_by: 200 
-                                        %} 
-                    
-                                        {{ minsRead | plus:1 }} Mins Reading             
-                                    </div>
+            {% if site.related_posts.size >= 1 %}
+            <div class="related-post-container">
+                <div class="post-type-2">
+                    <div class="post-type-2-container">
+                        {% for related_post in site.related_posts limit: 6 %}
+                        <div class="post-type-2-content">
+                            <div class="post-type-2-category related-author">
+                                {{ related_post.author }} On <b><a href="./category/{{ related_post.categories }}">{{
+                                        related_post.categories }}</a></b>
+                            </div>
+                            <div class="post-type-2-title">
+                                <a href="{{ related_post.url }}">{{ related_post.title }}</a>
+                            </div>
+                            <div class="post-type-2-title-desc">
+                                {{ related_post.date | date: "%F" }}
+                            </div>
+                            <div class="post-type-2-tldr">
+                                {{ related_post.excerpt }}
+                            </div>
 
-                                    <div class="post-type-2-title-tags">
-                                        <div class="post-tags">
-                                            {% for tags in related_post.tags %}
-                                                <div class="post-tags-item-lite">
-                                                    <a href="/tags/{{ tags }}/">{{ tags }}</a>
-                                                </div>
-                                            {% endfor %}
-                                        </div>
+                            <div class="post-type-2-title-desc">
+                                {%
+                                assign wordCount = related_post.content | number_of_words
+                                %}
+                                {%
+                                assign minsRead = wordCount | divided_by: 200
+                                %}
+
+                                {{ minsRead | plus:1 }} Mins Reading
+                            </div>
+
+                            <div class="post-type-2-title-tags">
+                                <div class="post-tags">
+                                    {% for tags in related_post.tags %}
+                                    <div class="post-tags-item-lite">
+                                        <a href="/tags/{{ tags }}/">{{ tags }}</a>
                                     </div>
-                    
+                                    {% endfor %}
                                 </div>
-                                
-                    {% endfor %}
+                            </div>
+
                         </div>
+
+                        {% endfor %}
                     </div>
-                </div> 
-                {% endif %}
+                </div>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
