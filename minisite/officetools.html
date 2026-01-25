@@ -1,0 +1,42 @@
+---
+permalink: /officetools/text-transformator
+---
+
+{% include meta.header.html title ="Office Tools" %}
+
+<body>
+
+    <div class="whole-site">
+        <div class="topmenu">
+            <div class="topmenu-container">
+                {% include top.menu.html type = "withoutserach" %}
+            </div>
+        </div>
+    </div>
+
+    <div class="padding-container">
+        <div class="section-title">
+            Tools Description
+        </div>
+        <div id="tools-description">
+            Text Transformator is a tools to transform text with four different transformation options.
+
+            <ul>
+                <li><b>Capitalize</b> - to modify the captizalization of the text such as UPPERCASE, lowercase, Sentence
+                    case
+                    and Perfect Case</li>
+                <li><b>Visualization</b> - add HTML based text visualization modification including bold, italic,
+                    underline, strikethrough, superscript, subscript</li>
+                <li><b>Replacement</b> - Replace character or words with new character/word</li>
+                <li><b>Enrichment</b> - Add additional character/word before or after specific character/word</li>
+            </ul>
+        </div>
+        <div id="text-transformator">
+
+        </div>
+        <script src="https://dawn-truth-c0d9.deganandaferdian.workers.dev/text-transformator.dist.js"></script>
+    </div>
+
+    {% include footer.menu.html widthconfig="full" %}
+
+</body>

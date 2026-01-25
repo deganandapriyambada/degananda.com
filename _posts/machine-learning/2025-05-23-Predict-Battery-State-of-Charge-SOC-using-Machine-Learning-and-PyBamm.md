@@ -59,8 +59,7 @@ Lets say the initial SOC is 100%. Each time electric charge is flow in or flow o
 
 ## Script: Predict SOC Using Coulomb Counting
 
-{% jupyter_notebook "/assets/notebook/battery.soc.coulomb.ipynb" %}
-
+{% include notebook/battery.soc.coulomb.md %}
 
 ## Extended Kalman Filter (EKF)	
 

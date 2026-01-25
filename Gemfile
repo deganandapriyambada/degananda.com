@@ -17,5 +17,4 @@ gem 'jekyll-last-modified-at'
 gem 'jekyll-loading-lazy'
 gem 'jekyll-glossary_tooltip'
 gem "jekyll-drawio"
-gem "jekyll-jupyter-notebook"
 gem 'wdm', '>= 0.1.0', platform: :mingw

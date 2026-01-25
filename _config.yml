@@ -16,7 +16,6 @@ plugins:
   - jekyll-loading-lazy
   - jekyll-glossary_tooltip
   - jekyll-drawio
-  - jekyll-jupyter-notebook
 
 url: "https://pipenpoof.com" # the base hostname & protocol for your site
 
@@ -69,3 +68,8 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
+exclude:
+  - _includes/notebook/
+  - _drawio/
+  - assets/notebook/
+  - "*.ipynb"
