@@ -117,7 +117,7 @@ execute below script to generate environment details (for future installation by
 
 Code is written using ipynb, all instruction, available model, input model param, model output are written on the code.
 
-{% jupyter_notebook "/assets/notebook/battery.pybamm.ipynb" %}
+{% include notebook/battery.pybamm.md %}
 
 ## Github Repo
 

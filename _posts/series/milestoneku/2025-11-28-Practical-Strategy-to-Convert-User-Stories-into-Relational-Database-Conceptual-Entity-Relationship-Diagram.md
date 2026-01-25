@@ -126,7 +126,7 @@ example in the context of class assignment for high school student on indonesia
 below is the relationship for each object
 
 ![postimage80](/assets/images/2025-12/erd1.svg)
-[Conceptual Entity Relationship Diagram Based on Extracted Object From User Stories](/assets/images/2025-10/erd2.jpg){: .center-image }
+[Conceptual Entity Relationship Diagram Based on Extracted Object From User Stories](/assets/images/2025-12/erd2.jpg){: .center-image }
 
 # Next steps
 
