@@ -2,7 +2,7 @@
     <i class="fa fa-bars allmenu" aria-hidden="true" onclick="openMenu()"></i>
 </div>
 <div class="pl-logo">
-        <img src="/assets/images/pl-logo.svg" height="25"> &nbsp;
+    <img src="/assets/images/pl-logo.svg" height="25"> &nbsp;
 </div>
 
 <div class="logo">
@@ -11,14 +11,14 @@
 
 <div class="search">
     <div class="search-container">
-        {% if include.type == 'withoutserach' %} 
-            &nbsp;
+        {% if include.type == 'withoutserach' %}
+        &nbsp;
         {% else %}
         <div class="small-search">
             <input type="text" id="search-pl" placeholder="Search..">
             <button onclick="search()"><i class="fa fa-search" aria-hidden="true"></i>
             </button>
-        </div>        
+        </div>
         {% endif %}
 
     </div>
@@ -26,22 +26,27 @@
 <div class="navigation">
     <ul>
         <li>
+            <a href="/explore" class="button-theme1-reversed">Explore</a>
+        </li>
+        <li>
+            <a href="/officetools/text-transformator">Office Tools</a>
+        </li>
+        <li>
             <a href="/category/blog/">Blog</a>
         </li>
         <li>
-            <a href="/explore" class="button-theme1-reversed" >Explore</a>
-        </li>
-        <li>
             <a href="/feed.xml" target="_blank">
-                RSS 
+                RSS
             </a>
             &nbsp;
             <i class="fa fa-rss-square" aria-hidden="true"></i>
 
         </li>
+        <!--
         <li>
             <a href="https://degananda.substack.com/" target="_blank" >Newsletter</a>
         </li>
+        -->
         <li>
             <a href="https://www.linkedin.com/in/degananda-ferdian/?originalSubdomain=id">Contact</a>
         </li>

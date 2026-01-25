@@ -618,9 +618,16 @@ body {
   content: "Go";
 }
 
+.post-content ol {
+  border-left: 0.4rem #e8e8e8 solid;
+  margin-left: 1rem;
+}
+
 .post-content ul li,
 .post-content ol li {
-  line-height: 1.8;
+  font-size: 1.06rem;
+  margin-bottom: 0.5rem;
+  line-height: 2;
 }
 
 .post-content ol li a {
@@ -645,9 +652,9 @@ body {
 
 .post-content>p,
 .modest-p {
-  font-size: 17px;
+  font-size: 1.06rem;
   margin-bottom: 1.3rem;
-  line-height: 1.8;
+  line-height: 2;
   color: #5a5a5a;
 }
 
@@ -885,12 +892,12 @@ body {
 
 #post-heading ol>li {
   margin: 0px 0px 5px 0px;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 #post-heading ol>li>a {
   color: #000;
-  font-size: 14px;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
@@ -2347,6 +2354,21 @@ body {
   margin-right: 6px;
 }
 
+// short series
+
+.dynamic-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 25px;
+}
+
+.short-series-box {
+  background: #fafafa;
+  width: 300px;
+  margin: 0px 5px 0px 0px;
+}
+
 @media only screen and (max-width: 1000px) {
 
   .hl-content-top3 {
@@ -2412,6 +2434,7 @@ body {
 }
 
 .hl-post-option a,
+.hl-post-option-front a,
 a.gen-links {
   font-size: 14px;
   text-decoration: underline;
