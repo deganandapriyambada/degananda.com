@@ -137,7 +137,7 @@ Common flow of ERD evolution.
 3. (in parallel) User stories description detailing
 3. (in parallel) Create L0 conceptual ERD **<= we are here**
 4. L1 Logical ERD
-5. L2 Normalized ERD (up to 3NF)
+5. L2 Pysical & Normalized ERD (up to 3NF)
 
 At this stage, the ERD are completed, however it require further process to define the **column** on each table and **normalize**(1NF, 2NF until 3NF) the table. 
 
