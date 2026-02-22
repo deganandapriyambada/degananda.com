@@ -5,7 +5,7 @@
 Pipeline" %}
 
 <body>
-  <div class="whole-site">
+  <div class="whole-nolimit">
     <div class="topmenu">
       <div class="topmenu-container">
         {% include top.menu.html type = "withoutserach" %}
@@ -19,8 +19,8 @@ Pipeline" %}
 
 
     </div>
-
-
+  </div>
+  <div class="whole-site">
     {% if page.url contains 'page' %}
     {% else %}
     {% include top.headline.html %}

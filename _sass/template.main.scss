@@ -33,6 +33,10 @@ body {
   font-style: normal;
 }
 
+.whole-nolimit {
+  max-width: none;
+}
+
 .whole-site {
   max-width: $max-site-global;
   margin: auto;
