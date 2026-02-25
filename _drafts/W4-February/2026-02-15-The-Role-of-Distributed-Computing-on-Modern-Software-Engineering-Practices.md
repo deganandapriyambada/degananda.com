@@ -1,3 +1,5 @@
+Distributed Computing
+
 # The Importance of Distributed Computing in Modern SaaS landscape.
 
 Demand on technology adoption (B2C) for both consumer or business to business (B2B) is raising in the last five year.
