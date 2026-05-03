@@ -1,128 +1,122 @@
 ---
 ---
 {% include meta.header.html title =page.title %}
+
 <body>
-<div class="whole-site">
+    <div class="whole-site">
         <div class="post-feedback">
-            Got Feedback ? <a href='https://github.com/deganandapriyambada/degananda.com/edit/master/_posts/{{ page.date | date: "%Y"}}-{{ page.date | date:"%m"}}/{{ page.name }}'>Edit this page</a>  on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
+            Got Feedback ? <a
+                href='https://github.com/deganandapriyambada/degananda.com/edit/master/_posts/{{ page.date | date: "%Y"}}-{{ page.date | date:"%m"}}/{{ page.name }}'>Edit
+                this page</a> on Github &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
         </div>
         <div class="topmenu">
             <div class="topmenu-container">
                 {% include top.menu.html %}
             </div>
         </div>
- <div class="padding-container-post bg-gray">
-  
-    <div class="headline-author">
-        <div class="title-container">
-            <div class="profpic">
-                <div class="contributor-small">
-                    DF
+        <div class="padding-container-post bg-gray">
+
+            <div class="headline-author">
+                <div class="title-container">
+                    <div class="profpic">
+                        <div class="contributor-small">
+                            DF
+                        </div>
+                    </div>
+                    <div class="incat">
+                        Degananda Ferdian on <b><a href="/category/{{ page.categories }}">{{ page.categories }}</a></b>
+                        at {{ page.date | date: "%F" }}
+                    </div>
                 </div>
             </div>
-            <div class="incat">
-                Degananda Ferdian on <b><a href="/category/{{ page.categories }}">{{ page.categories }}</a></b> at {{ page.date | date: "%F" }}
+            <h1 class="new-post-title">
+                {{page.title}}
+            </h1>
+            <div class="new-post-excerpt">
+                <b class="mins-read">
+                    {%
+                    assign wordCount = page.content | number_of_words
+                    %}
+                    {%
+                    assign minsRead = wordCount | divided_by: 200
+                    %}
+
+                    {{ minsRead | plus:1 }} Mins Read
+                </b>
+                &mdash;
+                {{ page.excerpt }}
+            </div>
+
+            <div class="post-header-summary">
+                <div class="background">
+                    <div class="section-title">
+                        Background
+                    </div>
+                    <div class="summary-content">
+                        {{ page.background }}
+                    </div>
+                </div>
+                <div class="objective">
+                    <div class="section-title">
+                        Objective
+                    </div>
+                    <div class="summary-content">
+                        {{ page.objective }}
+                    </div>
+                </div>
+                <div class="deliverables">
+                    <div class="section-title">
+                        Deliverables
+                    </div>
+                    <div class="summary-content">
+                        {{ page.deliverables }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">
+                Code: &nbsp; <span style="font-weight: 400;">{{page.series-code}}</span>
+            </div>
+
+        </div>
+        <div class="padding-container-post">
+
+            <div class="container">
+                <!-- Main content -->
+                <div class="content-post">
+                    <!-- start main -->
+                    {% include post.content.html %}
+                    <!-- end main -->
+                </div>
+
+                <!-- Sidebar -->
+                <div class="sidebar-post">
+                    <div class="sidebar-inner">
+                        {% include post.sidebar.html %}
+                    </div>
+                </div>
+                <!-- end sidebar -->
             </div>
         </div>
+        {% include post.footer.html %}
+
+        {% include footer.menu.html widthconfig="full" %}
+        <script src="https://giscus.app/client.js" data-repo="deganandapriyambada/degananda.com"
+            data-repo-id="R_kgDOMWP-GQ" data-category="Announcements" data-category-id="DIC_kwDOMWP-Gc4ChVKL"
+            data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0"
+            data-input-position="top" data-theme="light" data-lang="en" data-loading="lazy" crossorigin="anonymous"
+            async>
+            </script>
+        <script src="/assets/lightbox/lightbox.js" type="text/javascript"></script>
+        <script src="/assets/js/post.js" type="text/javascript"></script>
+        <!-- mermaid diagram -->
+        <script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({ startOnLoad: false });
+            await mermaid.run({
+                querySelector: '.language-mermaid',
+            });
+        </script>
+        <script src="/assets/js/site.js" type="text/javascript"></script>
     </div>
-    <h1 class="new-post-title">
-        {{page.title}}
-    </h1>
-    <div class="new-post-excerpt">
-        <b class="mins-read">
-            {% 
-                assign wordCount = page.content | number_of_words 
-            %}
-            {%
-                assign minsRead = wordCount | divided_by: 200 
-            %} 
-    
-            {{ minsRead | plus:1 }} Mins Read 
-        </b>
-        &mdash; 
-        {{ page.excerpt }}
-    </div>
-
-    <div class="post-header-summary">
-      <div class="background">
-          <div class="section-title">
-              Background
-          </div>
-          <div class="summary-content">
-            {{ page.background }}
-          </div>
-      </div>
-      <div class="objective">
-          <div class="section-title">
-              Objective
-          </div>
-          <div class="summary-content">
-            {{ page.objective }}
-          </div>
-      </div>
-      <div class="deliverables">
-          <div class="section-title">
-              Deliverables
-          </div>
-          <div class="summary-content">
-            {{ page.deliverables }}
-          </div>
-      </div>
-  </div>
-
-   <div class="section-title">
-      Series: &nbsp; <span style="font-weight: 400;">{{page.series-code}}</span>
-  </div>
-
-</div>
- <div class="padding-container-post">
-
-    <div class="container">
-    <!-- Main content -->
-    <div class="content-post">
-        <!-- start main -->
-        {% include post.content.html %}
-        <!-- end main -->
-      </div>
-  
-      <!-- Sidebar -->
-      <div class="sidebar-post">
-          <div class="sidebar-inner">
-            {% include post.sidebar.html %}
-          </div>
-      </div>
-      <!-- end sidebar -->
-    </div>
-  </div>
-  {% include post.footer.html %}
-
-    {% include footer.menu.html widthconfig="full" %}
-    <script src="https://giscus.app/client.js"
-        data-repo="deganandapriyambada/degananda.com"
-        data-repo-id="R_kgDOMWP-GQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOMWP-Gc4ChVKL"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
-    <script src="/assets/lightbox/lightbox.js" type="text/javascript"></script>   
-    <script src="/assets/js/post.js" type="text/javascript"></script>   
-    <!-- mermaid diagram -->
-    <script type="module">
-        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: false });
-        await mermaid.run({
-          querySelector: '.language-mermaid',
-        });
-      </script>
-      <script src="/assets/js/site.js" type="text/javascript"></script>   
-</div>
 </body>

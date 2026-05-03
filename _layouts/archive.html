@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-    <title> {{ include.title }} </title>
-    <link href="/assets/css/styles.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-    <link href="/assets/lightbox/lightbox.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-    <link rel="icon" type="image/x-icon" href="/assets/images/pl-logo-black5.svg">
-    <meta charset="utf-8">
-    <meta data-rh="true" name="robots" content="index,follow,max-image-preview:large">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="pipenpoof.com">
-    <!-- font -->
-    <link rel="stylesheet" href="/assets/css/highlighter.css">
-    <link rel="stylesheet" href="/assets/fav4/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-</head>
-<body>
-<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
-<ul class="posts">
-{% for post in page.posts %}
-  <li>
-    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<head>
+  <title> {{ include.title }} </title>
+  <link href="/assets/css/styles.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link href="/assets/lightbox/lightbox.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link rel="icon" type="image/x-icon" href="/assets/images/pl-logo-black5.svg">
+  <meta charset="utf-8">
+  <meta data-rh="true" name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="pipenpoof.com">
+  <!-- font -->
+  <link rel="stylesheet" href="/assets/css/highlighter.css">
+  <link rel="stylesheet" href="/assets/fav4/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+</head>
+
+<body>
+
+  {% include meta.header.html title ="Pipe n Poof - a Digital Journey to Experiment on Design, Build and Proof the Data
+  Pipeline" %}
+
+  <div class="whole-nolimit">
+    <div class="topmenu">
+      <div class="topmenu-container">
+        {% include top.menu.html type = "withoutserach" %}
+      </div>
+    </div>
+  </div>
+  <div class="whole-site">
+    <div class="padding-container">
+      <div class="section-title">Zines: {{ page.date | date: "%Y" }}</div>
+      <div class="zines-month-container">
+        <ul class="posts">
+          {% for post in page.posts %}
+          <li>
+            <div>
+              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </div>
+            <div>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% include footer.menu.html widthconfig="full" %}
+    <script src="/assets/js/site.js" type="text/javascript"></script>
+  </div>
+
+
 </body>
+
 </html>

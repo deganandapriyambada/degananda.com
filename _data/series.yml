@@ -27,25 +27,10 @@
     - Mobile Dev
     - Backend Dev
 
-- title: Building Agentic AI for Detecting Machine Fault on Manufacturing Industry.
-  code: AGENTIC001
-  start: 20 Sept'25
-  end: 10 OCt'26
-  status: Not-Started
-  category: Cloud Architecture
-  issues: 0
-  review: 0
-  news: 0
-  notes: 0
-  total: 0
-  topics:
-    - LLM
-    - NEO4J
-
 - title: AZ900 & AZ104 Azure Fundamental and Associate Administrator Certification Preparation
   code: AZFC001
   start: 1 Sept'25
-  end: 24 May'26
+  end: 30 June'26
   status: Not Started
   category: Cloud Architecture
   issues: 0

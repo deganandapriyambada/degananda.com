@@ -1,0 +1,112 @@
+---
+permalink: /short-series/maintenance-management-digital-thread
+---
+
+{% include meta.header.html title ="Pipe n Poof - a Digital Journey to Experiment on Design, Build and Proof the Data
+Pipeline" %}
+
+<body>
+    <div class="whole-nolimit">
+        <div class="topmenu">
+            <div class="topmenu-container">
+                {% include top.menu.html type = "withoutserach" %}
+            </div>
+        </div>
+    </div>
+    <div class="whole-site">
+
+        <div class="padding-container">
+            <div class="section-title">
+                Short Series
+            </div>
+
+            <div class="short-series-title">
+                Maintenance management digital thread on industry
+            </div>
+            <div class="section-title">
+                Main Articles
+            </div>
+            <div class="short-series-content">
+                <div class="short-series-highlight-container ">
+                    {% for item in site.data.shortseriesitem.ds2 %}
+                    {% if forloop.first %}
+                    <div class="horizontal-series-left-container">
+
+                        <div>
+                            <span class="mins-read-2">
+                                {{ item.read_time }} Mins Read
+                            </span>
+                        </div>
+                        <div class="highlight-title-big">{{ item.title }}
+                        </div>
+                        <div class="section-title">
+                            Summary
+                        </div>
+                        <div class="highlight-content">
+                            {{item.excerpt}}
+                        </div>
+                        <div class="section-title">
+                            Background
+                        </div>
+                        <div class="highlight-content">
+                            {{item.background}}
+                        </div>
+                        <div class="section-title">
+                            Objectives
+                        </div>
+                        <div class="highlight-content">
+                            {{item.objectives}}
+                        </div>
+                        <div class="to-up">
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ item.path }}"
+                                class="gen-links">Read More</a>
+                        </div>
+                    </div>
+                    <div class="horizontal-series-right-container">
+                        <div class="to-narrow">
+                            <div class="section-title">
+                                Pre-Requisite Articles
+                            </div>
+                            {% else %}
+                            <div class="horizontal-series-item">
+                                <div>
+                                    <span class="mins-read-2">
+                                        {{ item.read_time }} Mins Read
+                                    </span>
+                                </div>
+                                <div class="highlight-title ">{{ item.title }}</div>
+                                <div class="to-up">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ item.path }}"
+                                        class="gen-links">Read More</a>
+                                </div>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">
+                Other Short Series
+            </div>
+
+            {% for item in site.data.shortseries %}
+            {% if item.path != "/short-series/maintenance-management-digital-thread" %}
+            <div>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                <span>
+                    <a href="{{ item.path }}" class="gen-links"> {{ item.title }}</a>
+                </span>
+            </div>
+            {% endif %}
+
+            {% endfor %}
+
+        </div>
+
+        {% include footer.menu.html widthconfig="full" %}
+        <script src="/assets/js/site.js" type="text/javascript"></script>
+
+    </div>
+</body>
