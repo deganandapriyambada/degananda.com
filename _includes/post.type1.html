@@ -1,9 +1,30 @@
-<div class="theme-divider-word">
-  Recent Publications
-</div>
-
-
 {% if page.url contains 'page' %}
+<div class="white-sticky">
+  <div class="headline-category">
+    <ul>
+      <li>
+        <b>Recently Updated:</b>
+      </li>
+      {% assign recent_posts = site.posts | sort: "date" | reverse %}
+      {% assign recent_categories = "" | split: "" %}
+
+      {% for post in recent_posts %}
+      {% for cat in post.categories %}
+      {% unless recent_categories contains cat %}
+      {% assign recent_categories = recent_categories | push: cat %}
+      {% endunless %}
+      {% endfor %}
+      {% endfor %}
+
+      {% for category in recent_categories limit:5 %}
+      <li>
+        <a href="/category/{{ category }}">{{ category | capitalize }}</a>
+      </li>
+      {% endfor %}
+      <li><a href="/explore"> More Category </a></li>
+    </ul>
+  </div>
+</div>
 {% for post in paginator.posts %}
 {% if forloop.first %}
 <!-- Code for the first post -->
@@ -108,30 +129,19 @@
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+  <a href="{{ paginator.previous_page_path | relative_url }}">Prev</a>
   {% else %}
-  <span>&laquo; Prev</span>
   {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-  {% if page == paginator.page %}
-  <em>{{ page }}</em>
-  {% elsif page == 1 %}
-  <a href="{{ '/' | relative_url }}">{{ page }}</a>
-  {% else %}
-  <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-  {% endif %}
-  {% endfor %}
-
   {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  <a href="{{ paginator.next_page_path | relative_url }}">Next</a>
   {% else %}
-  <span>Next &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
 {% else %}
-<a href="/page-2"><button class="button-theme1">
-    Browse All
-  </button> </a>
+<div>
+  <a href="/page-2" class="button-theme1">
+    Browse All</a>
+</div>
+
 {% endif %}

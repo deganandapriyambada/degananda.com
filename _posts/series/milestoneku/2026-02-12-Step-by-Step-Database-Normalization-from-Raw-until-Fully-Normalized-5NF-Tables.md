@@ -437,6 +437,10 @@ above table:
 3. both supervisor and measurement_tools are dependent to the milestone
 4. supervisor and measurement tools are not dependent (assuming the supervisor assignment is based on milestone and the department)
 
+## 5NF Data Normalization
+
+5NF table is usually not required unless the MVD focus normalization (4NF) is still resulting in **data redudancy** (super rare).
+
 # The Anomaly: Materialized View
 
 ![postimage100](/assets/images/2026-02/normalization7.jpg)

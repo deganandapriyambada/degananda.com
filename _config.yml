@@ -1,5 +1,5 @@
 ## website general information configuration.
-site_title: "Pipe N' Poof - a Journey to Experiment on Design, Build and Proof the Data Pipeline"
+site_title: "Pipe And Poof - A Living Journal as IS/IT Techno-functional Practitioner"
 site_description: "My Learning Journey"
 permalink: /:categories/:year/:month/:title
 
@@ -15,7 +15,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-loading-lazy
   - jekyll-glossary_tooltip
-  - jekyll-drawio
+  #- jekyll-drawio
 
 url: "https://pipenpoof.com" # the base hostname & protocol for your site
 

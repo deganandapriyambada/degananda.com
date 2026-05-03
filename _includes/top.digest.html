@@ -1,0 +1,21 @@
+<div class="padding-container">
+    <div class="theme-divider-word">
+        Serialized Article
+    </div>
+
+    <div class="shortseries-container">
+        {% for item in site.data.shortseries %}
+        <div class="shortseries-box">
+            <div class="shortseries-date">{{ item.released_date }}</div>
+            <div class="shortseries-title">{{ item.title }}</div>
+            <div class="shortseries-count">
+                <i class="fa fa-file-text-o" aria-hidden="true"></i> &nbsp;
+                {{ item.total_article }} Articles
+            </div>
+            <div>
+                <a href="{{ item.path }}" class="gen-links">Read Series</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

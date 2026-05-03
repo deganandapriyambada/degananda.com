@@ -1,0 +1,1 @@
+IT infrastructure generally has same archetypes especially if it is served from a public cloud such as AWS, Azure or GCP. However, the infrastructure will slightly different if the organization is operating from both onshore and offshore like in oil and gas industry as it will be dependent on the production facilities and telecommunication services design plan.

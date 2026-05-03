@@ -1,0 +1,35 @@
+- title: Typical Digital Ecosystem Of Reliability Centered Maintenance Process Using Sap As The Core Workflow Management
+  path: /erp/2025/10/Typical-Digital-Ecosystem-of-Reliability-Centered-Maintenance-Process-Using-SAP-as-the-Core-Workflow-Management
+  released_date: 2025-10-13
+  read_time: 3
+  background: CMMS, ERP and APM are the triangle of reliability and maintenacne function. These platform can be customly build by the internal IT team or bought from ready to use tools available on the market. a clear domain segregation need to be determined in order to preventing overlapping.
+  objectives: to determine domain segregation on digital ecosystem of maintenance and reliability enterprise architecture.
+  excerpt: Before purchasing or developing apps for reliability and maintenance function, it is important to determine the bounded context between the whole digital ecosystem. it will be prevent function overlapping and future data issues or integration which are caused by unclear domain boundary.
+
+- title: Definition Of Plant Maintenance Based On Din 31051 Version 2012 And The Association With Total Produtive Maintenance
+  path: /erp/2025/10/Definition-of-Plant-Maintenance-Based-on-DIN-31051-Version-2012-and-The-Association-with-Total-Produtive-Maintenance
+  released_date: 2025-10-19
+  read_time: 4
+  background: organization perception towards maintenance is shifted from time to time. Maintenace used to be labeled as cost center, in contrast to that, nowdays many organization put maintenance as one of their top budget prioritization on every fiscal year due to the value that can be bring by mainteannce process.
+  objectives: to understand the latest plant maintenance standard based on DIN31051
+
+- title: How Deep Is Technical Object Should Be Structured And The Maintenance Strategy Applicaiton As Maintenance Plan
+  path: /erp/2025/10/How-Deep-is-Technical-Object-Should-Be-Structured-and-The-Maintenance-Strategy-Applicaiton-as-Maintenance-Plan
+  released_date: 2025-10-20
+  read_time: 5
+  background: Any maintenance that planned a head of time is called planned maintenance and Maintenance plan is the heart of planned maintenance. a Master data that serve as planning catalog for planned maintenance is called as a maintenance plan.
+  objectives: to understand how to prepare SAP master data and technical object before apply it into mainteance plan.
+
+- title: Pre Requisite Of Implementing Data Driven Long Term Reliability Centered Maintenance Planning
+  path: /erp/2025/10/Pre-Requisite-of-Implementing-Data-Driven-Long-Term-Reliability-Centered-Maintenance-Planning
+  released_date: 2025-10-23
+  read_time: 3
+  background: Data driven decision making is a big buzz word. But it is actually fiable target state from a digital transformation project. There are some important pre-requisite which usually forgotten by the organization.
+  objectives: to list down the pre-requisite activity before transition into data-driven long term master plan generation for maintenance and reliability.
+
+- title: Example Of Asset Integrity Key Performance Indicator For Maintenance Operations On Engineering Based Industry
+  path: /erp/2026/02/Example-of-Asset-Integrity-Key-Performance-Indicator-for-Maintenance-Operations-on-Engineering-Based-Industry
+  released_date: 2026-02-22
+  read_time: 5
+  background: Key performance indicator (KPI) has important role on maintenance and reliability function as the barometer to measure the asset integrity as well as monitor the overall plant performance.
+  objectives: to understand the common key performance indicator for maintenance and reliability function

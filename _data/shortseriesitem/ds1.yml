@@ -1,0 +1,44 @@
+- title: Create Logical Database Entity Relationship Diagram Erd Based On Conceptual Erd
+  path: /database/2026/02/Create-Logical-Database-Entity-Relationship-Diagram-ERD-based-on-Conceptual-ERD
+  released_date: 2026-02-13
+  read_time: 9
+  background: Logical ERD and conceptual ERD are serve differet roles. Both of them used on different stages during software engineering life cycle (SDLC).
+  objectives: to understand how to convert conceptual ERD (entity relationship diagram) into logical ERD.
+  image: /assets/images/2026-05/ds1banner.jpg
+  excerpt: while conceptual ERD is used to discuss about the business process interaction on the solution, logical ERD is focus on the required data for each business process.
+  deliverables: article & illustration
+
+- title: How to Create User Story of Mininum Viable Product For Productivity Assistant Platform To Prevent FOMO
+  path: /product/2025/11/Mininum-Viable-Product-and-User-Stories-for-Productivity-Assistant-Platform-to-Prevent-FOMO
+  released_date: 2025-10-01
+  read_time: 6
+  background: One of dominant factor that contribute to the FOMO symtoms or also known as fear of missing out is the degradation of daily productivity which cause social media attachment to be skyrocketed.
+  objectives: to create user stories for pilot phase of a digital product development.
+
+- title: Detailed User Story As Baseline To Convert Conceptual Entity Relationship Diagram Into Logical And Physical Erd
+  path: /product/2025/11/Detailed-User-Story-as-Baseline-to-Convert-Conceptual-Entity-Relationship-Diagram-into-Logical-and-Physical-ERD
+  released_date: 2025-11-27
+  read_time: 9
+  background: Only arround 35% of digital transformation project are reported to be success according to BCG. One of the common factor is misalignment between business objective with software capabilities.
+  objectives: Step by step to create self spoken and clear detailed user story for development team
+
+- title: Practical Strategy to Convert User Stories into Relational Database Conceptual Entity Relationship Diagram (ERD)
+  path: /product/2025/11/Practical-Strategy-to-Convert-User-Stories-into-Relational-Database-Conceptual-Entity-Relationship-Diagram
+  released_date: 2025-11-28
+  read_time: 7
+  background: Before the database table schema can be created, application design or solution architect need to create the conceptual -> logical -> physical ERD.
+  objectives: Step by step to create conceptual entity relationship diagram (ERD) based on given user stories
+
+- title: Enriching User Story Details With Information Architecture To Support Logical Entity Relationship Diagram And Ensuring The Alignment With The Business Needs
+  path: /product/2025/11/Practical-Strategy-to-Convert-User-Stories-into-Relational-Database-Conceptual-Entity-Relationship-Diagram
+  released_date: 2026-02-12
+  read_time: 11
+  background: One of the classic chicken and egg problem on software engineering is the alignment of system design and business requirement that often mismatch due to information disturbance/misunderstanding.
+  objectives: to understand how to minimize gap between business user expectation with system design
+
+- title: Step By Step Database Normalization From Raw Until Fully Normalized 5nf Tables
+  path: /database/2026/02/Step-by-Step-Database-Normalization-from-Raw-until-Fully-Normalized-5NF-Tables
+  released_date: 2026-02-12
+  read_time: 15
+  background: Backend system performance is determined by various factor, not just the developer's code efficiency. Database design also play an important factor that affect the whole backend system performance.
+  objectives: To understand how to normalize a table from the non formal form into fourth normal form.

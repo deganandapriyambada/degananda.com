@@ -121,7 +121,8 @@ note: not all NFR will affect the database schema, its important to only identif
 
 | Entity | Non Functional Requirement |
 |---|---|
-| a | b |
+| User | Login must be done using secured oauth mechanism |
+| User | Login system must be integrated with Google SSO (Single sign on) |
 
 note: Ideally, these NFR also added on the user story acceptance criteria as well. In some project, the user story details will be updated by the SA when they create the logical ERD as this is the stages where **business process and technology requirement are combined**.
 

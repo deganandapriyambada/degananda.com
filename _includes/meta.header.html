@@ -4,6 +4,9 @@
 <head>
     <title> {{ include.title }} </title>
     <link href="/assets/css/styles.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    {% if page.url contains '/short-series/' %}
+    <link href="/assets/css/series.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    {% endif %}
     <link href="/assets/lightbox/lightbox.css" rel="preload" as="style" onload="this.rel='stylesheet'">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
