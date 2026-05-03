@@ -1,90 +1,118 @@
 <div class="padding-container">
-    <div class="top-hl-container">
-      <div class="top-hl-left">
-        <div class="whats-new">
-          Last Update
-        </div>
-        <div class="commit-container">
-          <div id="commitHistory"></div>
-        </div>
-        <div class="writer-info">
-          Content Writer
-        </div>
-        <div class="blog-contributor">
-          <a href="https://www.linkedin.com/in/degananda-ferdian/?originalSubdomain=id"><div class="contributor">
+  <div class="top-hl-container">
+    <div class="top-hl-left">
+      <div class="whats-new">
+        Last Update
+      </div>
+      <div class="commit-container">
+        <div id="commitHistory"></div>
+      </div>
+      <div class="writer-info">
+        Our Team
+      </div>
+      <div class="blog-contributor">
+        <a href="https://www.linkedin.com/in/degananda-ferdian/?originalSubdomain=id">
+          <div class="contributor">
             DF
-          </div></a>
-          <a href="https://pipenpoof.com"><div class="contributor">
+          </div>
+        </a>
+        <a href="https://pipenpoof.com">
+          <div class="contributor">
             PP
-          </div></a>
-          <a href="https://pipenpoof.com"><div class="contributor">
-            XR
-          </div></a>
+          </div>
+        </a>
+      </div>
+      <div class="writer-info">
+        New Theme
+      </div>
+      <div class="new-theme">
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        <span>
+          <a href="/category/is-it-terminology" class="gen-links">One Day One IS/IT (Information System/IT)
+            Terminology</a>
+        </span>
+      </div>
+      <div class="new-theme">
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        <span>
+          <a href="/category/software-engineering-updates" class="gen-links">Software Engineering Updates</a>
+        </span>
+      </div>
+
+    </div>
+    <div class="top-hl-content">
+
+      {% for post in paginator.posts limit: 2 %}
+      <div class="title-container pad-botop">
+        <div class="profpic">
+          <div class="contributor-small">
+            DF
+          </div>
         </div>
-        <div class="writer-info">
-          New Theme
-        </div>
-        <div class="new-theme">
-          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-          <span>
-            <a href="/category/is-it-terminology" class="gen-links">One Day One IS/IT (Information System/IT) Terminology</a>
+        <div class="incat">
+          <span class="nama">Degananda Ferdian</span> &nbsp; <span class="mins-read">
+            {%
+            assign wordCount = post.content | number_of_words
+            %}
+            {%
+            assign minsRead = wordCount | divided_by: 200
+            %}
+
+            {{ minsRead | plus:1 }} Mins Read
+          </span>
+          &nbsp;
+          <span class="mins-date" style="font-weight: 300;">
+            {{ post.date | date: "%-d %B %Y" }}
           </span>
         </div>
-
-
       </div>
-      <div class="top-hl-content">
-
-        {% for post in paginator.posts limit: 2 %}
-                      <div class="hl-post-date">
-                <span class="mins-read"> 
-                  {% 
-                      assign wordCount = post.content | number_of_words 
-                  %}
-                  {%
-                      assign minsRead = wordCount | divided_by: 200 
-                  %} 
-
-                  {{ minsRead | plus:1 }} Mins Read. 
-                </span>
-                &nbsp;
-                <span class="mins-date" style="font-weight: 300;">
-                  {{ post.date | date: "%-d %B %Y" }}
-                </span>
-              </div>
-                <div class="hl-c-title">
-                    <a href="{{post.url}}">{{ post.title }}</a>
-                </div>
-          <div class="hl-content-top3">
-              <div class="hl-post-title">
-                <div class="hl-c-excerpt">
-                    {{ post.excerpt }}
-                </div>
-              </div>
-              <div class="hl-post-option">
-                <a href="/category/{{post.categories}}">{{post.categories}}</a>
-              </div>
+      <div class="hl-c-title">
+        <a href="{{post.url}}">{{ post.title }}</a>
+      </div>
+      <div class="hl-content-top3">
+        <div class="hl-post-title">
+          <div class="hl-c-excerpt">
+            {{ post.excerpt }}
           </div>
-         {% endfor %}
+        </div>
+        <div class="hl-post-option">
+          <a href="/category/{{post.categories}}">{{post.categories}}</a>
+        </div>
       </div>
-    </div>
-</div>
-
-<div class="padding-container">
-    <div class="headline-category">
-        <ul>
-          <li>
-            <a class="button-theme1-gray">
-              <b>Recent</b>
-            </a>
-          </li>
-          {% for category in site.categories limit : 5  %}
-              <li>
-              <a href="/category/{{category | first}}">{{ category | first | capitalize }} </a>
-              </li>
-          {% endfor %}
-          <li><a href="/explore"> More Category </a></li>
-      </ul>
+      {% endfor %}
     </div>
   </div>
+</div>
 
+{% if page.url contains 'page' %}
+{% else %}
+{% include top.digest.html %}
+{% endif %}
+
+
+<div class="padding-container white-sticky">
+  <div class="headline-category">
+    <ul>
+      <li>
+        <b>Recently Updated:</b>
+      </li>
+      {% assign recent_posts = site.posts | sort: "date" | reverse %}
+      {% assign recent_categories = "" | split: "" %}
+
+      {% for post in recent_posts %}
+      {% for cat in post.categories %}
+      {% unless recent_categories contains cat %}
+      {% assign recent_categories = recent_categories | push: cat %}
+      {% endunless %}
+      {% endfor %}
+      {% endfor %}
+
+      {% for category in recent_categories limit:5 %}
+      <li>
+        <a href="/category/{{ category }}">{{ category | capitalize }}</a>
+      </li>
+      {% endfor %}
+      <li><a href="/explore"> More Category </a></li>
+    </ul>
+  </div>
+</div>

@@ -1,10 +1,73 @@
 <div class="padding-container">
+    <div class="section-title about-us-footer">
+        About Us
+    </div>
     <div class="disclaimer">
-      <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp;
-      All content & publication which are published on this {% glossary website %} are subject into {% glossary writer %} opinion and point of view (PoV). <br /> None of our contents are related with our current {% glossary employer %} or any parties.
+        <div class="about-pp">
+            Pipenpoof is techno-functional focused blog and built for sharing our roller coaster journey in software
+            engineering industry as technical and functional role. We documented our experiences during the
+            jobs/projects and our publications will be currated in a
+            series.
+        </div>
+        <div>
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp;
+            All content & publication which are published on this {% glossary website %} are subject into {% glossary
+            writer
+            %} opinion and point of view (PoV). <br /> None of our contents are related with our current {% glossary
+            employer %} or any parties.
+        </div>
+    </div>
+    <div class="social-media">
+        <ul>
+            <li>
+                <a href="https://x.com/pipenpoof" target="_blank" class="rm-underline">
+                    <img src="/assets/images/x.svg" width="14" height="14">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.threads.com/@pipenpoof" target="_blank" class="rm-underline">
+                    <img src="/assets/images/thread.svg" width="14" height="14">
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@pipenpoof" target="_blank" class="rm-underline">
+                    <i class="fa fa-medium" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://substack.com/@pipenpoof" target="_blank" class="rm-underline">
+                    <img src="/assets/images/substack.svg" width="14" height="14">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@pipenpoof" target="_blank" class="rm-underline">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/pipenpoof/" target="_blank" class="rm-underline">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@pipenpoof" target="_blank" class="rm-underline">
+                    <img src="/assets/images/tiktok.svg" width="14" height="14">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.reddit.com/user/pipenpoof/" target="_blank" class="rm-underline">
+                    <i class="fa fa-reddit-square" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/deganandapriyambada" target="_blank" class="rm-underline">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
     </div>
 </div>
-  
+
 
 <div class="footer-menu {% if include.widthconfig == 'post' %} 
 post-width-half     
@@ -16,24 +79,45 @@ full-width
         <div class="footer-info">
             <ul>
                 <li>
-                    Copyright &copy;  Pipenpoof, part of Degamedia 2024 - Present
+                    Copyright &copy; Pipenpoof. Part of Degamedia 2024 - Present
                 </li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <ul>
+                <li><a href="/#" target="_blank">Top</a></li>
+
                 <li><a href="/sitemap.xml" target="_blank">Sitemap</a></li>
                 <li>
-                    <a href="/archive/2024/" target="_blank">Archieve 2024</a>
+                <li>
+                    <a href="/feed.xml" target="_blank">
+                        RSS
+                    </a>
+                    &nbsp;
+                    <i class="fa fa-rss-square" aria-hidden="true"></i>
+
                 </li>
                 <li>
-                    <a href="/archive/2025/" target="_blank">Archieve 2025</a>
+                    <a href="https://degananda.substack.com/" target="_blank">Newsletter</a>
                 </li>
                 <li>
                     <a href="https://github.com/deganandapriyambada/degananda.com/commits/master/" target="_blank">
                         Change Logs
                     </a>
                 </li>
+                <li>
+                    <a href="mailto:degananda.ferdian@gmail.com">Contact</a>
+                </li>
+                <li>
+                    <a href="/category/blog/">Blog</a>
+                </li>
+                <li>
+                    <a href="https://sociabuzz.com/pipenpoof/donate">Support Us</a>
+                </li>
             </ul>
         </div>
         <div class="footer-info foot-stats">
-            v0.9 Alpha - We Wrote {{ site.posts | size }} Articles; Across {{ site.categories | size }} Topics
+            version 0.9.1a - We Wrote {{ site.posts | size }} Articles; Across {{ site.categories | size }} Topics
         </div>
     </div>
 </div>
@@ -42,10 +126,10 @@ full-width
 {% if jekyll.environment == "production" %}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFS3DLR1S8"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-PFS3DLR1S8');
+    gtag('config', 'G-PFS3DLR1S8');
 </script>
 {% endif %}

@@ -17,23 +17,26 @@
         <div class="padding-container">
             <div class="category-post-container">
                 <div class="headline-post-info-item-title">
-                    <h2>{{ page.category }}</h2>
+                    <h2>Read Per Topic</h2>
                 </div>
 
-                <div class="headline-category">
+                <div class="headline-category white-sticky">
                     <ul>
-                      <li>
-                        <a class="button-theme1-gray">
-                          <b>Recent</b>
-                        </a>
-                      </li>
-                      {% for category in site.categories limit : 5  %}
-                          <li>
-                          <a href="/category/{{category | first}}">{{ category | first | capitalize }} </a>
-                          </li>
-                      {% endfor %}
-                      <li><a href="/explore"> More </a></li>
-                  </ul>
+                        <li>
+                            <a class="button-theme1-gray">
+                                <b>{{page.category}}</b>
+                            </a>
+                        </li>
+                        {% assign shuffled_categories = site.categories | shuffle %}
+                        {% for category in shuffled_categories limit:5 %}
+                        <li>
+                            <a href="/category/{{ category | first }}">
+                                {{ category | first | capitalize }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                        <li><a href="/explore"> More </a></li>
+                    </ul>
                 </div>
 
                 {% for post in paginator.posts %}
@@ -52,21 +55,21 @@
 
                         <div class="headline-post-info-item-title">
                             Article Title
-                         </div>
+                        </div>
 
                         <div class="headline-title">
                             <a href="{{post.url}}">{{ post.title }}</a>
                         </div>
 
                         <div class="headline-post-info-item-title">
-                           Short Description
+                            Short Description
                         </div>
 
-                        <div class="headline-post-info-item"> 
+                        <div class="headline-post-info-item">
                             {{ post.excerpt }}
                         </div>
-                        
-                        
+
+
 
                     </div>
                     <div style="flex: 1.3; padding: 15px 0px 15px 0px; background: #fff;">
@@ -91,7 +94,7 @@
                             </div>
 
                             <div class="headline-post-info-item-title">
-                               Deliverables
+                                Deliverables
                             </div>
                             <div class="headline-post-info-item">
                                 {{ post.deliverables }}
@@ -105,31 +108,31 @@
                 {% else %}
                 <!-- Code for all other posts -->
                 <div class="hl-content-top3">
-                    <div class="hl-post-date">
-                      <div class="mins-read"> 
-                        {% 
-                            assign wordCount = post.content | number_of_words 
-                        %}
-                        {%
-                            assign minsRead = wordCount | divided_by: 200 
-                        %} 
-      
-                        {{ minsRead | plus:1 }} Mins Read. 
-                      </div>
-                      <div class="mins-date">
-                        {{ post.date | date: "%-d %B %Y" }}
-                      </div>
+                    <div class="hl-post-date-c">
+                        <div class="mins-read">
+                            {%
+                            assign wordCount = post.content | number_of_words
+                            %}
+                            {%
+                            assign minsRead = wordCount | divided_by: 200
+                            %}
+
+                            {{ minsRead | plus:1 }} Mins Read.
+                        </div>
+                        <div class="mins-date">
+                            {{ post.date | date: "%-d %B %Y" }}
+                        </div>
                     </div>
                     <div class="hl-post-title">
-                      <div class="hl-c-title">
-                          <a href="{{post.url}}">{{ post.title }}</a>
-                      </div>
-                      <div class="hl-c-excerpt">
-                          {{ post.excerpt }}
-                      </div>
+                        <div class="hl-c-title">
+                            <a href="{{post.url}}">{{ post.title }}</a>
+                        </div>
+                        <div class="hl-c-excerpt">
+                            {{ post.excerpt }}
+                        </div>
                     </div>
                     <div class="hl-post-option">
-                      <a href="/category/{{post.categories}}">{{post.categories}}</a>
+                        <a href="/category/{{post.categories}}">{{post.categories}}</a>
                     </div>
                 </div>
                 {% endif %}
