@@ -15,7 +15,7 @@ $section-font: 16px;
 
 /* font color */
 $fc-main: #000000;
-$fc-sub-1: #3d3d3d;
+$fc-sub-1: #111111;
 $fc-sub-2: #5f5f5f;
 $fc-sub-3: #4c4c4c;
 
@@ -670,7 +670,7 @@ body {
   font-size: 1rem;
   margin-bottom: 1.3rem;
   line-height: 2;
-  color: #3d3d3d;
+  color: #111111;
   text-align: justify;
   font-family: $font-type-md;
 
@@ -976,7 +976,7 @@ body {
 .typo3 {
   font-size: 15px;
   font-weight: 300;
-  color: #3d3d3d;
+  color: #111111;
 }
 
 .post-tags {
@@ -1016,12 +1016,12 @@ body {
 
 .post-tags-item-lite a {
   text-decoration: underline;
-  color: #3d3d3d;
+  color: #111111;
 }
 
 .post-tags-item a {
   text-decoration: none;
-  color: #3d3d3d;
+  color: #111111;
 }
 
 .bg-gray {
@@ -1264,7 +1264,7 @@ body {
 }
 
 .serial-choosed {
-  border-bottom: 4px #3d3d3d solid;
+  border-bottom: 4px #111111 solid;
   padding: 10px 0 10px 0;
 }
 
@@ -1304,7 +1304,7 @@ body {
   font-size: 15px;
   font-weight: 300;
   width: 100%;
-  color: #3d3d3d;
+  color: #111111;
 }
 
 .series-post>.keyword>ul {
@@ -1380,13 +1380,13 @@ body {
   font-size: 13px;
   text-align: center;
   border-radius: 5px;
-  color: #3d3d3d;
+  color: #111111;
 }
 
 .progress-series .scale-desc {
   width: 25%;
   text-align: center;
-  color: #3d3d3d;
+  color: #111111;
   font-size: 14px;
   font-weight: 350;
   padding: 5px 0px 5px 0px;
@@ -1428,7 +1428,7 @@ body {
 }
 
 .living {
-  color: #3d3d3d;
+  color: #111111;
   font-weight: 400;
 }
 
@@ -1510,7 +1510,7 @@ body {
 .headline-post-info-item {
   font-size: 14px;
   padding: 5px 0px 5px 0px;
-  color: #3d3d3d;
+  color: #111111;
   line-height: 1.5;
   font-weight: 300;
 }
@@ -1549,7 +1549,7 @@ body {
   display: inline-block;
   list-style-type: none;
   font-size: 14px;
-  color: #3d3d3d;
+  color: #111111;
   font-weight: 300;
   line-height: 1.5;
   padding-right: 10px;
@@ -1603,7 +1603,7 @@ body {
 }
 
 .headline-infography .info-g:nth-child(-n+2) {
-  border-right: 1px #3d3d3d solid;
+  border-right: 1px #111111 solid;
 }
 
 .read-more {
@@ -1703,7 +1703,7 @@ body {
 
 .headline-published-date {
   font-size: 14px;
-  color: #3d3d3d;
+  color: #111111;
   font-weight: 200;
   text-align: left;
 }
@@ -2049,7 +2049,7 @@ body {
   padding: 15px 25px 15px 25px;
   flex-direction: row;
   box-sizing: border-box;
-  border: 1px #3d3d3d solid;
+  border: 1px #111111 solid;
   border-radius: 10px;
 }
 
@@ -2221,7 +2221,7 @@ body {
   display: inline;
   padding: 20px 35px 20px 35px;
   font-size: 14px;
-  color: #3d3d3d;
+  color: #111111;
   font-weight: 400;
 }
 
@@ -2304,7 +2304,7 @@ body {
 }
 
 .big-search button i {
-  color: #3d3d3d;
+  color: #111111;
   font-size: 14px;
   font-weight: 300;
 }
@@ -2399,11 +2399,11 @@ body {
 }
 
 .share-btn.twitter {
-  border: 1px #3d3d3d solid;
+  border: 1px #111111 solid;
 }
 
 .share-btn.linkedin {
-  border: 1px #3d3d3d solid;
+  border: 1px #111111 solid;
 }
 
 .share-btn.coffee {
@@ -2456,7 +2456,7 @@ body {
   width: 250px;
   margin: 0px 1rem 1rem 0px;
   padding: 1.2rem 1rem 1.2rem 1rem;
-  border: 1px #3d3d3d solid;
+  border: 1px #111111 solid;
   border-radius: 3px;
   font-size: 15px;
 }
@@ -2472,7 +2472,7 @@ body {
 
 .shortseries-date {
   font-weight: 14px;
-  color: #3d3d3d;
+  color: #111111;
   padding: 0 0 0 0;
 }
 
@@ -2528,12 +2528,12 @@ body {
 }
 
 .hl-c-excerpt {
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: normal;
+  font-size: 15px;
   line-height: 1.5;
   width: 95%;
   text-align: justify;
-  color: #3d3d3d;
+  color: #151515;
 }
 
 .mins-read {
@@ -2732,14 +2732,14 @@ a.gen-links {
 .new-post-excerpt {
   font-size: 16px;
   font-weight: 300;
-  color: #3d3d3d;
+  color: #111111;
   line-height: 2;
 }
 
 .summary-content {
   font-size: 15px;
   font-weight: 300;
-  color: #3d3d3d;
+  color: #111111;
   line-height: 2;
   width: 95%;
 }
@@ -2987,7 +2987,7 @@ img[alt=postimage60]:hover {
   font-size: 14px;
   padding-top: 25px;
   text-decoration: underline;
-  color: #3d3d3d;
+  color: #111111;
 }
 
 .center-image-2 {
