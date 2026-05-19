@@ -1,13 +1,28 @@
-current server condition
+---
+layout: posts
+author: Degananda Ferdian
+categories: coding-docs
+series-code: n/a
+excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
+tags: debug dependencies
+background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
+objective: To debug and understand jekyll dependencies issue during deployment
+deliverables: Article & Illustration
+typora-root-url: ./../../../../
+---
+
+PostgreSQL is one of battle proven RDBMS (relational database management system) aside from mysql,mariadb and sql server. With proper tuning it could run on minimum virtual machine with limited memory and CPU. 
+
+# Install postgresql on ubuntu server 24.04
+
+Current server setup/landscape
 
 1. 1 gigs of ram and 1 virtual CPU
 2. 384mb of ram has been allocated to jupyter notebook podman
 3. the remaining resource +- 600mb will be fully utilized for postgresql
 4. jupyter notebook will only used for data visualization. all the ETL computation will be done on seperate spark cluster.
 
-# Install postgresql on ubuntu server 24.04
-
-Below are the steps to install postgresql on lightweight VM
+Below are the steps to install postgresql on lightweight VM with 1gb of ram and 1 virtual CPU
 
 update ubuntu packages repository to the latest version and upgrade all old packages on the ubuntu server.
 
@@ -38,7 +53,7 @@ validate if postgresql running properly (health status check)
 
 check on the ps
 
-	ps axx | grep postgres
+	ps -ax | grep postgres
 
 check on the specific postgres services to find the actual health status (replace 16-main with the actual installed postgresql version)
 
@@ -87,6 +102,10 @@ restart postgreql services
 Done, at this point postgresql can be accessed remotely.
 
 note: on production scenario, it should only to list down authorized ip address. do not allow all connection from all machines at the production server.
+
+to stop postgresql
+
+	sudo systemctl stop postgresql
 
 ## Test Connection using Postgresql client
 

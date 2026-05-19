@@ -1,4 +1,17 @@
-# # Jekyll is a Famous Framework to Generate SSG
+---
+layout: posts
+author: Degananda Ferdian
+categories: coding-docs
+series-code: n/a
+excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
+tags: debug dependencies
+background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
+objective: To debug and understand jekyll dependencies issue during deployment
+deliverables: Article & Illustration
+typora-root-url: ./../../../../
+---
+
+# Jekyll is a Famous Framework to Generate SSG
 
 Jekyll is one of the popular framework to create SSG (static site generation) websites especially for blog and news page with markdown (.md) as the main document. Jekyll will bundle all markdown file with other neccesary files such as images, css and compiled ruby file.
 
