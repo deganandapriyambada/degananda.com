@@ -1,3 +1,16 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: coding-docs
+series-code: n/a
+excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
+tags: debug dependencies
+background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
+objective: To debug and understand jekyll dependencies issue during deployment
+deliverables: Article & Illustration
+typora-root-url: ./../../../../
+---
+
 # Collaborative IDE with Jupyter Notebook and Spark Cluster
 
 Jupyter notebook is known for collaborative IDE (integrated development environment) for data engineering and data scientist. On big scale project, the common infrastrcuture setup is to host and deploy the centralized jupyter notebook/lab on the server and have different server for the remote spark engine(spark clusters). All developer will need to use browser to access notebook with following roles
@@ -68,4 +81,7 @@ check actual usage
 	podman stats jupyter
 
 now go to browser and access the server ip with port 8888, the jupyter UI should be up and running properly.
-  	
+
+top stop jupyter use following command
+
+	podman stop jupyter

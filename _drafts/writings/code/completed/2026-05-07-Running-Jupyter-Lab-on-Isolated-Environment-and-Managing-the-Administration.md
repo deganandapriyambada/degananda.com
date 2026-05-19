@@ -1,3 +1,16 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: coding-docs
+series-code: n/a
+excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
+tags: debug dependencies
+background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
+objective: To debug and understand jekyll dependencies issue during deployment
+deliverables: Article & Illustration
+typora-root-url: ./../../../../
+---
+
 # The Infamous Jupyterlab Among Data Scientist and STEM Engineer
 
 Jupyter lab is an interactive IDE (integrated development environment) that very popular among the data scientist as it could visualize the code step by step in **engineering document way**. Despite that jupyter lab support dozens programming languages such as ruby / iruby or nodejs (ijavascript), the main usage of jupyterlab is for python data computation works.

@@ -1,3 +1,16 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: coding-docs
+series-code: n/a
+excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
+tags: debug dependencies
+background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
+objective: To debug and understand jekyll dependencies issue during deployment
+deliverables: Article & Illustration
+typora-root-url: ./../../../../
+---
+
 # Unintended Git Merge Can Happened Despite Good CI/CD Procedure
 
 Wrong merged can cause catastrophic effect on the application especially if the unwanted changes is affecting the production environment. Those incidents ideally never happened with proper deployment procedures. Every commit must be reviewed thoroughly by both tech lead and developer. Furthermore, before the commit merged into released branch, it should also undergo unit testing on the development pipeline.
