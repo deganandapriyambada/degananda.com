@@ -4,7 +4,7 @@ author: Degananda Ferdian
 categories: provocation
 series-code: n/a
 excerpt: Hello world is a console printed output that written by software engineer to test if small piece or part of code working proeprly. Whether it is a for loop, conditional formatiing, conditional assessment (if-else), "hello world" come in handy as quick debugger tools and give morale boost to the software engineer if the "hello world" text actually got printed out on the console.
-tags: authentication authorization
+tags: hello-world
 background: Desinging a system is not an easy task. Same goes for system implementation. Software engineering need breakdown the complex architecture and complex business requirement into small working code. Ensure the system work properly is as hard as doing the coding. 
 objective: To Understand the psychology factor of software engineer habits when they wrote hello world across the sources code.
 deliverables: Article
