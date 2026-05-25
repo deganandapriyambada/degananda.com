@@ -3,7 +3,7 @@
 Non agentic AI such as chatgpt, grok or gemini can only provide responses from the given prompt, therefore they often called as an **AI chatbot which answer question**. Meanwhile, agentic AI is processing the prompt beyond just giving responses. Agentic AI is **AI chatbot which execute** action and could do following process: 
 
 1. Decision making - Normal AI is basically a consultant. Users enter prompt and the AI will return the responses. AgenticAI can make their own decision to proceed on how to **act** from the given prompt.
-2. Do action - once the decision is made, it will be **actuated immediately** by the agentic AI.
+2. Do action - once the decision is made, the action (eg: calling function(), call API, etc) will be **executed immediately** by the agentic AI.
 3. Goal Orientied - these decision and action will be driven with the goal of the agent. Each agent ideally can only **should only have one goal**.
 
 ## Simple Agentic AI Use Cases: Calculator Agent
@@ -19,4 +19,11 @@ The first computation approach is Non agentic AI calculator as it only pass the 
 
 Below is the end to end process within the calculator agent to solve the given mathematical equations from the input prompt
 
-1. 
+1. Enter the mathematical equation on the prompt
+1. calcualtor agent decides whether "calculator is needed to satisfy the prompt"
+1. calculator agent call calculator function
+1. return the answer
+
+## Calculator agentic AI using Minstral 3B
+
+Below is the step by step to build simplest form of calculator agentic AI using minstral 3B
