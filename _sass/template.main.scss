@@ -640,7 +640,7 @@ body {
 
 .post-content ul li,
 .post-content ol li {
-  font-size: 1rem;
+  font-size: 1.05rem;
   margin-bottom: 0rem;
   line-height: 2;
 }
@@ -667,7 +667,7 @@ body {
 
 .post-content>p,
 .modest-p {
-  font-size: 1rem;
+  font-size: 1.05rem;
   margin-bottom: 1.3rem;
   line-height: 2;
   color: #111111;
@@ -775,13 +775,13 @@ body {
 
 .post-content blockquote {
   border-left: 8px solid #dadada;
-  padding: 1rem;
+  padding: 1.05rem;
   background: #f5f5f5;
 }
 
 .post-content li {
   font-family: $font-type-md;
-  color: #5a5a5a;
+  color: #000;
   padding-bottom: 10px;
   font-size: 16px;
 }
@@ -986,6 +986,11 @@ body {
   align-items: center;
 }
 
+.add-pad-bt {
+  display: block;
+  margin: 15px 0px 15px 0px;
+}
+
 .post-tags-item {
   background: #f3f3f3;
   padding: 8px 12px 8px 12px;
@@ -1011,7 +1016,7 @@ body {
 
 .post-tags-item-lite {
   margin: 0px 10px 0px 0px;
-  font-size: 13px;
+  font-size: 0.9rem;
 }
 
 .post-tags-item-lite a {
@@ -2371,6 +2376,7 @@ body {
 
 .top-hl-left {
   flex: 1;
+  margin-bottom: 25px;
 }
 
 .top-hl-content {
@@ -2614,6 +2620,7 @@ a.gen-links {
 @media only screen and (max-width: 1000px) {
   .two-col-flx {
     flex-direction: column;
+    display: inline-flex;
   }
 }
 
@@ -2719,7 +2726,7 @@ a.gen-links {
 }
 
 .new-post-title {
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 600;
   padding: 15px 0px 15px 0px;
 }
@@ -2737,7 +2744,7 @@ a.gen-links {
 }
 
 .summary-content {
-  font-size: 15px;
+  font-size: 1.05rem;
   font-weight: 300;
   color: #111111;
   line-height: 2;
@@ -2984,7 +2991,7 @@ img[alt=postimage60]:hover {
   display: block;
   margin: 0 auto;
   text-align: center;
-  font-size: 14px;
+  font-size: 1.05rem;
   padding-top: 25px;
   text-decoration: underline;
   color: #111111;
@@ -3190,14 +3197,13 @@ tbody tr:hover {
   }
 
   .topmenu-container>.logo {
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
   }
 
   .pl-logo {
-    width: 100%;
+    width: auto;
     text-align: center;
-    display: none;
   }
 
   .zines-link {
@@ -3212,22 +3218,22 @@ tbody tr:hover {
   }
 
   .bar-menu i {
-    font-size: 40px;
+    font-size: 2rem;
   }
 
   .aboutme {
-    font-size: 30px;
+    font-size: 1.4rem;
   }
 
   .big-search input[type="text"],
   .big-search input[type="text"]::placeholder,
   .big-search button i {
-    font-size: 30px;
+    font-size: 1.3rem;
   }
 
   .post-tags-item-side {
     padding: 16px 20px 16px 20px;
-    font-size: 28px;
+    font-size: 1.3rem;
     margin-bottom: 15px;
   }
 
@@ -3255,7 +3261,7 @@ tbody tr:hover {
 
 
   .mins-date {
-    font-size: 23px;
+    font-size: 1.2rem;
   }
 
   .hl-c-title,
@@ -3273,6 +3279,7 @@ tbody tr:hover {
     background: #f2f2f2;
     border-radius: 50%;
     font-size: 1.3rem;
+    display: none;
   }
 
   .nama {
@@ -3281,6 +3288,7 @@ tbody tr:hover {
 
   .incat {
     font-size: 1.3rem;
+    padding-left: 0px;
   }
 
   .series-new-topic {
@@ -3296,7 +3304,7 @@ tbody tr:hover {
     background: #000;
     padding: 20px 25px 20px 25px;
     border: 1px #023047 solid;
-    font-size: 30px;
+    font-size: 1.25rem;
     color: #fff;
     border-radius: 20px;
     cursor: pointer;
@@ -3307,7 +3315,7 @@ tbody tr:hover {
     background: #fff;
     padding: 20px 25px 20px 25px;
     border: 1px #023047 solid;
-    font-size: 30px;
+    font-size: 1.25rem;
     color: #023047;
     border-radius: 20px;
     cursor: pointer;
@@ -3318,7 +3326,7 @@ tbody tr:hover {
   }
 
   .menu-sidebar-container>.menu-title {
-    font-size: 40px;
+    font-size: 2.1rem;
   }
 
   .menu-sidebar-container>.menu-close {
@@ -3334,7 +3342,7 @@ tbody tr:hover {
   }
 
   .nav-menu-list ul li a {
-    font-size: 35px;
+    font-size: 1.8rem;
   }
 
   .search {
@@ -3347,7 +3355,7 @@ tbody tr:hover {
   }
 
   .headline-tags>ul>li>a {
-    font-size: 30px;
+    font-size: 1.2rem;
   }
 
   .post-content>p,
@@ -3369,20 +3377,20 @@ tbody tr:hover {
   }
 
   .lightbox-image {
-    font-size: 30px;
+    font-size: 1.25rem;
   }
 
   .post-type-2-title a {
-    font-size: 30px;
+    font-size: 1.25rem;
   }
 
   .post-type-2-content>.post-type-2-tldr,
   .post-type-2-content>.post-type-2-title-desc {
-    font-size: 28px;
+    font-size: 1.25rem;
   }
 
   .post-tags-item-lite {
-    font-size: 30px;
+    font-size: 1.25rem;
   }
 
   .about-writer>.photo {
@@ -3390,11 +3398,11 @@ tbody tr:hover {
   }
 
   .profile-name {
-    font-size: 30px;
+    font-size: 1.25rem;
   }
 
   .profile-contact a i {
-    font-size: 40px;
+    font-size: 1.8rem;
   }
 
   .giscus {
@@ -3403,11 +3411,11 @@ tbody tr:hover {
 
   .padding-container-post,
   .width-container-post {
-    padding: 60px 5% 0 5%;
+    padding: 60px 4% 0 4%;
   }
 
   .headline-post-info-item-title {
-    font-size: 40px;
+    font-size: 1.3rem;
   }
 
   .main-section {
@@ -3425,11 +3433,11 @@ tbody tr:hover {
   }
 
   .headline-title {
-    font-size: 32px;
+    font-size: 1.25rem;
   }
 
   .headline-post-info-item {
-    font-size: 25px;
+    font-size: 1.25rem;
   }
 
   .disclaimer,
@@ -3455,7 +3463,7 @@ tbody tr:hover {
     text-decoration: underline;
     color: #28a745;
     text-transform: capitalize;
-    line-height: 1.5;
+    line-height: 2;
   }
 
   .topic-excerpt {
