@@ -3,7 +3,7 @@ layout: posts
 author: Degananda Ferdian
 categories: database
 series-code: n/a
-excerpt: Postgreql configuration can be tuned up to run on small sized virtual machine. The computing power of postgresql can be limited by adjusting following parameters: max_connection, shared_buffers and effective_cache size
+excerpt: Postgreql configuration can be tuned up to run on small sized virtual machine. The computing power of postgresql can be limited by adjusting following parameters max_connection, shared_buffers and effective_cache size
 tags: postgresql
 background: Limited server CPU and RAM should not be blocker for postgresql. With proper configuration and careful rate limiting, postgresql can run on top of 1 vCPU and 512 mb of tem
 objective: To install postgresql on small sized ubuntu server virtual machine

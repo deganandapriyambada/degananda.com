@@ -14,7 +14,7 @@ typora-root-url: ./../../../../
 # Separating Auth Services With Business Services Instances
 
 ![postimage100](/assets/images/2026-05/auth.svg)
-[Decoupling authentication and authorization services with business logioc services instances](/assets/images/2025-05/auth.jpg){: .center-image }
+[Decoupling authentication and authorization services with business logioc services instances](/assets/images/2026-05/auth.jpg){: .center-image }
 
 
 Authentication and authorization services often to be developed on different instances (not just different folder, but on different process id/ports) to **avoid resource(CPU/memory/IO) consumption overhead** on business services. For example, in the case on milestone management platform, the core milestone management API instances should only focus handling the business logic instead of executing authentication validation.
