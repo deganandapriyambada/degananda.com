@@ -12,7 +12,7 @@ typora-root-url: ./../../../../
 ---
 
 ![postimage100](/assets/images/2026-05/helloworld1.jpg)
-[Hello world!](/assets/images/2025-05/helloworld1.jpg){: .center-image }
+[Hello world!](/assets/images/2026-05/helloworld1.jpg){: .center-image }
 
 
 # The Importance of Writings Hello World as Developer
