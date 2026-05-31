@@ -1,12 +1,12 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: coding-docs
+categories: python
 series-code: n/a
-excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
-tags: debug dependencies
-background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
-objective: To debug and understand jekyll dependencies issue during deployment
+excerpt: Containerization is a process to share the computing power within same operating system into an instances called as container. It will have some portion of host machien CPU and RAM. Jupyter notebook can be installed on container so i will only able to consume fixed amount of server resources.
+tags: jupyter-notebook
+background: On server with limited computing power, CPU and memory are luxury things. Jupyter notebook can eat all the available memory and CPU if not isolated properly. 
+objective: To understand how to install jupyter notebook inside a container.
 deliverables: Article & Illustration
 typora-root-url: ./../../../../
 ---
@@ -29,6 +29,8 @@ Uncontrolled resource consumption on the jupyter notebook will affect the collab
 ## The Resolution: Isolated Jupyter Notebook per Developer
 
 Jupyter notebook is basically a python based program. It can be **containerized** with specific allocated resources. Each team could be assigned to specific jupyter notebook instances/container. If the developer somehow make mistake by running the ETL without using spark cluster and drain all the computing resources, it will only affecting that **specific container** for their team.
+
+note: **minimum of 1gb memory** must be allocated to the jupyter notebook's podman container in order to run **spark job executor driver**.
 
 # Installing Jupyter Notebook using Podman
 

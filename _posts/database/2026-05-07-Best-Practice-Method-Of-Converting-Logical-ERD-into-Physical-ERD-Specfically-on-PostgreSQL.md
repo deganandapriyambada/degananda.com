@@ -1,14 +1,14 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: jekyll
+categories: database
 series-code: n/a
-excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
-tags: debug dependencies
-background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
-objective: To debug and understand jekyll dependencies issue during deployment
+excerpt: Logical ERD is busiess level abstraction to show business object relationship alongside with the required information and data. In other hand, physical ERD is databases structure which defines table, column, data type, referential integrity and so on as a code and commonly written as SQL.
+tags: erd rdbms sql
+background: Database structure need to be modelled based on the business requirements. Business user and business analyst need to have common agreement to finalize the logical ERD before handed over to the technical team.
+objective: To understand the step by step for converting logical ERD into physical ERD
 deliverables: Article & Illustration
-typora-root-url: ./../../../../
+typora-root-url: ./../../../
 ---
 
 # The Differences Between Physical ERD vs Logical ERD
