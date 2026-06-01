@@ -28,7 +28,7 @@ in order to get the download links for openPLC, kindly go to openPLC official we
 
 find the right openPLC software distribution. On this case is Mac OS
 
-![postimage80](/assets/images/2025-12/openplc1.jpg)
+![choose the mac os distribution](/assets/images/2025-12/openplc1.jpg){: .postimage80 }
 [choose the mac os distribution](/assets/images/2025-12/openplc1.jpg){: .center-image }
 
 copy the download links which available on the "just download" text
@@ -58,14 +58,14 @@ Extract the zip on any folder. after the extraction is completed, there will be 
 
 it is recommended to move the app file to application folder to ensure the openplc apps can acess and utilize the full capability of the operating system
 
-![postimage80](/assets/images/2025-12/openplc2.jpg)
+![drag the openPLC.app file to the applications](/assets/images/2025-12/openplc2.jpg){: .postimage80 }
 [drag the openPLC.app file to the applications](/assets/images/2025-12/openplc2.jpg){: .center-image }
 
 ## Run the open PLC app
 
 double click the openPLC.app file, if there is warning pop up window shown following message "Apple could not verify... etc etc" mean, we need to allow the operating system to allow openplc app.
 
-![postimage80](/assets/images/2025-12/openplc3.jpg)
+![openplc app is blocked by mac os due to security reasons](/assets/images/2025-12/openplc3.jpg){: .postimage80 }
 [openplc app is blocked by mac os due to security reasons](/assets/images/2025-12/openplc3.jpg){: .center-image }
 
 click done on the pop up window
@@ -74,17 +74,17 @@ go to system settings and search for security, then click security settings menu
 
 scroll down and click "open anyway" button **spefically for the OpenPLC Editor.app**
 
-![postimage80](/assets/images/2025-12/openplc4.jpg)
+![click open anyway button to allow the openplc to be ran by mac os](/assets/images/2025-12/openplc4.jpg){: .postimage80 }
 [click open anyway button to allow the openplc to be ran by mac os](/assets/images/2025-12/openplc4.jpg){: .center-image }
 
 click open anyway and input your mac password.
 
-![postimage80](/assets/images/2025-12/openplc6.jpg)
+![openplc splash screen](/assets/images/2025-12/openplc6.jpg){: .postimage80 }
 [openplc splash screen](/assets/images/2025-12/openplc6.jpg){: .center-image }
 
 wait until the splash screen is dissapear and its done!. the openPLC IDE (integrated desktop environment) shown be ready to be used
 
-![postimage80](/assets/images/2025-12/openplc7.jpg)
+![openPLC IDE is ready to be use](/assets/images/2025-12/openplc7.jpg){: .postimage80 }
 [openPLC IDE is ready to be use](/assets/images/2025-12/openplc7.jpg){: .center-image }
 
 

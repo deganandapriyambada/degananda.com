@@ -74,14 +74,14 @@ Visual Studio Code (VSC)
 
 Visual studio code extension for java
 
-![postimage100](/assets/images/2025-04/vscjava1.jpg)
+![Java extension for VSC](/assets/images/2025-04/vscjava1.jpg){: .postimage100 }
 [Java extension for VSC](/assets/images/2025-04/vscjava1.jpg){: .center-image }
 
     https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 Visual studio code extension for spring boot
 
-![postimage100](/assets/images/2025-04/vscjava2.jpg)
+![Springboot extension for VSC](/assets/images/2025-04/vscjava2.jpg){: .postimage100 }
 [Springboot extension for VSC](/assets/images/2025-04/vscjava2.jpg){: .center-image }
 
     https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack
@@ -94,7 +94,7 @@ to validate whether JDK has been properly installed can simplfy use **javac** co
 
     javac -version
 
-![postimage100](/assets/images/2025-04/javac.jpg)
+![Execute Javac version to check JDK installation status](/assets/images/2025-04/javac.jpg){: .postimage100 }
 [Execute Javac version to check JDK installation status](/assets/images/2025-04/javac.jpg){: .center-image }
 
 if JDK is installed, then the command line should output the version number of java compiler that currently installed as shown in images above. 
@@ -118,7 +118,7 @@ if both of the command line return extension name that associated with it then t
 
 ## Create project using Spring Project Builder (start spring)
 
-![postimage100](/assets/images/2025-04/springbuilder.jpg)
+![Speedup spring development with Start Sping project Builder](/assets/images/2025-04/springbuilder.jpg){: .postimage100 }
 [Speedup spring development with Start Sping project Builder](/assets/images/2025-04/springbuilder.jpg){: .center-image }
 
 open start.spring.io and configure project. For this case we will use **Maven** as the builder and then **java** as the language with springboot 3.4.4
@@ -127,7 +127,7 @@ open start.spring.io and configure project. For this case we will use **Maven** 
 
 start.spring.io is a project builder that can create the first cut of spring boot boilerplate given from our defined configuration above.
 
-![postimage100](/assets/images/2025-04/springhw.jpg)
+![completed spring project boilerplate or skeleton is automatically created](/assets/images/2025-04/springhw.jpg){: .postimage100 }
 [completed spring project boilerplate or skeleton is automatically created](/assets/images/2025-04/springhw.jpg){: .center-image }
 
 once done, click generate and the web will automatically zip the preconfigured project files.
@@ -161,7 +161,7 @@ public class Helloworld2Application {
 }
 ```
 
-![postimage100](/assets/images/2025-04/gradlehelloworld.jpg)
+![Run GET REST API with Springboot and gradle](/assets/images/2025-04/gradlehelloworld.jpg){: .postimage100 }
 [Run GET REST API with Springboot and gradle](/assets/images/2025-04/gradlehelloworld.jpg){: .center-image }
 
 
@@ -183,12 +183,12 @@ usually it will also require the restart of IDE/ VSC.
 
 go to localhost:8080/helloworld to access the GET API
 
-![postimage100](/assets/images/2025-04/helloworldapi.jpg)
+![call the helloworld GET API](/assets/images/2025-04/helloworldapi.jpg){: .postimage100 }
 [call the helloworld GET API](/assets/images/2025-04/helloworldapi.jpg){: .center-image }
 
 ## Run the program using maven
 
-![postimage100](/assets/images/2025-04/mavenhelloworld.jpg)
+![Run GET REST API with Springboot and maven](/assets/images/2025-04/mavenhelloworld.jpg){: .postimage100 }
 [Run GET REST API with Springboot and maven](/assets/images/2025-04/mavenhelloworld.jpg){: .center-image }
 
 execute using following command ,it will make the springboot run tomcat server and listen HTTP with port 8080
@@ -216,7 +216,7 @@ usually it will also require the restart of IDE/ VSC
 
 go to localhost:8080/helloworld to access the GET API
 
-![postimage100](/assets/images/2025-04/helloworldapi.jpg)
+![call the helloworld GET API](/assets/images/2025-04/helloworldapi.jpg){: .postimage100 }
 [call the helloworld GET API](/assets/images/2025-04/helloworldapi.jpg){: .center-image }
 
 ## Appendix

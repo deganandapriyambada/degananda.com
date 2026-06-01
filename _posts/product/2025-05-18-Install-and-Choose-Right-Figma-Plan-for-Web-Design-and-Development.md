@@ -57,7 +57,7 @@ before able to use figma, an account is needed.
 
 ## Figma Workspaces
 
-![postimage100](/assets/images/2025-05/figma.jpg)
+![Figma Workspaces](/assets/images/2025-05/figma.jpg){: .postimage100 }
 [Figma Workspaces](/assets/images/2025-05/figma.jpg){: .center-image }
 
 Once logged in, figma is ready to be used.

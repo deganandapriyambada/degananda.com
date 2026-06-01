@@ -34,12 +34,12 @@ go to following links to login or creating cloud flare accounts
 
 once logged in, an extensive dashboard will be shown.
 
-![postimage100](/assets/images/2026-01/cloudflare1.jpg)
+![cloudflare dashboard is shown after logged in using cloudflare account](/assets/images/2026-01/cloudflare1.jpg){: .postimage100 }
 [cloudflare dashboard is shown after logged in using cloudflare account](/assets/images/2026-01/cloudflare1.jpg){: .center-image }
 
 there are various services that are offered by cloudflare, for hosting javascript files into cloudfloure's CDN (Content delivery network) choose the **worker and pages** services.
 
-![postimage100](/assets/images/2026-01/cloudflare2.jpg)
+![access worker and page services to host javascript file on CDN](/assets/images/2026-01/cloudflare2.jpg){: .postimage100 }
 [access worker and page services to host javascript file on CDN](/assets/images/2026-01/cloudflare2.jpg){: .center-image }
 
 
@@ -55,7 +55,7 @@ if the files can't be rendered on page, cloudflare worker and pages will serve i
 
 go to worker and pages and create application and choose static files.
 
-![postimage100](/assets/images/2026-01/cloudflare3.jpg)
+![choose file or folder that will be uploaded to the cloudflare worker and page](/assets/images/2026-01/cloudflare3.jpg){: .postimage100 }
 [choose file or folder that will be uploaded to the cloudflare worker and page](/assets/images/2026-01/cloudflare3.jpg){: .center-image }
 
 dont forget to add blank index.html, otherwise cloudflare will think that static files (in this case is bundled javascrpt file) require building process and need to be integrated through proper CI/CD.
@@ -64,7 +64,7 @@ note that for this article, manual file upload will be choosen. However, integra
 
 if the upload success, a new deployment data will be shown on the dashboard
 
-![postimage100](/assets/images/2026-01/cloudflare4.jpg)
+![successfully upload javascript files on cloudflare CDN or worker and page](/assets/images/2026-01/cloudflare4.jpg){: .postimage100 }
 [successfully upload javascript files on cloudflare CDN or worker and page](/assets/images/2026-01/cloudflare4.jpg){: .center-image }
 
 ## Test to access the newly deployed javascript files on CDN
@@ -81,7 +81,7 @@ add the file path and try to access it, for example:
 
 open it through browser and it should return the full text of the javascript.
 
-![postimage100](/assets/images/2026-01/cloudflare5.jpg)
+![Fully accessible javascript file through browser HTTP GET](/assets/images/2026-01/cloudflare5.jpg){: .postimage100 }
 [Fully accessible javascript file through browser HTTP GET](/assets/images/2026-01/cloudflare5.jpg){: .center-image }
 
 ## Test access from localhost
@@ -110,7 +110,7 @@ for example:
 
 open the index.html on browser (might require webserver, depending on the scenario/project scope)
 
-![postimage100](/assets/images/2026-01/cloudflare6.jpg)
+![successfully load and render the javascript file that hosted on cloudflare worker and page through their CDN](/assets/images/2026-01/cloudflare6.jpg){: .postimage100 }
 [successfully load and render the javascript file that hosted on cloudflare worker and page through their CDN](/assets/images/2026-01/cloudflare6.jpg){: .center-image }
 
 the index.html now should be properly served using javascript file that was hosted on the cloudflare.

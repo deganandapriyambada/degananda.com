@@ -24,7 +24,7 @@ Another example is correlation between table consist of user list with table tha
 
 # Conceptual vs Logical ERD (Entity relationship database)
 
-![postimage100](/assets/images/2026-02/erd1.jpg)
+![Conceptual ERD focus on business entity relationship while logical ERD focus on software system entity](/assets/images/2026-02/erd1.jpg){: .postimage100 }
 [Conceptual ERD focus on business entity relationship while logical ERD focus on software system entity](/assets/images/2026-02/erd1.jpg){: .center-image }
 
 
@@ -108,7 +108,7 @@ below are the typical practices to determine which one is first (ERD or wirefram
 
 below is the current conceptual ERD from previous iteration for milestoneku (SaaS product to manage personal milestone)
 
-![postimage80](/assets/images/2025-12/erd1.svg)
+![Current Conceptual Entity Relationship Diagram](/assets/images/2025-12/erd1.svg){: .postimage80 }
 [Current Conceptual Entity Relationship Diagram](/assets/images/2025-12/erd2.jpg){: .center-image }
 
 ## Add related technology requirement / non functional requirement to per entity 
@@ -147,7 +147,7 @@ for the complete step by step to execute 1NF to 4NF normalization, check followi
 
 Below is the final logical ERD for milestoneku by considering acceptance criteria user story, identified NFR as well as the normalization guideline.
 
-![postimage80](/assets/images/2026-02/milestoneku-erd.jpeg)
+![Current Conceptual Entity Relationship Diagram](/assets/images/2026-02/milestoneku-erd.jpeg){: .postimage80 }
 [Current Conceptual Entity Relationship Diagram](/assets/images/2026-02/milestoneku-erd.jpeg){: .center-image }
 
 Note: FK (foreign key) and also the data type will be included later on during the physical ERD design.

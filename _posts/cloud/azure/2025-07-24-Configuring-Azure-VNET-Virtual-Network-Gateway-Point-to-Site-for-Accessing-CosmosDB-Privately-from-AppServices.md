@@ -49,13 +49,13 @@ Virtual network or Vnet is a private networking concept on Azure Cloud which equ
 
     Subnet will reside inside the vnet. One vnet can have many subet.
 
-![postimage100](/assets/images/2025-07/vnet1.jpg)
+![Create virtual network on azure](/assets/images/2025-07/vnet1.jpg){: .postimage100 }
 [Create virtual network on azure](/assets/images/2025-07/vnet1.jpg){: .center-image }
 
 
 Go to the  virtual network resources and create a new virtual network with following details
 
-![postimage100](/assets/images/2025-07/vnet2.jpg)
+![Add ip address space for the vnet](/assets/images/2025-07/vnet2.jpg){: .postimage100 }
 [Add ip address space for the vnet](/assets/images/2025-07/vnet2.jpg){: .center-image }
 
 Predefined Rule
@@ -67,12 +67,12 @@ Predefined Rule
 
 Final configuration of the VNET before the provisioning process.
 
-![postimage100](/assets/images/2025-07/vnet3.jpg)
+![check vnet details before provisioning the resources/vnet ](/assets/images/2025-07/vnet3.jpg){: .postimage100 }
 [check vnet details before provisioning the resources/vnet ](/assets/images/2025-07/vnet3.jpg){: .center-image }
 
 ## Create Subnet
 
-![postimage100](/assets/images/2025-07/vnet4.jpg)
+![Create subnet on the virtual network that previously created. ](/assets/images/2025-07/vnet4.jpg){: .postimage100 }
 [Create subnet on the virtual network that previously created. ](/assets/images/2025-07/vnet4.jpg){: .center-image }
 
 

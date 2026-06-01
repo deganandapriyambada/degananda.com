@@ -61,7 +61,7 @@ Engine should be replaced with cloud native component such as Azure App services
 
 ## Application Architecture
 
-![postimage100](/assets/images/2025-05/milestoneku.svg)
+![MVP Apps Architecture for Milestoneku](/assets/images/2025-05/milestoneku.svg){: .postimage100 }
 [MVP Apps Architecture for Milestoneku](/assets/images/2025-05/milestoneku.jpg){: .center-image }
 
     Apps will be hosted on digitalocean (BE) and AWS (FE). Some of the component are placed within same VM to optimize the budget.

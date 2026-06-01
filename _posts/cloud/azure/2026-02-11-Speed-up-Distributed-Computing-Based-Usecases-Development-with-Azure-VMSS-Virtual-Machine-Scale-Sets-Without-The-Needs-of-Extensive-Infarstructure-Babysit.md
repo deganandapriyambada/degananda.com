@@ -14,7 +14,7 @@ deliverables: Article
 
 # Easily Manage grouped of virtual machines using Azure VMSS with same specs and configuration
 
-![postimage100](/assets/images/2026-01/az-vmss1.jpg)
+![Azure VMSS - virtual machine scale sets references architecture](/assets/images/2026-01/az-vmss1.jpg){: .postimage100 }
 [Azure VMSS - virtual machine scale sets references architecture](/assets/images/2026-01/az-vmss1.jpg){: .center-image }
 
 Azure virtual machine scale sets, or in short Azure VMSS is a **services to provision a group of virtual machine with identical specs and configuration under a pre configured load balancer** allowing developer to not worry about their virtual machines scalability configuration.

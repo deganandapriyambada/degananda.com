@@ -11,7 +11,7 @@ deliverables: Article
 typora-root-url: ./../../../../
 ---
 
-![postimage100](/assets/images/2026-05/helloworld1.jpg)
+![Hello world!](/assets/images/2026-05/helloworld1.jpg){: .postimage100 }
 [Hello world!](/assets/images/2026-05/helloworld1.jpg){: .center-image }
 
 

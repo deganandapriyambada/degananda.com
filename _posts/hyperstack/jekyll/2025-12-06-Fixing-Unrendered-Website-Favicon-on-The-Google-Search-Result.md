@@ -40,17 +40,17 @@ below are the three possible scenario where the favicon will be rendered and per
 
 browser tab
 
-![postimage80](/assets/images/2025-12/favicon2.jpg)
+![favicon displayed on browser tab](/assets/images/2025-12/favicon2.jpg){: .postimage80 }
 [favicon displayed on browser tab](/assets/images/2025-12/favicon2.jpg){: .center-image }
 
 search engine result
 
-![postimage80](/assets/images/2025-12/favicon3.jpg)
+![favicon displayed on google search result](/assets/images/2025-12/favicon3.jpg){: .postimage80 }
 [favicon displayed on google search result](/assets/images/2025-12/favicon3.jpg){: .center-image }
 
 as references of GenAI responses
 
-![postimage80](/assets/images/2025-12/favicon4.jpg)
+![favicon displayed on genAI responses as references, if asked by the user on the prompt](/assets/images/2025-12/favicon4.jpg){: .postimage80 }
 [favicon displayed on genAI responses as references, if asked by the user on the prompt](/assets/images/2025-12/favicon4.jpg){: .center-image }
 
 # What if my website doesnt have favicon properly rendered?
@@ -58,7 +58,7 @@ as references of GenAI responses
 &mdash; it could lead into potential lead lost as people tend to skip a **website which doesnt have a favicon**.
 
 
-![postimage80](/assets/images/2025-12/favicon1.jpg)
+![favicon of pipenpoof website not rendered on google search](/assets/images/2025-12/favicon1.jpg){: .postimage80 }
 [favicon of pipenpoof website not rendered on google search](/assets/images/2025-12/favicon1.jpg){: .center-image }
 
 for example, currently pipenpoof.com doesnt have any logo displayed on the google search result.
@@ -122,18 +122,18 @@ as shown above, there are 5 non compliant requirements.
 
 **first step** - edit pipenpoof icon size into 48x49
 
-![postimage80](/assets/images/2025-12/favicon5.jpg)
+![pipenpoof logo on 48x48 pixels size](/assets/images/2025-12/favicon5.jpg){: .postimage80 }
 [pipenpoof logo on 48x48 pixels size](/assets/images/2025-12/favicon5.jpg){: .center-image }
 
 
 **second step** - generate two format of the icon (png and ico, previously was svg)
 
-![postimage80](/assets/images/2025-12/favicon6.jpg)
+![two types of favicon image, png and ico](/assets/images/2025-12/favicon6.jpg){: .postimage80 }
 [two types of favicon image, png and ico](/assets/images/2025-12/favicon6.jpg){: .center-image }
 
 **thrid step** - place the favicon on the root directory
 
-![postimage80](/assets/images/2025-12/favicon7.jpg)
+![two favicons are placed on website project root folder](/assets/images/2025-12/favicon7.jpg){: .postimage80 }
 [two favicons are placed on website project root folder](/assets/images/2025-12/favicon7.jpg){: .center-image }
 
 **fourth step** - add three link rel (including the alternatives link as backup, just to be safer)

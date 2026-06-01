@@ -13,8 +13,8 @@ typora-root-url: ./../../../../
 
 # Separating Auth Services With Business Services Instances
 
-![postimage100](/assets/images/2026-05/auth.svg)
-[Decoupling authentication and authorization services with business logioc services instances](/assets/images/2026-05/auth.jpg){: .center-image }
+![Decoupling authentication and authorization services with business logic services instances](/assets/images/2026-05/auth.svg){: .postimage100 }
+[Decoupling authentication and authorization services with business logic services instances](/assets/images/2026-05/auth.jpg){: .center-image }
 
 
 Authentication and authorization services often to be developed on different instances (not just different folder, but on different process id/ports) to **avoid resource(CPU/memory/IO) consumption overhead** on business services. For example, in the case on milestone management platform, the core milestone management API instances should only focus handling the business logic instead of executing authentication validation.
@@ -84,7 +84,7 @@ Note: helper folder will be used to store any **utility function** like datetime
 
 ## No Dedicated Folder for Unit Test
 
-![postimage100](/assets/images/2026-05/ut1.jpg)
+![Each typescript .ts file must have corresponding test file](/assets/images/2026-05/ut1.jpg){: .postimage100 }
 [Each typescript .ts file must have corresponding test file](/assets/images/2025-05/ut1.jpg){: .center-image }
 
 Having separate folder specifically to hold unit test script is generally not recommended as we may miss out some files especially if the project has tons of file. It is recommended to have the unit test file on the same source code folder. Each .ts file should have the **corresponding .spec.ts file**

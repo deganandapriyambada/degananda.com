@@ -30,7 +30,7 @@ Below are differences between physical and logical ERD in various aspects
 
 Below are the step by step to convert following **normalized (4nf) logical ERD** to physical ERD
 
-![postimage100](/assets/images/2026-05/perd1.jpg)
+![Milestoneku.com stage-0 logical ERD](/assets/images/2026-05/perd1.jpg){: .postimage100 }
 [Milestoneku.com stage-0 logical ERD](/assets/images/2026-05/perd1.jpg){: .center-image }
 
 ## Domain and Entity Scoping

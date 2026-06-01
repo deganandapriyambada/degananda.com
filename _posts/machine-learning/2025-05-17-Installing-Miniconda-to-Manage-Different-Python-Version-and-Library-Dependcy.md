@@ -69,7 +69,7 @@ All the library, binary that require to run the 3.12 or 3.13 will be installed b
 
 # Install MiniConda
 
-![postimage100](/assets/images/2025-05/conda.jpg)
+![Conda Installation Script](/assets/images/2025-05/conda.jpg){: .postimage100 }
 [Conda Installation Script](/assets/images/2025-05/conda.jpg){: .center-image }
 
 Installing miniConda is quite straight forward. Just run the installer script and done.
@@ -104,7 +104,7 @@ wait until the installation Completed
 
 ## Validate 
 
-![postimage100](/assets/images/2025-05/condaverify.jpg)
+![Verifying conda installation](/assets/images/2025-05/condaverify.jpg){: .postimage100 }
 [Verifying conda installation](/assets/images/2025-05/condaverify.jpg){: .center-image }
 
 Check the conda version on terminal

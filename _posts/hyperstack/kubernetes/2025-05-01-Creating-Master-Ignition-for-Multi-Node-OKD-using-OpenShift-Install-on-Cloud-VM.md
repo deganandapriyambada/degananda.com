@@ -26,7 +26,7 @@ Make sure the installation program is ready. If not please refer to the previous
 
 ## Procure a domain name
 
-![postimage80](/assets/images/2025-05/ns.jpg)
+![Nameserver repointing to Digitalocean DNS](/assets/images/2025-05/ns.jpg){: .postimage80 }
 [Nameserver repointing to Digitalocean DNS](/assets/images/2025-05/ns.jpg){: .center-image }
 
 OKD needs **domain name** to be attached into  several (mandatory; SNO for this case) sub domain name. Buy domain from any domain provided any change the DNS (Domain name server) pointing to digitalocean.
@@ -43,7 +43,7 @@ nameserver adjustment might take a while(minutes to hour). its recommended to re
 
 ## Add required subdomain for OKD SNO
 
-![postimage80](/assets/images/2025-05/ns2.jpg)
+![DNS record for OKD SNO](/assets/images/2025-05/ns2.jpg){: .postimage80 }
 [DNS record for OKD SNO](/assets/images/2025-05/ns2.jpg){: .center-image }
 
 
@@ -80,7 +80,7 @@ multi cluster OKD might have different configuration because there will be sever
 
 ## Choose Platform (Skippable)
 
-![postimage80](/assets/images/2025-05/install1.jpg)
+![Choose any platform. Later going to be replaced](/assets/images/2025-05/install1.jpg){: .postimage80 }
 [Choose any platform. Later going to be replaced](/assets/images/2025-05/install1.jpg){: .center-image }
 
 choose whatever platform that available on the prompt. it going to be replaced using "none" later on the yaml file because the OKD is installed on top of digital ocean (not listed). If this step provide error, just skip it.
@@ -124,7 +124,7 @@ to view public ssh key simply execute this command on local machine(laptop/pc th
 
 and to generate pull secret
 
-![postimage80](/assets/images/2025-05/pullsecret.jpg)
+![Pull secret from redhat](/assets/images/2025-05/pullsecret.jpg){: .postimage80 }
 [Pull secret from redhat](/assets/images/2025-05/pullsecret.jpg){: .center-image }
 
 
@@ -145,14 +145,14 @@ on the same folder that has install-config.yaml execute following command to gen
     Manifest is a extended install-config.yaml that already enriched with various configuration for OKD. Basically its like a installation template for OKD.
 
 
-![postimage80](/assets/images/2025-05/manifest.jpg)
+![Generated Manifest](/assets/images/2025-05/manifest.jpg){: .postimage80 }
 [Generated Manifest](/assets/images/2025-05/manifest.jpg){: .center-image }
 
 if the creation is success, it will create a new folder called "manifest".
 
 ## Create ignition config
 
-![postimage80](/assets/images/2025-05/ignition.jpg)
+![Generated Ignition Files for master, bootstrap and worker](/assets/images/2025-05/ignition.jpg){: .postimage80 }
 [Generated Ignition Files for master, bootstrap and worker](/assets/images/2025-05/ignition.jpg){: .center-image }
 
 execute following command

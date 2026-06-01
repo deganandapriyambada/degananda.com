@@ -22,12 +22,12 @@ Last update list which has link inside it failed to scale out during mobile view
 
 issue#1 homepage - series list
 
-![postimage80](/assets/images/2025-12/unscaled1.jpg)
+![unscaled list element on the series](/assets/images/2025-12/unscaled1.jpg){: .postimage80 }
 [unscaled list element on the series](/assets/images/2025-12/unscaled2.jpg){: .center-image }
 
 issue#1 homepage - last update list
 
-![postimage80](/assets/images/2025-12/unscaled2.jpg)
+![unscaled list element on the last update](/assets/images/2025-12/unscaled2.jpg){: .postimage80 }
 [unscaled list element on the last update](/assets/images/2025-12/unscaled2.jpg){: .center-image }
 
 
@@ -37,7 +37,7 @@ series section has a div list, however the date text size is too small if viewed
 
 issues#2 - Series date
 
-![postimage80](/assets/images/2025-12/unscaled3.jpg)
+![unscaled date text on the series section](/assets/images/2025-12/unscaled3.jpg){: .postimage80 }
 [unscaled date text on the series section](/assets/images/2025-12/unscaled3.jpg){: .center-image }
 
 
@@ -47,7 +47,7 @@ issues#2 - Series date
 
 issues#3 series text with class section-title
 
-![postimage80](/assets/images/2025-12/unscaled4.jpg)
+![section title on homepage](/assets/images/2025-12/unscaled4.jpg){: .postimage80 }
 [section title on homepage](/assets/images/2025-12/unscaled4.jpg){: .center-image }
 
 ## Section title on Post Details
@@ -64,7 +64,7 @@ a lot element with section-title class are not scaled properly on mobile view
 
 issues#4 - section title element on post details page
 
-![postimage80](/assets/images/2025-12/unscaled5.jpg)
+![section title on post details](/assets/images/2025-12/unscaled5.jpg){: .postimage80 }
 [section title on post details](/assets/images/2025-12/unscaled5.jpg){: .center-image }
 
 
@@ -76,7 +76,7 @@ ol, li and ul element from markdown list is not scaled out on mobile view.
 
 issues#5 - list element not scaled on the post details
 
-![postimage80](/assets/images/2025-12/unscaled6.jpg)
+![list on post details](/assets/images/2025-12/unscaled6.jpg){: .postimage80 }
 [list on post details](/assets/images/2025-12/unscaled6.jpg){: .center-image }
 
 ## H1, H2 of Mardown Post
@@ -85,7 +85,7 @@ Heading is not properly scaled on on the mobile view.
 
 issues#6 - heading element on post details
 
-![postimage80](/assets/images/2025-12/unscaled7.jpg)
+![heading element is not scaled](/assets/images/2025-12/unscaled7.jpg){: .postimage80 }
 [heading element is not scaled](/assets/images/2025-12/unscaled7.jpg){: .center-image }
 
 ## Button on Post Details
@@ -99,7 +99,7 @@ both are too small if viewed on mobile view.
 
 issues#7 - share button on post details
 
-![postimage80](/assets/images/2025-12/unscaled8.jpg)
+![unscaled button](/assets/images/2025-12/unscaled8.jpg){: .postimage80 }
 [unscaled button](/assets/images/2025-12/unscaled8.jpg){: .center-image }
 
 note: including the text below the share button.
@@ -110,7 +110,7 @@ both of writer name and post category on related post section (after the post ma
 
 issues#8 - writer name and category
 
-![postimage80](/assets/images/2025-12/unscaled9.jpg)
+![unscaled writer name text and the related post category text](/assets/images/2025-12/unscaled9.jpg){: .postimage80 }
 [unscaled writer name text and the related post category text](/assets/images/2025-12/unscaled9.jpg){: .center-image }
 
 ## Pagination on Category and Tags View
@@ -119,7 +119,7 @@ pagination menu such as previous, next and the page number display are not scale
 
 issues#9 - list element on pagination section at post by category and tags section
 
-![postimage80](/assets/images/2025-12/unscaled10.jpg)
+![unscaled pagination element](/assets/images/2025-12/unscaled10.jpg){: .postimage80 }
 [unscaled pagination element](/assets/images/2025-12/unscaled10.jpg){: .center-image }
 
 ## Footer - build version
@@ -128,7 +128,7 @@ looks too small and not properly scaled out.
 
 issues#10 - footer information is not upscaled properly
 
-![postimage80](/assets/images/2025-12/unscaled11.jpg)
+![unscaled footer information](/assets/images/2025-12/unscaled11.jpg){: .postimage80 }
 [unscaled footer information](/assets/images/2025-12/unscaled11.jpg){: .center-image }
 
 
@@ -138,12 +138,12 @@ catasthropic.. not other word to describe it. all element is jumbled left and ri
 
 issues#11 - explore section content
 
-![postimage80](/assets/images/2025-12/unscaled12.jpg)
+![jumbled text on explore section](/assets/images/2025-12/unscaled12.jpg){: .postimage80 }
 [jumbled text on explore section](/assets/images/2025-12/unscaled12.jpg){: .center-image }
 
 as well as the popped up navigation sidebar
 
-![postimage80](/assets/images/2025-12/unscaled13.jpg)
+![uneven margin on navigation sidebar](/assets/images/2025-12/unscaled13.jpg){: .postimage80 }
 [uneven margin on navigation sidebar](/assets/images/2025-12/unscaled13.jpg){: .center-image }
 
 
@@ -153,7 +153,7 @@ listed article is not scaled out properly on mobile view.
 
 issues#12 - unscaled search result
 
-![postimage80](/assets/images/2025-12/unscaled14.jpg)
+![unscaled search result list](/assets/images/2025-12/unscaled14.jpg){: .postimage80 }
 [unscaled search result list](/assets/images/2025-12/unscaled14.jpg){: .center-image }
 
 ## Archive page
@@ -162,7 +162,7 @@ not neccesary to be fix as it is seldom to be access by user, but lets include i
 
 issues#13 - archieve page, both 2024 and 2025 (same template)
 
-![postimage80](/assets/images/2025-12/unscaled15.jpg)
+![archieved post list not properly scaled out](/assets/images/2025-12/unscaled15.jpg){: .postimage80 }
 [archieved post list not properly scaled out](/assets/images/2025-12/unscaled15.jpg){: .center-image }
 
 # The Root Causes

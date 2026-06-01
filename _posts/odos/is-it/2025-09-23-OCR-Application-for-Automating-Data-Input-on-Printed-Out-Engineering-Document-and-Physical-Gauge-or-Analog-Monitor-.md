@@ -43,7 +43,7 @@ below is the steps of OCR (Optical character recognition) Processing for documen
 
 below is the typical data flow from physical document/physical gauge/or analog monitor all the way to OCR application and surroundings systems.
 
-![postimage100](/assets/images/2025-09/ocr.svg)
+![High level data flow for OCR Technologies](/assets/images/2025-09/ocr.svg){: .postimage100 }
 [High level data flow for OCR Technologies](/assets/images/2025-09/ocr.jpg){: .center-image }
 
 

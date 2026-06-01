@@ -35,7 +35,7 @@ Maven is used due to the following benefit:
 
 ## Requirement to Integrate Maven on the Project
 
-![postimage100](/assets/images/2025-08/maven3.jpg)
+![Project skeleton of Maven with Springboot](/assets/images/2025-08/maven3.jpg){: .postimage100 }
 [Project skeleton of Maven with Springboot](/assets/images/2025-08/maven3.jpg){: .center-image }
 
 
@@ -59,7 +59,7 @@ to validate whether maven is installed, execute following command on the termina
 
     mvn --version
 
-![postimage100](/assets/images/2025-08/maven1.jpg)
+![Check Whether maven is installed on the system](/assets/images/2025-08/maven1.jpg){: .postimage100 }
 [Check Whether maven is installed on the system](/assets/images/2025-08/maven1.jpg){: .center-image }
 
 it should return the maven version that currently installed to the system
@@ -277,7 +277,7 @@ public class MainApp {
 
 ## Compile, Build and Run The Maven Project
 
-![postimage100](/assets/images/2025-08/maven2.jpg)
+![Build into Executable JAR](/assets/images/2025-08/maven2.jpg){: .postimage100 }
 [Build into Executable JAR](/assets/images/2025-08/maven2.jpg){: .center-image }
 
 
@@ -285,7 +285,7 @@ build to jar
 
     mvn clean package
 
-![postimage100](/assets/images/2025-08/maven4.jpg)
+![Apps is started and Hello World is shown on console](/assets/images/2025-08/maven4.jpg){: .postimage100 }
 [Apps is started and Hello World is shown on console](/assets/images/2025-08/maven4.jpg){: .center-image }
 
 run the app

@@ -30,7 +30,7 @@ even after successfully activating conda environment, some modules are not detec
 
 ## VSC Can't detect the module
 
-![postimage100](/assets/images/2025-08/conda1.jpg)
+![Error Import Syntax Detected on IDE(Visual Studio Code)](/assets/images/2025-08/conda1.jpg){: .postimage100 }
 [Error Import Syntax Detected on IDE(Visual Studio Code)](/assets/images/2025-08/conda1.jpg){: .center-image }  
 
 VSC terminal already switched to the designated conda environment. But somehow some import syntax are marked as yellow due to the module can't be found on the library.
@@ -70,7 +70,7 @@ Conda environment on terminal can only work properly by utilizing the created vi
 
 if one of the binary still pointed to the host python/pip, it will cause **module not found error** as shown below
 
-![postimage100](/assets/images/2025-08/conda2.jpg)
+![Error Import Syntax Detected on IDE(Visual Studio Code)](/assets/images/2025-08/conda2.jpg){: .postimage100 }
 [Error Import Syntax Detected on IDE(Visual Studio Code)](/assets/images/2025-08/conda2.jpg){: .center-image }  
 
 based on above image, python is already pointed to the conda's project binary file. But the PIP (python package manager/Pip install package) still pointed to the host python
@@ -81,7 +81,7 @@ based on above image, python is already pointed to the conda's project binary fi
 
 Sometimes, the conda configuration on .zshrc on mac terminal got flushed especially after restart or reboot or shutdown. 
 
-![postimage100](/assets/images/2025-08/conda3.jpg)
+![Re-initiate conda configuration on ZSH terminal](/assets/images/2025-08/conda3.jpg){: .postimage100 }
 [Re-initiate conda configuration on ZSH terminal](/assets/images/2025-08/conda3.jpg){: .center-image }  
 
     Execute below command on terminal outside VSC (visual studio code) because usually its conflicting with vsc config.
@@ -102,7 +102,7 @@ reactivate the conda environment
 
 Once those two command has been executed, both binary file (python and pip) need to be re-assessed.
 
-![postimage100](/assets/images/2025-08/conda4.jpg)
+![Finally both of python and pip binary properly pointed to conda projet binary folder](/assets/images/2025-08/conda4.jpg){: .postimage100 }
 [Finally both of python and pip binary properly pointed to conda projet binary folder](/assets/images/2025-08/conda4.jpg){: .center-image }  
 
 it should be pointed to correct /conda_project/bin folder as shown above

@@ -62,11 +62,11 @@ We are going to compare between Mainflux Vs Thingsboard based on Available featu
 ## Information Architecture Available on the GUI
 
 **Mainflux**
-![postimage100](/assets/images/2025-02/iotplatform-1.jpg)
+![Mainflux Menu list](/assets/images/2025-02/iotplatform-1.jpg){: .postimage100 }
 [Mainflux Menu list](/assets/images/2025-02/iotplatform-1.jpg){: .center-image }
 
 **Thingsboard**
-![postimage100](/assets/images/2025-02/iot-platform-2.jpeg)
+![Thingsboard Menu list](/assets/images/2025-02/iot-platform-2.jpeg){: .postimage100 }
 [Thingsboard Menu list](/assets/images/2025-02/iot-platform-2.jpeg){: .center-image }
 
 ## Capabilities Comparison
@@ -99,7 +99,7 @@ Feature wise, Thingsboard is far ahead againt mainflux. It seems that mainflux i
 ## End to End
 
 **L0 Data Streaming Pipeline Architecture E2E Comparison**
-![postimage100](/assets/images/2025-02/arch-comparison-3.jpg)
+![Thingsboard vs Mainflux: End to End data Pipeline](/assets/images/2025-02/arch-comparison-3.jpg){: .postimage100 }
 [Thingsboard vs Mainflux: End to End data Pipeline](/assets/images/2025-02/arch-comparison-3.jpg){: .center-image }
 
 Both Thingsboard and mainflux are using common architecture pattern
@@ -114,7 +114,7 @@ Both Thingsboard and mainflux are using common architecture pattern
 ## Device to Cloud
 
 **L0 Architecture Comparison for Device to Cloud**
-![postimage100](/assets/images/2025-02/arch-comparison-1.jpg)
+![Thingsboard vs Mainflux: Devices to Cloud](/assets/images/2025-02/arch-comparison-1.jpg){: .postimage100 }
 [Thingsboard vs Mainflux: Devices to Cloud](/assets/images/2025-02/arch-comparison-1.jpg){: .center-image }
 
 Both of thingsboard and mainflux has same architecture concept for device to cloud where the devices or edge can actually connect to the main iot platform. This is offer flexibility and support different integration scenario based on the cases.
@@ -133,7 +133,7 @@ Thingsboard supported more protocol compared to the mainflux. Common industrial 
 ## Data Ingestion Pipeline and Cloud Integration
 
 **L0 Architecture Comparison for Cloud Integration**
-![postimage100](/assets/images/2025-02/arch-comparison-2.jpg)
+![Thingsboard vs Mainflux: Cloud Integration](/assets/images/2025-02/arch-comparison-2.jpg){: .postimage100 }
 [Thingsboard vs Mainflux: Cloud Integration](/assets/images/2025-02/arch-comparison-2.jpg){: .center-image }
 
     Thingsboard and mainflux has different concept of integration to AWS. Thingsboard use IoT Core as their main IoT Gateway. In otherhand, mainflux act as middleware between devices and IoT Core.
@@ -167,7 +167,7 @@ Only thingsboard have rule engine as their capabilities. Mainflux positioning is
 
 **Thingsboard Rule Engine**
 
-![postimage100](/assets/images/2025-02/arch-comparison-4.jpg)
+![Thingsboard Rule Engine](/assets/images/2025-02/arch-comparison-4.jpg){: .postimage100 }
 [Thingsboard Rule Engine](/assets/images/2025-02/arch-comparison-4.jpg){: .center-image }
 
 Thingsboard has built in (custom) rule engine called as TB-Rule, which is the shortname for thingsboard rule. Its an event driven system backed up by apache kafa for **realtime processing**, **transformation** and **routing**.
@@ -199,5 +199,5 @@ Some companies are actually prefer(especially for companies that not treat IT as
 ## Full Cloud Native IoT Platform on AWS
 
 
-![postimage100](/assets/images/2025-02/arch-comparison-5.jpg)
+![Thingsboard Like IoT Platform on AWS](/assets/images/2025-02/arch-comparison-5.jpg){: .postimage100 }
 [Thingsboard Like IoT Platform on AWS](/assets/images/2025-02/arch-comparison-5.jpg){: .center-image }

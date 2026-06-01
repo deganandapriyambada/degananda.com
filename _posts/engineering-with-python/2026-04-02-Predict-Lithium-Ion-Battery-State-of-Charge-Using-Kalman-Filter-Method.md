@@ -36,21 +36,21 @@ Create new conda project
 
 	conda create --name battery-soc-kalman-filter python=3.12 
 
-![postimage100](/assets/images/2026-05/kalman2.jpg)
+![Create conda project](/assets/images/2026-05/kalman2.jpg){: .postimage100 }
 [Create conda project](/assets/images/2026-05/kalman2.jpg){: .center-image }
 
 activate the conda project
 
 	conda active battery-soc-kalman-filter
 
-![postimage100](/assets/images/2026-05/kalman3.jpg)
+![Activate conda project using CLI](/assets/images/2026-05/kalman3.jpg){: .postimage100 }
 [Activate conda project using CLI](/assets/images/2026-05/kalman3.jpg){: .center-image }
 
 install kernel for jupyer so the **conda environment** (dedicated python core libraries for that specific conda project) can be registered. Note that the package installation process must be done **once the conda environment has been activated**. Otherwise the kernel can't be registered to jupyter notebook.
 
 	conda install ipykernel
 
-![postimage100](/assets/images/2026-05/kalman4.jpg)
+![Install ipykernal through conda](/assets/images/2026-05/kalman4.jpg){: .postimage100 }
 [Install ipykernal through conda](/assets/images/2026-05/kalman4.jpg){: .center-image }
 
 or it can also be installed using pip install
@@ -63,7 +63,7 @@ once the installation of ipkernel is completed, execute following command to ens
 
 it shown return the ipykernel library version on the console 
 
-![postimage100](/assets/images/2026-05/kalman5.jpg)
+![validate the installation status of ipykernel packages](/assets/images/2026-05/kalman5.jpg){: .postimage100 }
 [validate the installation status of ipykernel packages](/assets/images/2026-05/kalman5.jpg){: .center-image }
 
 register the kernel
@@ -71,19 +71,19 @@ register the kernel
 	python -m ipykernel install --user --name battery-soc-kalman-filter --display-name "Python (battery-soc-kalman-filter)"
 
 
-![postimage100](/assets/images/2026-05/kalman6.jpg)
+![register new kernel that utilize python 3.12 from the newly created conda environment to jupyter notebook](/assets/images/2026-05/kalman6.jpg){: .postimage100 }
 [register new kernel that utilize python 3.12 from the newly created conda environment to jupyter notebook](/assets/images/2026-05/kalman6.jpg){: .center-image }
 
 launch jupyter lab (dont forget to open new terminal **without conda environment**) and open it inside the conda environment folder source directory
 
 	jupyter lab
 
-![postimage100](/assets/images/2026-05/kalman7.jpg)
+![Launch jupyterlab from console or cli](/assets/images/2026-05/kalman7.jpg){: .postimage100 }
 [Launch jupyterlab from console or cli](/assets/images/2026-05/kalman7.jpg){: .center-image }
 
 now change the kernel into the newly created kernel (in this case, the kernel name is battery-soc-kalman-filter) then we're all set.
 
-![postimage100](/assets/images/2026-05/kalman8.jpg)
+![change to newly created kernel that use python 3.12](/assets/images/2026-05/kalman8.jpg){: .postimage100 }
 [change to newly created kernel that use python 3.12](/assets/images/2026-05/kalman8.jpg){: .center-image }
 
 &mdash; python version 3.12 is recommended for data science as it has the most compatability with many data science packages like tensorflow, etc.
@@ -106,14 +106,14 @@ Open a console with activated conda environment and execute following command
 
 	conda install pandas
 
-![postimage100](/assets/images/2026-05/kalman9.jpg)
+![Install pandas to load and transform csv in dataframe](/assets/images/2026-05/kalman9.jpg){: .postimage100 }
 [Install pandas to load and transform csv in dataframe](/assets/images/2026-05/kalman9.jpg){: .center-image }
 
 and below is the command to install matplotlib
 
 	pip install matplotlib
 
-![postimage100](/assets/images/2026-05/kalman10.jpg)
+![Install matplotlib for data visualization](/assets/images/2026-05/kalman10.jpg){: .postimage100 }
 [Install matplotlib for data visualization](/assets/images/2026-05/kalman10.jpg){: .center-image }
 
 ## Remove unnecessary data
@@ -224,7 +224,7 @@ plt.grid(True)
 
 below are the visualization result
 
-![postimage100](/assets/images/2026-05/kalman1.jpg)
+![Coulomb counting SOC vs Kalman Filter SOC Result](/assets/images/2026-05/kalman1.jpg){: .postimage100 }
 [Coulomb counting SOC vs Kalman Filter SOC Result](/assets/images/2026-05/kalman1.jpg){: .center-image }
 
 ## Jupyter notebook source code

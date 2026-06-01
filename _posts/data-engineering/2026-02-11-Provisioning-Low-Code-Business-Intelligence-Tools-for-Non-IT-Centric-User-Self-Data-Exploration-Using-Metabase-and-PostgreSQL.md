@@ -67,7 +67,7 @@ below are the steps to install metabase on cloud settings (can also be applied f
 
 ## Virtual Machine Provisioning
 
-![postimage100](/assets/images/2026-02/metabase1.jpg)
+![Provision virtual machine on your prefered cloud provider.](/assets/images/2026-02/metabase1.jpg){: .postimage100 }
 [Provision virtual machine on your prefered cloud provider.](/assets/images/2026-02/metabase2.jpg){: .center-image }
 
 There are at least two required virtual machine for running metabase:
@@ -75,7 +75,7 @@ There are at least two required virtual machine for running metabase:
 1. VM for metabase require at least 1 gigs of ram and 1vCPU with pre-installed **docker**.
 2. VM for the databases with 1 vCPU and 1 gigs of ram.
 
-![postimage100](/assets/images/2026-02/metabase2.jpg)
+![Ubuntu server is recommended as it has tons of available public guide and intensive documentation](/assets/images/2026-02/metabase2.jpg){: .postimage100 }
 [Ubuntu server is recommended as it has tons of available public guide and intensive documentation](/assets/images/2026-02/metabase2.jpg){: .center-image }
 
 for low budget setup, opensource linux server is recommended (ubuntu server, rocky linux or alma linux) as it doesnt require paid license like RHEL or windows server.
@@ -84,7 +84,7 @@ note: Managed databases is recommended on cloud settings as it will transfer all
 
 ## Provision managed database
 
-![postimage100](/assets/images/2026-02/metabase3.jpg)
+![Managed PostgreSQL services on digital ocean](/assets/images/2026-02/metabase3.jpg){: .postimage100 }
 [Managed PostgreSQL services on digital ocean](/assets/images/2026-02/metabase3.jpg){: .center-image }
 
 As mentioned on previous section. choosing database for metabase will highly depend on the storage size and its use. On this scenario, the datasets that going to be analyzed are rougly has data volume arround 8~10 gigs.
@@ -95,7 +95,7 @@ On production deployment scenario where high availability is required and must b
 
 Fortunately, postgreSQL can have multiple nodes and often configured through master-slave replication. Data from the master nodes will be synchornized to all available slave nodes. 
 
-![postimage100](/assets/images/2026-02/metabase4.jpg)
+![Most of managed postgreSQl database service offer high availability through replication](/assets/images/2026-02/metabase4.jpg){: .postimage100 }
 [Most of managed postgreSQl database service offer high availability through replication](/assets/images/2026-02/metabase4.jpg){: .center-image }
 
 When the master nodes is down, pgbouncer will direct the request to the available slave nodes as well as taking over the unavailable master nodes (slave node become the master nodes)
@@ -104,7 +104,7 @@ When the master nodes is down, pgbouncer will direct the request to the availabl
 
 below are the steps to install docker specificly on ubuntu server version 24.04 LTS (steps might be different on different operating system)
 
-![postimage100](/assets/images/2026-02/metabase5.jpg)
+![Update local package index on the ubuntu server](/assets/images/2026-02/metabase5.jpg){: .postimage100 }
 [Update local package index on the ubuntu server](/assets/images/2026-02/metabase5.jpg){: .center-image }
 
 update the local package index of ubuntu (debian based linux, APT) with the latest package index from source repository
@@ -119,7 +119,7 @@ Next step is to install following packages from the updated package list
 2. ca-certificates: bundle of trusted certificated authority (CA). allow ubuntu server to download from trusted from any websites that served through HTTPS protocol in secure way
 3. gnupg: GNU package guard, basically pre-requisite before able to adding external repositories sources like docker into local package index.
 
-![postimage100](/assets/images/2026-02/metabase6.jpg)
+![install gnupg and ca-certificates  as the first step to allow ubuntu services listing external repository through various protocol via CURL](/assets/images/2026-02/metabase6.jpg){: .postimage100 }
 [install gnupg and ca-certificates  as the first step to allow ubuntu services listing external repository through various protocol via CURL](/assets/images/2026-02/metabase6.jpg){: .center-image }
 
 use following command to install these three required packages before able to add docker repositories on the APT.
@@ -130,7 +130,7 @@ then execute following command adjust the permission for apt keyrings directory 
 
 at this point, ubuntu server should already able to be connected with external repostiry
 
-![postimage100](/assets/images/2026-02/metabase65.jpg)
+![Adjust and secure permission of ubuntu keyrings folder to allow OS to read the newly added certificate](/assets/images/2026-02/metabase65.jpg){: .postimage100 }
 [Adjust and secure permission of ubuntu keyrings folder to allow OS to read the newly added certificate](/assets/images/2026-02/metabase65.jpg){: .center-image }
 
 
@@ -157,7 +157,7 @@ finally add the docker repo
 
 at this point, ubuntu server should already able to be connected with external repostory
 
-![postimage100](/assets/images/2026-02/metabase7.jpg)
+![Update local package index on the ubuntu server](/assets/images/2026-02/metabase7.jpg){: .postimage100 }
 [Update local package index on the ubuntu server](/assets/images/2026-02/metabase7.jpg){: .center-image }
 
 re-update ubuntu local package index using following commands
@@ -166,7 +166,7 @@ re-update ubuntu local package index using following commands
 
 check whether docker repository has been avaialble on the local package index.
 
-![postimage100](/assets/images/2026-02/metabase8.jpg)
+![apt-cache command can be used to view the installation status of specific package.](/assets/images/2026-02/metabase8.jpg){: .postimage100 }
 [apt-cache command can be used to view the installation status of specific package.](/assets/images/2026-02/metabase8.jpg){: .center-image }
 
 a listed version table for docker-ce should be listed on the console response if the package has been available on local package index.
@@ -181,7 +181,7 @@ finally install docker using following command
 
 wait until installation is completed
 
-![postimage100](/assets/images/2026-02/metabase9.jpg)
+![Installation should take couple of minutes as usually cloud VM is backed up high speed internet](/assets/images/2026-02/metabase9.jpg){: .postimage100 }
 [Installation should take couple of minutes as usually cloud VM is backed up high speed internet](/assets/images/2026-02/metabase9.jpg){: .center-image }
 
 validate if docker is running properly
@@ -196,12 +196,12 @@ another option is to use systemctl command to check docker status
 
 as shown below, docker is running on the ubuntu server indicated by the green status color on the console.
 
-![postimage100](/assets/images/2026-02/metabase10.jpg)
+![Installation should take couple of minutes as usually cloud VM is backed up high speed internet](/assets/images/2026-02/metabase10.jpg){: .postimage100 }
 [Installation should take couple of minutes as usually cloud VM is backed up high speed internet](/assets/images/2026-02/metabase10.jpg){: .center-image }
 
 alternatively, just to be sure,  triple check the docker system status by getting the docker status via ps -ax command
 
-![postimage100](/assets/images/2026-02/metabase11.jpg)
+![Docker program or daemon is listed under the ps or process status monitoring, indicating that docker is running properly](/assets/images/2026-02/metabase11.jpg){: .postimage100 }
 [Docker program or daemon is listed under the ps or process status monitoring, indicating that docker is running properly](/assets/images/2026-02/metabase11.jpg){: .center-image }
 
 ## Install Metabase on the VM
@@ -214,7 +214,7 @@ Once the VM is provisioned, follow below steps to install metabase.
 
 Most recommended way to install metabase on virtual machine is using docker so we dont have to manage all the system dependencies as it has been includued on the metabase docker images.
 
-![postimage100](/assets/images/2026-02/metabase12.jpg)
+![Metabase is containerized using docker and can be pulled from the public docker repository](/assets/images/2026-02/metabase12.jpg){: .postimage100 }
 [Metabase is containerized using docker and can be pulled from the public docker repository](/assets/images/2026-02/metabase12.jpg){: .center-image }
 
 pull latest metabase docker images by executing following command
@@ -227,7 +227,7 @@ once the images has been pulled, execute following command to ensure run the met
 
 next is to check if the container is successfully created and running properly.
 
-![postimage100](/assets/images/2026-02/metabase13.jpg)
+![Newly created container from official metabase images has been successfully created on local docker, it utilize tcp port 3000](/assets/images/2026-02/metabase13.jpg){: .postimage100 }
 [Newly created container from official metabase images has been successfully created on local docker, it utilize tcp port 3000](/assets/images/2026-02/metabase13.jpg){: .center-image }
 
 execute following command
@@ -239,7 +239,7 @@ execute following command
 
 By default, metabase will use local storage called H2 database to store the data. These database are only meant for testing purpose as it has limited scaling capability.
 
-![postimage100](/assets/images/2026-02/metabase14.jpg)
+![Metabase can support various databases. the database can be configured on the cli parameter when starting the docker](/assets/images/2026-02/metabase14.jpg){: .postimage100 }
 [Metabase can support various databases. the database can be configured on the cli parameter when starting the docker](/assets/images/2026-02/metabase14.jpg){: .center-image }
 
 note: apart from adding new database via configuration on the cli command, later on it will also available through the UI (user interface)
@@ -260,7 +260,7 @@ Add following parameter to set the postgresql as the basline database for metaba
 
 Depending on the specified port when running the docker images, metabase can be accessed through browser by go localhost/server ip-addressed with the given port (eg: localhost:3000) on browser.
 
-![postimage100](/assets/images/2026-02/metabase15.jpg)
+![Metabase is up and runnign on port 3000.](/assets/images/2026-02/metabase15.jpg){: .postimage100 }
 [Metabase is up and runnign on port 3000.](/assets/images/2026-02/metabase15.jpg){: .center-image }
 
 its done

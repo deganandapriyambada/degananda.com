@@ -35,12 +35,17 @@ login to github website
 
 navigate to top right of the menu bar, click the profile image and find settings menu on the dropdown.
 
-![postimage80](/assets/images/2025-11/git1.jpg)
+![access github account settings on the github portal](/assets/images/2025-11/git1.jpg){: .postimage80 }
 [access github account settings on the github portal](/assets/images/2025-11/git1.jpg){: .center-image }
 
 once the settings/profile page is loaded, scroll down until find developer settings menu on left sidebar.
 
-![postimage80](/assets/images/2025-11/git2.jpg)
+![access github account developer settings)(/assets/images/2025-11/git2.jpg){: .center-image }
+
+on the developer settings page, click **personal access token** (PAT) menu on the left sidebar and choose fine grained token
+
+![postimage80](/assets/images/2025-11/git3.jpg)
+[access PAT - personal access token](/assets/images/2025-11/git2.jpg){: .postimage80 }
 [access github account developer settings)(/assets/images/2025-11/git2.jpg){: .center-image }
 
 on the developer settings page, click **personal access token** (PAT) menu on the left sidebar and choose fine grained token
@@ -65,14 +70,14 @@ below is the description of each mandatory parameter during PAT (personal access
 
 &mdash; it always important to set token's specific permission to specific repositories only with **read only access.**
 
-![postimage80](/assets/images/2025-11/git4.jpg)
+![token for repository reading such as pull, fetch and clone to specific repository](/assets/images/2025-11/git4.jpg){: .postimage80 }
 [token for repository reading such as pull, fetch and clone to specific repository](/assets/images/2025-11/git4.jpg){: .center-image }
 
 ## Store the token safely
 
 once the PAT token is generated, it only shown once on the screen. Store the token safely.
 
-![postimage80](/assets/images/2025-11/git5.jpg)
+![PAT can be generated once](/assets/images/2025-11/git5.jpg){: .postimage80 }
 [PAT can be generated once](/assets/images/2025-11/git5.jpg){: .center-image }
 
 but dont worry, if the token is lost, the token can be regenerated again.
@@ -121,7 +126,7 @@ a prompt will automatically shown on the console, it will ask two things
 
 if the token is correct and has sufficient permission, private repistory cloning should be successed.
 
-![postimage80](/assets/images/2025-11/git6.jpg)
+![git clone command successfully executed on private github repository using PAT](/assets/images/2025-11/git6.jpg){: .postimage80 }
 [git clone command successfully executed on private github repository using PAT](/assets/images/2025-11/git6.jpg){: .center-image }
 
 note: store the github PAT(personal access token) on the server file for future usage.

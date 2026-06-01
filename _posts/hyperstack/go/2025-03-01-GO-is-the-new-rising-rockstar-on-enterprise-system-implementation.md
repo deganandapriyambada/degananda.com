@@ -53,7 +53,7 @@ Here is the TLDR; which make GO is faster than Java
 
 ## Interpretation and Compliation
 
-![postimage100](/assets/images/2025-03/go-6.jpg)
+![GO directly compile and interpret to OS](/assets/images/2025-03/go-6.jpg){: .postimage100 }
 [GO directly compile and interpret to OS](/assets/images/2025-03/go-6.jpg){: .center-image }
 
 
@@ -61,7 +61,7 @@ GO doesnt need JVM to interpret and compile the code. Go will build (interpret a
 
 ## Thread Management
 
-![postimage100](/assets/images/2025-03/go-7.jpg)
+![Go vs Java Thread Management](/assets/images/2025-03/go-7.jpg){: .postimage100 }
 [Go vs Java Thread Management](/assets/images/2025-03/go-7.jpg){: .center-image }
 
 Java use a thread that managed by OS. One apps thread on java will be mapped to one OS's kernel thread (one to one mapping). Meanwhile Golang actually use thread inside their own runtime (GO runtime). Multiple go runtime can be handled by several OS thread. More efficient compared to java's thread. 
@@ -70,7 +70,7 @@ Java use a thread that managed by OS. One apps thread on java will be mapped to 
 
 # Installing GO on Development PC/Laptop
 
-![postimage100](/assets/images/2025-03/go-1.jpg)
+![Supported OS by GO](/assets/images/2025-03/go-1.jpg){: .postimage100 }
 [Supported OS by GO](/assets/images/2025-03/go-1.jpg){: .center-image }
 
 GO can be easily installed on our development laptop by download and run the installer that provided by GO.
@@ -85,7 +85,7 @@ go to console and type following command
 
     go version
 
-![postimage100](/assets/images/2025-03/go-3.jpg)
+![Check whether go is installed on the Machine](/assets/images/2025-03/go-3.jpg){: .postimage100 }
 [Check whether go is installed on the Machine](/assets/images/2025-03/go-3.jpg){: .center-image }
 
 
@@ -95,7 +95,7 @@ if the console returning the current version of go that installed on our machine
 
 create a new package
 
-![postimage100](/assets/images/2025-03/go-4.jpg)
+![Create GO package](/assets/images/2025-03/go-4.jpg){: .postimage100 }
 [Create GO package](/assets/images/2025-03/go-4.jpg){: .center-image }
 
     go mod init packagename/index
@@ -115,7 +115,7 @@ to run the go script use following syntax
 
     go run .
 
-![postimage100](/assets/images/2025-03/go-5.jpg)
+![run and execute GO script](/assets/images/2025-03/go-5.jpg){: .postimage100 }
 [run and execute GO script](/assets/images/2025-03/go-5.jpg){: .center-image }
 
 it will automatically find main package and run the script.

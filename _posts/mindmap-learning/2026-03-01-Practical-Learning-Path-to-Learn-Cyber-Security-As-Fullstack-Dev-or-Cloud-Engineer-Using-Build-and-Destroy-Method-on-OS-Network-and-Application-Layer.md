@@ -18,7 +18,7 @@ Its been a while ever since industry 4.0 or digitalization become booming and ma
 
 Attached learning path is focused on practical side of cyber security instead of the theoritical area (complementary). Designed for software engineer who already has experience on building the system / system implementation using build and attack approach.
 
-![postimage80](/assets/images/2026-03/cybersecurity1.jpg)
+![Cybersecurity learning path for system implementor](/assets/images/2026-03/cybersecurity1.jpg){: .postimage80 }
 [Cybersecurity learning path for system implementor](/assets/images/2026-03/cybersecurity1.jpg){: .center-image }
 
 Below are the simulation infrastructure stack

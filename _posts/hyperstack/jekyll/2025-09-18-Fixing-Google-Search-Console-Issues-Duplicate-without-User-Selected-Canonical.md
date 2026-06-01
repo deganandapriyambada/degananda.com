@@ -14,7 +14,7 @@ deliverables: article & illustration
 
 &mdash; Duplicated canonical issue is occured because one or multiplage page exist on the sites with identical content.
 
-![postimage100](/assets/images/2025-09/searchconsole1.jpg)
+![Pipenpoof.com is encountering duplicated canonical issue on google search console](/assets/images/2025-09/searchconsole1.jpg){: .postimage100 }
 [Pipenpoof.com is encountering duplicated canonical issue on google search console](/assets/images/2025-09/searchconsole1.jpg){: .center-image }
 
 
@@ -64,12 +64,12 @@ target routing table
 
 Post is categorized based on two criteria which are categories and tags. For example, an article can both displayed under "java" **categories** and "spring" **tags**.
 
-![postimage100](/assets/images/2025-09/canon1.jpg)
+![Article about initiating maven project displayed on Java category](/assets/images/2025-09/canon1.jpg){: .postimage100 }
 [Article about initiating maven project displayed on Java category](/assets/images/2025-09/canon1.jpg){: .center-image }
 
 while the **exactly same post also displayed on spring tags page**.
 
-![postimage100](/assets/images/2025-09/canon2.jpg)
+![spring tags also has exactly same post as the article categorized by tags and categories](/assets/images/2025-09/canon2.jpg){: .postimage100 }
 [spring tags also has exactly same post as the article categorized by tags and categories](/assets/images/2025-09/canon2.jpg){: .center-image }
 
 It causes search engine crawler to encounter **two identical content** eventhough both pagas has different categorization purposes. 
@@ -83,7 +83,7 @@ Below solution will be implemented on AWS Amplify as pipenpoof.com is deployed o
 
 go to aws console => custom domains module to find out the currely applied redirection logic
 
-![postimage100](/assets/images/2025-09/canon3.jpg)
+![www and non www still treated as two different page url ](/assets/images/2025-09/canon3.jpg){: .postimage100 }
 [www and non www still treated as two different page url ](/assets/images/2025-09/canon3.jpg){: .center-image }
 
 update the redirect config for www.pipenpoof.com to https://pipenpoof.com by adding following lines to the rewrites and redirect.
@@ -139,12 +139,12 @@ default amplifyapp sub domain **cannot be disabled**. however, it can be redirec
 
 below is the final rewrite rule on aws amplify 
 
-![postimage100](/assets/images/2025-09/canon4.jpg)
+![rewrite rule to redirect www, amplifyapp to non www main domain ](/assets/images/2025-09/canon4.jpg){: .postimage100 }
 [rewrite rule to redirect www, amplifyapp to non www main domain ](/assets/images/2025-09/canon4.jpg){: .center-image }
 
 ### Adjust Route 53 DNS Config
 
-![postimage100](/assets/images/2025-09/canon7.jpg)
+![ www CNAME config remapped to aws-amplify server ](/assets/images/2025-09/canon7.jpg){: .postimage100 }
 [ www CNAME config remapped to aws-amplify server ](/assets/images/2025-09/canon7.jpg){: .center-image }
 
 ensure the www.pipenpoof.com (www of the site main domain name) **CNAME** config is present and pointed to the server hostname instead of to the cache server(eg: cloudfront)
@@ -160,14 +160,14 @@ curl -I https://www.pipenpoof.com
 curl -I https://master.dysiqo9435rfi.amplifyapp.com
 ```
 
-![postimage100](/assets/images/2025-09/canon5.jpg)
+![amplifyapp redirected to the main pipenpoof.com](/assets/images/2025-09/canon5.jpg){: .postimage100 }
 [amplifyapp redirected to the main pipenpoof.com](/assets/images/2025-09/canon5.jpg){: .center-image }
 
 Look for the http header 301 (redirect status) on the console
 
 its better to use tools such as httpstatus.io to check the url canonical.
 
-![postimage100](/assets/images/2025-09/canon6.jpg)
+![pipenpoof.com canonical url check](/assets/images/2025-09/canon6.jpg){: .postimage100 }
 [pipenpoof.com canonical url check](/assets/images/2025-09/canon6.jpg){: .center-image }
 
 from above images, all url except the non url (https://pipenpoof.com) are redirected (301)

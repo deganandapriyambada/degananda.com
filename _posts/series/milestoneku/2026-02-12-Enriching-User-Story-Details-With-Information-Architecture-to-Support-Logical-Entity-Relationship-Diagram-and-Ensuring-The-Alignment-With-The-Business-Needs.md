@@ -20,7 +20,7 @@ Information system (IS) is a holistics system concept within an enterprise organ
 
 ## How Information System Concept can Sharpen User Story Definition During Software Engineering Process ?
 
-![postimage100](/assets/images/2026-02/erd2.jpg)
+![Adding 5 component of IS on user story AC can reduce gap between IT and business](/assets/images/2026-02/erd2.jpg){: .postimage100 }
 [Adding 5 component of IS on user story AC can reduce gap between IT and business](/assets/images/2026-02/erd2.jpg){: .center-image }
 
 Any software whether its B2B , B2C or even development tools software can't escape the reality that such software will operated/supervised/utilized by human.

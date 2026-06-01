@@ -82,7 +82,7 @@ open on the browser
 
     http://127.0.0.1:5000/
 
-![postimage100](/assets/images/2025-05/mlflow.jpg)
+![MLFlow by default is exposed and listening to port 5000, open it on browser](/assets/images/2025-05/mlflow.jpg){: .postimage100 }
 [MLFlow by default is exposed and listening to port 5000, open it on browser](/assets/images/2025-05/mlflow.jpg){: .center-image }
 
 ## Integrate local code to MlFlow
@@ -192,7 +192,7 @@ execute following command
 
 check ML Flow UI, the experiment logs and history will be shown.
 
-![postimage100](/assets/images/2025-05/trainpy.jpg)
+![Trainpy first run](/assets/images/2025-05/trainpy.jpg){: .postimage100 }
 [Trainpy first run](/assets/images/2025-05/trainpy.jpg){: .center-image }
 
 ## Executing artifact
@@ -267,7 +267,7 @@ invoke the API
 
 once the curl is executed, it will return following result:
 
-![postimage100](/assets/images/2025-05/mlserve.jpg)
+![exposed joblib model on Mlflow : Invocation](/assets/images/2025-05/mlserve.jpg){: .postimage100 }
 [exposed joblib model on Mlflow : Invocation](/assets/images/2025-05/mlserve.jpg){: .center-image }
 
 if everything is successful then the API will return prediction for each submitted feature (on the JSON Body).
@@ -372,5 +372,5 @@ test invocation
 
 test via postman
 
-![postimage100](/assets/images/2025-05/fastapi.jpg)
+![exposed joblib model on FastAPI : Invocation](/assets/images/2025-05/fastapi.jpg){: .postimage100 }
 [exposed joblib model on FastAPI : Invocation](/assets/images/2025-05/fastapi.jpg){: .center-image }

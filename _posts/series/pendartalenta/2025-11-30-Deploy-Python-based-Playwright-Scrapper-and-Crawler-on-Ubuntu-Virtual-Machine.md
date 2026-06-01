@@ -20,7 +20,7 @@ otherwise if the repo is on public, a normal git clone will do.
 
 # Project Structure
 
-![postimage80](/assets/images/2025-11/crawler1.jpg)
+![requirements.txt must be placed at project root folder](/assets/images/2025-11/crawler1.jpg){: .postimage80 }
 [requirements.txt must be placed at project root folder](/assets/images/2025-11/crawler1.jpg){: .center-image }
 
 The existance of **requirements.txt** on the root project folder is a must. Playwright deployment from local machine to the virtual machine will utilize this file.
@@ -122,7 +122,7 @@ install pyenv
 
 theoritically this will automatically install and configure the shell to access pyenv symlink/binary.
 
-![postimage80](/assets/images/2025-11/crawler2.jpg)
+![install pyenv on ubuntu server](/assets/images/2025-11/crawler2.jpg){: .postimage80 }
 [install pyenv on ubuntu server](/assets/images/2025-11/crawler2.jpg){: .center-image }
 
 if pyenv can't be executed from shell, then add it by using following command
@@ -143,7 +143,7 @@ validate, by executing following command
 
 now if above command is called from shell, it should return the version number
 
-![postimage80](/assets/images/2025-11/crawler3.jpg)
+![pyenv successfully installed on ubuntu server with proof of version number is shown on shell](/assets/images/2025-11/crawler3.jpg){: .postimage80 }
 [pyenv successfully installed on ubuntu server with proof of version number is shown on shell](/assets/images/2025-11/crawler3.jpg){: .center-image }
 
 install build tools (dependency to install other python version, apart from the ubuntu default python) to avoid following error: **no acceptable C compiler found**
@@ -260,7 +260,7 @@ test run the script locally (depend on the project structure and configuration)
 
 below is the test result
 
-![postimage80](/assets/images/2025-11/crawler4.jpg)
+![playwright with headless chromium is successfully launched](/assets/images/2025-11/crawler4.jpg){: .postimage80 }
 [playwright with headless chromium is successfully launched](/assets/images/2025-11/crawler4.jpg){: .center-image }
 
 crawler successfully get the desired DOM

@@ -124,7 +124,7 @@ execute the command
 
 ensure the binary/"packaged javascript source" (as javascript technically doesnt have direct binary file like java/.net/etc) file is generated on the dist folder.
 
-![postimage100](/assets/images/2026-01/release1.jpg)
+![bundled & minidifed of the packaged js file has been created](/assets/images/2026-01/release1.jpg){: .postimage100 }
 [bundled & minidifed of the packaged js file has been created](/assets/images/2026-01/release1.jpg){: .center-image }
 
 along side the dist file, map file is also generated to map the minified file to the original source file.
@@ -146,13 +146,13 @@ push the commit to the target branch
 
 basically git will create a tag and then create the "snapshot" based on the latest commit at that target branch at specific time
 
-![postimage100](/assets/images/2026-01/release2.jpg)
+![Tags successfuly created with latest snapshot from latest commit at master branch](/assets/images/2026-01/release2.jpg){: .postimage100 }
 [Tags successfuly created with latest snapshot from latest commit at master branch](/assets/images/2026-01/release2.jpg){: .center-image }
 
 
 a new tag should be shown on the github repository pages.
 
-![postimage100](/assets/images/2026-01/release3.jpg)
+![Tags 1.0.0 is available on github](/assets/images/2026-01/release3.jpg){: .postimage100 }
 [Tags 1.0.0 is available on github](/assets/images/2026-01/release3.jpg){: .center-image }
 
 use following links to checkit directly on github
@@ -167,7 +167,7 @@ or the commited dist file can actually be seen on the treeview
 
 however, this is not the common way to share the distribution file to public (see next steps about creating release)
 
-![postimage100](/assets/images/2026-01/release4.jpg)
+![Dist file can be seen on the tree view of that tags](/assets/images/2026-01/release4.jpg){: .postimage100 }
 [Dist file can be seen on the tree view of that tags](/assets/images/2026-01/release4.jpg){: .center-image }
 
 note: it is important to **commit first before tagging**, otherwise the dist folder won't be detected.
@@ -182,21 +182,21 @@ go to tags under the project repository
 
 click the three dots on the tags item and click create release.
 
-![postimage100](/assets/images/2026-01/release5.jpg)
+![Click create release menu on the dropdown at specific tags](/assets/images/2026-01/release5.jpg){: .postimage100 }
 [Click create release menu on the dropdown at specific tags](/assets/images/2026-01/release5.jpg){: .center-image }
 
 not all tags require release. for example, some tags might not intended for public release as it meant for alpha or nightly build (example).
 
 then upload the binary (on this case is javascript dist file that was generated earlier)
 
-![postimage100](/assets/images/2026-01/release6.jpg)
+![choose all neccesary file that will be displayed on the release tags](/assets/images/2026-01/release6.jpg){: .postimage100 }
 [choose all neccesary file that will be displayed on the release tags](/assets/images/2026-01/release6.jpg){: .center-image }
 
 done, now the dist or binary file completely visible on the tags. Moreoever, it also recommended to put some description on the tags like what was changed, whats new and so on. 
 
 &mdash; github provide markdown support to add those details.
 
-![postimage100](/assets/images/2026-01/release7.jpg)
+![user can see the distribution files on the specific tags](/assets/images/2026-01/release7.jpg){: .postimage100 }
 [user can see the distribution files on the specific tags](/assets/images/2026-01/release7.jpg){: .center-image }
 
 access to the  recently published tags & release on this article can be done through following links

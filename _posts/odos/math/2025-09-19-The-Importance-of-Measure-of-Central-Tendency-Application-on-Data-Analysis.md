@@ -120,7 +120,7 @@ numpy package need to be installed first before above code can be executed
 
 above code will return the average score (which is 62.8)
 
-![postimage100](/assets/images/2025-09/mot1.jpg)
+![Compute mean using numpy](/assets/images/2025-09/mot1.jpg){: .postimage100 }
 [Compute mean using numpy](/assets/images/2025-09/mot1.jpg){: .center-image }
 
 ## Compute MoT:Median
@@ -178,7 +178,7 @@ print(f"median: {median}")
 
 result
 
-![postimage100](/assets/images/2025-09/mot2.jpg)
+![Compute median using numpy](/assets/images/2025-09/mot2.jpg){: .postimage100 }
 [Compute median using numpy](/assets/images/2025-09/mot2.jpg){: .center-image }
 
 ## Compute MoT:Mode
@@ -214,7 +214,7 @@ print(f"mode: {mode}")
 
 it will compute the mode value
 
-![postimage100](/assets/images/2025-09/mot3.jpg)
+![Compute mode using numpy and scipy.stats](/assets/images/2025-09/mot3.jpg){: .postimage100 }
 [Compute mode using numpy and scipy.stats](/assets/images/2025-09/mot3.jpg){: .center-image }
 
 
