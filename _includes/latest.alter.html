@@ -1,7 +1,7 @@
 {% if page.url contains 'page' %}
 {% else %}
-<div  class="section-title">
-    Alter 
+<div class="section-title">
+    Alter
     <div>
         Take break from Computer Science.
     </div>
@@ -9,59 +9,59 @@
 
 <div class="post-type-2">
     <div class="post-type-2-container">
-            {% for post in site.categories.alter %}
-            <div class="post-type-2-content">
-                <div class="headline-author">
-                    <div class="title-container">
-                        <div class="profpic">
-                            <div class="contributor-small">
-                                DF
-                            </div>
-                        </div>
-                        <div class="incat">
-                            Degananda Ferdian on <u><b>{{ post.categories }}</b></u>
+        {% for post in site.categories.alter %}
+        <div class="post-type-2-content">
+            <div class="headline-author">
+                <div class="title-container">
+                    <div class="profpic">
+                        <div class="contributor-small">
+                            DF
                         </div>
                     </div>
-                </div>
-                <div class="post-type-2-title">
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </div>
-                <div class="post-type-2-title-desc">
-                    {{ post.date | date: "%F" }}
-                    &nbsp;
-                    {% 
-                        assign wordCount = post.content | number_of_words 
-                    %}
-                    {%
-                        assign minsRead = wordCount | divided_by: 200 
-                    %} 
-
-                    {{ minsRead | plus:1 }} Mins Reading.     
-                </div>
-                <div class="post-type-2-tldr">
-                    {{ post.excerpt }}
-                </div>
-
-                <div class="post-type-2-title-tags">
-                    <div class="post-tags">
-                        {% for tags in post.tags %}
-                            <div class="post-tags-item-lite">
-                                <a href="/tags/{{ tags }}/">{{ tags }}</a>
-                            </div>
-                        {% endfor %}
+                    <div class="incat">
+                        Degananda Ferdian on <u><b>{{ post.categories }}</b></u>
                     </div>
                 </div>
-                
-
-
             </div>
-            {% endfor %}
+            <div class="post-type-2-title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            <div class="post-type-2-title-desc">
+                {{ post.date | date: "%F" }}
+                &nbsp;
+                {%
+                assign wordCount = post.content | number_of_words
+                %}
+                {%
+                assign minsRead = wordCount | divided_by: 200
+                %}
+
+                {{ minsRead | plus:1 }} Mins Reading.
+            </div>
+            <div class="post-type-2-tldr">
+                {{ post.excerpt }}
+            </div>
+
+            <div class="post-type-2-title-tags">
+                <div class="post-tags">
+                    {% for tags in post.tags %}
+                    <div class="post-tags-item-lite">
+                        <a href="/tags/{{ tags }}/">{{ tags }}</a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+
+
+        </div>
+        {% endfor %}
     </div>
 </div>
 
-<button class="section-link">
+<button class="section-link" alt="view all posts">
     <a href="/category/alter"> View All Posts </a>
-</button> 
+</button>
 
 
 {% endif %}

@@ -86,14 +86,10 @@
                 <li>
                     ·
                 </li>
-                <!--
-                {% for topics in item.topics %}
-                    <li>{{ topics }}</li>
-                {% endfor %}
-                -->
+
                 <li>
                     <div class="series-new-option">
-                        <div><a href="/series/{{ item.code }}">Learn More</a></div>
+                        <div><a href="/series/{{ item.code }}" title="{{ item.title }}">Learn More</a></div>
                     </div>
                 </li>
             </ul>

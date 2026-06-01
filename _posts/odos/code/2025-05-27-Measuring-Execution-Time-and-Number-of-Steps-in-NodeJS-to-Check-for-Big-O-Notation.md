@@ -101,7 +101,7 @@ console.timeEnd('executionTime');
 
 ## Measuring Number of Steps
 
-![postimage100](/assets/images/2025-05/measure.jpg)
+![Number of steps and Execution Time Measurement](/assets/images/2025-05/measure.jpg){: .postimage100 }
 [Number of steps and Execution Time Measurement](/assets/images/2025-05/measure.jpg){: .center-image }
 
 there is no built in syntax for this cases. It would be really depend on the algorithm. If its two layered loop, then a counter need to be placed at inner loop (loop B)

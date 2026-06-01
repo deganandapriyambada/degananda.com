@@ -25,7 +25,7 @@ at this rate, a **master.ign** and **install-config.yaml** should be ready.
 
 # Droplet Provisioning
 
-![postimage80](/assets/images/2025-05/okdinstall.svg)
+![Infrastructure Architecture](/assets/images/2025-05/okdinstall.svg){: .postimage80 }
 [Infrastructure Architecture](/assets/images/2025-05/okdinstall.jpg){: .center-image }
 
 there will be two droplet (VM) used for the cluster installation
@@ -126,7 +126,7 @@ or simply refer to following section  : <a href="#component-needed">Component Ne
 
 ## Generate FCOS ISO for OKD SNO
 
-![postimage80](/assets/images/2025-05/iso1.jpg)
+![FCOS ISO Url](/assets/images/2025-05/iso1.jpg){: .postimage80 }
 [FCOS ISO Url](/assets/images/2025-05/iso1.jpg){: .center-image }
 
 openshift has the information about FCOS ISO. below command will printed out the ISO URL.

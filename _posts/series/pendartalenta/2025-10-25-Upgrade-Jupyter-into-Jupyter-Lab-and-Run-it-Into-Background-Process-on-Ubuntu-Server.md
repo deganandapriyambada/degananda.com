@@ -80,7 +80,7 @@ it should return the version of jupyter lab installed on the system.
 
 # Run jupyter lab on console
 
-![postimage80](/assets/images/2025-10/lab1.jpg)
+![jupyter lab launcher is rendered as web UI](/assets/images/2025-10/lab1.jpg){: .postimage80 }
 [jupyter lab launcher is rendered as web UI](/assets/images/2025-10/lab1.jpg){: .center-image }
 
 execute following command to run the jupyter lab
@@ -97,7 +97,7 @@ same command can be used to run jupyter lab on background, however it need to be
 
 done now jupyter lab services is running on the background.
 
-![postimage80](/assets/images/2025-10/lab2.jpg)
+![use ps function on terminal to check whether jupyter lab running status](/assets/images/2025-10/lab2.jpg){: .postimage80 }
 [use ps function on terminal to check whether jupyter lab running status](/assets/images/2025-10/lab2.jpg){: .center-image }
 
 to check if the jupyter lab is running can use following command
@@ -114,5 +114,5 @@ resource consumption on jupyter lab is varies depend on the number of user acces
 
 below is the resource consumption for OS and idle jupyter lab (no user accessing and no kernel is ran)
 
-![postimage80](/assets/images/2025-10/lab3.jpg)
+![idle memory consumption of jupyter lab](/assets/images/2025-10/lab3.jpg){: .postimage80 }
 [idle memory consumption of jupyter lab](/assets/images/2025-10/lab3.jpg){: .center-image }

@@ -55,16 +55,18 @@ if the JWT content is modified, the signature become invalid. Thats why JWT is b
 # Authentication & Authorization Flow using JWT
 
 ```mermaid
-journey
-    title JWT Based Authentication & Authorization Journey
-    section Authentication
-      Login: 5: Client
-      Validate Credential: 5: Auth-Server
-      Generate JWT: 5: Auth-Server
-    section Authorization
-      Request: 5: Client
-      Attach JWT: 5: Auth-Server
-      Verify Signature: 5: Auth-Server
+flowchart TD
+    A[Client Login Request] --> B[Auth Server Validates Credentials]
+    B --> C[Auth Server Generates JWT]
+    C --> D[JWT Sent to Client]
+
+    D --> E[Client Sends Request with JWT]
+    E --> F[Auth Server Receives Request]
+    F --> G[Verify JWT Signature]
+    G --> H{Valid Token?}
+
+    H -->|Yes| I[Authorize Access]
+    H -->|No| J[Deny Access]
 ```
 
 Below is the step by step process of implementing JWT (JSON web token) for authentication and authorization process

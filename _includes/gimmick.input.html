@@ -5,23 +5,37 @@
     </div>
     <div class="big-search">
       <input id="search-pl" type="text" placeholder="what are you looking for?">
-      <button onclick="search()">
+      <button onclick="search()" alt="search on pipenpoof">
         <i class="fa fa-search" aria-hidden="true"></i>
       </button>
     </div>
     <div class="post-type-2-title-tags">
       <div class="post-tags">
+
         <div class="post-tags-item-side" style="background: none; font-weight: 300; color: #3d3d3d">
           Recent Tags
         </div>
-        {% for tag in site.tags limit: 6 %}
+
+        {% assign recent_tags = "" | split: "" %}
+
+        {% for post in site.posts limit: 50 %}
+        {% for tag in post.tags %}
+        {% unless recent_tags contains tag %}
+        {% assign recent_tags = recent_tags | push: tag %}
+        {% endunless %}
+        {% endfor %}
+        {% endfor %}
+
+        {% for tag in recent_tags limit: 6 %}
         <div class="post-tags-item-side">
-          <a href="/tags/{{ tag | first }}/">{{tag | first }}</a>
+          <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
         </div>
         {% endfor %}
+
         <div class="post-tags-item-side" style="background: none; font-weight: 300; color: #3d3d3d">
           <u><a href="/explore">View All</a></u>
         </div>
+
       </div>
     </div>
   </div>

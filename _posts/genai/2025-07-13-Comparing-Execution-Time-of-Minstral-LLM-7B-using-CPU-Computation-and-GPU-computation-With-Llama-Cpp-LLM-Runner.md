@@ -27,7 +27,7 @@ Benchmark will be done on following Apple Macbook Air M1 2025
 
 ## Idle CPU
 
-![postimage100](/assets/images/2025-07/llmcompare2.jpg)
+![Idle CPU](/assets/images/2025-07/llmcompare2.jpg){: .postimage100 }
 [Idle CPU](/assets/images/2025-07/llmcompare2.jpg){: .center-image }
 
 there are more than >= **90%** available CPU resources.
@@ -35,7 +35,7 @@ there are more than >= **90%** available CPU resources.
 
 ## Idle Memory
 
-![postimage100](/assets/images/2025-07/llmcompare1.jpg)
+![Idle Memory](/assets/images/2025-07/llmcompare1.jpg){: .postimage100 }
 [Idle Memory](/assets/images/2025-07/llmcompare1.jpg){: .center-image }
 
 free Memory is **arround 1.2 gb** but M1 able to consume the SSD disk spaces (unified memory)
@@ -117,19 +117,19 @@ print(f"⚡ Tokens per second: {tokens_per_sec:.2f}")
 ### Run Record
 
 Scenario 1 - Instructional - CPU
-![postimage100](/assets/images/2025-07/cpu1.jpg)
+![LLM Execution using CPU Result for Scenario 1](/assets/images/2025-07/cpu1.jpg){: .postimage100 }
 [LLM Execution using CPU Result for Scenario 1](/assets/images/2025-07/cpu1.jpg){: .center-image }
 
 Scenario 2 - Instructional - CPU
-![postimage100](/assets/images/2025-07/cpu2.jpg)
+![LLM Execution using CPU Result for Scenario 2](/assets/images/2025-07/cpu2.jpg){: .postimage100 }
 [LLM Execution using CPU Result for Scenario 2](/assets/images/2025-07/cpu2.jpg){: .center-image }
 
 Scenario 3 - Question & Answer - CPU
-![postimage100](/assets/images/2025-07/cpu3.jpg)
+![LLM Execution using CPU Result for Scenario 3](/assets/images/2025-07/cpu3.jpg){: .postimage100 }
 [LLM Execution using CPU Result for Scenario 3](/assets/images/2025-07/cpu3.jpg){: .center-image }
 
 Scenario 4 - Mathematical Equation - CPU
-![postimage100](/assets/images/2025-07/cpu4.jpg)
+![LLM Execution using CPU Result for Scenario 4](/assets/images/2025-07/cpu4.jpg){: .postimage100 }
 [LLM Execution using CPU Result for Scenario 4](/assets/images/2025-07/cpu4.jpg){: .center-image }
 
 ## GPU (Main)
@@ -155,7 +155,7 @@ build from sources
 
 Offload all transformation layer to GPU
 
-![postimage100](/assets/images/2025-07/offload.jpg)
+![Offloaded all transformation layer (33/33)](/assets/images/2025-07/offload.jpg){: .postimage100 }
 [Offloaded all transformation layer (33/33)](/assets/images/2025-07/offload.jpg){: .center-image }
 
 
@@ -185,19 +185,19 @@ Execute
 ### Run Record (All layer off loaded)
 
 Scenario 1 - Instructional - GPU
-![postimage100](/assets/images/2025-07/gpu1.jpg)
+![LLM Execution using GPU Result for Scenario 1](/assets/images/2025-07/gpu1.jpg){: .postimage100 }
 [LLM Execution using GPU Result for Scenario 1](/assets/images/2025-07/gpu1.jpg){: .center-image }
 
 Scenario 2 - Instructional - GPU
-![postimage100](/assets/images/2025-07/gpu2.jpg)
+![LLM Execution using GPU Result for Scenario 2](/assets/images/2025-07/gpu2.jpg){: .postimage100 }
 [LLM Execution using GPU Result for Scenario 2](/assets/images/2025-07/gpu2.jpg){: .center-image }
 
 Scenario 3 - Question & Answer - GPU
-![postimage100](/assets/images/2025-07/gpu3.jpg)
+![LLM Execution using GPU Result for Scenario 3](/assets/images/2025-07/gpu3.jpg){: .postimage100 }
 [LLM Execution using GPU Result for Scenario 3](/assets/images/2025-07/gpu3.jpg){: .center-image }
 
 Scenario 4 - Mathematical Equation - GPU
-![postimage100](/assets/images/2025-07/cpu4.jpg)
+![LLM Execution using GPU Result for Scenario 4](/assets/images/2025-07/cpu4.jpg){: .postimage100 }
 [LLM Execution using GPU Result for Scenario 4](/assets/images/2025-07/gpu4.jpg){: .center-image }
 
 # Conclusion
@@ -225,28 +225,28 @@ CPU vs GPU computing for LLM Runner
 
 ## Instructional Benchmark (CPU vs GPU)
 
-![postimage100](/assets/images/2025-07/instructional.jpg)
+![CPU vs GPU Benchmark for Instructional Prompt](/assets/images/2025-07/instructional.jpg){: .postimage100 }
 [CPU vs GPU Benchmark for Instructional Prompt](/assets/images/2025-07/instructional.jpg){: .center-image }
 
 <i>*Lower is better, Lower execution time = faster LLM response</i>
 
 ## Open Ended Generation Benchmark (CPU vs GPU)
 
-![postimage100](/assets/images/2025-07/openended.jpg)
+![CPU vs GPU Benchmark for Open Ended Generation Prompt](/assets/images/2025-07/openended.jpg){: .postimage100 }
 [CPU vs GPU Benchmark for Open Ended Generation Prompt](/assets/images/2025-07/openended.jpg){: .center-image }
 
 <i>*Lower is better, Lower execution time = faster LLM response</i>
 
 ## Question & Answer Benchmark (CPU vs GPU)
 
-![postimage100](/assets/images/2025-07/qna.jpg)
+![CPU vs GPU Benchmark for Question and Answer Prompt](/assets/images/2025-07/qna.jpg){: .postimage100 }
 [CPU vs GPU Benchmark for Question and Answer Prompt](/assets/images/2025-07/qna.jpg){: .center-image }
 
 <i>*Lower is better, Lower execution time = faster LLM response</i>
 
 ## Mathematical Equation (CPU vs GPU)
 
-![postimage100](/assets/images/2025-07/mathcomputation.jpg)
+![CPU vs GPU Benchmark for Mathematical Equation](/assets/images/2025-07/mathcomputation.jpg){: .postimage100 }
 [CPU vs GPU Benchmark for Mathematical Equation](/assets/images/2025-07/mathcomputation.jpg){: .center-image }
 
 <i>*Lower is better, Lower execution time = faster LLM response</i>

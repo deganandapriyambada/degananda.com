@@ -14,7 +14,7 @@ deliverables: article & illustration
 
 # Problem Root Cause
 
-![postimage100](/assets/images/2025-09/jekyllm1.jpg)
+![Jekyll server encountered Gemfile module mismatch version](/assets/images/2025-09/jekyllm1.jpg){: .postimage100 }
 [Jekyll server encountered Gemfile module mismatch version](/assets/images/2025-09/jekyllm1.jpg){: .center-image }
 
 > You have already activated [module_name] x.x.x(version), but your Gemfile requires [module_name]  x.x.x(version). Prepending bundle exec to your command may solve this. (Gem::LoadError)
@@ -37,7 +37,7 @@ There are two ways to solve module versioning dependencies on jekyll.
 
 ## Run Jekyll via Bundler
 
-![postimage100](/assets/images/2025-09/jekyllm2.jpg)
+![Run jekyll serve via bundler](/assets/images/2025-09/jekyllm2.jpg){: .postimage100 }
 [Run jekyll serve via bundler](/assets/images/2025-09/jekyllm2.jpg){: .center-image }
 
 below command will force jekyll serve command to be executed from the bundler. Installed jekyll dependencies package version on system will be forced when running the jekyll project. Hence, error will be solved.
@@ -50,7 +50,7 @@ Use following command to run jekyll via bundler
 
 On a case where ruby module version installed at the system is newer than defined module version at Gemfile.lock, an update can be made by  adjusting the version number on Gemfile.lock file using bundle update
 
-![postimage100](/assets/images/2025-09/jekyllm3.jpg)
+![Update Module version on Gemfile.lock using bundle update](/assets/images/2025-09/jekyllm3.jpg){: .postimage100 }
 [Update Module version on Gemfile.lock using bundle update](/assets/images/2025-09/jekyllm3.jpg){: .center-image }
 
 execute following command
@@ -59,12 +59,12 @@ execute following command
 
 this will update the "rake" version on Gemfile.lock
 
-![postimage100](/assets/images/2025-09/jekyllm4.jpg)
+![Module version is successfully upgraded on the Gemfile](/assets/images/2025-09/jekyllm4.jpg){: .postimage100 }
 [Module version is successfully upgraded on the Gemfile](/assets/images/2025-09/jekyllm4.jpg){: .center-image }
 
 Now run jekyll serve usual (without the bundle exec)
 
     jekyll serve
     
-![postimage100](/assets/images/2025-09/jekyllm5.jpg)
+![run jekyll serve after fixing module dependencies and versioning issue on Gemfile.lock](/assets/images/2025-09/jekyllm5.jpg){: .postimage100 }
 [run jekyll serve after fixing module dependencies and versioning issue on Gemfile.lock](/assets/images/2025-09/jekyllm5.jpg){: .center-image }

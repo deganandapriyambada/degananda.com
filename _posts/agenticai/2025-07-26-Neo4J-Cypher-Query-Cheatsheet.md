@@ -115,7 +115,7 @@ Neo4J
 
 If the detachment query is success, all nodes will be deleted. Can be seen on the left panel of neo4J browser.
 
-![postimage100](/assets/images/2025-07/cypher2.jpg)
+![Number of available nodejs on databases](/assets/images/2025-07/cypher2.jpg){: .postimage100 }
 [Number of available nodejs on databases](/assets/images/2025-07/cypher2.jpg){: .center-image }
 
 or simply use cypher query to count the number of nodes which matched with query
@@ -134,7 +134,7 @@ Following syntax will return all nodes regardless the relationship
 
 double click the node to show the relationship
 
-![postimage100](/assets/images/2025-07/cypher1.jpg)
+![Visualizing all Nodes](/assets/images/2025-07/cypher1.jpg){: .postimage100 }
 [Visualizing all Nodes](/assets/images/2025-07/cypher1.jpg){: .center-image }
 
 # Write
@@ -282,7 +282,7 @@ But fault ingestion should not CATER this scenario because fault is the last NOD
 
 Below are the summarized data flow from all of query mentioned on previous section.
 
-![postimage100](/assets/images/2025-07/cyphersummary.jpg)
+![Fullflow Safe Data Ingestion to Neo4J, not prone to Error](/assets/images/2025-07/cyphersummary.jpg){: .postimage100 }
 [Fullflow Safe Data Ingestion to Neo4J, not prone to Error](/assets/images/2025-07/cyphersummary.jpg){: .center-image }
 
 ## Test Scenario
@@ -349,12 +349,12 @@ MERGE (b)-[:SEND]->(t)  // Ensure the relationship between Battery and Telemetry
 expected final condition on neo4j graph visualization
 
 
-![postimage100](/assets/images/2025-07/cypher4.jpg)
+![Expected: 3 Telemetry node, 1 Battery node and 1 Fault Node connected to telemetry with highest timestamp](/assets/images/2025-07/cypher4.jpg){: .postimage100 }
 [Expected: 3 Telemetry node, 1 Battery node and 1 Fault Node connected to telemetry with highest timestamp](/assets/images/2025-07/cypher4.jpg){: .center-image }
 
 **Generate RCA**
 
-![postimage100](/assets/images/2025-07/cypher5.jpg)
+![Expected: 3 Telemetry node, 1 Battery node and 1 Fault Node connected to telemetry with highest timestamp](/assets/images/2025-07/cypher5.jpg){: .postimage100 }
 [Expected: 3 Telemetry node, 1 Battery node and 1 Fault Node connected to telemetry with highest timestamp](/assets/images/2025-07/cypher5.jpg){: .center-image }
 
 based on max timestamp

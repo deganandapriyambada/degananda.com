@@ -50,7 +50,7 @@ Its important to strategize and craft brand identity before creating a logo to e
 
 ## Vision (Strategical)
 
-![postimage80](/assets/images/2025-06/logo1.jpg)
+![Vision -> Mission -> Key Objectives -> KPI -> Day to day execution](/assets/images/2025-06/logo1.jpg){: .postimage80 }
 [Vision -> Mission -> Key Objectives -> KPI -> Day to day execution](/assets/images/2025-06/logo1.jpg){: .center-image }
 
     where we going to be in the next ten years.
@@ -73,7 +73,7 @@ Mission is a company/product direction to achieve the vision.
 
 ## Target Audience
 
-![postimage100](/assets/images/2025-06/logo2.jpg)
+![How business deal or purchase happened](/assets/images/2025-06/logo2.jpg){: .postimage100 }
 [How business deal or purchase happened](/assets/images/2025-06/logo2.jpg){: .center-image }
 
 
@@ -314,7 +314,7 @@ Based on the milestoneku vision, mission and business objectives following color
 
 Following collor pallete will be used
 
-![postimage80](/assets/images/2025-06/color.jpeg)
+![Milestoneku.com color pallete](/assets/images/2025-06/color.jpeg){: .postimage80 }
 [Milestoneku.com color pallete](/assets/images/2025-06/color.jpeg){: .center-image }
 
 source: adobe

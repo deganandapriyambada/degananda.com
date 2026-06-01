@@ -22,7 +22,7 @@ Industry 4.0 is a concept where all **machine** on shop floor (we are borrowing 
 
 ## Different Vertical of IOT Strategy and Implementation
 
-![postimage100](/assets/images/2025-02/vertical-of-iot.jpg)
+![Vertical of Internet of Things](/assets/images/2025-02/vertical-of-iot.jpg){: .postimage100 }
 [Vertical of Internet of Things](/assets/images/2025-02/vertical-of-iot.jpg){: .center-image }
 
     Industrial vertical (IIoT) has the most ITOT Convergence process compared to other vertical. by far its the most complex vertical.

@@ -13,7 +13,7 @@ typora-root-url: ./../../../
 
 # The End of an ERA
 
-![postimage80](/assets/images/2026-04/ai1.svg)
+![IT Professionals are at risk to get laid off in current job market and economy situation.](/assets/images/2026-04/ai1.svg){: .postimage80 }
 [IT Professionals are at risk to get laid off in current job market and economy situation.](/assets/images/2026-04/ai1.jpg){: .center-image }
 
 Nothing last forever in this world.

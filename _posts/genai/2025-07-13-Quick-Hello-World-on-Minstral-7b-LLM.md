@@ -57,7 +57,7 @@ activate the hello-world-minstral environment
 
     conda activate hello-world-minstral
 
-![postimage100](/assets/images/2025-07/minstral1.jpg)
+![Check python version & activated conda environment](/assets/images/2025-07/minstral1.jpg){: .postimage100 }
 [Check python version & activated conda environment](/assets/images/2025-07/minstral1.jpg){: .center-image }
 
 
@@ -86,7 +86,7 @@ bash
 Wait until the installation is completed.
 
 
-![postimage100](/assets/images/2025-07/minstral2.jpg)
+![Installing LLM Runner : llama-cpp with support for apple silicon M series](/assets/images/2025-07/minstral2.jpg){: .postimage100 }
 [Installing LLM Runner : llama-cpp with support for apple silicon M series](/assets/images/2025-07/minstral2.jpg){: .center-image }
 
 ### Llama-cpp with GPU Support
@@ -111,7 +111,7 @@ Inference engine responsible for following things :
    
 ## Download the Model (GGUF Format)
 
-![postimage100](/assets/images/2025-07/minstral3.jpg)
+![Q4_K_M is lightweight but yet still usable](/assets/images/2025-07/minstral3.jpg){: .postimage100 }
 [Q4_K_M is lightweight but yet still usable](/assets/images/2025-07/minstral3.jpg){: .center-image }
 
 Apple M1 with 8 gb of ram will be used to ran the LLM. One of the minstral model that fit for this case is : **Minstral 7B Q4_K_M**
@@ -122,7 +122,7 @@ Download following Files
 
     https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF
 
-![postimage100](/assets/images/2025-07/minstral4.jpg)
+![Q4_K_M saved on model folder](/assets/images/2025-07/minstral4.jpg){: .postimage100 }
 [Q4_K_M saved on model folder](/assets/images/2025-07/minstral4.jpg){: .center-image }
 
 Create new folder called "model" on the miniconda project and store the Minstral 7b Q4_K_M GGUF 
@@ -156,7 +156,7 @@ output = llm(
 print(output["choices"][0]["text"].strip())
 ```
 
-![postimage100](/assets/images/2025-07/minstral5.jpg)
+![run minstral Q4_K_M using llama-cpp-python ](/assets/images/2025-07/minstral5.jpg){: .postimage100 }
 [run minstral Q4_K_M using llama-cpp-python ](/assets/images/2025-07/minstral5.jpg){: .center-image }
 
 
@@ -169,7 +169,7 @@ it should expect following responses.
 
     Hello, world! It's great to be here and ready to assist you with any information or tasks you might have. How can I help you today?
 
-![postimage100](/assets/images/2025-07/minstral6.jpg)
+![ Minstral 7b responses to the hello world instruction](/assets/images/2025-07/minstral6.jpg){: .postimage100 }
 [ Minstral 7b responses to the hello world instruction](/assets/images/2025-07/minstral6.jpg){: .center-image }
 
 ## Calculating Response time

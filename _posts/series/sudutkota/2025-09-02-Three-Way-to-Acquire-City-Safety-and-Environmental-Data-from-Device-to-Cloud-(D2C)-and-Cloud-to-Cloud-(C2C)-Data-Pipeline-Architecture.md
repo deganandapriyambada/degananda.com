@@ -12,7 +12,7 @@ objective: to create a data pipeline which support device to cloud data acqusiti
 deliverables: article & illustration
 ---
 
-![postimage100](/assets/images/2025-09/sdarch2.svg)
+![Sudutkota as Automated City News Content Aggregator Platform: Safety, Environment and Lifestyle](/assets/images/2025-09/sdarch2.svg){: .postimage100 }
 [Sudutkota as Automated City News Content Aggregator Platform: Safety, Environment and Lifestyle](/assets/images/2025-09/sdarch2.jpg){: .center-image }
 
 
@@ -97,7 +97,7 @@ As the pilot experimental project, the data will be limited for Jakarta (Indones
 
 # L0 High Level Data Acquisition Architecture
 
-![postimage100](/assets/images/2025-09/sdarch1.svg)
+![Data Acquisition Architecture from Surroundings to OTLP/OLAP Databases](/assets/images/2025-09/sdarch1.svg){: .postimage100 }
 [Data Acquisition Architecture from Surroundings to OTLP/OLAP Databases](/assets/images/2025-09/sdarch1.jpg){: .center-image }
 
 Below are the applied architectural principles/pattern :
@@ -111,7 +111,7 @@ it will be deployed on azure cloud using a combination of cloud native component
 
 ## Data Fabric Architecture
 
-![postimage100](/assets/images/2025-09/sdarch3.svg)
+![Data Fabric Architecture Pattern/Style](/assets/images/2025-09/sdarch3.svg){: .postimage100 }
 [Data Fabric Architecture Pattern/Style](/assets/images/2025-09/sdarch3.jpg){: .center-image }
 
 main data fabric capability: discover, integrate and access the data without storing the data. It is a middleware that **connect various data platform component** into single digital thread.

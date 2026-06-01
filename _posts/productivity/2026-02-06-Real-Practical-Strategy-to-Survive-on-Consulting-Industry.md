@@ -38,7 +38,7 @@ Below are the strategy that i used (then and now) to survive on consulting indus
 
 ## 1st Rule - ABC (Always be charged)
 
-![postimage100](/assets/images/2026-02/consulting1.jpg)
+![Do whatever it takes to at least do chargeable project, business development, csr or traininng](/assets/images/2026-02/consulting1.jpg){: .postimage100 }
 [Do whatever it takes to at least do chargeable project, business development, csr or traininng](/assets/images/2026-02/consulting1.jpg){: .center-image }
 
 Always be charged (ABC), this is the most critical rule that should be followed by consultant.
@@ -65,7 +65,7 @@ second is non-billable worksheet but for business development activities. For ex
 
 ## 2nd Rule - Always be Visible & Show Your Worth
 
-![postimage100](/assets/images/2026-02/consulting2.jpg)
+![The only way to get project lined up after current project ended is by proving our worth from the past project. No easy shortcut.](/assets/images/2026-02/consulting2.jpg){: .postimage100 }
 [The only way to get project lined up after current project ended is by proving our worth from the past project. No easy shortcut.](/assets/images/2026-02/consulting2.jpg){: .center-image }
 
 

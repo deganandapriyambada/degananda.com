@@ -18,7 +18,7 @@ As the name stands, VM which stands for virtual machine is a computer inside a c
 
 ## Virtualization is The Key Technology Enabler of Virtual Machine
 
-![postimage80](/assets/images/2025-04/VM-Host-and-Guest-OS.svg)
+![Host OS and Guest OS interation on Virtualization](/assets/images/2025-04/VM-Host-and-Guest-OS.svg){: .postimage80 }
 [Host OS and Guest OS interation on Virtualization](/assets/images/2025-04/What-IS-Virtual-Machine.png){: .center-image }
 
 the main computer will act as host to perform **virtualziation**. a virutalization is a process of creating a software / virtual based computer with dedicated amount of CPU, Memroy and storage which borrowed from the host physical computer.
@@ -37,7 +37,7 @@ a virtual machine is partitioned from the rest of host computer system making a 
 
 # Virtual Machine Technology Stack
 
-![postimage60](/assets/images/2025-04/VM-Stack.svg)
+![Non virtualized baremetal layer structure](/assets/images/2025-04/VM-Stack.svg){: .postimage60 }
 [Non virtualized baremetal layer structure](/assets/images/2025-04/VM-Stack.jpg){: .center-image }
 
     Virtualized Baremetal and non virtualized baremetal has different component.
@@ -53,7 +53,7 @@ there are several VM Component that build the whole virtualization architecture.
 
 ## References Architecture for VM
 
-![postimage100](/assets/images/2025-04/VM-references-architecture.svg)
+![Three common VM references architecture used on industry](/assets/images/2025-04/VM-references-architecture.svg){: .postimage100 }
 [Three common VM references architecture used on industry](/assets/images/2025-04/VM-references-architecture.jpg){: .center-image }
 
 There three different architecture references for a VM. First is, **Hypervisor based VM**, most popular stack is using VMWare. Second, **containerized VM**. Most popular stack is kubernetes. Last one is **combination of hypervisor and containerization** (Containerized virtual machine). Container can be installed inside the guest OS on top of Hypervisor.

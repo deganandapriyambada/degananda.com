@@ -39,17 +39,17 @@ create a VM with following specifications:
 
 latest **ubuntu server LTS** (24.04 as of the article was written)
 
-![postimage80](/assets/images/2025-10/spark1.jpg)
+![It is recommended to use ubuntu server LTS for long term support](/assets/images/2025-10/spark1.jpg){: .postimage80 }
 [It is recommended to use ubuntu server LTS for long term support](/assets/images/2025-10/spark1.jpg){: .center-image }
 
 2 gigs of ram and 1 virtual CPU
 
-![postimage80](/assets/images/2025-10/spark2.jpg)
+![weak VM or droplets specs for apache spark](/assets/images/2025-10/spark2.jpg){: .postimage80 }
 [weak VM or droplets specs for apache spark](/assets/images/2025-10/spark2.jpg){: .center-image }
 
 note: once the provision is done, ensure those VM can be accessed via SSH as the rest of spark installation and configuration will be done via SSH.
 
-![postimage80](/assets/images/2025-10/spark3.jpg)
+![a fresh ubuntu OS memory and CPU consumption without any additional package installed](/assets/images/2025-10/spark3.jpg){: .postimage80 }
 [a fresh ubuntu OS memory and CPU consumption without any additional package installed](/assets/images/2025-10/spark3.jpg){: .center-image }
 
 ubuntu server OS only consume +- 200 mb of RAM and +- 1% of CPU usages. theoriticaly this could handle JVM and apache spark.
@@ -139,7 +139,7 @@ usr/lib/jvm/java-17-openjdk-amd64/bin/java
 
 ### remaining unutilized ram and CPU.
 
-![postimage80](/assets/images/2025-10/spark4.jpg)
+![java (without any spawned JVM yet only add a few mbs of ram consumption)](/assets/images/2025-10/spark4.jpg){: .postimage80 }
 [java (without any spawned JVM yet only add a few mbs of ram consumption)](/assets/images/2025-10/spark4.jpg){: .center-image }
 
 check the remaining unutilized ram and CPU unutilized RAM and CPU using htop command.
@@ -150,7 +150,7 @@ as shown on below images, CPU utilization is increased to 2% with almost 200 mb 
 
 # Install apache spark
 
-![postimage80](/assets/images/2025-10/spark5.jpg)
+![Spark 3.x binary is available from the official apache spark websites.](/assets/images/2025-10/spark5.jpg){: .postimage80 }
 [Spark 3.x binary is available from the official apache spark websites.](/assets/images/2025-10/spark5.jpg){: .center-image }
 
 
@@ -371,12 +371,12 @@ open in on the UI (note: need to expose 4040 to FW, if it wanted to accessible p
 
     http://<vm_IP>:4040
 
-![postimage80](/assets/images/2025-10/spark6.jpg)
+![Spark UI is exposed to port 4040 if it ran using spark-shell!](/assets/images/2025-10/spark6.jpg){: .postimage80 }
 [Spark UI is exposed to port 4040 if it ran using spark-shell!](/assets/images/2025-10/spark6.jpg){: .center-image }
 
 it only add ~100mb of RAM (shell only!), this is not the final master-worker cluster form.
 
-![postimage80](/assets/images/2025-10/spark7.jpg)
+![Spark-shell if it run using REPL](/assets/images/2025-10/spark7.jpg){: .postimage80 }
 [Spark-shell if it run using REPL](/assets/images/2025-10/spark7.jpg){: .center-image }
 
 note: REPL stands for read, eval, print, loop. basically a CLI program that require input from the terminal or console and it will print out the output to the console.
@@ -488,7 +488,7 @@ once above job created spark will:
 
 to validate if master-worker cluster is running properly on single jvm, following approach can be used
 
-![postimage80](/assets/images/2025-10/spark8.jpg)
+![SparkUI can be access on port 8080 if it run using master-worker approach](/assets/images/2025-10/spark8.jpg){: .postimage80 }
 [SparkUI can be access on port 8080 if it run using master-worker approach](/assets/images/2025-10/spark8.jpg){: .center-image }
 
 
@@ -512,7 +512,7 @@ root@pendar-spark:/opt/spark/logs#
 
 by default spark-worker will consume (n / 2) memory where n is the maximum available RAM on the machine.
 
-![postimage80](/assets/images/2025-10/spark10.jpg)
+![by default on a vm with 2 gigs of ram, a spark worker will allocated with 1024 memory](/assets/images/2025-10/spark10.jpg){: .postimage80 }
 [by default on a vm with 2 gigs of ram, a spark worker will allocated with 1024 memory](/assets/images/2025-10/spark10.jpg){: .center-image }
 
 if the machine has 2 gigs of ram, spark master will allocate 1 gigs of ram (1024 mb) to the worker as shown below 
@@ -521,12 +521,12 @@ if the machine has 2 gigs of ram, spark master will allocate 1 gigs of ram (1024
 
 CPU and memory condition after running spark master
 
-![postimage80](/assets/images/2025-10/spark9.jpg)
+![memory consumption after spark master is running](/assets/images/2025-10/spark9.jpg){: .postimage80 }
 [memory consumption after spark master is running](/assets/images/2025-10/spark9.jpg){: .center-image }
 
 CPU and memory condition after running one spark woker
 
-![postimage80](/assets/images/2025-10/spark11.jpg)
+![memory consumption after spark worker is running without any JOBS](/assets/images/2025-10/spark11.jpg){: .postimage80 }
 [memory consumption after spark worker is running without any JOBS](/assets/images/2025-10/spark11.jpg){: .center-image }
 
 memory consumption is stay at ~400mb, however the cpu utilization is jumping to 1.3%.

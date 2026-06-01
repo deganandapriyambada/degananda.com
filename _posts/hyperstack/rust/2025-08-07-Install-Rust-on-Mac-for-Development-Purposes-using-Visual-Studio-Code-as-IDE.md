@@ -34,17 +34,17 @@ Most simple and straightforward rust installation. It download shell script that
 
 Above comamnd should work on linux and mac os operating system. 
 
-![postimage100](/assets/images/2025-08/rust1.jpg)
+![Step 1 - Rust Installer is downloaded](/assets/images/2025-08/rust1.jpg){: .postimage100 }
 [Step 1 - Rust Installer is downloaded](/assets/images/2025-08/rust1.jpg){: .center-image }
 
 At first, the shell script will download rust installer and then proceed with the actual installation.
 
-![postimage100](/assets/images/2025-08/rust2.jpg)
+![Step 2 - Choose standard installation](/assets/images/2025-08/rust2.jpg){: .postimage100 }
 [Step 2 - Choose standard installation](/assets/images/2025-08/rust2.jpg){: .center-image }
 
 Choose 1 => proceed with standard installation unless there is need to change default configuration (eg: directory location, etc)
 
-![postimage100](/assets/images/2025-08/rust3.jpg)
+![Step 3 - Wait until installation completed](/assets/images/2025-08/rust3.jpg){: .postimage100 }
 [Step 3 - Wait until installation completed](/assets/images/2025-08/rust3.jpg){: .center-image }
 
     Installation time will be dependent on the machine's internet connection speed as its use internet to download additional package
@@ -55,7 +55,7 @@ wait until the installation (including additional packages such as cargo that ne
 
 Once the installation completed, execute following command to validate (terminal restart is needed after the installation completed)
 
-![postimage100](/assets/images/2025-08/rust5.jpg)
+![Check installed rust version](/assets/images/2025-08/rust5.jpg){: .postimage100 }
 [Check installed rust version](/assets/images/2025-08/rust5.jpg){: .center-image }
 
     rustc --version
@@ -88,7 +88,7 @@ Some of rust packages are dependent on C Compiler. It is also recommended to ins
 
 # Visual Studio Code Extension for Rust
 
-![postimage100](/assets/images/2025-08/rust4.jpg)
+![VSC Extension for Rust](/assets/images/2025-08/rust4.jpg){: .postimage100 }
 [VSC Extension for Rust](/assets/images/2025-08/rust4.jpg){: .center-image }
 
 
@@ -96,7 +96,7 @@ Go to extension tab on vsc and install rust additional add-on. It will enable vs
 
 ## Hello Rust on VSC
 
-![postimage100](/assets/images/2025-08/rust7.jpg)
+![hello rust on VSC](/assets/images/2025-08/rust7.jpg){: .postimage100 }
 [hello rust on VSC](/assets/images/2025-08/rust7.jpg){: .center-image }
 
 create a new folder
@@ -146,7 +146,7 @@ create rust project with cargo
 
 it will automatically create the project structure
 
-![postimage100](/assets/images/2025-08/rust8.jpg)
+![Generated rust project skeleton by cargo](/assets/images/2025-08/rust8.jpg){: .postimage100 }
 [Generated rust project skeleton by cargo](/assets/images/2025-08/rust8.jpg){: .center-image }
 
 
@@ -156,7 +156,7 @@ it will automatically create the project structure
 note: see more `Cargo.toml` keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 ```
 
-![postimage100](/assets/images/2025-08/rust9.jpg)
+![Build and run with cargo](/assets/images/2025-08/rust9.jpg){: .postimage100 }
 [Build and run with cargo](/assets/images/2025-08/rust9.jpg){: .center-image }
 
 

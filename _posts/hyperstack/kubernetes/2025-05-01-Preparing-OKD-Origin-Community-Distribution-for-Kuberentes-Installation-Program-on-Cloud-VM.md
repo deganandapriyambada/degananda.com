@@ -50,7 +50,7 @@ Choose the installation method suit with the objective and environment condition
  
 ## Prcoure the Cloud VM
 
-![postimage80](/assets/images/2025-05/vm.jpg)
+![a Virtual Machine on Digital Ocean](/assets/images/2025-05/vm.jpg){: .postimage80 }
 [a Virtual Machine on Digital Ocean](/assets/images/2025-05/vm.jpg){: .center-image }
 
 Ensure a cloud VM with Fedora CoreOS (FCOS) already provisioned with the minimum specs (8 vCPU++, 32 gigs of RAM).
@@ -69,7 +69,7 @@ as of 1 May 2025, the latest stable release is version 4.17
 
 depend on the guest OS specs, choose the correct installer. On this case, a **Fedora Core OS** with AMD CPU is used. version **4.16.x** will be used because it has specific installer program for FCOS.
 
-![postimage80](/assets/images/2025-05/vm3.jpg)
+![Fedora Core OS / FCOS](/assets/images/2025-05/vm3.jpg){: .postimage80 }
 [Fedora Core OS / FCOS](/assets/images/2025-05/vm3.jpg){: .center-image }
 
 
@@ -80,14 +80,14 @@ by default Fedora Core OS use **core@ip** instead of root@ip which commonly used
 Use following command to determine to correct specs.
 **CPU Architecture**
 
-![postimage80](/assets/images/2025-05/vm2.jpg)
+![CPU Architecture used on the VM](/assets/images/2025-05/vm2.jpg){: .postimage80 }
 [CPU Architecture used on the VM](/assets/images/2025-05/vm2.jpg){: .center-image }
 
     uname -m
 
 if it return x86_x64 meaning its AMD64
 
-![postimage80](/assets/images/2025-05/vm4.jpg)
+![Complete hostname of Fedora Core OS](/assets/images/2025-05/vm4.jpg){: .postimage80 }
 [Complete hostname of Fedora Core OS](/assets/images/2025-05/vm4.jpg){: .center-image }
 
 complete host information
@@ -104,7 +104,7 @@ hence based on above information, the installer would be this one:
 
 the first one (installer) will be used for this article.
 
-![postimage80](/assets/images/2025-05/vm5.jpg)
+![Installer binary Downloaded](/assets/images/2025-05/vm5.jpg){: .postimage80 }
 [Installer binary Downloaded](/assets/images/2025-05/vm5.jpg){: .center-image }
 
 
@@ -131,7 +131,7 @@ move it (sample based on echo $PATH)
 
 ## Extract the binary
 
-![postimage80](/assets/images/2025-05/vm6.jpg)
+![Extracted openshift installer on $PATH](/assets/images/2025-05/vm6.jpg){: .postimage80 }
 [Extracted openshift installer on $PATH](/assets/images/2025-05/vm6.jpg){: .center-image }
 
 the installed in archived using tar format. 
@@ -146,7 +146,7 @@ try to run below command from any path (because the binary installed as system w
 
 if the installer is ready to run, it should return the list of command that available in openshift-installer.
 
-![postimage80](/assets/images/2025-05/vm7.jpg)
+![Openshift installer is ready to be used](/assets/images/2025-05/vm7.jpg){: .postimage80 }
 [Openshift installer is ready to be used](/assets/images/2025-05/vm7.jpg){: .center-image }
 
 

@@ -47,33 +47,33 @@ google lighthouse is by default available on google chrome.
 
 right click on the target website page, then select inspect -> then start the audit by clicking **"analyze page load"** button
 
-![postimage80](/assets/images/2025-12/audit1.jpg)
+![google lighthouse is starting the website performance audit](/assets/images/2025-12/audit1.jpg){: .postimage80 }
 [google lighthouse is starting the website performance audit](/assets/images/2025-12/audit1.jpg){: .center-image }
 
 once the analytzing process is done, the audit report can also be downloaded into pdf
 
 click on the vertical elipsis bar on the top right of inspect tools and choose print summary. It is recommended to avoid save as json because it will be harder to read, unless if it will be uploaded to LLM for further analyzing, then JSON format is the best for that specific case (LLM Analysis)
 
-![postimage80](/assets/images/2025-12/audit9.jpg)
+![google lighthouse is starting the website performance audit](/assets/images/2025-12/audit9.jpg){: .postimage80 }
 [google lighthouse is starting the website performance audit](/assets/images/2025-12/audit9.jpg){: .center-image }
 
 choose the document orientation (potrait or landscape), then click save.
 
-![postimage80](/assets/images/2025-12/audit10.jpg)
+![google lighthouse is starting the website performance audit](/assets/images/2025-12/audit10.jpg){: .postimage80 }
 [google lighthouse is starting the website performance audit](/assets/images/2025-12/audit10.jpg){: .center-image }
 
 # Website performance audit result for pipenpoof
 
 below the result as of 6 december 2026
 
-![postimage80](/assets/images/2025-12/audit2.jpg)
+![audit result from google lighthouse](/assets/images/2025-12/audit2.jpg){: .postimage80 }
 [audit result from google lighthouse](/assets/images/2025-12/audit2.jpg){: .center-image }
 
 from the four aspect checked, pipenpoof pass the two aspects: perfromance and best practices.
 
 it has outstanding performance.
 
-![postimage80](/assets/images/2025-12/audit3.jpg)
+![google lighthouse is starting the website performance audit](/assets/images/2025-12/audit3.jpg){: .postimage80 }
 [google lighthouse is starting the website performance audit](/assets/images/2025-12/audit3.jpg){: .center-image }
 
 main reason of the good performance result is due to the SSG (static site generation). Pipenpoof is built using jekyll. the output of these framework is a plain html. 
@@ -82,12 +82,12 @@ All of the content on this website has corresponding html files (pre-rendered du
 
 ## Perfromance improvement
 
-![postimage80](/assets/images/2025-12/audit4.jpg)
+![google lighthouse is starting the website performance audit](/assets/images/2025-12/audit4.jpg){: .postimage80 }
 [google lighthouse is starting the website performance audit](/assets/images/2025-12/audit4.jpg){: .center-image }
 
 however, the performance index can still be improved by considering the suggested audit result from google lighthouse as shown above.
 
-![postimage80](/assets/images/2025-12/audit5.jpg)
+![actionable action to improve perfromance by google lighthouse](/assets/images/2025-12/audit5.jpg){: .postimage80 }
 [actionable action to improve perfromance by google lighthouse](/assets/images/2025-12/audit5.jpg){: .center-image }
 
 apart rom the audit report, google lighthouse also provide their suggestion to imrpove the performance. on this cases, there are two action :
@@ -101,19 +101,19 @@ apart from the performance, google lighthouse also auditing the website accessib
 
 names and labeling (accessibility to the crawler / user)
 
-![postimage80](/assets/images/2025-12/audit6.jpg)
+![audit report showing some unaccessible element to the crawler](/assets/images/2025-12/audit6.jpg){: .postimage80 }
 [audit report showing some unaccessible element to the crawler](/assets/images/2025-12/audit6.jpg){: .center-image }
  
 content best practices (accessability to the user)
 
-![postimage80](/assets/images/2025-12/audit8.jpg)
+![audit report showing some unaccessible element to the crawler](/assets/images/2025-12/audit8.jpg){: .postimage80 }
 [audit report showing some unaccessible element to the crawler](/assets/images/2025-12/audit8.jpg){: .center-image }
 
 why it is not accessible for crawler? because some critical data not available on the HTML DOM. For example, not alt description on the image, html element doesnt have accessible name, and so on.
 
 next one is accessability for user. first is about background vs color contrast, it might hinder the user to view the content. Next, the website miss screen scalability configuration for different size of the devices.
 
-![postimage80](/assets/images/2025-12/audit7.jpg)
+![audit report showing some unaccessible element to the user](/assets/images/2025-12/audit7.jpg){: .postimage80 }
 [audit report showing some unaccessible element to the user](/assets/images/2025-12/audit7.jpg){: .center-image }
 
 # Action Summary for Pipenpoof Website based on the Audit Report

@@ -49,12 +49,12 @@ Login to google analytics platform
 
 navigate to the bottom left of the page and click the "**cog**" icon (settings)
 
-![postimage80](/assets/images/2025-09/ga1.jpg)
+![Click on the cog icon to be redirected to the admin page](/assets/images/2025-09/ga1.jpg){: .postimage80 }
 [Click on the cog icon to be redirected to the admin page](/assets/images/2025-09/ga1.jpg){: .center-image }
 
 click on create the button located on top of the admin page and choose property.
 
-![postimage80](/assets/images/2025-09/ga2.jpg)
+![Create new google analytics property](/assets/images/2025-09/ga2.jpg){: .postimage80 }
 [Create new google analytics property](/assets/images/2025-09/ga2.jpg){: .center-image }
 
 enter the website/blog name, following property name will be used on this article
@@ -63,17 +63,17 @@ enter the website/blog name, following property name will be used on this articl
 
 once the property name is specified click next.
 
-![postimage80](/assets/images/2025-09/ga3.jpg)
+![Specify the property name](/assets/images/2025-09/ga3.jpg){: .postimage80 }
 [Specify the property name](/assets/images/2025-09/ga3.jpg){: .center-image }
 
 set the property category
 
-![postimage80](/assets/images/2025-09/ga4.jpg)
+![Playpumpkin is game focused blog, hence it is games industry](/assets/images/2025-09/ga4.jpg){: .postimage80 }
 [Playpumpkin is game focused blog, hence it is games industry](/assets/images/2025-09/ga4.jpg){: .center-image }
 
 it is recommended set business objectives to understand web and or app traffic to avoid any neccesary insight as the main purpose of google analytics for playpumpkin is to monitor the user traffic and behavior
 
-![postimage80](/assets/images/2025-09/ga5.jpg)
+![Set business objective to understand traffic](/assets/images/2025-09/ga5.jpg){: .postimage80 }
 [Set business objective to understand traffic](/assets/images/2025-09/ga5.jpg){: .center-image }
 
 
@@ -81,7 +81,7 @@ it is recommended set business objectives to understand web and or app traffic t
 
 choose "web" as the platform as jekyll is web based framework / SSG (static site generation).
 
-![postimage80](/assets/images/2025-09/ga6.jpg)
+![Jekyll is SSG framework, choose it as the platform](/assets/images/2025-09/ga6.jpg){: .postimage80 }
 [Jekyll is SSG framework, choose it as the platform](/assets/images/2025-09/ga6.jpg){: .center-image }
 
 enter the website url.
@@ -90,12 +90,12 @@ enter the website url.
 
 and also make sure www is redirected to non wwww (or vice versa, depend on the preferences) to avoid canonical issue later during the google search console setup.
 
-![postimage80](/assets/images/2025-09/ga7.jpg)
+![Input blog url, require https and http on the FQDN](/assets/images/2025-09/ga7.jpg){: .postimage80 }
 [Input blog url, require https and http on the FQDN](/assets/images/2025-09/ga7.jpg){: .center-image }
 
 once the stream is created, click next
 
-![postimage80](/assets/images/2025-09/ga8.jpg)
+![Stream is created](/assets/images/2025-09/ga8.jpg){: .postimage80 }
 [Stream is created](/assets/images/2025-09/ga8.jpg){: .center-image }
 
 add the javascript code on the blog. recommended way to put the google analytics java script code on the footer.
@@ -112,13 +112,13 @@ then create a jekyll condition check liquid syntax to only activate the google a
 ------------|----------|---------------|
 | 1 | JEKYLL_ENV | production | 
 
-![postimage80](/assets/images/2025-09/ga10.jpg)
+![JEKYLL_ENV set to production](/assets/images/2025-09/ga10.jpg){: .postimage80 }
 [JEKYLL_ENV set to production](/assets/images/2025-09/ga10.jpg){: .center-image }
 
 
 following is sample code for playpumpkin
 
-![postimage80](/assets/images/2025-09/ga9.jpg)
+![Google tag id unique per property and FQDN](/assets/images/2025-09/ga9.jpg){: .postimage80 }
 [Google tag id unique per property and FQDN](/assets/images/2025-09/ga9.jpg){: .center-image }
 
 
@@ -146,12 +146,12 @@ once the deployment is completed, click the test installation button on google a
 
     also its recommended to access the webiste and see if google analytics able to detect it.
 
-![postimage80](/assets/images/2025-09/ga11.jpg)
+![Test if google analytics can monitor the website](/assets/images/2025-09/ga11.jpg){: .postimage80 }
 [Test if google analytics can monitor the website](/assets/images/2025-09/ga11.jpg){: .center-image }
 
 if the installation is successfull (it may take time), number of visitor on the google analytics report page will be increased.
 
-![postimage80](/assets/images/2025-09/ga12.jpg)
+![Website if successfully integrated to the google analytics as it can already detect the number of visitor](/assets/images/2025-09/ga12.jpg){: .postimage80 }
 [Website if successfully integrated to the google analytics as it can already detect the number of visitor](/assets/images/2025-09/ga12.jpg){: .center-image }
 
 # Integrate to Google Search Console
@@ -164,7 +164,7 @@ go to below url to access google search console.
 
 enter the FQRN (without HTTP or HTTPS) as shown below
 
-![postimage80](/assets/images/2025-09/gs1.jpg)
+![enter the website domain name](/assets/images/2025-09/gs1.jpg){: .postimage80 }
 [enter the website domain name](/assets/images/2025-09/gs1.jpg){: .center-image }
 
 ## Validate the domain ownership
@@ -173,22 +173,22 @@ there are four ways to confirm the domain ownership status, the recommended way 
 
 select the record type as TXT
 
-![postimage80](/assets/images/2025-09/gs2.jpg)
+![Use TXT to validate the domain ownership](/assets/images/2025-09/gs2.jpg){: .postimage80 }
 [Use TXT to validate the domain ownership](/assets/images/2025-09/gs2.jpg){: .center-image }
 
 Go to the domain provider and create new TXT record and paste the value. For this article the domain provider is AWS Route 53.
 
-![postimage80](/assets/images/2025-09/gs3.jpg)
+![add new DNS record with type TXT](/assets/images/2025-09/gs3.jpg){: .postimage80 }
 [add new DNS record with type TXT](/assets/images/2025-09/gs2.jpg){: .center-image }
 
 once the DNS record has been added, click verify button on the google search console.
 
-![postimage80](/assets/images/2025-09/gs4.jpg)
+![Click the button to start domain ownership verification](/assets/images/2025-09/gs4.jpg){: .postimage80 }
 [Click the button to start domain ownership verification](/assets/images/2025-09/gs4.jpg){: .center-image }
 
 if the verification is success, a pop up message will appear indicating the property registration on google search console is completed.
 
-![postimage80](/assets/images/2025-09/gs5.jpg)
+![Property verification is compeleted on google search console](/assets/images/2025-09/gs5.jpg){: .postimage80 }
 [Property verification is compeleted on google search console](/assets/images/2025-09/gs5.jpg){: .center-image }
 
 done.
@@ -197,7 +197,7 @@ done.
 
 to speedup the crawling process, it is recommended to add sitemap.xml path url on the google search console.
 
-![postimage80](/assets/images/2025-09/gs6.jpg)
+![Google search now will utilize the sitemap.xml during the crawling process. All the url mentioned on the xml will be crawler eventhough not guarantee the indexability](/assets/images/2025-09/gs6.jpg){: .postimage80 }
 [Google search now will utilize the sitemap.xml during the crawling process. All the url mentioned on the xml will be crawler eventhough not guarantee the indexability](/assets/images/2025-09/gs6.jpg){: .center-image }
 
 go to search console property , navigate to the sitemaps and add url xml url.

@@ -60,7 +60,7 @@ create python virtual environment
 
 once the command is susccessfully executed, a new folder called **playwright-crawler** will be created.
 
-![postimage80](/assets/images/2025-09/playwright1.jpg)
+![a new folder created along side with the python binaries](/assets/images/2025-09/playwright1.jpg){: .postimage80 }
 [a new folder created along side with the python binaries](/assets/images/2025-09/playwright1.jpg){: .center-image }
 
 
@@ -103,7 +103,7 @@ depend on the operating system, below is the command to activate the python virt
 
 if the environment switching is success, on the beginning of the console will have the virtual environment name printed as shown below.
 
-![postimage80](/assets/images/2025-09/playwright2.jpg)
+![successsfully activate the python virtual environment](/assets/images/2025-09/playwright2.jpg){: .postimage80 }
 [successsfully activate the python virtual environment](/assets/images/2025-09/playwright2.jpg){: .center-image }
 
 
@@ -140,14 +140,14 @@ following command is used to create conda project with specific python version.
 
 this will automatically create a new conda project on the conda default directory.
 
-![postimage80](/assets/images/2025-09/playwright3.jpg)
+![confirm list of package to be installed](/assets/images/2025-09/playwright3.jpg){: .postimage80 }
 [confirm list of package to be installed](/assets/images/2025-09/playwright3.jpg){: .center-image }
 
 type "Y" when prompt for confirmation. It jsut conda telling which new packages that will be installed.
 
 wait until the download process is completed
 
-![postimage80](/assets/images/2025-09/playwright4.jpg)
+![conda package download in progress](/assets/images/2025-09/playwright4.jpg){: .postimage80 }
 [conda package download in progress](/assets/images/2025-09/playwright4.jpg){: .center-image }
 
 
@@ -178,7 +178,7 @@ execute following command to activate the conda project
 
 if the command is executed successfully, the environment name ("playwright-crawler") will be added on the beginning of the CLI line as prefix
 
-![postimage80](/assets/images/2025-09/playwright5.jpg)
+![console successfully switched to new conda environment](/assets/images/2025-09/playwright5.jpg){: .postimage80 }
 [console successfully switched to new conda environment](/assets/images/2025-09/playwright5.jpg){: .center-image }
 
 just to double confirm, execute following comamnd ensure only **pip**, **wheel** and **setuptools** package installed
@@ -201,7 +201,7 @@ wheel      0.45.1
 
 ## Install playwright on conda
 
-![postimage80](/assets/images/2025-09/playwright6.jpg)
+![install playwright via conda](/assets/images/2025-09/playwright6.jpg){: .postimage80 }
 [install playwright via conda](/assets/images/2025-09/playwright6.jpg){: .center-image }
 
 install playwright package
@@ -212,7 +212,7 @@ install playwright package
 
 &mdash; note: it might take a while as playwright libraries size > 20 MB and the installation time is depending on the internet connection
 
-![postimage80](/assets/images/2025-09/playwright7.jpg)
+![download playwright and its neccesary dependencies and extract the packages](/assets/images/2025-09/playwright7.jpg){: .postimage80 }
 [download playwright and its neccesary dependencies and extract the packages](/assets/images/2025-09/playwright7.jpg){: .center-image }
 
 
@@ -274,7 +274,7 @@ reinstall playwright using **conda forge** to rebuild the playwright with correc
 
 using conda-forget command will ensure the playwright is recompiled based on target OS architecture (on this case is arm64) and install the specific node driver depedencies for that architecture.
 
-![postimage80](/assets/images/2025-09/playwright8.jpg)
+![playwright is reinstalled](/assets/images/2025-09/playwright8.jpg){: .postimage80 }
 [playwright is reinstalled](/assets/images/2025-09/playwright8.jpg){: .center-image }
 
 it show now able to install the browser depedencies
@@ -283,12 +283,12 @@ it show now able to install the browser depedencies
 
 wait until the all browser driver is installed
 
-![postimage80](/assets/images/2025-09/playwright9.jpg)
+![download browser driver for playwright](/assets/images/2025-09/playwright9.jpg){: .postimage80 }
 [download browser driver for playwright](/assets/images/2025-09/playwright9.jpg){: .center-image }
 
 all of the three browser driver will be downloaded (chromium, firefox, webkit) for both headless browser and non-headless
 
-![postimage80](/assets/images/2025-09/playwright9.jpg)
+![all browser driver will be downloaded, including chromium, firefox and webkit](/assets/images/2025-09/playwright9.jpg){: .postimage80 }
 [all browser driver will be downloaded, including chromium, firefox and webkit](/assets/images/2025-09/playwright9.jpg){: .center-image }
 
 done. 

@@ -124,7 +124,7 @@ via docker logs (recommended, as the iotedge logs usually shaky)
 
 logs from the custom module
 
-![postimage100](/assets/images/2025-07/edge1.jpg)
+![Message with MESSAGETYPE:ERROR routed to different output topic](/assets/images/2025-07/edge1.jpg){: .postimage100 }
 [Message with MESSAGETYPE:ERROR routed to different output topic](/assets/images/2025-07/edge1.jpg){: .center-image }
 
 
@@ -157,7 +157,7 @@ topic = "devices/<deviceId>/messages/events/"
 
 **Connect & Send Data to MQTT Topic**
 
-![postimage100](/assets/images/2025-07/edge2.jpg)
+![Send data to EDGE over MQTT](/assets/images/2025-07/edge2.jpg){: .postimage100 }
 [Send data to EDGE over MQTT](/assets/images/2025-07/edge2.jpg){: .center-image }
 
 
@@ -210,7 +210,7 @@ client.sendOutputEvent('outputalert1', outputMsg, printResultFor('Sending receiv
 
 As shown on above code, Any message can be directed to the output topics from custom module. By default it will be send to this topic/address
 
-![postimage100](/assets/images/2025-07/edge3.jpg)
+![Subscribing routed message from internal route to external MQTT topics using module-identity](/assets/images/2025-07/edge3.jpg){: .postimage100 }
 [Subscribing routed message from internal route to external MQTT topics using module-identity](/assets/images/2025-07/edge3.jpg){: .center-image }
 
 

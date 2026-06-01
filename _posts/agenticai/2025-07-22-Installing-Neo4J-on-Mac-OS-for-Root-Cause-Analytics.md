@@ -74,7 +74,7 @@ execute following command to get the sha256 value of downloaded installer
 
     shasum -a 256 /path/to/your/file
 
-![postimage100](/assets/images/2025-08/neo1.jpg)
+![Checking Sha256 hash value of Neo4J file ](/assets/images/2025-08/neo1.jpg){: .postimage100 }
 [Checking Sha256 hash value of Neo4J file ](/assets/images/2025-08/neo1.jpg){: .center-image }
 
 
@@ -94,7 +94,7 @@ change directory to the target folder
 
 extract the tar
 
-![postimage100](/assets/images/2025-08/neo2.jpg)
+![Extract Neo4J archived installer (tar) ](/assets/images/2025-08/neo2.jpg){: .postimage100 }
 [Extract Neo4J archived installer (tar) ](/assets/images/2025-08/neo2.jpg){: .center-image }
 
     tar -xf mv neo4j-community-2025.07.1-unix.tar.gz
@@ -129,7 +129,7 @@ there are two option to start neo4j. To ran on background and ran on console. 2n
 
 run as console
 
-![postimage100](/assets/images/2025-08/neo3.jpg)
+![Neo4J successfully started as console app (non background) ](/assets/images/2025-08/neo3.jpg){: .postimage100 }
 [Neo4J successfully started as console app (non background) ](/assets/images/2025-08/neo3.jpg){: .center-image }
 
     $NEO4J_HOME/bin/neo4j console
@@ -140,12 +140,12 @@ run as background
 
 ## Open Neo4J Browser
 
-![postimage100](/assets/images/2025-08/neo4.jpg)
+![Login to Neo4J Databases via Neo4J web client](/assets/images/2025-08/neo4.jpg){: .postimage100 }
 [Login to Neo4J Databases via Neo4J web client](/assets/images/2025-08/neo4.jpg){: .center-image }
 
 Once the Neo4J Started properly (follow previous steps), the databases can be viewed and managed thorugh neo4j web client.
 
-![postimage100](/assets/images/2025-08/neo5.jpg)
+![Query neo4J using cypher query on the browser ](/assets/images/2025-08/neo5.jpg){: .postimage100 }
 [Query neo4J using cypher query on the browser ](/assets/images/2025-08/neo5.jpg){: .center-image }
 
 Open **http://localhost:7474** and login using neo4j:neo4j (username:password)

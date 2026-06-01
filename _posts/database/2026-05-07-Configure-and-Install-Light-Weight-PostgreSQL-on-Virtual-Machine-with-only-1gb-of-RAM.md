@@ -33,7 +33,7 @@ install postgresql
 
 	sudo apt install -y postgresql
 
-![postimage100](/assets/images/2026-05/postgres2.jpg)
+![Install postgresql on ubuntu server 24.04](/assets/images/2026-05/postgres2.jpg){: .postimage100 }
 [Install postgresql on ubuntu server 24.04](/assets/images/2026-05/postgres2.jpg){: .center-image }
 
 once the installation is completed, execute following command to verify if the postgresql is installed properly
@@ -42,14 +42,14 @@ once the installation is completed, execute following command to verify if the p
 
 it should retrn the installed postgresql version on the command line interface (cli)
 
-![postimage100](/assets/images/2026-05/postgres3.jpg)
+![Check installed postgres version](/assets/images/2026-05/postgres3.jpg){: .postimage100 }
 [Check installed postgres version](/assets/images/2026-05/postgres3.jpg){: .center-image }
 
 enable postgresql services
 
 	sudo systemctl enable postgresql
 
-![postimage100](/assets/images/2026-05/postgres4.jpg)
+![Enable postgresql on ubuntu 24.04](/assets/images/2026-05/postgres4.jpg){: .postimage100 }
 [Enable postgresql on ubuntu 24.04](/assets/images/2026-05/postgres4.jpg){: .center-image }
 
 start postgresql services
@@ -64,19 +64,19 @@ check on the ps
 
 	ps -ax | grep postgres
 
-![postimage100](/assets/images/2026-05/postgres6.jpg)
+![Check if postgresql is running on the daemon	](/assets/images/2026-05/postgres6.jpg){: .postimage100 }
 [Check if postgresql is running on the daemon	](/assets/images/2026-05/postgres6.jpg){: .center-image }
 
 check on the specific postgres services to find the actual health status (replace 16-main with the actual installed postgresql version)
 
 	sudo systemctl status postgresql@16-main
 
-![postimage100](/assets/images/2026-05/postgres5.jpg)
+![Check postgresql system status](/assets/images/2026-05/postgres5.jpg){: .postimage100 }
 [Check postgresql system status](/assets/images/2026-05/postgres5.jpg){: .center-image }
 
 or the health status of postgresql can also be checked on psql version command (recommended, as it show clear status of the postgresql system health)
 
-![postimage100](/assets/images/2026-05/postgres7.jpg)
+![Postgresql health check via psql](/assets/images/2026-05/postgres7.jpg){: .postimage100 }
 [Postgresql health check via psql](/assets/images/2026-05/postgres7.jpg){: .center-image }
 
 set the default password for **postgres** user
@@ -101,7 +101,7 @@ listen from all address (ip) on the postgresql.conf
 
 	listen_addresses = '*'
 
-![postimage100](/assets/images/2026-05/postgres9.jpg)
+![Accept incoming connection from all sources](/assets/images/2026-05/postgres9.jpg){: .postimage100 }
 [Accept incoming connection from all sources](/assets/images/2026-05/postgres9.jpg){: .center-image }
 
 edit the postgresql.conf using following command
@@ -114,7 +114,7 @@ allow for all ip on the pg_hba.conf
 host    all             postgres        0.0.0.0/0      md5
 ```
 
-![postimage100](/assets/images/2026-05/postgres10.jpg)
+![Allow all ip addresses to access postgresql](/assets/images/2026-05/postgres10.jpg){: .postimage100 }
 [Allow all ip addresses to access postgresql](/assets/images/2026-05/postgres10.jpg){: .center-image }
 
 edit the pg_hba.conf using following command
@@ -135,7 +135,7 @@ to stop postgresql
 
 ## Test Connection using Postgresql client
 
-![postimage100](/assets/images/2026-05/postgres11.jpg)
+![Connect to postgresql instances using pgadmin tools](/assets/images/2026-05/postgres11.jpg){: .postimage100 }
 [Connect to postgresql instances using pgadmin tools](/assets/images/2026-05/postgres11.jpg){: .center-image }
 
 The most recommended way to connect into postgresql is through pgadmin. Create a new server and add the details of the server. use postgresql as the username and the password that we configured on the previous step. keep the post as it (5432) as didnt change the port.
@@ -148,7 +148,7 @@ SELECT datname FROM pg_database;
 
 it will listed down the available database on the postgresql instances. this is also an indication that postgresql is up and running and the connection is successfully established.
 
-![postimage100](/assets/images/2026-05/postgres12.jpg)
+![List down all available database on postgresql instances, checking the root privilages](/assets/images/2026-05/postgres12.jpg){: .postimage100 }
 [List down all available database on postgresql instances, checking the root privilages](/assets/images/2026-05/postgres12.jpg){: .center-image }
 
 
@@ -181,7 +181,7 @@ sudo -u postgres psql -c "SHOW shared_buffers;"
 sudo -u postgres psql -c "SHOW work_mem;"
 ```
 
-![postimage100](/assets/images/2026-05/postgres13.jpg)
+![Validate configuration updates on postgresql](/assets/images/2026-05/postgres13.jpg){: .postimage100 }
 [Validate configuration updates on postgresql](/assets/images/2026-05/postgres13.jpg){: .center-image }
 
 

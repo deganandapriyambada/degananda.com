@@ -10,7 +10,7 @@ objective: To identify the market segment among top four programming language fo
 deliverables: article & illustration
 ---
 
-![postimage100](/assets/images/2026-02/erd3.jpg)
+![Nodejs, java, golang and rust has different strength and positioning, best way is to utilize all of them depend on the situation and usecases](/assets/images/2026-02/erd3.jpg){: .postimage100 }
 [Nodejs, java, golang and rust has different strength and positioning, best way is to utilize all of them depend on the situation and usecases](/assets/images/2026-02/erd3.jpg){: .center-image }
 
 # NodeJS and Java are like daily car while Golang and Rust is more for circuit purposes.

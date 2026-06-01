@@ -41,7 +41,7 @@ a battery perfromance grading will be determined on following features
 
 ## Data Sets
 
-![postimage100](/assets/images/2025-05/dataset.jpg)
+![a Mock Data set for Battery specs and pre defined grading](/assets/images/2025-05/dataset.jpg){: .postimage100 }
 [a Mock Data set for Battery specs and pre defined grading](/assets/images/2025-05/dataset.jpg){: .center-image }
 
     in real world scenario, data sets will be provided by the industry expert. bad data set will result in bad ML model. Resulting in false positive or false negative. Garbage In -> Garbage Out
@@ -68,7 +68,7 @@ confirm whether the package is successfully installed.
 
     pip list | grep pandas
 
-![postimage100](/assets/images/2025-05/batterycsv.jpg)
+![Battery grading dataset ](/assets/images/2025-05/batterycsv.jpg){: .postimage100 }
 [Battery grading dataset ](/assets/images/2025-05/batterycsv.jpg){: .center-image }
 
 previouly generated mock data set for battery grading with 12 features need to be loaded on the pandas data frame.

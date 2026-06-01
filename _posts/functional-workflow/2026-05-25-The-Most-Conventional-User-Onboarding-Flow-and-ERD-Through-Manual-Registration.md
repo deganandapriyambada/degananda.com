@@ -43,7 +43,7 @@ For gen-Z who prefer simplicity and speed will probably use SSO method. While, m
 
 ## Manual User Onboarding Process Flow
 
-![postimage100](/assets/images/2026-05/user-onboarding2.jpg)
+![Manual user onboarding using username and password swimlane diagram](/assets/images/2026-05/user-onboarding2.jpg){: .postimage100 }
 [Manual user onboarding using username and password swimlane diagram](/assets/images/2026-05/user-onboarding2.jpg){: .center-image }
 
 Below is the manual user onboarding process with **minimum required personal data** required. 
@@ -74,7 +74,7 @@ User account credentials details like email and password need to be stored on th
 
 above conditions can be modelled through following logical ERD.
 
-![postimage100](/assets/images/2026-05/user-onboarding1.jpg)
+![high level logical ERD for manual user onboarding using username and password](/assets/images/2026-05/user-onboarding1.jpg){: .postimage100 }
 [high level logical ERD for manual user onboarding using username and password](/assets/images/2026-05/user-onboarding1.jpg){: .center-image }
 
 

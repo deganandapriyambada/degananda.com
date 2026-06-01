@@ -73,7 +73,7 @@ Administrative
 
 Data Management foundation > Data Collection Foundation > Integration > Data Driven Long Term RCM Master Planning Custom Program on SAP PM.
 
-![postimage80](/assets/images/2025-10/apm1.jpg)
+![Implementation pre-requisite for auto generate long term RCM master plan](/assets/images/2025-10/apm1.jpg){: .postimage80 }
 [Implementation pre-requisite for auto generate long term RCM master plan](/assets/images/2025-10/apm1.jpg){: .center-image }
 
 Long term master plan creation can only be implemented if only if the neccesary data from SAP PM (both transactional and master data) has been properly setup and collected.

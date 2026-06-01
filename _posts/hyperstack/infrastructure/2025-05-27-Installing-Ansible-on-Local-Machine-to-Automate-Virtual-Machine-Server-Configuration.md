@@ -51,7 +51,7 @@ create new conda environment
 
     conda create --name ansible-tools python=3.11
 
-![postimage100](/assets/images/2025-05/ansible1.jpg)
+![Creating dedicated conda virtual environment for Ansible](/assets/images/2025-05/ansible1.jpg){: .postimage100 }
 [Creating dedicated conda virtual environment for Ansible](/assets/images/2025-05/ansible1.jpg){: .center-image }
 
 ## Activate the Ansible environment
@@ -66,7 +66,7 @@ to check the conda's environment list can be done using following command
 
 ## Install Ansible
 
-![postimage100](/assets/images/2025-05/ansible2.jpg)
+![Install ansible using conda-forge](/assets/images/2025-05/ansible2.jpg){: .postimage100 }
 [Install ansible using conda-forge](/assets/images/2025-05/ansible2.jpg){: .center-image }
 
 use following command to install ansible on conda
@@ -75,14 +75,14 @@ use following command to install ansible on conda
 
 ## Validate ansible installation
 
-![postimage100](/assets/images/2025-05/ansible3.jpg)
+![Check if ansible installed properly on PIP or python library](/assets/images/2025-05/ansible3.jpg){: .postimage100 }
 [Check if ansible installed properly on PIP or python library](/assets/images/2025-05/ansible3.jpg){: .center-image }
 
 validate whether ansible has been installed on the python library
 
     pip list | grep ansible
 
-![postimage100](/assets/images/2025-05/ansible4.jpg)
+![check ansible version on the console](/assets/images/2025-05/ansible4.jpg){: .postimage100 }
 [check ansible version on the console](/assets/images/2025-05/ansible4.jpg){: .center-image }
 
 check ansible version on console.

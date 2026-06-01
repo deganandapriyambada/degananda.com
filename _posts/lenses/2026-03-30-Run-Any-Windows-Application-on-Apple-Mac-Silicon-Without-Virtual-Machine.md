@@ -83,12 +83,12 @@ Install wineHQ using brew
 above command will install latest stable version of winehq .
 
 
-![postimage100](/assets/images/2026-05/wine1.jpg)
+![Install wine on mac OS through brew](/assets/images/2026-05/wine1.jpg){: .postimage100 }
 [Install wine on mac OS through brew](/assets/images/2026-05/wine1.jpg){: .center-image }
 
 note that brew will also automatically update and renew other packages which was previously installed using brew. Hence, it will take sometime
 
-![postimage100](/assets/images/2026-05/wine2.jpg)
+![Brew automatic updates of brew based old packages](/assets/images/2026-05/wine2.jpg){: .postimage100 }
 [Brew automatic updates of brew based old packages](/assets/images/2026-05/wine2.jpg){: .center-image }
 
 once the wine instllation is completed, check it using following command
@@ -97,34 +97,34 @@ once the wine instllation is completed, check it using following command
 
 it should return the version of wine installed on the system
 
-![postimage100](/assets/images/2026-05/wine3.jpg)
+![Check wine version on the CLI or terminal](/assets/images/2026-05/wine3.jpg){: .postimage100 }
 [Check wine version on the CLI or terminal](/assets/images/2026-05/wine3.jpg){: .center-image }
 
 ## Install windows application on the Bottle
 
 create wine **bottle**. Bottle is like a container which will store all the neccesary windows system files and has compatability with arm based mac os. Choose the latest wine (on this case is wine version 12 with sub version of 23.7.1)
 
-![postimage100](/assets/images/2026-05/wine4.jpg)
+![Create wine bottle](/assets/images/2026-05/wine4.jpg){: .postimage100 }
 [Create wine bottle](/assets/images/2026-05/wine4.jpg){: .center-image }
 
 enter the bottle name. It is recommended to put the application name as the bottle name to avoid confusion later on
 
-![postimage100](/assets/images/2026-05/wine5.jpg)
+![Specify the bottle name, use the program name so it will be trackable in the future](/assets/images/2026-05/wine5.jpg){: .postimage100 }
 [Specify the bottle name, use the program name so it will be trackable in the future](/assets/images/2026-05/wine5.jpg){: .center-image }
 
 Choose install software menu and choose the setup executable
 
-![postimage100](/assets/images/2026-05/wine6.jpg)
+![Choose setup exectuable menu on the wizard](/assets/images/2026-05/wine6.jpg){: .postimage100 }
 [Choose setup exectuable menu on the wizard](/assets/images/2026-05/wine6.jpg){: .center-image }
 
 select the executable files or portable program files from the directory.
 
-![postimage100](/assets/images/2026-05/wine7.jpg)
+![Find and choose the target program executable file or the portable program file](/assets/images/2026-05/wine7.jpg){: .postimage100 }
 [Find and choose the target program executable file or the portable program file](/assets/images/2026-05/wine7.jpg){: .center-image }
 
 wait until the bottle creation process is completed & Follow the installation wizard of the windows program
 
-![postimage100](/assets/images/2026-05/wine8.jpg)
+![Windows .exe program is successfully ran](/assets/images/2026-05/wine8.jpg){: .postimage100 }
 [Windows .exe program is successfully ran](/assets/images/2026-05/wine8.jpg){: .center-image }
 
 Its done & enjoy the wine on mac!

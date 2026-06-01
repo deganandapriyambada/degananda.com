@@ -73,7 +73,7 @@ note:
 
 # Layout
 
-![postimage80](/assets/images/2025-12/text-transformator7.jpg)
+![Text transformator tools proposed layout section](/assets/images/2025-12/text-transformator7.jpg){: .postimage80 }
 [Text transformator tools proposed layout section](/assets/images/2025-12/text-transformator7.jpg){: .center-image }
 
 There will be three divison of the screen. Header part will render the tools name & description. Core transformation tools component from toggle, input text up untill the transformed text visualization will be rendered on the center part and last is footer to render some hyperlinks about the tools information.
@@ -153,7 +153,7 @@ load the compiled app.dist.js
 
 open the index.html on browser by simply dragging the index.html to the brwoser 
 
-![postimage80](/assets/images/2025-12/text-transformator8.jpg)
+![Compiled react js into browser-ready script and loaded directly through file browser](/assets/images/2025-12/text-transformator8.jpg){: .postimage80 }
 [Compiled react js into browser-ready script and loaded directly through file browser](/assets/images/2025-12/text-transformator8.jpg){: .center-image }
 
 
@@ -175,12 +175,12 @@ now open it on the browser by accessing this url
 
 react will successfully rendered and react devtools issue wont be appear anymore on the browser console.
 
-![postimage80](/assets/images/2025-12/text-transformator9.jpg)
+![Run compiled react js through esbuild using python web server](/assets/images/2025-12/text-transformator9.jpg){: .postimage80 }
 [Run compiled react js through esbuild using python web server](/assets/images/2025-12/text-transformator9.jpg){: .center-image }
 
 ## Structurizing the main web Layout using React Create Element
 
-![postimage80](/assets/images/2026-01/wireframe1.jpg)
+![Actual section division based on the UI wireframe in HTML view](/assets/images/2026-01/wireframe1.jpg){: .postimage80 }
 [Actual section division based on the UI wireframe in HTML view](/assets/images/2026-01/wireframe1.jpg){: .center-image }
 
 
@@ -284,7 +284,7 @@ execute the chained command
 
 it shoud return shown some log message which tell that the esbuild is actively monitor the changes and http server status on the console as shown below
 
-![postimage80](/assets/images/2025-12/text-transformator10.jpg)
+![Now python web server is running together with esbuild watch process](/assets/images/2025-12/text-transformator10.jpg){: .postimage80 }
 [Now python web server is running together with esbuild watch process](/assets/images/2025-12/text-transformator10.jpg){: .center-image }
 
 # Web Design: React Element & CSS Styling

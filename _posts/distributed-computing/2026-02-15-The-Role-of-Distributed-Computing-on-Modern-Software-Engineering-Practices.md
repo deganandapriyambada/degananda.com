@@ -39,7 +39,7 @@ if you're on apple mac silicon laptop execute following command to get the CPU c
 
 it will shown the cpu specs as shown below
 
-![postimage100](/assets/images/2026-05/distributed1.jpg)
+![Available number of CPU Core](/assets/images/2026-05/distributed1.jpg){: .postimage100 }
 [Available number of CPU Core](/assets/images/2026-05/distributed1.jpg){: .center-image }
 
 transaction flow per single request on single cluster
@@ -165,7 +165,7 @@ Debian Bases (eg: ubuntu)
 
 wait until the installation process is completed.
 
-![postimage80](/assets/images/2026-03/ab1.jpg)
+![Brew will automatically update old packages before installing ab or httpd](/assets/images/2026-03/ab1.jpg){: .postimage80 }
 [Brew will automatically update old packages before installing ab or httpd](/assets/images/2026-03/ab1.jpg){: .center-image }
 
 note: for Mac OS users, brew install will automatically renew and update old brew packages, hence it will take sometime until the apache benchmark is completely installed.
@@ -176,7 +176,7 @@ validate whether apache AB is successfully installed by checking the apache AB c
 
 it should return the apache ab version installed on the systems as shown below
 
-![postimage80](/assets/images/2026-03/ab2.jpg)
+![Checking AB version on console to ensure AB is installed properly](/assets/images/2026-03/ab2.jpg){: .postimage80 }
 [Checking AB version on console to ensure AB is installed properly](/assets/images/2026-03/ab2.jpg){: .center-image }
 
 ## Run the HTTP API Server
@@ -213,12 +213,12 @@ replace 1000 with your desired target request and replace -c 1 with the number o
 
 2 concurrent user with 3K requests
 
-![postimage80](/assets/images/2026-03/ab3.jpg)
+![2 Concurrent user traffic test with apache benckmark](/assets/images/2026-03/ab3.jpg){: .postimage80 }
 [2 Concurrent user traffic test with apache benckmark](/assets/images/2026-03/ab3.jpg){: .center-image }
 
 20 concurrent user with 3K requests
 
-![postimage80](/assets/images/2026-03/ab4.jpg)
+![20 Concurrent user traffic test with apache benckmark](/assets/images/2026-03/ab4.jpg){: .postimage80 }
 [20 Concurrent user traffic test with apache benckmark](/assets/images/2026-03/ab4.jpg){: .center-image }
 
 with more users making request, single core cluster performance started to decline. Time per request is drop from 0.2ms to 2.2 ms (**11 times** slower).
@@ -237,7 +237,7 @@ Check CPU core on mac
 
 Current machines has 8 CPU cores as shown below
 
-![postimage80](/assets/images/2026-03/ab5.jpg)
+![Available CPU core on the local machine](/assets/images/2026-03/ab5.jpg){: .postimage80 }
 [Available CPU core on the local machine](/assets/images/2026-03/ab5.jpg){: .center-image }
 
 
@@ -299,12 +299,12 @@ if (cluster.isPrimary) {
 
 start the clustered express http API server
 
-![postimage80](/assets/images/2026-03/ab7.jpg)
+![8 clusters are spawned](/assets/images/2026-03/ab7.jpg){: .postimage80 }
 [8 clusters are spawned](/assets/images/2026-03/ab7.jpg){: .center-image }
 
 to ensure each worker is actually serving different request, use apache ab to sendout 8 requests with only one concurrent users.
 
-![postimage80](/assets/images/2026-03/ab6.jpg)
+![1 Concurrent user and 8 request in 1 second with clustered express HTTP API server](/assets/images/2026-03/ab6.jpg){: .postimage80 }
 [1 Concurrent user and 8 request in 1 second with clustered express HTTP API server](/assets/images/2026-03/ab6.jpg){: .center-image }
 
 as expected, each CPU (total 8 core or equivalent to 8 cluster) is serving one requests because nodeJS cluster is working using round-robin process execution principle.
@@ -316,12 +316,12 @@ Below are the performance benchmark for 8 requests performed by one concurrent u
 
 8 Clusters performance
 
-![postimage80](/assets/images/2026-03/ab9.jpg)
+![8 express node cluster with 1 concurrent user](/assets/images/2026-03/ab9.jpg){: .postimage80 }
 [8 express node cluster with 1 concurrent user](/assets/images/2026-03/ab9.jpg){: .center-image }
 
 1 Clusters performance
 
-![postimage80](/assets/images/2026-03/ab8.jpg)
+![1 express node cluster with 1 concurrent user](/assets/images/2026-03/ab8.jpg){: .postimage80 }
 [1 express node cluster with 1 concurrent user](/assets/images/2026-03/ab8.jpg){: .center-image }
 
 Single cluster is only faster when the throughput is low as it doesnt have to utilize the memory to perform the round-robin orchestration and managing multiple cluster which cause performance overhead.
@@ -332,17 +332,17 @@ Scenario: 10K requests with 50 concurrent users
 
 8 Clusters performance (with logging)
 
-![postimage80](/assets/images/2026-03/ab10.jpg)
+![8 express nodes cluster with 50 concurrent user and 10K requests, with console logging](/assets/images/2026-03/ab10.jpg){: .postimage80 }
 [8 express nodes cluster with 50 concurrent user and 10K requests, with console logging](/assets/images/2026-03/ab10.jpg){: .center-image }
 
 1 Clusters performance
 
-![postimage80](/assets/images/2026-03/ab11.jpg)
+![1 express nodes cluster with 50 concurrent user and 10K requests, with console logging](/assets/images/2026-03/ab11.jpg){: .postimage80 }
 [1 express nodes cluster with 50 concurrent user and 10K requests, with console logging](/assets/images/2026-03/ab11.jpg){: .center-image }
 
 8 Clusters performance (without logging)
 
-![postimage80](/assets/images/2026-03/ab12.jpg)
+![8 express nodes cluster with 50 concurrent user and 10K requests, no console logging](/assets/images/2026-03/ab12.jpg){: .postimage80 }
 [8 express nodes cluster with 50 concurrent user and 10K requests, no console logging](/assets/images/2026-03/ab12.jpg){: .center-image }
 
 Now, the multi clustered express based API is **faster** than single clustered express based API.
