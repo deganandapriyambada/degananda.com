@@ -26,7 +26,7 @@ There are three main component that need to be installed before azure function c
 
 Install azure resource extension on VSC(Visual studio code) to integrate VSC with azure environment. 
 
-![postimage100](/assets/images/2025-07/az-function6.png)
+![Azure Resources extension on VSC to authenticate into azure subscriptions](/assets/images/2025-07/az-function6.png){: .postimage100 }
 [Azure Resources extension on VSC to authenticate into azure subscriptions](/assets/images/2025-07/az-function6.png){: .center-image }
     
 Account details need to be provided once the extension is installed, hence the VSC will be authenticated to the azure subscriptions
@@ -39,7 +39,7 @@ get the installer for azure core function tools for windows on following site
 
 scroll down on the readme.md files and find the download links.
 
-![postimage100](/assets/images/2025-07/az-function1.png)
+![Azure Function core tools for windows](/assets/images/2025-07/az-function1.png){: .postimage100 }
 [Azure Function core tools for windows](/assets/images/2025-07/az-function1.png){: .center-image }
 
 its recommended to use the latest version of azure function (Currently as this article is written, the last version is v4) for best performance and stability.
@@ -58,7 +58,7 @@ Its recommended to check whether the azure function core tools has been installe
 
     npm list -g azure-functions-core-tools --depth=0
 
-![postimage80](/assets/images/2025-07/az-function2.png)
+![Check if azure core function tools has been installed on NPM](/assets/images/2025-07/az-function2.png){: .postimage80 }
 [Check if azure core function tools has been installed on NPM](/assets/images/2025-07/az-function2.png){: .center-image }
 
 if the above command return "-- (empty)", it means that azure core functions tools is not yet installed.
@@ -73,7 +73,7 @@ execute following command on the terminal/powershell
 
     func
 
-![postimage100](/assets/images/2025-07/az-function4.png)
+![Azure Function core tools on CLI](/assets/images/2025-07/az-function4.png){: .postimage100 }
 [Azure Function core tools on CLI](/assets/images/2025-07/az-function4.png){: .center-image }
 
 
@@ -81,7 +81,7 @@ if the function returning a CLI command list for "func" then the installation is
 
 ## (NPM) Core Function tools
 
-![postimage80](/assets/images/2025-07/az-function3.png)
+![(After NPM Install) Check if azure core function tools has been installed on NPM](/assets/images/2025-07/az-function3.png){: .postimage80 }
 [(After NPM Install) Check if azure core function tools has been installed on NPM](/assets/images/2025-07/az-function3.png){: .center-image }
 
 check the NPM list and find whether core function tools has been successfully installed or not
@@ -129,7 +129,7 @@ execute following command
 
     func host start --verbose
 
-![postimage80](/assets/images/2025-07/az-function7.png)
+![Azure function eventhub trigger on local windows via func](/assets/images/2025-07/az-function7.png){: .postimage80 }
 [Azure function eventhub trigger on local windows via func](/assets/images/2025-07/az-function7.png){: .center-image }
 
 ## (Option 2)  Run the function locally via NPM
@@ -138,7 +138,7 @@ execute following command
 
     npm run start
 
-![postimage80](/assets/images/2025-07/az-function8.png)
+![Azure function eventhub trigger on local windows using NPM](/assets/images/2025-07/az-function8.png){: .postimage80 }
 [Azure function eventhub trigger on local windows using NPM](/assets/images/2025-07/az-function8.png){: .center-image }
 
 
@@ -156,7 +156,7 @@ If more than version of azure core function tools are installed on same system a
 
 Its either uninstall the core function tools @ NPM or core function tools on the windows.
 
-![postimage80](/assets/images/2025-07/az-function5.png)
+![Uninstall azure function core tools on windows](/assets/images/2025-07/az-function5.png){: .postimage80 }
 [Uninstall azure function core tools on windows](/assets/images/2025-07/az-function5.png){: .center-image }
 
 If nodejs azure function is used, then its adviseable to uninstlal core function tools on windows via installation wizard.
@@ -259,6 +259,6 @@ Reinstall it on **NPM locally**
 
 Ensure the node_modules/azure-functions-core-tools extracted properly.
 
-![postimage80](/assets/images/2025-07/az-function9.png)
+![properly extracted azure function core tools on node_modules](/assets/images/2025-07/az-function9.png){: .postimage80 }
 [properly extracted azure function core tools on node_modules](/assets/images/2025-07/az-function9.png){: .center-image }
 

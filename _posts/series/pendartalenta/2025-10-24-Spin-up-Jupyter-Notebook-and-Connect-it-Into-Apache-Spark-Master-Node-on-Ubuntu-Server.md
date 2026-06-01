@@ -37,7 +37,7 @@ both of the vm has been placed into single one virtual network(or can also be ca
 
 ensure both of the VM can communicate.
 
-![postimage80](/assets/images/2025-10/jupyter1.jpg)
+![both VM1 and Vm2 can communicate with each other through ping(in this case it is not blocked.)](/assets/images/2025-10/jupyter1.jpg){: .postimage80 }
 [both VM1 and Vm2 can communicate with each other through ping(in this case it is not blocked.)](/assets/images/2025-10/jupyter1.jpg){: .center-image }
 
 *ping can be use to test if these method is not blocked.
@@ -125,12 +125,12 @@ open the spark logs and ensure both master and worker already bind to the privat
 
 master node status
 
-![postimage80](/assets/images/2025-10/jupyter3.jpg)
+![spark master worker is running and binded to private ip](/assets/images/2025-10/jupyter3.jpg){: .postimage80 }
 [spark master worker is running and binded to private ip](/assets/images/2025-10/jupyter3.jpg){: .center-image }
 
 worker node status
 
-![postimage80](/assets/images/2025-10/jupyter2.jpg)
+![spark master worker is running and binded to private ip](/assets/images/2025-10/jupyter2.jpg){: .postimage80 }
 [spark master worker is running and binded to private ip](/assets/images/2025-10/jupyter2.jpg){: .center-image }
 
 # Install Jupyter Notebook on the VM 1
@@ -197,7 +197,7 @@ create python virtual environment
 
 expected output 
 
-![postimage80](/assets/images/2025-10/jupyter4.jpg)
+![newly created python virtual environment](/assets/images/2025-10/jupyter4.jpg){: .postimage80 }
 [newly created python virtual environment](/assets/images/2025-10/jupyter4.jpg){: .center-image }
 
 ```json
@@ -261,14 +261,14 @@ excute following command to start the jupyter and expose the UI
 
 it will automatically opened a browser. 
 
-![postimage80](/assets/images/2025-10/jupyter5.jpg)
+![jupyter notebook require token as authorization proof](/assets/images/2025-10/jupyter5.jpg){: .postimage80 }
 [jupyter notebook require token as authorization proof](/assets/images/2025-10/jupyter5.jpg){: .center-image }
 
 input the token which can be seen on the console.
 
 ## Hello world test
 
-![postimage80](/assets/images/2025-10/jupyter6.jpg)
+![Hello World from jupyter notebook!](/assets/images/2025-10/jupyter6.jpg){: .postimage80 }
 [Hello World from jupyter notebook!](/assets/images/2025-10/jupyter6.jpg){: .center-image }
 
 try to create an ipynb files and write hello world script.
@@ -320,7 +320,7 @@ source ~/.bashrc
 
 ## Submit job to apache spark worker.
 
-![postimage80](/assets/images/2025-10/jupyter7.jpg)
+![create spark session and register application to worker](/assets/images/2025-10/jupyter7.jpg){: .postimage80 }
 [create spark session and register application to worker](/assets/images/2025-10/jupyter7.jpg){: .center-image }
 
 add this to the ipynb
@@ -345,7 +345,7 @@ done! &mdash; if, jupyter vm can connect with the spark worker node, the new app
 
 job details can be monitored on the spark ui:jobs as shown below
 
-![postimage80](/assets/images/2025-10/jupyter8.jpg)
+![spark ui to check the job status](/assets/images/2025-10/jupyter8.jpg){: .postimage80 }
 [spark ui to check the job status](/assets/images/2025-10/jupyter8.jpg){: .center-image }
 
 ### Additional Information
@@ -356,7 +356,7 @@ however, provisioning a vpn server is one additional price.
 
 there is work around(should not be used for production) by using ssh tunneling
 
-![postimage80](/assets/images/2025-10/jupyter9.jpg)
+![port forwarding using ssh tunneling to access the private url of spark ui](/assets/images/2025-10/jupyter9.jpg){: .postimage80 }
 [port forwarding using ssh tunneling to access the private url of spark ui](/assets/images/2025-10/jupyter9.jpg){: .center-image }
 
 execute following command

@@ -48,12 +48,12 @@ Terraform is available on brew package manager.
 
 updating homebrew to add terraform repo
 
-![postimage100](/assets/images/2025-05/terra1.jpg)
+![Add terraform repo to brew package manager](/assets/images/2025-05/terra1.jpg){: .postimage100 }
 [Add terraform repo to brew package manager](/assets/images/2025-05/terra1.jpg){: .center-image }
 
 installing terraform
 
-![postimage100](/assets/images/2025-05/terra2.jpg)
+![Install terraform via brew on Mac OS](/assets/images/2025-05/terra2.jpg){: .postimage100 }
 [Install terraform via brew on Mac OS](/assets/images/2025-05/terra2.jpg){: .center-image }
 
 ## Installation for windows
@@ -74,7 +74,7 @@ example for debian / ubuntu server.
 
 # Validating the Installation
 
-![postimage100](/assets/images/2025-05/terra3.jpg)
+![Validating Terraform Installation Status](/assets/images/2025-05/terra3.jpg){: .postimage100 }
 [Validating Terraform Installation Status](/assets/images/2025-05/terra3.jpg){: .center-image }
 
 

@@ -106,7 +106,7 @@ check if the host machine (where docker builder/buildx is running) has dockerx
 
     docker buildx version
 
-![postimage100](/assets/images/2025-08/arm1.jpg)
+![Checking whether docker buildx has been installed on the host machine](/assets/images/2025-08/arm1.jpg){: .postimage100 }
 [Checking whether docker buildx has been installed on the host machine](/assets/images/2025-08/arm1.jpg){: .center-image }
 
 for example from above images, it shown that the builder machine already has docker buildx installed.
@@ -128,7 +128,7 @@ use following command to install qemu
 
 ## Build
 
-![postimage100](/assets/images/2025-08/arm2.jpg)
+![Install and activate QEMU for Docker Buildx](/assets/images/2025-08/arm2.jpg){: .postimage100 }
 [Install and activate QEMU for Docker Buildx](/assets/images/2025-08/arm2.jpg){: .center-image }
 
 integrate QEMU to the docker buildx

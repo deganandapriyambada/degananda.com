@@ -39,7 +39,7 @@ create a new project using python 3.12 or 3.11 with MiniConda/AnaConda. used Min
 
 if project creation is success, it will produce following folder skeleton.
 
-![postimage100](/assets/images/2025-05/condapybamm.jpg)
+![Miniconda Project Skeleton](/assets/images/2025-05/condapybamm.jpg){: .postimage100 }
 [Miniconda Project Skeleton](/assets/images/2025-05/condapybamm.jpg){: .center-image }
 
 active the miniconda virtual environment

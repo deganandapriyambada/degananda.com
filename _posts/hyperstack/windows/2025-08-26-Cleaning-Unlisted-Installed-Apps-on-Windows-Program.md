@@ -15,7 +15,7 @@ deliverables: Article
 
 # Disk Free Space is Matter for Software Engineer
 
-![postimage100](/assets/images/2025-08/disk1.jpg)
+![Low Disk Spaces](/assets/images/2025-08/disk1.jpg){: .postimage100 }
 [Low Disk Spaces](/assets/images/2025-08/disk1.jpg){: .center-image }
 
 For software engineer who use a laptop or PC with limited storage size(approximately 256 gigs or less can be categorized as low storage). Cleaning unnecessary apps becoming important task after a project ended. Otherwise, new stack for new project can't be installed and configured.

@@ -50,7 +50,7 @@ Organization with IT as supporting tools tends(not the core business process) to
 
 ## Combining EA, ITOM and ITSM as ITOT process philosophy
 
-![postimage100](/assets/images/2025-12/EA.svg)
+![High level data flow for OCR Technologies](/assets/images/2025-12/EA.svg){: .postimage100 }
 [High level data flow for OCR Technologies](/assets/images/2025-12/EA.jpg){: .center-image }
 
 Idelly, the EA document is combining three difference IT governance type such as : EA itself, ITOM and ITSM. Each of  five component of information system whcih consist of : hardware, software, data, process and people will be governed by one or more IT governance type.

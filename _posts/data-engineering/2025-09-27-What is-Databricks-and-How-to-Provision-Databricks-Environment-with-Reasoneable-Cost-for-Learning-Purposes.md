@@ -105,13 +105,13 @@ Go to following url
 
 register with google or preferred authentication method
 
-![postimage100](/assets/images/2025-09/dbx1.jpg)
+![Register and authenticate on databricks free instances using google or microsoft account](/assets/images/2025-09/dbx1.jpg){: .postimage100 }
 [Register and authenticate on databricks free instances using google or microsoft account](/assets/images/2025-09/dbx1.jpg){: .center-image }
 
 
 done, the free databricks instances now can be accessed.
 
-![postimage100](/assets/images/2025-09/dbx2.jpg)
+![Free databricks workspace now can be accessed](/assets/images/2025-09/dbx2.jpg){: .postimage100 }
 [Free databricks workspace now can be accessed](/assets/images/2025-09/dbx2.jpg){: .center-image }
 
 ## Cost Comparison Between Azure, GCP and AWS to Host Databricks Instances for Instances with Lowest Computing Power

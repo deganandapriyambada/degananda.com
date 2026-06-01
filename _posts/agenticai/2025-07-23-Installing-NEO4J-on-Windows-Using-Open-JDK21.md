@@ -32,7 +32,7 @@ check java version
 
 expected output
 
-![postimage100](/assets/images/2025-07/neo4j1.jpg)
+![Checking Java Installation Status](/assets/images/2025-07/neo4j1.jpg){: .postimage100 }
 [Checking Java Installation Status](/assets/images/2025-07/neo4j1.jpg){: .center-image }
 
 
@@ -49,7 +49,7 @@ check java home
 
 expected output (should be pointed to the libericaJDK folder)
 
-![postimage100](/assets/images/2025-07/neo4j2.jpg)
+![Determine JDK Distribution](/assets/images/2025-07/neo4j2.jpg){: .postimage100 }
 [Determine JDK Distribution](/assets/images/2025-07/neo4j2.jpg){: .center-image }
 
 
@@ -59,7 +59,7 @@ expected output (should be pointed to the libericaJDK folder)
 
 go to following page 
 
-![postimage100](/assets/images/2025-07/neo4j3.jpg)
+![Choosing NEO4J Installer for Windows Community Edition](/assets/images/2025-07/neo4j3.jpg){: .postimage100 }
 [Choosing NEO4J Installer for Windows Community Edition](/assets/images/2025-07/neo4j3.jpg){: .center-image }
 
 
@@ -78,7 +78,7 @@ Before extracting the zip file, it is recommended to validate SHA256 between the
 
     Get-FileHash -Algorithm SHA256 "C:\path\to\your.zip"
 
-![postimage100](/assets/images/2025-07/neo4j4.jpg)
+![Extracted Neo4J Installation Files & Folder](/assets/images/2025-07/neo4j4.jpg){: .postimage100 }
 [Extracted Neo4J Installation Files & Folder](/assets/images/2025-07/neo4j4.jpg){: .center-image }
 
 
@@ -118,7 +118,7 @@ Add following path
 
 As shown in below image
 
-![postimage100](/assets/images/2025-07/neo4j1.jpg)
+![Add NEO4J Path on Windows System(User) Environment Varaiable](/assets/images/2025-07/neo4j1.jpg){: .postimage100 }
 [Add NEO4J Path on Windows System(User) Environment Varaiable](/assets/images/2025-07/neo4j1.jpg){: .center-image }
 
 
@@ -139,7 +139,7 @@ C:\Users\degananda.ferdian\Documents\Solution Architect\Neo4J\neo4j-community-20
 
 ## Start NEO4J
 
-![postimage100](/assets/images/2025-07/neo4j6.jpg)
+![Starting up NEO4J from console](/assets/images/2025-07/neo4j6.jpg){: .postimage100 }
 [Starting up NEO4J from console](/assets/images/2025-07/neo4j6.jpg){: .center-image }
 
 
@@ -149,7 +149,7 @@ execute following command to start NEO4J in port 7474
 
 ## Access Neo4J on Browser
 
-![postimage100](/assets/images/2025-07/neo4j7.jpg)
+![Login to NEO4J Dashboard via web browser](/assets/images/2025-07/neo4j7.jpg){: .postimage100 }
 [Login to NEO4J Dashboard via web browser](/assets/images/2025-07/neo4j7.jpg){: .center-image }
 
 open any browser of you choice and go to below url

@@ -14,7 +14,7 @@ deliverables: article
 
 # Major Factor That Affect Productivity
 
-![postimage100](/assets/images/2025-07/nasal5.jpg)
+![Sleep Quality and Occupational well being affect productivity](/assets/images/2025-07/nasal5.jpg){: .postimage100 }
 [Sleep Quality and Occupational well being affect productivity](/assets/images/2025-07/nasal5.jpg){: .center-image }
 
 Health and Sleep are the foundation of productivity. As a professional, maintaining healthy body and consistent sleep quality are critical. Same as keeping the work deliverables.
@@ -43,7 +43,7 @@ On 21st century, there are a lot of product to help maintaining sleep quality. A
 
 ## Nasal Strips Breath & Mouth Tape
 
-![postimage100](/assets/images/2025-07/nasal1.jpg)
+![Nasal Strip Breath](/assets/images/2025-07/nasal1.jpg){: .postimage100 }
 [Nasal Strip Breath](/assets/images/2025-07/nasal1.jpg){: .center-image }
 
 ### Benefit of Nasal Strips Breath
@@ -52,7 +52,7 @@ a Tape which usually formed using adhesive component  (sticky material to glued 
 
 The main functionality of nasal strips is to **widen nosetril** (both of them).
 
-![postimage100](/assets/images/2025-07/nasal2.jpg)
+![Nasal Strip Breath will ensure those nosetrils are widely opened](/assets/images/2025-07/nasal2.jpg){: .postimage100 }
 [Nasal Strip Breath will ensure those nosetrils are widely opened](/assets/images/2025-07/nasal2.jpg){: .center-image }
 
 <hr />
@@ -68,7 +68,7 @@ Benefit of Nasal Strip Breath (Node tape)
 
 a mouth tape can be placed on mouth during sleep to ensure air are flowing fully thorugh the nasal system instead of via mouth.
 
-![postimage100](/assets/images/2025-07/nasal3.jpg)
+![Mouth tape to ensure nasal breathing during sleep](/assets/images/2025-07/nasal3.jpg){: .postimage100 }
 [Mouth tape to ensure nasal breathing during sleep](/assets/images/2025-07/nasal3.jpg){: .center-image }
 
 
@@ -82,7 +82,7 @@ There are some benefit of sleeping using nasal.
 
 ## Sleep Headphone
 
-![postimage100](/assets/images/2025-07/nasal6.jpg)
+![Sleep headphone help relax by listening to music or podcast](/assets/images/2025-07/nasal6.jpg){: .postimage100 }
 [Sleep headphone help relax by listening to music or podcast](/assets/images/2025-07/nasal6.jpg){: .center-image }
 
 Sleep headphone is a three in one devices which can be used as headband, eye mask and has internal speaker to listen to music or podcast.
@@ -118,7 +118,7 @@ Physical activity can help in better sleep quality. it has following effect :
 ## Physical Exercises Option for Better Sleep Quality
 
 
-![postimage100](/assets/images/2025-07/nasal4.jpg)
+![Recommended Exercies for Better Sleep Quality](/assets/images/2025-07/nasal4.jpg){: .postimage100 }
 [Recommended Exercies for Better Sleep Quality](/assets/images/2025-07/nasal4.jpg){: .center-image }
 
 
@@ -155,7 +155,7 @@ Some benefit of taking magnesium daily which can resulted in better sleep.
 ### Source of Magnesium
 
 
-![postimage100](/assets/images/2025-07/nasal8.jpg)
+![Food with high magnesium for Better Sleep Quality](/assets/images/2025-07/nasal8.jpg){: .postimage100 }
 [Food with high magnesium for Better Sleep Quality](/assets/images/2025-07/nasal8.jpg){: .center-image }
 
 Below are the numerous sources of magnesium. Ordered from higher magnesium content until the lower one.
@@ -181,5 +181,5 @@ Below are the numerous sources of magnesium. Ordered from higher magnesium conte
 
 From above recommendation, finally here the writers shopping cart.
 
-![postimage100](/assets/images/2025-07/nasal7.jpg)
+![Final shopping cart item for sleep quality assistance tools](/assets/images/2025-07/nasal7.jpg){: .postimage100 }
 [Final shopping cart item for sleep quality assistance tools](/assets/images/2025-07/nasal7.jpg){: .center-image }

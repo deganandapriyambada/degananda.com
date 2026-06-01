@@ -61,7 +61,7 @@ Navigate to the cloudflare dahsboard and click the create application button tha
 
 Choose "connect to github" options to allow cloudflare pages fetch the latest code from the github repository
 
-![postimage100](/assets/images/2026-05/cf1.jpg)
+![choose connect to github in order to integrate your github repository](/assets/images/2026-05/cf1.jpg){: .postimage100 }
 [choose connect to github in order to integrate your github repository](/assets/images/2026-05/cf1.jpg){: .center-image }.
 
 ## Select Github Account
@@ -70,7 +70,7 @@ If your browser is authenticated to the github and it use same email with your c
 
 Choose the github account that store the project source code.
 
-![postimage100](/assets/images/2026-05/cf2.jpg)
+![choose the repository name](/assets/images/2026-05/cf2.jpg){: .postimage100 }
 [choose the repository name](/assets/images/2026-05/cf2.jpg){: .center-image }.
 
 
@@ -80,7 +80,7 @@ It is recommended to only allow cloudflare access selected repository that hold 
 
 wait until the porcess is finished.
 
-![postimage100](/assets/images/2026-05/cf3.jpg)
+![allow only specific repository otherwise cloudflare can access all your repository](/assets/images/2026-05/cf3.jpg){: .postimage100 }
 [allow only specific repository otherwise cloudflare can access all your repository](/assets/images/2026-05/cf3.jpg){: .center-image }.
 
 ## Add repository to the cloudflare
@@ -89,7 +89,7 @@ Click again the continue to github, now cloudflare  will display the selected re
 
 tick or click on the repository name until "check" icon is appeared on the right side of the repository name.
 
-![postimage100](/assets/images/2026-05/cf4.jpg)
+![Checkmarks icon indicating cloudflare is successfully connected to the github](/assets/images/2026-05/cf4.jpg){: .postimage100 }
 [Checkmarks icon indicating cloudflare is successfully connected to the github](/assets/images/2026-05/cf4.jpg){: .center-image }.
 
 Click next to proceed deploying the jekyll project.
@@ -103,7 +103,7 @@ below is the build command
 Bundle install command will install all neccesary ruby package dependencies that are stated on the Gemfile and Gemfile.loc, then it will be chained with jekyll build command to compile all the jekyll liquid syntax and ruby files and store it into **_site** folder (jekyll output/dist folder)
 
 
-![postimage100](/assets/images/2026-05/cf5.jpg)
+![Deployment command if using wrangler for github worker](/assets/images/2026-05/cf5.jpg){: .postimage100 }
 [Deployment command if using wrangler for github worker](/assets/images/2026-05/cf5.jpg){: .center-image }.
 
 and below is the deploy command
@@ -130,7 +130,7 @@ directory = "./_site/"
 
 Click deploy and wait until the deployment progress is completed.
 
-![postimage100](/assets/images/2026-05/cf6.jpg)
+![wait deployment process on cloudflare worker is completed](/assets/images/2026-05/cf6.jpg){: .postimage100 }
 [wait deployment process on cloudflare worker is completed](/assets/images/2026-05/cf6.jpg){: .center-image }.
 
 
@@ -156,7 +156,7 @@ go to the dashboard of your apps and click on domains and routes menu
 
 enable workers.dev domain by right clicking on the three horizontal dots and choose "enable domain"
 
-![postimage100](/assets/images/2026-05/cf7.jpg)
+![Enable domain routing to make the website is accessible from public](/assets/images/2026-05/cf7.jpg){: .postimage100 }
 [Enable domain routing to make the website is accessible from public](/assets/images/2026-05/cf7.jpg){: .center-image }.
 
 note: cloudflare is providing free subdomain at no cost from the workers.dev main domain. However, custom domain registration is also available to be bough from cloudflare domain registration (they also include free SSL).
@@ -172,7 +172,7 @@ Open following url on browser
 Now its done.
 
 
-![postimage100](/assets/images/2026-05/cf8.jpg)
+![Our website now is successfully hosted on top of cloudflare workers](/assets/images/2026-05/cf8.jpg){: .postimage100 }
 [Our website now is successfully hosted on top of cloudflare workers](/assets/images/2026-05/cf8.jpg){: .center-image }.
 
 # Alternative Jekyll Deployment Options using CloudFlare Page
@@ -192,7 +192,7 @@ below are straightforward steps to use cloudflare pages to deploy jekyll project
 
 import an existing git repository & select the repository
 
-![postimage100](/assets/images/2026-05/cf9.jpg)
+![Choose the jekyll repository location](/assets/images/2026-05/cf9.jpg){: .postimage100 }
 [Choose the jekyll repository location](/assets/images/2026-05/cf9.jpg){: .center-image }.
 
 choose following configuration:
@@ -204,19 +204,19 @@ choose following configuration:
 note: if your project has different output directory kindly adjust the value.
 
 
-![postimage100](/assets/images/2026-05/cf10.jpg)
+![Input correct cloudflare pages configuration for jekyll and deploy it](/assets/images/2026-05/cf10.jpg){: .postimage100 }
 [Input correct cloudflare pages configuration for jekyll and deploy it](/assets/images/2026-05/cf10.jpg){: .center-image }.
 
 click save & deploy
 
 wait until deployment is completed.
 
-![postimage100](/assets/images/2026-05/cf11.jpg)
+![wait the deployment process of cloudframe pages from github repository is completed](/assets/images/2026-05/cf11.jpg){: .postimage100 }
 [wait the deployment process of cloudframe pages from github repository is completed](/assets/images/2026-05/cf11.jpg){: .center-image }.
 
 once the deployment is success click continue to project
 
-![postimage100](/assets/images/2026-05/cf12.jpg)
+![Jekyll based now accessible from the browser as its successfully deployed](/assets/images/2026-05/cf12.jpg){: .postimage100 }
 [Jekyll based now accessible from the browser as its successfully deployed](/assets/images/2026-05/cf12.jpg){: .center-image }.
 
 now access it: 

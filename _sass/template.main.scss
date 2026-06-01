@@ -1676,6 +1676,15 @@ body {
   padding-right: 10px;
 }
 
+.popnav-left {
+  padding-left: 35px;
+}
+
+.popnav-right {
+  padding-right: 15px;
+}
+
+
 
 .highlight-redirect ul li i,
 .highlight-redirect ul li a {
@@ -1873,7 +1882,13 @@ body {
   font-size: 15px;
   font-weight: 400;
   color: #2f2f2f;
-  padding: 5px 0px 5px 0px;
+  padding: 5px 30px 5px 0px;
+  box-sizing: border-box;
+}
+
+.language-mermaid {
+  display: flex;
+  justify-content: center;
 }
 
 .commit-list {
@@ -1945,6 +1960,7 @@ body {
 
 .profile-contact a {
   font-size: 18px;
+  padding-right: 10px;
   color: #000;
 }
 
@@ -2929,7 +2945,7 @@ a.gen-links {
   padding-right: 5px;
 }
 
-img[alt=postimage80] {
+img.postimage80 {
   width: 80%;
   max-width: 80%;
   height: auto;
@@ -2943,7 +2959,7 @@ img[alt=postimage80] {
   margin: 0 auto;
 }
 
-img[alt=postimage60] {
+img.postimage60 {
   width: 60%;
   max-width: 60%;
   height: auto;
@@ -2957,7 +2973,7 @@ img[alt=postimage60] {
   margin: 0 auto;
 }
 
-img[alt=postimage100] {
+img.postimage100 {
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -2969,9 +2985,9 @@ img[alt=postimage100] {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-img[alt=postimage100]:hover,
-img[alt=postimage80]:hover,
-img[alt=postimage60]:hover {
+img.postimage100:hover,
+img.postimage80:hover,
+img.postimage60:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
@@ -3476,7 +3492,6 @@ tbody tr:hover {
   .related-author,
   .profile-shortdesc,
   .summary-content,
-  .post-feedback,
   .pagination,
   .foot-stats,
   .site-category-content li>a,
@@ -3484,6 +3499,13 @@ tbody tr:hover {
     font-size: 1.25rem;
     line-height: 1.5;
   }
+
+  .post-feedback {
+    font-size: 1.1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
 
   .theme-divider-word,
   .section-title {

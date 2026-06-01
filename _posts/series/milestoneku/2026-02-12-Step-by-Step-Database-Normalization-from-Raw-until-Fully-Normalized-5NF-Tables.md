@@ -12,7 +12,7 @@ deliverables: article & illustration
 
 # The Importance of Normalization on RDBMS Data Modelling
 
-![postimage100](/assets/images/2026-02/normalization1.jpg)
+![Normalization flow from 0NF all the way up to 4NF, table is breaked down into more smaller and non redudant table](/assets/images/2026-02/normalization1.jpg){: .postimage100 }
 [Normalization flow from 0NF all the way up to 4NF, table is breaked down into more smaller and non redudant table](/assets/images/2026-02/normalization1.jpg){: .center-image }
 
 Database normalization is a process to deconstruct and destructure of existing tabular data, ensuring no potential perfromance issue / bottle neck caused by the data structure on the RDBMS (relational database relationship) due to the some rigid mechanism of RDBMS including join, forign key, referential integrity and primary key.
@@ -121,7 +121,7 @@ a primary key is derrived from condidate key instead from super key to reduce da
     
 ## 1NF 1st Normal Form -  Normalization Business Rules
 
-![postimage100](/assets/images/2026-02/normalization2.jpg)
+![0NF to 1NF cheatsheet](/assets/images/2026-02/normalization2.jpg){: .postimage100 }
 [0NF to 1NF cheatsheet](/assets/images/2026-02/normalization2.jpg){: .center-image }
 
 
@@ -154,7 +154,7 @@ at this rate, the data model still not ready for development as it might introdu
 
 ## 2NF 2nd Normal Form - Normalization Business Rules
 
-![postimage100](/assets/images/2026-02/normalization3.jpg)
+![1NF to 2NF cheatsheet](/assets/images/2026-02/normalization3.jpg){: .postimage100 }
 [1NF to 2NF cheatsheet](/assets/images/2026-02/normalization3.jpg){: .center-image }
 
 Note: Skip from 1NF to 3NF directly, the primary key **is NOT a composite key**
@@ -213,7 +213,7 @@ above rule is passed because there is **no composite key**, no need to split the
 
 ## 3NF 3rd Normal Form - Normalization Business Rules 
 
-![postimage100](/assets/images/2026-02/normalization4.jpg)
+![2NF to 3NF cheatsheet](/assets/images/2026-02/normalization4.jpg){: .postimage100 }
 [2NF to 3NF cheatsheet](/assets/images/2026-02/normalization4.jpg){: .center-image }
 
 &mdash; from here onwards (3NF-BCNF-4NF), apart from the theoritical concept, the normalization will also **heavily influenced by the business logic/entity relationship** between each entity.
@@ -331,7 +331,7 @@ task_id is the primary key and milestone_id is the foreign key.
 
 <hr />
 
-![postimage100](/assets/images/2026-02/normalization5.jpg)
+![3NF to to BCNF cheatsheet](/assets/images/2026-02/normalization5.jpg){: .postimage100 }
 [3NF to to BCNF cheatsheet](/assets/images/2026-02/normalization5.jpg){: .center-image }
 
 however, below is the example when 3NF is not BCNF.
@@ -421,7 +421,7 @@ task table is already 4NF as there is **no MVD** (multi value dependency)
 
 <hr />
 
-![postimage100](/assets/images/2026-02/normalization6.jpg)
+![BCNF -> 4NF cheatsheet](/assets/images/2026-02/normalization6.jpg){: .postimage100 }
 [BCNF -> 4NF cheatsheet](/assets/images/2026-02/normalization6.jpg){: .center-image }
 
 However, below is the example BCNF table that not pass 4NF rule
@@ -443,7 +443,7 @@ above table:
 
 # The Anomaly: Materialized View
 
-![postimage100](/assets/images/2026-02/normalization7.jpg)
+![Materialized view is denormalization approach to create a UI based RDBMS table, polar opposite of normalization](/assets/images/2026-02/normalization7.jpg){: .postimage100 }
 [Materialized view is denormalization approach to create a UI based RDBMS table, polar opposite of normalization](/assets/images/2026-02/normalization7.jpg){: .center-image }
 
 note: materialized view can also be applied to noSQL database such as mongodb, dynamodb, cosmosdb, documentdb, etc.

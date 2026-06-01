@@ -15,7 +15,7 @@ deliverables: article & illustration
 
 # Short Product Description
 
-![postimage80](/assets/images/2025-04/Milestoneku.svg)
+![Apps Jargon](/assets/images/2025-04/Milestoneku.svg){: .postimage80 }
 [Apps Jargon](/assets/images/2025-04/Milestoneku.jpg){: .center-image }
 
 

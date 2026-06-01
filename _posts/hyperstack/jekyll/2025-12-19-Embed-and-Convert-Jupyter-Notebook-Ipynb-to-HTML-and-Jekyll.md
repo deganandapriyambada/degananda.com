@@ -63,7 +63,7 @@ execute the conversion command (inside the directory which store the ipynb file)
 
 if the command executed successfully, it should be able to generate the md files
 
-![postimage100](/assets/images/2025-12/ipynb1.jpg)
+![Ipynb file is successfully converted into markdown](/assets/images/2025-12/ipynb1.jpg){: .postimage100 }
 [Ipynb file is successfully converted into markdown](/assets/images/2025-12/ipynb1.jpg){: .center-image }
 
 ## Ipynb Conversion to HTML
@@ -82,7 +82,7 @@ it should generate html file instead of the markdown file.
 
 these html can be directly viewed on the browser
 
-![postimage100](/assets/images/2025-12/ipynb2.jpg)
+![jupyter notebook as html file now can be viewed on any browser](/assets/images/2025-12/ipynb2.jpg){: .postimage100 }
 [jupyter notebook as html file now can be viewed on any browser](/assets/images/2025-12/ipynb2.jpg){: .center-image }
 
 ## Embed to blog

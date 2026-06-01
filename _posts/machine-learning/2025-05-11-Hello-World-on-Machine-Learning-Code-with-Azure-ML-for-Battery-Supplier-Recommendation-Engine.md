@@ -19,7 +19,7 @@ deliverables: Article, Ilustration
 
 ## What is ML for BE Developer
 
-![postimage80](/assets/images/2025-05/ml.png)
+![ML in nutshell for Backend Developer](/assets/images/2025-05/ml.png){: .postimage80 }
 [ML in nutshell for Backend Developer](/assets/images/2025-05/ml.png){: .center-image }
 
 imagine on a POST API that receieve data, apply business logic and (data service) store the data on databases. Machine learning workflow is similar (not same!). ML will receive tons of data set as input, train the model using selected algoritm and the output is a trained model.
@@ -98,7 +98,7 @@ Typically to evaluating a battery performance can use following (telemetry data)
 
 # Use Cases Details
 
-![postimage100](/assets/images/2025-05/battery.svg)
+![Battery Supplier Recommendation Engine](/assets/images/2025-05/battery.svg){: .postimage100 }
 [Battery Supplier Recommendation Engine](/assets/images/2025-05/battery.jpg){: .center-image }
 
 
@@ -147,7 +147,7 @@ those perfromance grade will be used by vendor/manufacturer to determine their n
 
 ## Hello World
 
-![postimage100](/assets/images/2025-05/azureml.jpg)
+![ML Helloworld on Azure ML Studio](/assets/images/2025-05/azureml.jpg){: .postimage100 }
 [ML Helloworld on Azure ML Studio](/assets/images/2025-05/azureml.jpg){: .center-image }
 
 

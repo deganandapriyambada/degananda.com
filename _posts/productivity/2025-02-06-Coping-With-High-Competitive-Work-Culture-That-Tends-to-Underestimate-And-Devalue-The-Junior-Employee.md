@@ -12,7 +12,7 @@ deliverables: Article
 
 # Grey Thin Line between Senior and Junior on Consulting Work Environment
 
-![postimage100](/assets/images/2026-02/consultant3.jpg)
+![Unbalanced supply and demand, everyone fighting to get staffed. skill matching doesnt matter, every consultant will kill to get onboarded. a hunger game](/assets/images/2026-02/consultant3.jpg){: .postimage100 }
 [Unbalanced supply and demand, everyone fighting to get staffed. skill matching doesnt matter, every consultant will kill to get onboarded. a hunger game](/assets/images/2026-02/consultant3.jpg){: .center-image }
 
 &mdash; a junior can be "the senior" of senior consultant on some specific projects.
@@ -65,7 +65,7 @@ say this mantra to accelerate the denial stages : "it is what is it". it is what
 
 at this stages, there is a chance to turn anger into enermous energy to find new opportunities.
 
-![postimage100](/assets/images/2026-02/consultant5.jpg)
+![Convert the anger into positive energy to find new opportunity, definitely hard to do but it is what a man have to take](/assets/images/2026-02/consultant5.jpg){: .postimage100 }
 [Convert the anger into positive energy to find new opportunity, definitely hard to do but it is what a man have to take](/assets/images/2026-02/consultant5.jpg){: .center-image }
 
 
@@ -123,7 +123,7 @@ Keep alive!
 
 # Prevention : The Second Income for Consultant
 
-![postimage100](/assets/images/2026-02/consultant4.jpg)
+![Continue the hustle after workhour is super recommended. however, dont forget to balance with family time. ](/assets/images/2026-02/consultant4.jpg){: .postimage100 }
 [Continue the hustle after workhour is super recommended. however, dont forget to balance with family time. ](/assets/images/2026-02/consultant4.jpg){: .center-image }
 
 <q>In my humble opinion, anyone who work on consulting must go down to this part (second income) , as our job security is almost non-existent. we are redundant and prone to get axed/replaced</q>

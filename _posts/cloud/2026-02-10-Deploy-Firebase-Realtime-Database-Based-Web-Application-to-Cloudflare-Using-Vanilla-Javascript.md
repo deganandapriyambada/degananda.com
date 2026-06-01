@@ -91,19 +91,19 @@ login and registered using your prefered authentication & authorization method. 
 
 ## Deploy The Web App via Worker and Pages Static Web hosting
 
-![postimage100](/assets/images/2026-02/firebasecf1.jpg)
+![Worker and Pages is the name of cloudflare services to host static files including firebase based web app](/assets/images/2026-02/firebasecf1.jpg){: .postimage100 }
 [Worker and Pages is the name of cloudflare services to host static files including firebase based web app](/assets/images/2026-02/firebasecf1.jpg){: .center-image }
 
 Once logged in, look for on left sidebar and find "build section" -> "Compute & AI" -> "Worker and Pages".
 
 Click on Create Application
 
-![postimage100](/assets/images/2026-02/firebasecf2.jpg)
+![Cloudflare will later assign domain the newly created application](/assets/images/2026-02/firebasecf2.jpg){: .postimage100 }
 [Cloudflare will later assign domain the newly created application](/assets/images/2026-02/firebasecf2.jpg){: .center-image }
 
 Cloudflare worker and pages offer two approach to upload the code. First method through manually upload the project folder. Second method is via repisotory integration with following available options: github or gitlab.
 
-![postimage100](/assets/images/2026-02/firebasecf3.jpg)
+![Available static files deployment options on cloudflare workers and pages](/assets/images/2026-02/firebasecf3.jpg){: .postimage100 }
 [Available static files deployment options on cloudflare workers and pages](/assets/images/2026-02/firebasecf3.jpg){: .center-image }
 
 First method is generally more simpler as we just need to upload the whole minidifed javascript file, asset such as images, video as well as the html files into cloudflare. Best for quick bootstrapping or for trying cloudflare in general.
@@ -112,17 +112,17 @@ However, on production scenario, it always recommended to use CI/CD (Continuous 
 
 On this case, manual static file upload will be choosen. 
 
-![postimage100](/assets/images/2026-02/firebasecf4.jpg)
+![Choose folder that contains all the required static files from html, assets such as image, css, video,etc as well as javascript file](/assets/images/2026-02/firebasecf4.jpg){: .postimage100 }
 [Choose folder that contains all the required static files from html, assets such as image, css, video,etc as well as javascript file](/assets/images/2026-02/firebasecf4.jpg){: .center-image }
 
 Clcik deploy & Wait until the upload process is completed
 
-![postimage100](/assets/images/2026-02/firebasecf5.jpg)
+![Cloudflare will upload these files into their CDN and bind it with the given domain](/assets/images/2026-02/firebasecf5.jpg){: .postimage100 }
 [Cloudflare will upload these files into their CDN and bind it with the given domain](/assets/images/2026-02/firebasecf5.jpg){: .center-image }
 
 Done. Now the firebase based web app can be accessed from the given domain from cloudflare.
 
-![postimage100](/assets/images/2026-02/firebasecf7.jpg)
+![Deployment is completed. Firebase based Web App can be accessed through cloudflare CDN and it can communicate with firebase realtime database](/assets/images/2026-02/firebasecf7.jpg){: .postimage100 }
 [Deployment is completed. Firebase based Web App can be accessed through cloudflare CDN and it can communicate with firebase realtime database](/assets/images/2026-02/firebasecf7.jpg){: .center-image }
 
 note: workers.dev is CDN domain of cloudflare.

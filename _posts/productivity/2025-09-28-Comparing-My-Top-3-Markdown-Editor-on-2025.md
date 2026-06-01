@@ -87,7 +87,7 @@ install (if not yet been installed) the extension by open following links on any
 
 to start using MarkSharp on visual studio code, right click the .md file and choose open with marksharp
 
-![postimage100](/assets/images/2025-09/md3.jpg)
+![edit md files on visual studio code using marksharp](/assets/images/2025-09/md3.jpg){: .postimage100 }
 [edit md files on visual studio code using marksharp](/assets/images/2025-09/md3.jpg){: .center-image }
 
 eventhough the rendering is live on the editor (not in separete view or tab), **all the syntax need to be typed manually**.
@@ -137,7 +137,7 @@ embed code
 inserting image
 
 ```json
-![postimage100](/assets/images/2025-09/md1.jpg)
+![image description](/assets/images/2025-09/md1.jpg){: .postimage100 }
 [image description](/assets/images/2025-09/md1.jpg){: .center-image }
 ```
 
@@ -145,7 +145,7 @@ inserting image
 
 **However**, same capability can be achieved with just standard visual studio code mark down editor + the preview mode as shown below.
 
-![postimage100](/assets/images/2025-09/md1.jpg)
+![Left side is the raw md file, right side is the rendered preview](/assets/images/2025-09/md1.jpg){: .postimage100 }
 [Left side is the raw md file, right side is the rendered preview](/assets/images/2025-09/md1.jpg){: .center-image }
 
 ## Typora
@@ -156,7 +156,7 @@ download and install typora from following links
 
 choose version that match with the target operating system.
 
-![postimage100](/assets/images/2025-09/md4.jpg)
+![Typora md editor in action](/assets/images/2025-09/md4.jpg){: .postimage100 }
 [Typora md editor in action](/assets/images/2025-09/md4.jpg){: .center-image }
 
 ### Advantages
@@ -167,7 +167,7 @@ The theme can be adjusted from dark or light theme.
 
 super easy to make a text become heading and GUI helper to create md component such as table, iamge are available.
 
-![postimage100](/assets/images/2025-09/md5.jpg)
+![Create table on typora](/assets/images/2025-09/md5.jpg){: .postimage100 }
 [Create table on typora](/assets/images/2025-09/md5.jpg){: .center-image }
 
 the gui helper to create table,image, etc will definitely helpful. 
@@ -180,12 +180,12 @@ awesome job typora. Super clean and intuitive UI.
 
 the only downside about typora is that the image not loaded automatically because it demand full path of the image (which will become an issue if the article/md files is intended for SSG such as jekyll/hugoes)
 
-![postimage100](/assets/images/2025-09/md6.jpg)
+![Image not loaded on typora](/assets/images/2025-09/md6.jpg){: .postimage100 }
 [Image not loaded on typora](/assets/images/2025-09/md6.jpg){: .center-image }
 
 meanwhile the image rendered properly on vsc.
 
-![postimage100](/assets/images/2025-09/md7.jpg)
+![Image loaded on VSC from same markdown files](/assets/images/2025-09/md7.jpg){: .postimage100 }
 [Image loaded on VSC from same markdown files](/assets/images/2025-09/md7.jpg){: .center-image }
 
 
@@ -206,7 +206,7 @@ typora-root-url: ./../
 
 now the image is successfully rendered.
 
-![postimage100](/assets/images/2025-09/md8.jpg)
+![Images now loaded properly on typora](/assets/images/2025-09/md8.jpg){: .postimage100 }
 [Images now loaded properly on typora](/assets/images/2025-09/md8.jpg){: .center-image }
 
 another down side: typora is paid software with 14 days of trial.
@@ -223,7 +223,7 @@ overall conclusion: **worth to buy.**
 
 ## MarkText
 
-![postimage100](/assets/images/2025-09/md11.jpg)
+![Marktext as open source and free markdown editor, inspired from typora](/assets/images/2025-09/md11.jpg){: .postimage100 }
 [Marktext as open source and free markdown editor, inspired from typora](/assets/images/2025-09/md11.jpg){: .center-image }
 
 
@@ -270,7 +270,7 @@ MarkText can only be installed using CLI command which is not user friendly for 
 
 And Unfortunately markText will be **shutdown by 2026**, hence it is not recommended to use marktext for writings. 
 
-![postimage100](/assets/images/2025-09/md9.jpg)
+![MarkText is no longer maintained. Has been depreciated](/assets/images/2025-09/md9.jpg){: .postimage100 }
 [MarkText is no longer maintained. Has been depreciated](/assets/images/2025-09/md9.jpg){: .center-image }
 
 However, we can still download and use MarkText, but it is **no longer maintained**.

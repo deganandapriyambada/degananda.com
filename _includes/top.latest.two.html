@@ -19,12 +19,12 @@
 
     <div class="headline-tags">
         <ul>
-      {% for heading in post.headings %}
-        {% if forloop.index > 0 %}
+            {% for heading in post.headings %}
+            {% if forloop.index > 0 %}
             <li><a href="{{ post.url }}#{{ heading | replace: ' ', '-' | downcase }}">{{ heading }}</a></li>
-        {% endif %}
-      {% endfor %}
-      </ul>
+            {% endif %}
+            {% endfor %}
+        </ul>
     </div>
 
 
@@ -42,8 +42,8 @@
     <div class="highlight-redirect">
         <ul>
             <li>
-                <a href="{{post.url}}"><button class="button-theme1-reversed">Read Article
-                </button></a>
+                <a href="{{post.url}}"><button class="button-theme1-reversed" alt="read full article">Read Article
+                    </button></a>
             </li>
         </ul>
     </div>

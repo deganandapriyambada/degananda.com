@@ -36,7 +36,7 @@ ruby --version
 
 it should return the installed ruby version on the console
 
-![postimage100](/assets/images/2026-05/bundler2.jpg)
+![Installed ruby version](/assets/images/2026-05/bundler2.jpg){: .postimage100 }
 [Installed ruby version](/assets/images/2026-05/bundler2.jpg){: .center-image }
 
 
@@ -54,7 +54,7 @@ ensure the bundler is installed globally on the system
 bundler --version
 ```
 
-![postimage100](/assets/images/2026-05/bundler1.jpg)
+![Installed bundler global version](/assets/images/2026-05/bundler1.jpg){: .postimage100 }
 [Installed bundler global version](/assets/images/2026-05/bundler1.jpg){: .center-image }
 
 create new ruby **project folder**
@@ -72,7 +72,7 @@ bundler init
 
 if the project initation is success, a new file called Gemfile will be appeared on the folder as shown below.
 
-![postimage100](/assets/images/2026-05/bundler3.jpg)
+![Bundler init command will create new Gemfile which store the ruby package dependency](/assets/images/2026-05/bundler3.jpg){: .postimage100 }
 [Bundler init command will create new Gemfile which store the ruby package dependency](/assets/images/2026-05/bundler3.jpg){: .center-image }
 
 Gemfile is equal with package.json on nodejs. File to store neccesary library for that specific project folder.
@@ -91,7 +91,7 @@ ruby index.rb
 
 it should print out the hello world sentence on the console
 
-![postimage100](/assets/images/2026-05/bundler4.jpg)
+![Ruby is a command to interpret ruby .rb source code](/assets/images/2026-05/bundler4.jpg){: .postimage100 }
 [Ruby is a command to interpret ruby .rb source code](/assets/images/2026-05/bundler4.jpg){: .center-image }
 
 Next, lets use ruby library called as chronic for displaying date or time using human language (similar with when we ask chatgpt/other genAI). 
@@ -116,12 +116,12 @@ bundle install
 
 it will automatically install chronic version 0.9.0
 
-![postimage100](/assets/images/2026-05/bundler5.jpg)
+![All neccesary package dependency for chronic packages will be automatically taken care of by ruby bundle](/assets/images/2026-05/bundler5.jpg){: .postimage100 }
 [All neccesary package dependency for chronic packages will be automatically taken care of by ruby bundle](/assets/images/2026-05/bundler5.jpg){: .center-image }
 
 it will also created new file called Gemfile.lock which store the dependencies information such as remote repository location, platform and so on.
 
-![postimage100](/assets/images/2026-05/bundler6.jpg)
+![required package or library dependency version will be stored on the Gemfile.lock](/assets/images/2026-05/bundler6.jpg){: .postimage100 }
 [required package or library dependency version will be stored on the Gemfile.lock](/assets/images/2026-05/bundler6.jpg){: .center-image }
 
 adjust the index.rb file to import and use chronic library for displaying today's date.
@@ -151,7 +151,7 @@ gem install chronic 0.10.2
 
 installing ruby file via cli without bundler will automatically install/update(if the libraries has been exist on the system) the libraries globally
 
-![postimage100](/assets/images/2026-05/bundler8.jpg)
+![Install ruby package on global system](/assets/images/2026-05/bundler8.jpg){: .postimage100 }
 [Install ruby package on global system](/assets/images/2026-05/bundler8.jpg){: .center-image }
 
 run same index.rb file but without bundler
@@ -162,7 +162,7 @@ ruby index.rb
 
 now it should use chronic version 0.10.2 as shown on the console below
 
-![postimage100](/assets/images/2026-05/bundler9.jpg)
+![Global ruby dependency will be used instead of the one specified on gemfile.lock](/assets/images/2026-05/bundler9.jpg){: .postimage100 }
 [Global ruby dependency will be used instead of the one specified on gemfile.lock](/assets/images/2026-05/bundler9.jpg){: .center-image }
 
 ## Run Jekyll with Project Specific Dependency
@@ -177,7 +177,7 @@ bundle exec jekyll serve
 
 it will resulting in following output
 
-![postimage100](/assets/images/2026-05/bundler7.jpg)
+![Gemfile.lock dependency specifications will be used if ruby program is ran through bundle](/assets/images/2026-05/bundler7.jpg){: .postimage100 }
 [Gemfile.lock dependency specifications will be used if ruby program is ran through bundle](/assets/images/2026-05/bundler7.jpg){: .center-image }
 
 ## The Importance of Pushing Gemfile.lock to the Code Repositories

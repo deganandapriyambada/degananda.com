@@ -20,7 +20,7 @@ One of the common jekyll issue which often encountered during build and deployme
 
 below is an example when dependencies issues occured during jekyll deployment on cloudflare.
 
-![postimage100](/assets/images/2026-05/jekyll1.jpg)
+![Jekyll packages build failed due to ruby library dependency issue](/assets/images/2026-05/jekyll1.jpg){: .postimage100 }
 [Jekyll packages build failed due to ruby library dependency issue](/assets/images/2026-05/jekyll1.jpg){: .center-image }
 
 what actually happened and why the dependecies issue triggered due to following conditions:
@@ -57,27 +57,27 @@ Applying the build command on cloudflare that utilize local Gemfile
 
 login to the cloudflare and click on the target jekyll "pages" which will be updated.
 
-![postimage100](/assets/images/2026-05/jekyll2.jpg)
+![Find the to-be updated jekyll page](/assets/images/2026-05/jekyll2.jpg){: .postimage100 }
 [Find the to-be updated jekyll page](/assets/images/2026-05/jekyll2.jpg){: .center-image }
 
 click on the vertical elipsys (three dots) and choose view settings
 
-![postimage100](/assets/images/2026-05/jekyll3.jpg)
+![Choose page settings](/assets/images/2026-05/jekyll3.jpg){: .postimage100 }
 [Choose page settings](/assets/images/2026-05/jekyll3.jpg){: .center-image }
 
 Then adjust the deployment command from "jekyll build" into "bundle exec jekyll build"
 
-![postimage100](/assets/images/2026-05/jekyll4.jpg)
+![Update the build command](/assets/images/2026-05/jekyll4.jpg){: .postimage100 }
 [Update the build command](/assets/images/2026-05/jekyll4.jpg){: .center-image }
 
 Done. now re-build the jekyll pages. it should be success as jekyll will now use local Gemfile.lock instead of the global dependencies
 
 note: to trigger re-deployment, go to the deployment tab and find the failed deployment item, then choose retry deployment on the dropdown options as shown below
 
-![postimage100](/assets/images/2026-05/jekyll5.jpg)
+![Trigger jekyll redeployment on cloudflare page](/assets/images/2026-05/jekyll5.jpg){: .postimage100 }
 [Trigger jekyll redeployment on cloudflare page](/assets/images/2026-05/jekyll5.jpg){: .center-image }
 
 now the deployment is success, no more ruby package dependencies issue
 
-![postimage100](/assets/images/2026-05/jekyll6.jpg)
+![deployment success without any ruby dependencies issue](/assets/images/2026-05/jekyll6.jpg){: .postimage100 }
 [deployment success without any ruby dependencies issue](/assets/images/2026-05/jekyll6.jpg){: .center-image }

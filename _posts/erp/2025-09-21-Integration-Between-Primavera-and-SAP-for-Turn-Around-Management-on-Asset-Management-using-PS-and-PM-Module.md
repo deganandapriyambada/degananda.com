@@ -16,7 +16,7 @@ deliverables: Article
 
 below is the application integration landscape between SAP PM(Plant Maintenance), SAP PS(Project System) and Oracle Primavera P6
 
-![postimage100](/assets/images/2025-09/prim6.svg)
+![Integrated Project Management landscape between Oracle P6 and SAP](/assets/images/2025-09/prim6.svg){: .postimage100 }
 [Integrated Project Management landscape between Oracle P6 and SAP](/assets/images/2025-09/p6.jpg){: .center-image }
 
 
@@ -44,7 +44,7 @@ with following integration scenario.
 
 ## CPM(Critical path method) Module
 
-![postimage100](/assets/images/2025-09/prim1.jpg)
+![Primavera Project Scheduling](/assets/images/2025-09/prim1.jpg){: .postimage100 }
 [Primavera Project Scheduling](/assets/images/2025-09/prim1.jpg){: .center-image }
 
 the main capability of primavera. They have three main functionality
@@ -123,12 +123,12 @@ summary
 
 Primavera P6 Network Activity Visualization
 
-![postimage100](/assets/images/2025-09/prim2.jpg)
+![Primavera Network Visualization](/assets/images/2025-09/prim2.jpg){: .postimage100 }
 [Primavera Network Visualization](/assets/images/2025-09/prim2.jpg){: .center-image }
 
 SAP PS Network Activity Visualization
 
-![postimage100](/assets/images/2025-09/prim3.jpg)
+![SAP PS Network visualization Project Scheduling](/assets/images/2025-09/prim3.jpg){: .postimage100 }
 [SAP PS Network visualization Project Scheduling](/assets/images/2025-09/prim3.jpg){: .center-image }
 
 # Summary
@@ -148,7 +148,7 @@ there are two main integration scenarios
 
 planning & scheduling integration with budgeting, invoicing (basically with financial factor).
 
-![postimage100](/assets/images/2025-09/prim4.svg)
+![Planning, Scheduling, Financing will be integrated between SAP and Primavera](/assets/images/2025-09/prim4.svg){: .postimage100 }
 [Planning, Scheduling, Financing will be integrated between SAP and Primavera](/assets/images/2025-09/prim4.jpg){: .center-image }
 
 
@@ -158,7 +158,7 @@ planning & scheduling integration with budgeting, invoicing (basically with fina
 
 Scenario B - integration without financial concern. Pure planning & scheduling execution.
 
-![postimage100](/assets/images/2025-09/prim5.svg)
+![Only Planning & Scheduling will be integrated between SAP and Primavera](/assets/images/2025-09/prim5.svg){: .postimage100 }
 [Only Planning & Scheduling will be integrated between SAP and Primavera](/assets/images/2025-09/prim5.jpg){: .center-image }
 
 &mdash; Tech Stack (Oracle Primavera P6, Oracle PIS, SAP PM, SAP MM, SAP PS, SAP FICO, SAP PM, SAP ABAP Program, SAP BAPI)

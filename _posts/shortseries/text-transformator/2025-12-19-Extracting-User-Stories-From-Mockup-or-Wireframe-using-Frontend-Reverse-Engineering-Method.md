@@ -25,7 +25,7 @@ sample use cases: Text-transformator tools to transform sentence into newly form
 
 these capabilities then translated into following screen
 
-![postimage100](/assets/images/2025-12/text-transformator1.jpg)
+![Text transformator tools mockup](/assets/images/2025-12/text-transformator1.jpg){: .postimage100 }
 [Text transformator tools mockup](/assets/images/2025-12/text-transformator1.jpg){: .center-image }
 
 a typical business analyst without knowledge or experience on web development will definitely create **single user story** from that one screen.
@@ -46,27 +46,27 @@ note: this decontruction activity might be dependent on the developer preference
 
 There are at least five "division" (div) component on the screen which group some element into single block.
 
-![postimage100](/assets/images/2025-12/text-transformator2.jpg)
+![Header part](/assets/images/2025-12/text-transformator2.jpg){: .postimage100 }
 [Header part](/assets/images/2025-12/text-transformator2.jpg){: .center-image }
 
 First part is the website header. Consist of the website title and jargon.
 
-![postimage100](/assets/images/2025-12/text-transformator3.jpg)
+![Transformation option toggle](/assets/images/2025-12/text-transformator3.jpg){: .postimage100 }
 [Transformation option toggle](/assets/images/2025-12/text-transformator3.jpg){: .center-image }
 
 Second part is text input along side with the toggle to enable which transformation parameter.
 
-![postimage100](/assets/images/2025-12/text-transformator4.jpg)
+![Core transformation logic](/assets/images/2025-12/text-transformator4.jpg){: .postimage100 }
 [Core transformation logic](/assets/images/2025-12/text-transformator4.jpg){: .center-image }
 
 Third part, the most complex one is transformation action which triggered after user click the buttom
 
-![postimage100](/assets/images/2025-12/text-transformator5.jpg)
+![New Formatted Text Visualization](/assets/images/2025-12/text-transformator5.jpg){: .postimage100 }
 [New Formatted Text Visualization](/assets/images/2025-12/text-transformator5.jpg){: .center-image }
 
 Fourth part is the output visualization and last part if the website footer.
 
-![postimage100](/assets/images/2025-12/text-transformator6.jpg)
+![Footer part](/assets/images/2025-12/text-transformator6.jpg){: .postimage100 }
 [Footer part](/assets/images/2025-12/text-transformator6.jpg){: .center-image }
 
 If the frontend code is applying reuseable component, then each of the divison usually will managed separately on different source code file, allowing developer to work on different screen part **in parallel**, eventhough there is dependencies from one division to another as it can be solved using stub / agreed interfaces.

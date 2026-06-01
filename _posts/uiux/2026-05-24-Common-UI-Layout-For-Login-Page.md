@@ -36,7 +36,7 @@ Below are the common layout which often found on digital product login page.
 
 ## Two Column Layout
 
-![postimage100](/assets/images/2026-05/loginlayout1.jpg)
+![Formalt style: Two column layout for login page. left side for login form and the right side for the product description/campaign](/assets/images/2026-05/loginlayout1.jpg){: .postimage100 }
 [Formalt style: Two column layout for login page. left side for login form and the right side for the product description/campaign](/assets/images/2026-05/loginlayout2.jpg){: .center-image }
 
 Two column login layout giving wide space for maximum branding purposes. One column to display the main login form and the others can be used  for the product branding. Some product put the login form on left side like digital ocean and aws cloud, while some product put the login componentformon the right side.
@@ -47,7 +47,7 @@ Most human languages (except arabic) are written from left to right. People are 
 
 ## Only Form Layout
 
-![postimage100](/assets/images/2026-05/loginlayout2.jpg)
+![Centralized login form giving more relax and non formal vibe to the user](/assets/images/2026-05/loginlayout2.jpg){: .postimage100 }
 [Centralized login form giving more relax and non formal vibe to the user](/assets/images/2026-05/loginlayout2.jpg){: .center-image }
 
 Login form with various sign-in options will be placed on the center of the page. Leaving no space to place product information. Most of social media like facebook, X or instagram use such layout as it giving non formal vibes.
@@ -56,7 +56,7 @@ Central login form make the background can be easily adjusted to blend with the 
 
 ## Integrated Login Form on The Page Header
 
-![postimage100](/assets/images/2026-05/loginlayout3.jpg)
+![Conventional login form on the website header](/assets/images/2026-05/loginlayout3.jpg){: .postimage100 }
 [Conventional login form on the website header](/assets/images/2026-05/loginlayout3.jpg){: .center-image }
 
 The most conventional (old-school) layout for login page is having the form located at the website header. Often found on online forum that use phpBB as the engine/framework.

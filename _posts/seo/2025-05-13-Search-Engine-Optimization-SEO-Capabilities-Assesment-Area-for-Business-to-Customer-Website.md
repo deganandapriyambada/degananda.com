@@ -54,7 +54,7 @@ there are B2C (Business to Customer) that will be assessed through out the artic
 
 # Quick Performance Assessment on Website X
 
-![postimage100](/assets/images/2025-05/websitex-ls.jpg)
+![Google Chrome Lighthouse assessment Result for Website X](/assets/images/2025-05/websitex-ls.jpg){: .postimage100 }
 [Google Chrome Lighthouse assessment Result for Website X](/assets/images/2025-05/websitex-ls.jpg){: .center-image }
 
 ## Check if a website is using MPA or SPA
@@ -63,7 +63,7 @@ there are B2C (Business to Customer) that will be assessed through out the artic
 
 to find whether a web is using traditional multi page application like PHP CI/Lararavel/Django or single page application can be done by inspecting the request responses.
 
-![postimage100](/assets/images/2025-05/mpa.jpg)
+![Check server response to find out server side authentication validation](/assets/images/2025-05/mpa.jpg){: .postimage100 }
 [Check server response to find out server side authentication validation](/assets/images/2025-05/mpajpg){: .center-image }
 
 
@@ -71,7 +71,7 @@ As shown on the image above, website X request response is returning cookie data
 
 ## Performance Matrix Breakdown
 
-![postimage100](/assets/images/2025-05/websitex-metrics.jpg)
+![Performance Metrix Breakdown for Website X](/assets/images/2025-05/websitex-metrics.jpg){: .postimage100 }
 [Performance Metrix Breakdown for Website X](/assets/images/2025-05/websitex-metrics.jpg){: .center-image }
 
 Website X definitely need some improvement
@@ -95,7 +95,7 @@ How long some of the DOM element are jumbled and moving. Not really important pa
 
 ## RailWay
 
-![postimage100](/assets/images/2025-05/websitex-railway.jpg)
+![Assets Loading Railway ](/assets/images/2025-05/websitex-railway.jpg){: .postimage100 }
 [Assets Loading Railway ](/assets/images/2025-05/websitex-railway.jpg){: .center-image }
 
 Website X has very long runway (up to 160K MS which is equivalent to 160 second). Usually this is andication of ineffective resource loading.
@@ -148,13 +148,13 @@ Below is the findings based on defined risk register above.
 
 # Quick Performance Assessment on Website Y
 
-![postimage100](/assets/images/2025-05/websitey-ls.jpg)
+![Google Chrome Lighthouse assessment Result for Website Y](/assets/images/2025-05/websitey-ls.jpg){: .postimage100 }
 [Google Chrome Lighthouse assessment Result for Website Y](/assets/images/2025-05/websitex-y.jpg){: .center-image }
 
 
 ## Metrics Breakdown
 
-![postimage100](/assets/images/2025-05/websitey-metrics.jpg)
+![Performance Metrix Breakdown for Website Y](/assets/images/2025-05/websitey-metrics.jpg){: .postimage100 }
 [Performance Metrix Breakdown for Website Y](/assets/images/2025-05/websitey-metrics.jpg){: .center-image }
 
 Website X has very long runway (up to 160K MS which is equivalent to 160 second). Usually this is andication of ineffective resource loading.
@@ -163,7 +163,7 @@ Website X has very long runway (up to 1000K MS which is equivalent to 1K second)
 
 ## RailWay
 
-![postimage100](/assets/images/2025-05/tk-railway.jpg)
+![Assets Loading Railway ](/assets/images/2025-05/tk-railway.jpg){: .postimage100 }
 [Assets Loading Railway ](/assets/images/2025-05/tk-railway.jpg){: .center-image }
 
 ## Good Part
@@ -205,7 +205,7 @@ Indicator : **9 mb page size**
 
 ## Image format
 
-![postimage100](/assets/images/2025-05/youtube-avif.jpg)
+![Youtube's thumbnail images is formatted in AVIF](/assets/images/2025-05/youtube-avif.jpg){: .postimage100 }
 [Youtube's thumbnail images is formatted in AVIF](/assets/images/2025-05/youtube-avif.jpg){: .center-image }
 
 
