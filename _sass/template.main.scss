@@ -15,7 +15,7 @@ $section-font: 16px;
 
 /* font color */
 $fc-main: #000000;
-$fc-sub-1: #111111;
+$fc-sub-1: #000000;
 $fc-sub-2: #5f5f5f;
 $fc-sub-3: #4c4c4c;
 
@@ -53,7 +53,7 @@ body {
   padding: 15px 0px 15px 0px;
   color: #000000;
   background: #fff;
-  font-weight: 350;
+  font-weight: normal;
   border-bottom: 0.5px #dadada solid;
 }
 
@@ -310,13 +310,13 @@ body {
 }
 
 .topmenu-container>.navigation>ul>li>a {
-  font-size: 14px;
+  font-size: 15px;
   text-decoration: none;
   color: $fc-sub-1;
 }
 
 .zines-link a {
-  font-size: 14px;
+  font-size: 15px;
   text-decoration: none;
   color: $fc-sub-1;
 }
@@ -647,7 +647,7 @@ body {
 
 .post-content ol li a {
   text-decoration: none;
-  color: #28a745;
+  color: #06b92f;
 }
 
 .post-content>a,
@@ -670,7 +670,7 @@ body {
   font-size: 1.05rem;
   margin-bottom: 1.3rem;
   line-height: 2;
-  color: #111111;
+  color: #000000;
   text-align: left;
   font-family: $font-type-md;
 
@@ -970,13 +970,13 @@ body {
 
 .typo2 {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .typo3 {
   font-size: 15px;
-  font-weight: 300;
-  color: #111111;
+  font-weight: 400;
+  color: #000000;
 }
 
 .post-tags {
@@ -1021,12 +1021,12 @@ body {
 
 .post-tags-item-lite a {
   text-decoration: underline;
-  color: #111111;
+  color: #000000;
 }
 
 .post-tags-item a {
   text-decoration: none;
-  color: #111111;
+  color: #000000;
 }
 
 .bg-gray {
@@ -1269,7 +1269,7 @@ body {
 }
 
 .serial-choosed {
-  border-bottom: 4px #111111 solid;
+  border-bottom: 4px #000000 solid;
   padding: 10px 0 10px 0;
 }
 
@@ -1307,9 +1307,9 @@ body {
 
 .series-post>.keyword {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   width: 100%;
-  color: #111111;
+  color: #000000;
 }
 
 .series-post>.keyword>ul {
@@ -1385,15 +1385,15 @@ body {
   font-size: 13px;
   text-align: center;
   border-radius: 5px;
-  color: #111111;
+  color: #000000;
 }
 
 .progress-series .scale-desc {
   width: 25%;
   text-align: center;
-  color: #111111;
+  color: #000000;
   font-size: 14px;
-  font-weight: 350;
+  font-weight: 400;
   padding: 5px 0px 5px 0px;
 }
 
@@ -1433,7 +1433,7 @@ body {
 }
 
 .living {
-  color: #111111;
+  color: #000000;
   font-weight: 400;
 }
 
@@ -1515,9 +1515,9 @@ body {
 .headline-post-info-item {
   font-size: 14px;
   padding: 5px 0px 5px 0px;
-  color: #111111;
+  color: #000000;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .zines-month-container ul {
@@ -1554,8 +1554,8 @@ body {
   display: inline-block;
   list-style-type: none;
   font-size: 14px;
-  color: #111111;
-  font-weight: 300;
+  color: #000000;
+  font-weight: 400;
   line-height: 1.5;
   padding-right: 10px;
 }
@@ -1608,7 +1608,7 @@ body {
 }
 
 .headline-infography .info-g:nth-child(-n+2) {
-  border-right: 1px #111111 solid;
+  border-right: 1px #000000 solid;
 }
 
 .read-more {
@@ -1630,7 +1630,6 @@ body {
   border: 1px #023047 solid;
   font-size: 14px;
   color: #fff;
-  border-radius: 20px;
   cursor: pointer;
   text-decoration: none;
 }
@@ -1646,7 +1645,6 @@ body {
   border: 1px #023047 solid;
   font-size: 14px;
   color: #023047;
-  border-radius: 20px;
   cursor: pointer;
 }
 
@@ -1656,7 +1654,6 @@ body {
   border: 0px #023047 solid;
   font-size: 14px;
   color: #000;
-  border-radius: 20px;
 }
 
 .highlight-redirect ul {
@@ -1717,7 +1714,7 @@ body {
 
 .headline-published-date {
   font-size: 14px;
-  color: #111111;
+  color: #000000;
   font-weight: 200;
   text-align: left;
 }
@@ -1745,7 +1742,7 @@ body {
 
 .incat b a {
   text-decoration: none;
-  color: #28a745;
+  color: #06b92f;
 }
 
 
@@ -2070,7 +2067,7 @@ body {
   padding: 15px 25px 15px 25px;
   flex-direction: row;
   box-sizing: border-box;
-  border: 1px #111111 solid;
+  border: 1px #000000 solid;
   border-radius: 10px;
 }
 
@@ -2242,7 +2239,7 @@ body {
   display: inline;
   padding: 20px 35px 20px 35px;
   font-size: 14px;
-  color: #111111;
+  color: #000000;
   font-weight: 400;
 }
 
@@ -2274,14 +2271,21 @@ body {
 
 
 .big-search input[type="text"] {
-  background: #f5f5f5;
-  border: 0px;
-  padding: 20px 45px 20px 30px;
-  width: 500px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  ;
+  border: 1px #000 solid;
+  padding: 12px 45px 12px 30px;
+  width: 400px;
+  border-bottom: 3px #000 solid;
+  margin: 0px 2px 0px 2px;
   color: #000000;
+}
+
+.big-search select {
+  border: 1px #000 solid;
+  padding: 12px 15px 12px 15px;
+  font-size: 14px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-bottom: 3px #000 solid;
 }
 
 .big-search input[type="text"]:focus {
@@ -2310,22 +2314,17 @@ body {
 
 
 .big-search button {
-  border: 0px;
-  background: #f0f0f0;
-  padding: 15px 30px 15px 30px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: #000000;
-  margin-left: -40px;
-  /* the following ensures they're all using the same box-model for rendering */
+  border: 1px #000 solid;
+  background: #000000;
+  padding: 12px 20px 12px 20px;
+  color: #ffffff;
   -moz-box-sizing: content-box;
-  /* or `border-box` */
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
 .big-search button i {
-  color: #111111;
+  color: #fff;
   font-size: 14px;
   font-weight: 300;
 }
@@ -2416,16 +2415,16 @@ body {
   padding: 8px 12px;
   border-radius: 4px;
   text-decoration: none;
-  color: #28a745;
+  color: #06b92f;
   font-size: 14px;
 }
 
 .share-btn.twitter {
-  border: 1px #111111 solid;
+  border: 1px #000000 solid;
 }
 
 .share-btn.linkedin {
-  border: 1px #111111 solid;
+  border: 1px #000000 solid;
 }
 
 .share-btn.coffee {
@@ -2478,7 +2477,7 @@ body {
   width: 250px;
   margin: 0px 1rem 1rem 0px;
   padding: 1.2rem 1rem 1.2rem 1rem;
-  border: 1px #111111 solid;
+  border: 1px #000000 solid;
   border-radius: 3px;
   font-size: 15px;
 }
@@ -2494,7 +2493,7 @@ body {
 
 .shortseries-date {
   font-weight: 14px;
-  color: #111111;
+  color: #000000;
   padding: 0 0 0 0;
 }
 
@@ -2502,7 +2501,6 @@ body {
   background: #fff;
   border: 1px #f0f0f0 solid;
   padding: 25px;
-  border-radius: 10px;
   box-sizing: border-box;
   align-items: center;
 }
@@ -2555,7 +2553,7 @@ body {
   line-height: 1.5;
   width: 95%;
   text-align: justify;
-  color: #151515;
+  color: #000000;
 }
 
 .mins-read {
@@ -2584,7 +2582,7 @@ body {
 
 .post-content a {
   text-decoration: underline;
-  color: #28a745;
+  color: #06b92f;
   text-transform: capitalize;
 }
 
@@ -2593,13 +2591,13 @@ body {
 a.gen-links {
   font-size: 14px;
   text-decoration: underline;
-  color: #28a745;
+  color: #06b92f;
   text-transform: capitalize;
 }
 
 .post-link {
   text-decoration: underline;
-  color: #28a745;
+  color: #06b92f;
   font-size: 14px;
 }
 
@@ -2713,7 +2711,7 @@ a.gen-links {
 
 .series-new-option a {
   text-decoration: none;
-  color: #28a745;
+  color: #06b92f;
 }
 
 .series-code {
@@ -2737,7 +2735,7 @@ a.gen-links {
   margin: 0px 0px 10px 0px;
   border: 1px #f0f0f0 solid;
   padding: 25px 25px 25px 25px;
-  border-radius: 10px;
+  border-radius: 0px;
   background: #ffffff;
 }
 
@@ -2755,14 +2753,14 @@ a.gen-links {
 .new-post-excerpt {
   font-size: 16px;
   font-weight: 300;
-  color: #111111;
+  color: #000000;
   line-height: 2;
 }
 
 .summary-content {
   font-size: 1.05rem;
   font-weight: 300;
-  color: #111111;
+  color: #000000;
   line-height: 2;
   width: 95%;
 }
@@ -2879,7 +2877,7 @@ a.gen-links {
 }
 
 .post-type1-info a {
-  color: #28a745;
+  color: #06b92f;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -3000,7 +2998,7 @@ img.postimage60:hover {
 }
 
 .in-progress {
-  background: #AEEA94;
+  background: #37d50f;
 }
 
 .center-image {
@@ -3010,7 +3008,7 @@ img.postimage60:hover {
   font-size: 1.05rem;
   padding-top: 25px;
   text-decoration: underline;
-  color: #111111;
+  color: #000000;
 }
 
 .center-image-2 {
@@ -3133,7 +3131,7 @@ tbody tr:hover {
   display: inline-block;
   text-decoration: none;
   border-radius: 12px;
-  background: #28a745;
+  background: #06b92f;
   color: white;
   padding: 12px 20px;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -3181,7 +3179,7 @@ tbody tr:hover {
 }
 
 .bg-green {
-  background: #28a745;
+  background: #06b92f;
   color: #fff;
 }
 
@@ -3243,8 +3241,13 @@ tbody tr:hover {
 
   .big-search input[type="text"],
   .big-search input[type="text"]::placeholder,
-  .big-search button i {
+  .big-search button i,
+  .big-search select {
     font-size: 1.3rem;
+  }
+
+  .search-text {
+    display: none;
   }
 
   .post-tags-item-side {
@@ -3322,7 +3325,6 @@ tbody tr:hover {
     border: 1px #023047 solid;
     font-size: 1.25rem;
     color: #fff;
-    border-radius: 20px;
     cursor: pointer;
   }
 
@@ -3333,7 +3335,6 @@ tbody tr:hover {
     border: 1px #023047 solid;
     font-size: 1.25rem;
     color: #023047;
-    border-radius: 20px;
     cursor: pointer;
   }
 
@@ -3477,7 +3478,7 @@ tbody tr:hover {
   a.gen-links {
     font-size: 1.2rem;
     text-decoration: underline;
-    color: #28a745;
+    color: #06b92f;
     text-transform: capitalize;
     line-height: 2;
   }
