@@ -4,11 +4,12 @@ author: Degananda Ferdian
 categories: provocation
 series-code: n/a
 excerpt: Every revolution whether its industrial revolution or current AI revolution will always bury some opportunities while also opening a new opportunities. Software engineer need to transform and prepare them self by properly strategize their career path and mitigate the risk ahead because of AI disruption.
-tags: TBD
+tags: ai-disruptions
 background: AI disrupt almost every area on white collar job market sector. The most noticeable thing is the reduction of headcount. A task that usually require 5 people now it only require 2 people with help of AI
 objective: To craft mitigation strategies in response to AI disruption on software engineer job market
 deliverables: Article & Illustration
 typora-root-url: ./../../../
+title: "The End and Beginning of Software Engineer Era In The Age of AI Disruption"
 ---
 
 # The End of an ERA
