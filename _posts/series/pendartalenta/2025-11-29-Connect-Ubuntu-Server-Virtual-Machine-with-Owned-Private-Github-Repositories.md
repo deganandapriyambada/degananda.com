@@ -44,13 +44,12 @@ once the settings/profile page is loaded, scroll down until find developer setti
 
 on the developer settings page, click **personal access token** (PAT) menu on the left sidebar and choose fine grained token
 
-![postimage80](/assets/images/2025-11/git3.jpg)
+![access PAT - personal access token](/assets/images/2025-11/git3.jpg){: .postimage100 }
 [access PAT - personal access token](/assets/images/2025-11/git2.jpg){: .postimage80 }
-[access github account developer settings)(/assets/images/2025-11/git2.jpg){: .center-image }
 
 on the developer settings page, click **personal access token** (PAT) menu on the left sidebar and choose fine grained token
 
-![postimage80](/assets/images/2025-11/git3.jpg)
+![access PAT - personal access token](/assets/images/2025-11/git3.jpg){: .postimage100 }
 [access PAT - personal access token](/assets/images/2025-11/git3.jpg){: .center-image }
 
 github personal accesss token field description

@@ -4,6 +4,7 @@ author: Degananda Ferdian
 categories: nodejs
 series-code: n/a
 excerpt: One of the most repetitive effort during software development of OLTP based software is writing the CRUD function. There are several techniques or method which can reduce the effort to build the CRUD for NodeJS and PostgreSQL stack
+tags: postgresql crud
 background: CRUD is an essential function for OLTP especially on business software which highly depends on the user data input (master or transaction data)
 objective: To understand various techniques of building CRUD (create, read, update and delete) function in NodeJS
 deliverables: Article & Illustration
