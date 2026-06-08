@@ -1,12 +1,12 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: coding-docs
+categories: software-engineering-updates
 series-code: n/a
-excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
-tags: debug dependencies
-background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
-objective: To debug and understand jekyll dependencies issue during deployment
+excerpt: Backend architecture often consist of five different archetypes combination ranging from physical infrastructure, infrastructure platform, application architecture, coding design pattern and coding principles. Those five pattern and concepts are widely adoted by most of major IT companies. 
+tags: backend-architecture
+background: Software engineering is evolving from the traditional monolithic to distributed computing which backed up by microservices architecture that why most of modern software engineering has repeatable pattern across many organization.
+objective: To understand the backend architecture archetypes on modern software engineering
 deliverables: Article & Illustration
 typora-root-url: ./../../../../
 ---
@@ -21,8 +21,8 @@ Both of the platform are applying correct architecture. Microservices is not bet
 
 When software engineer use "architecture" terms, they are actually referring to **combination of following software design archetypes**:
 
-1. Infrastructure Architecture - Focus on physical architecture
-2. System Architecture - focus on the **underlying technology stack and data flow at digital core level**. Digital core is set of systems that act as the technology foundation during integration or data exchange stages. Infrastructure architecture will **grealy influence** the hardware specs and network design choices.
+1. Physical Infrastructure Architecture - Focus on physical architecture
+2. Infrastructure Platform Architecture - focus on the **underlying technology stack and data flow at digital core level**. Digital core is set of systems that act as the technology foundation during integration or data exchange stages. Infrastructure architecture will **grealy influence** the hardware specs and network design choices.
 3. Application Architecture - focus on logical representation strategy of business object and technical object on application level. Application architecture will direct affect at **application source code** with small implication to hardware specs.
 4. Coding Design Pattern - purely focus on **source code structure** and has no implication to the hardware specs or network design
 5. Coding Principles - focus on standardizing "**code writing**" style between all developers within same team/project/organization and has no implication to the hardware specs or network design
@@ -31,7 +31,7 @@ the combination is often called as **system architecture** which consist one sel
 
 Below are the differences between these four archetypes.
 
-| Parameter                              | Physical Architecture                                        | System Architecture                                          | Application Architecture                                     | Coding Design Pattern                                        | Coding Principle        |
+| Parameter                              | Physical  Infra Architecture                                 | Infrastructure Platform                                      | Application Architecture                                     | Coding Design Pattern                                        | Coding Principle        |
 | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------- |
 | Deliverable                            | Network Architecture, Physical Architecture                  | Integration Architecture, Logical Architecture               | Business and technical object Representation on as backend Services | Source Code Structure                                        | Coding Standardization  |
 | Common Pattern                         | Container Based, VM-based, Baremetal, Serverless, Serverless Architecture, Cloud Base, Hybrid Cloud, Multi Cloud | Monolithic, Microservices, Service oriented architecture (SOA), Event Driven Architecture (EDA), CQRS, SAGA Pattern | MVC, MVVM, MVP, Viper, Layered Architecture.                 | Factory Method, Abstract Factory, Singleton, Observer Pattern, Bulder Pattern | SOLID, Clean Code, KISS |
