@@ -185,11 +185,9 @@ body {
 }
 
 .small-search input[type="text"] {
-  background: #f5f5f5;
+  background: #fff;
   padding: 8px 15px 8px 15px;
-  border: 0px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border: 1px #000 solid;
 }
 
 
@@ -206,11 +204,11 @@ body {
 }
 
 .small-search button {
-  border: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border: 1px #000 solid;
+  border-left: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: #ffffff;
 }
 
 
@@ -647,7 +645,7 @@ body {
 
 .post-content ol li a {
   text-decoration: none;
-  color: #06b92f;
+  color: #37d50f;
 }
 
 .post-content>a,
@@ -1004,7 +1002,6 @@ body {
   padding: 6px 10px 6px 10px;
   margin: 0px 10px 0px 0px;
   font-size: 13px;
-  border-radius: 20px;
 }
 
 .post-tags-item-side a {
@@ -1742,7 +1739,7 @@ body {
 
 .incat b a {
   text-decoration: none;
-  color: #06b92f;
+  color: #37d50f;
 }
 
 
@@ -2415,7 +2412,7 @@ body {
   padding: 8px 12px;
   border-radius: 4px;
   text-decoration: none;
-  color: #06b92f;
+  color: #37d50f;
   font-size: 14px;
 }
 
@@ -2582,7 +2579,7 @@ body {
 
 .post-content a {
   text-decoration: underline;
-  color: #06b92f;
+  color: #37d50f;
   text-transform: capitalize;
 }
 
@@ -2591,13 +2588,13 @@ body {
 a.gen-links {
   font-size: 14px;
   text-decoration: underline;
-  color: #06b92f;
+  color: #37d50f;
   text-transform: capitalize;
 }
 
 .post-link {
   text-decoration: underline;
-  color: #06b92f;
+  color: #37d50f;
   font-size: 14px;
 }
 
@@ -2711,7 +2708,7 @@ a.gen-links {
 
 .series-new-option a {
   text-decoration: none;
-  color: #06b92f;
+  color: #37d50f;
 }
 
 .series-code {
@@ -2877,7 +2874,7 @@ a.gen-links {
 }
 
 .post-type1-info a {
-  color: #06b92f;
+  color: #37d50f;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -3131,7 +3128,7 @@ tbody tr:hover {
   display: inline-block;
   text-decoration: none;
   border-radius: 12px;
-  background: #06b92f;
+  background: #37d50f;
   color: white;
   padding: 12px 20px;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -3179,7 +3176,7 @@ tbody tr:hover {
 }
 
 .bg-green {
-  background: #06b92f;
+  background: #37d50f;
   color: #fff;
 }
 
@@ -3478,7 +3475,7 @@ tbody tr:hover {
   a.gen-links {
     font-size: 1.2rem;
     text-decoration: underline;
-    color: #06b92f;
+    color: #37d50f;
     text-transform: capitalize;
     line-height: 2;
   }

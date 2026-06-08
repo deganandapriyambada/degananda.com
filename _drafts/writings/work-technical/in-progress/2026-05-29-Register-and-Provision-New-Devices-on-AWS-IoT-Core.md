@@ -1,5 +1,7 @@
 # What is AWS IoT Core
 
+# Steps to Provision IoT Gateway on AWS using IoT Core
+
 Below are the steps to provision aws iot core
 
 ## login to the aws console
