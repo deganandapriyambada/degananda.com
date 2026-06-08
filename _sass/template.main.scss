@@ -208,7 +208,11 @@ body {
   border-left: 0px;
   padding-left: 12px;
   padding-right: 12px;
-  background: #ffffff;
+  background: #000000;
+}
+
+.small-search button i {
+  color: #fff;
 }
 
 
@@ -645,7 +649,7 @@ body {
 
 .post-content ol li a {
   text-decoration: none;
-  color: #37d50f;
+  color: #1bb200;
 }
 
 .post-content>a,
@@ -1739,7 +1743,7 @@ body {
 
 .incat b a {
   text-decoration: none;
-  color: #37d50f;
+  color: #1bb200;
 }
 
 
@@ -2065,7 +2069,6 @@ body {
   flex-direction: row;
   box-sizing: border-box;
   border: 1px #000000 solid;
-  border-radius: 10px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2412,7 +2415,7 @@ body {
   padding: 8px 12px;
   border-radius: 4px;
   text-decoration: none;
-  color: #37d50f;
+  color: #1bb200;
   font-size: 14px;
 }
 
@@ -2579,7 +2582,7 @@ body {
 
 .post-content a {
   text-decoration: underline;
-  color: #37d50f;
+  color: #1bb200;
   text-transform: capitalize;
 }
 
@@ -2588,13 +2591,13 @@ body {
 a.gen-links {
   font-size: 14px;
   text-decoration: underline;
-  color: #37d50f;
+  color: #1bb200;
   text-transform: capitalize;
 }
 
 .post-link {
   text-decoration: underline;
-  color: #37d50f;
+  color: #1bb200;
   font-size: 14px;
 }
 
@@ -2708,7 +2711,7 @@ a.gen-links {
 
 .series-new-option a {
   text-decoration: none;
-  color: #37d50f;
+  color: #1bb200;
 }
 
 .series-code {
@@ -2874,7 +2877,7 @@ a.gen-links {
 }
 
 .post-type1-info a {
-  color: #37d50f;
+  color: #1bb200;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2995,7 +2998,7 @@ img.postimage60:hover {
 }
 
 .in-progress {
-  background: #37d50f;
+  background: #1bb200;
 }
 
 .center-image {
@@ -3128,7 +3131,7 @@ tbody tr:hover {
   display: inline-block;
   text-decoration: none;
   border-radius: 12px;
-  background: #37d50f;
+  background: #1bb200;
   color: white;
   padding: 12px 20px;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -3176,7 +3179,7 @@ tbody tr:hover {
 }
 
 .bg-green {
-  background: #37d50f;
+  background: #1bb200;
   color: #fff;
 }
 
@@ -3475,7 +3478,7 @@ tbody tr:hover {
   a.gen-links {
     font-size: 1.2rem;
     text-decoration: underline;
-    color: #37d50f;
+    color: #1bb200;
     text-transform: capitalize;
     line-height: 2;
   }
