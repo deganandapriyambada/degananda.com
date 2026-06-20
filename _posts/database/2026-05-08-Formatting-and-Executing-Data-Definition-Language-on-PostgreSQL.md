@@ -1,14 +1,14 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: coding-docs
+categories: database
 series-code: n/a
-excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
-tags: debug dependencies
-background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
-objective: To debug and understand jekyll dependencies issue during deployment
+excerpt: Data defintion language or also known as DDL, is a SQL based script which responsible for determining the entire database schema model including table definition, table attribute until configuring the referential integrity.
+tags: postgresql
+background: Database schema should not be created manually to avoid runtime errors and data model inconsistency during the entire development life cycle.
+objective: To understand how to automate the creation of physical table on postgresql 
 deliverables: Article & Illustration
-typora-root-url: ./../../../../
+typora-root-url: ./../../../
 ---
 
 # Data Definition Language Role on SQL and SQL
@@ -118,6 +118,9 @@ CREATE EXTENSION pgcrypto;
 
 its should return "CREATE EXTENSION" if its already installed as shown in image below
 
+![Pgcrypto extension for postgresql has been installed as the create extention command not returning error](/assets/images/2026-06/ddl1.jpg){: .postimage100 }
+[Pgcrypto extension for postgresql has been installed as the create extention command not returning error](/assets/images/2026-06/ddl1.jpg){: .center-image }
+
 if its not installed yet, then install pgcrypto by executing following command in debian/ubuntu (command might be different on other OS)
 
 	sudo apt update
@@ -137,6 +140,16 @@ create the database (execute it line by line)
 DROP DATABASE IF EXISTS milestoneku;
 CREATE DATABASE milestoneku;
 ```
+
+execute those the drop command
+
+![Database is dropped if only if it was existed before](/assets/images/2026-06/ddl2.jpg){: .postimage100 }
+[Database is dropped if only if it was existed before](/assets/images/2026-06/ddl2.jpg){: .center-image }
+
+create the database
+
+![Databse is successfully created](/assets/images/2026-06/ddl3.jpg){: .postimage100 }
+[Databse is successfully created](/assets/images/2026-06/ddl3.jpg){: .center-image }
 
 activate the database manually using pgadmin and then execute the DDL.
 
@@ -165,4 +178,7 @@ CREATE TABLE IF NOT EXISTS users (
 TRUNCATE TABLE users CASCADE;
 ```
 
-done.
+Execute the table creation
+
+![Table is successfully created and truncated](/assets/images/2026-06/ddl4.jpg){: .postimage100 }
+[Table is successfully created and truncated](/assets/images/2026-06/ddl4.jpg){: .center-image }

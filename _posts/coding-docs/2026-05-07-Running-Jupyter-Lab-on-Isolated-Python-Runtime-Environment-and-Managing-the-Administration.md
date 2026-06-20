@@ -3,12 +3,12 @@ layout: posts
 author: Degananda Ferdian
 categories: coding-docs
 series-code: n/a
-excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
-tags: debug dependencies
-background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
-objective: To debug and understand jekyll dependencies issue during deployment
+excerpt: One machine can have different version of python and pip without any jumbled package inter-dependencies issue by using python dependency and project manager tools such as conda, mini conda or even through python virtual environment. Each project can use different python and PIP runtime.
+tags: python-environment
+background: Python can be used for various of things ranging from data science, web development until IoT broker. Those application tends to have different sets of python packages (for example jupyter notebook is used on data science project) and often not compatible with one to another. Hence, the isolation of python environment per different project is required.
+objective: To install jupyter lab on isolated python environment.
 deliverables: Article & Illustration
-typora-root-url: ./../../../../
+typora-root-url: ./../../../
 ---
 
 # The Infamous Jupyterlab Among Data Scientist and STEM Engineer
@@ -64,11 +64,23 @@ check if any existing jupyterlab instances is still running on the background
 	
 	ps -ax | grep "jupyter"
 
-as per above images, there is jupyterlab instances that still active 19698.
+![One jupyterlab instances still active and running](/assets/images/2026-06/jupyter1.jpg){: .postimage100 }
+[One jupyterlab instances still active and running](/assets/images/2026-06/jupyter1.jpg){: .center-image }
 
-execute following command to run the jupyterlab
+as per above images, there is jupyterlab instances that still active (PID=19698).
+
+execute following command to kill the jupyterlab instances
 	
 	kill -9 19698
+
+then run the jupyter lab using following command
+
+	jupyter lab
+
+wait until the startup process is completed
+
+![Jupyterlab is up and running on port 8888](/assets/images/2026-06/jupyter2.jpg){: .postimage100 }
+[Jupyterlab is up and running on port 8888](/assets/images/2026-06/jupyter2.jpg){: .center-image }
 
 ## Run jupyterlab on background
 
@@ -87,9 +99,16 @@ nohup /root/projectmakaryo/projectmakaryospark/bin/python3 \
 
 replace the diretory path with your python virtual environment folder.
 
+![Jupyterlab is now running on background via nohup command](/assets/images/2026-06/jupyter4.jpg){: .postimage100 }
+[Jupyterlab is now running on background via nohup command](/assets/images/2026-06/jupyter4.jpg){: .center-image }
+
 note: python virtual environment can't be activated through source command. Hence, the jupyterlab binary need to be executed from the python virtual environment binary.
 
 now the jupyterlab can be accessed through browser by accessing the server ip with port 8888
+
+![Jupyterlab can be accessed through browser](/assets/images/2026-06/jupyter3.jpg){: .postimage100 }
+[Jupyterlab can be accessed through browser](/assets/images/2026-06/jupyter3.jpg){: .center-image }
+
 
 do not forget to grab the token from the cli response when executing command
 

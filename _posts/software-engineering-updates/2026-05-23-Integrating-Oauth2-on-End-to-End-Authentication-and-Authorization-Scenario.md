@@ -1,12 +1,12 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: coding-docs
+categories: software-engineering-updates
 series-code: n/a
-excerpt: Authentication & authorization claims need to be secured. If the claims can be tempered (modified the content of the claims), it could poses severe security concern. JWT is the industry standard for secured auth claims.
-tags: jwt authentication authorization
-background: Login is a process to proof whether a person can enter specific systems. Those claims is documented in standardized format of JSON web token.
-objective: To understand how use JSON web token for authentication and authorization
+excerpt: Oauth is standard protocol for authentication data sharing across applications. The most popular oauth is google authentication which used by almost all SaaS platform that available on the market (web/appstore/playstore)
+tags: oauth authentication authorization
+background: Nowdays digital apps is emerging with human habit and culture. Worker use apps to boost their productivity and students study with the help of note taking apps. More and more people start to integrate digital apps to their daily life thanks to the interconnected authentication between those SaaS platforms.
+objective: To understand the underlying mechanism of open authentication system that used by big social media platform
 deliverables: Article & Illustration
 typora-root-url: ./../../../../
 ---
