@@ -3,17 +3,17 @@ layout: posts
 author: Degananda Ferdian
 categories: coding-docs
 series-code: n/a
-excerpt: Just like NodeJS, ruby has two mechanism on resolveing the ruby library dependencies, its either using global package dependencies or local one through the Gemfile.lock
-tags: debug dependencies
-background: Jekyll is ruby based SSG (static site generated) and naturally all the coding principles, syntax as well as dependencies management will follow ruby bundler behavior/mechanism.
-objective: To debug and understand jekyll dependencies issue during deployment
-deliverables: Article & Illustration
-typora-root-url: ./../../../../
+excerpt: Git is a smart source version control. As long as the code havent deployed to the server, the branch source code can be fixed. For example, an unintended merge from certain commit can be rolled back.
+tags: git
+background: Working with git require full attention and care. One wrong merge to main branch can cause breakdown the application functionality. How to mitigate if such unintended merge incident is occured?
+objective: To understand how to mitigate unitended merging on git repository
+deliverables: Article
+typora-root-url: ./../../../
 ---
 
 # Unintended Git Merge Can Happened Despite Good CI/CD Procedure
 
-Wrong merged can cause catastrophic effect on the application especially if the unwanted changes is affecting the production environment. Those incidents ideally never happened with proper deployment procedures. Every commit must be reviewed thoroughly by both tech lead and developer. Furthermore, before the commit merged into released branch, it should also undergo unit testing on the development pipeline.
+Wrong merge can cause catastrophic implication on the application functionality especially if the unwanted changes is affecting the production environment. Those incidents ideally never happened with proper deployment procedures. Every commit must be reviewed thoroughly by both tech lead and developer. Furthermore, before the commit merged into released branch, it should also undergo unit testing on the development pipeline.
 
 However, any plans can go wrong especially if its triggered by **human error** eventhough the deployment SOP(standard operating procedure) has been built to perfection. Because in the end human is the one who execute the SOP.
 
@@ -26,6 +26,9 @@ However, not all software is shipped using modular approaches where all the libr
 ## The Remediation: Rollback to previous commit
 
 Fortunately, git is designed to have **rollback mechanism**. Git can switch the latest commit with previous commit as long as the commit still exist on the repository history.
+
+![the top commit is unintended](/assets/images/2026-06/git1.jpg){: .postimage80 }
+[the top commit is unintended](/assets/images/2026-06/git1.jpg){: .center-image }
 
 For example, based on image above, the "init" (2d2884bf) commit above was unitentionally merged to the master branch.
 
@@ -47,17 +50,29 @@ force push to the master branch
 
 and its done. Now the master branch is repointed back to **previous commit.**
 
+![commit has been reversed](/assets/images/2026-06/git2.jpg){: .postimage80 }
+[commit has been reversed](/assets/images/2026-06/git2.jpg){: .center-image }
+
 as shown on image above, new commit called "fix" is made by negating the latest commit (2d2884bf) and reapplying the change made on the 2b69f5c commit.
 
-but in this cases, one commit is missed which is 2d884bf, cherry pick can be used to reapply 2d884bf commit
+![2d884bf is leftout](/assets/images/2026-06/git4.jpg){: .postimage80 }
+[2d884bf is leftout](/assets/images/2026-06/git4.jpg){: .center-image }
+
+but in this cases, one commit is left behind, which is 2d884bf, cherry pick can be used to reapply 2d884bf commit
 
 	git cherry-pick 2d884bf
+
+![rollback to following commit 2d884bf](/assets/images/2026-06/git5.jpg){: .postimage80 }
+[rollback to following commit 2d884bf](/assets/images/2026-06/git5.jpg){: .center-image }
 
 then push to the remote master branch
 
 	git push origin master
 
 its now aligned perfectly.
+
+![successfully rollback to specific commit before the unintended merge incident is occured](/assets/images/2026-06/git6.jpg){: .postimage80 }
+[successfully rollback to specific commit before the unintended merge incident is occured](/assets/images/2026-06/git6.jpg){: .center-image }
 
 Hence, if something goes wrong on the codebase during deployment, dont be panic. there is a solution to rollback eventhough the application package/artifact is not available. 
 

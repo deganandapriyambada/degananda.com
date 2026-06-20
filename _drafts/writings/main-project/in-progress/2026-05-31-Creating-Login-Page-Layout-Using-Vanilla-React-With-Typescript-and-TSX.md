@@ -1,6 +1,11 @@
 # Environment Preparation
 
-stack:
+below is the tech stack used:
+
+1. typescript
+2. nodejs
+3. vanilla react
+4. esbuild
 
 ## Install neccesary build tools
 
