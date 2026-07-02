@@ -1,3 +1,15 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: functional-workflow
+series-code: n/a
+tags: methane
+excerpt: Methane is released to the air through various potential sources such as valve, flanges, compressor, vent and so on. Once the methane plume is formed in atmosphere, FGDS (firegas detector with infrared), satelite and other optimical tools like LIDAR camera can capture the methane.
+background: Just like LPG(liquid petroleum gas), methane plume is also invicible to human eyes. Hence it require special tools and method to detect the methane.
+objective: To understand how to detect methane plume on the air
+deliverables: Article
+---
+
 # Two Types of Methane Tracing
 
 Methane compounds is invicible to human eyes. It require specialized tools to detect and trace  the methane leak or methane plume. Leak detection is focused on **identifying the leakage sources** while methane plume detection is to **determine the trajectory of leakge** (horizontally and vertically). They require different sets of methodology and tools.

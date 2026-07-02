@@ -18,10 +18,10 @@
 
       {% for category in recent_categories limit:5 %}
       <li>
-        <a href="/category/{{ category }}">{{ category | capitalize }}</a>
+        <a href="/category/{{ category }}/">{{ category | capitalize }}</a>
       </li>
       {% endfor %}
-      <li><a href="/explore"> More Category </a></li>
+      <li><a href="/explore/"> More Category </a></li>
     </ul>
   </div>
 </div>
