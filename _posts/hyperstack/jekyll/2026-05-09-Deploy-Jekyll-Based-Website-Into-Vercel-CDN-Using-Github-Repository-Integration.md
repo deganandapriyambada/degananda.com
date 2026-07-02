@@ -79,3 +79,5 @@ done. now the deployed jekyll websites can be accessed.
 
 if the route pages is returnig 404 on live server but its working fine on local means the permalinks need to be updated. Vercel will not automatically detect the url rewriting. Permalink need to have slash at the end as shown below.
 
+![Fix permalink on jekyll hosting](/assets/images/2026-06/vercel9.jpg){: .postimage100 }
+[Fix permalink on jekyll hosting](/assets/images/2026-06/verce9.jpg){: .center-image }

@@ -2,8 +2,8 @@
 layout: posts
 author: Degananda Ferdian
 categories: lenses
-series-code: Data is the new oil. Most of organization have realize those concept. Nowdays, OT data not only stayed at historian but instead it integrated to the cloud for further analytics proceesing. OPC-UA is the protocol which can bridge between IT and OT world or also known as IT OT convergence.
-excerpt: TBC
+series-code: n/a
+excerpt: Data is the new oil. Most of organization have realize those concept. Nowdays, OT data not only stayed at historian but instead it integrated to the cloud for further analytics proceesing. OPC-UA is the protocol which can bridge between IT and OT world or also known as IT OT convergence.
 tags: itot opcua
 background: OT system is different with IT systems in terms of the data acquisition strategy. At big scale manufacturing industry, one facilities can have thousans of equipment. Hence, a specific protocol that can carry the asset model or asset context is required and those protocol are called as OPC UA
 objective: To understand the differences between OPC UA and HTTP as well as getting to know the role of OPC UA in IT to OT integration.

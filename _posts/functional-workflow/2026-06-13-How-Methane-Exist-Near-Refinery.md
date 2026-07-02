@@ -1,3 +1,15 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: functional-workflow
+series-code: n/a
+tags: methane
+excerpt: Methane especially in the gas form is highly flammable. When methane released towards the air, it can slowly become methane plume. Even small exposure to the fire source such as hot surfaces can burn methane. 
+background: carbon tetrahydride (CH4) or commonly called as methane is one of the flammable gas which can be formed near the refinery as the result from the production process
+objective: To understand how methane gas formed near the refinery
+deliverables: Article
+---
+
 # The Characteristics of Methane
 
 Methane has chemical formula of CH<sub>4</sub> and often also called as carbon tetrahydride (in context of their systemic naming convention) means the compounds consist of one carbon substance and four hydrogen substance. However, most scientist and engineer called CH<sub>4</sub> as **methane** for easier spelling and pronounciation.
