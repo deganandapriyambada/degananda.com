@@ -15,3 +15,4 @@ Hence, following article will use conda as the python project management which r
 
 ## Environment Prepraration
 
+Kernel
