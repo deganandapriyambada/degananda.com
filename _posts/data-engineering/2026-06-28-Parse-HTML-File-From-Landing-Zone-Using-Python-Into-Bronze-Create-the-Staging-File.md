@@ -1,7 +1,7 @@
 ---
 layout: posts
 author: Degananda Ferdian
-categories: data engineering
+categories: data-engineering
 series-code: n/a
 tags: parsing scrapping
 excerpt: Python is very popular for data engineering including for HTML parsing process using It can even handle big chunk of html pretty fast thanks to the LXML library that written in C.
