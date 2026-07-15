@@ -34,7 +34,7 @@
     {% elsif page.url contains '/tags/' %}
     {% assign first_post = site.posts | where_exp:"post","post.tags contains page.tag" | first %}
     {% if first_post %}
-    {% assign parent_category = first_post.categories | first %}
+    {% assign parent_category = first_post.tags | first %}
     <link rel="canonical" href="{{ site.url }}/category/{{ parent_category }}/">
     {% endif %}
     {% else %}
