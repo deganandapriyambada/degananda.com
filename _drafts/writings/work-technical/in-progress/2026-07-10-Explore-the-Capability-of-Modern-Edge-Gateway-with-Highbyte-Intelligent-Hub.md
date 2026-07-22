@@ -8,4 +8,11 @@ There are various key use cases enabled by IIoT including (but not limited) to f
 
 ## Data Ingestion To Highbyte with OPC UA
 
-The recommended way to ingest OT data to highbyte is through Open platform communication unified architecture (OPC-UA) protocol.
+The recommended way to ingest OT data to highbyte is through Open platform communication unified architecture (OPC-UA) protocol. 
+
+## Typical ITOT Convergence Architecture with Centralized Highbyte on AWS
+
+Highbyte can be deployed on both cloud (including AWS) and on premise using direct deployment to the baremetal or via containerization. However, highbyte on the aws marketplaces **only support containerization** through ECS  (elastic container services) or EKS (elastic kubernetes services).
+
+## Security Hotspot and Risk Mitigation
+
