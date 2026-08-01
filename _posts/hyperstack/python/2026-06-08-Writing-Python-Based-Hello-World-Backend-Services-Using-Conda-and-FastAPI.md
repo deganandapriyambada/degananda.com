@@ -1,3 +1,16 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: pytho
+series-code: n/a
+tags: rest-api
+excerpt: There are several libraries to build backend web services using python. One of the most popular one is FastAPI. it widely used on python developer community due to the performance (on par with expressjs)
+background: despite the popularity for the data analysis dan data engineering, python can also be used to create backend web services.
+objective: to understand how to create web services API (application programming interfaces) using python stack.
+deliverables: Article
+typora-root-url: ./../../../
+---
+
 # FastAPI based Backend Services using Conda
 
 Below are the steps to initiate fastAPI project using conda
@@ -9,8 +22,6 @@ create new python project using conda to manage multiple python project with dif
 	conda create --name=[project_name] python=[python-version]
 
 it will take sometimes as conda need to install and setup new python binary for that specific environment. 
-
-[image - creating conda project]
 
 If the python project is successfully created it will print out following message on the terminal console
 
@@ -45,7 +56,9 @@ validate if the terminal already pointed to correct conda's python binary by exe
 
 both binaries (python and pip) should be pointed to the conda's environment path as shown below
 
-[image conda env path & pip]
+![both python path & pip path are pointed to correct specific conda binary file](/assets/images/2026-08/fastapi1.jpg){: .postimage80 }
+[both python path & pip path are pointed to correct specific conda binary file](/assets/images/2026-08/fastapi1.jpg){: .center-image }
+
 
 next up is setting up the git
 
@@ -57,7 +70,8 @@ not all files need to be added on the repository. Conda environment file like th
 
 below are the folder list from conda environment which need to be excluded as its not the main backend services source code
 
-1. env
+1. env (including the sub folders)
+1. DS_Store (if you're on mac)
 
 create new file called as .gitignore
 
@@ -73,7 +87,8 @@ env
 
 If visual studio code (VSC) is used, dont forget to change the python interpreter as well.
 
-[image visual studio code interpreter]
+![select correct conda python interpreter on the VSC IDE](/assets/images/2026-08/fastapi3.jpg){: .postimage80 }
+[select correct conda python interpreter on the VSC IDE](/assets/images/2026-08/fastapi3.jpg){: .center-image }
 
 Install fastAPI using PIP by executing following command
 
@@ -85,9 +100,11 @@ validate if fast API has been installed properly. Execute following command
 
 	pip list. | grep "fastapi"
 
-[image pip list fastapi]
-
 It should be listed under the python package list.
+
+![fast api is successfully installed on the pip](/assets/images/2026-08/fastapi2.jpg){: .postimage80 }
+[fast api is successfully installed on the pip](/assets/images/2026-08/fastapi2.jpg){: .center-image }
+
 
 ## Hello World API Endpoint
 
@@ -118,11 +135,18 @@ compile run the fastAPI using following command
 
 	fastapi dev
 
-[insert image of fast api startup]
+
+fastapi has been succesfully installed within conda environment
+
+![FastAPI services is started](/assets/images/2026-08/fastapi4.jpg){: .postimage80 }
+[FastAPI services is started](/assets/images/2026-08/fastapi4.jpg){: .center-image }
 
 open browser and access localhost with port 8000 with following endpoint /helloworld
 
-done. fastapi has been succesfully installed within conda environment
+![Accessing fastAPI endpoint on browser](/assets/images/2026-08/fastapi5.jpg){: .postimage80 }
+[Accessing fastAPI endpoint on browser](/assets/images/2026-08/fastapi5.jpg){: .center-image }
+
+done. 
 
 
 
