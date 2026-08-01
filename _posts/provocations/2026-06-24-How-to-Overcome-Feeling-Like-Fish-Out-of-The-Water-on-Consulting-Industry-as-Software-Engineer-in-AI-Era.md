@@ -8,10 +8,10 @@ excerpt: Despite the job market disruption, AI is dramaticaly changing software 
 background: Generative artificial intelligence (genAI) revolutionise workflow in almost every industry sector including software engineering. Resulting in the less available job on the market because of the task automation.
 objective: To create a strategy for surviving the harsh job market as software engineer by applying mindset shift changes
 deliverables: Article
-typora-root-url: ./../../../../
+typora-root-url: ./../../../
 ---
 
-![Surviving the job market as AI powered techn-functional software engineer](/assets/images/2026-08/techno-functional.jpg){: .postimage80 }
+![Surviving the job market as AI powered techn-functional software engineer](/assets/images/2026-08/techno-functional.jpg){: .postimage100 }
 [Surviving the job market as AI powered techn-functional software engineer](/assets/images/2026-08/techno-functional.jpg){: .center-image }
 
 # Harsh Market Condition for Software Engineer in the era of AI

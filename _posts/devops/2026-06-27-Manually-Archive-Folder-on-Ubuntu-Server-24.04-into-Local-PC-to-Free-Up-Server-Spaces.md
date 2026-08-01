@@ -1,6 +1,15 @@
-objectives: to understand how to check available disk space left on ubuntu server
+---
+layout: posts
+author: Degananda Ferdian
+categories: devops
+series-code: n/a
+tags: house-keeping
+excerpt: Regular sanity checks is needed to ensure the remaining disk freespace is enough to handle the the living and growing log file. Ubuntu server provide handy command to calculate the freespace as well as to freeup the space by archiving and transfering the archive outside the server.
 background: lack of disk freespace is a ticking bomb situation especially when the server logs continuing piling up. once the disk is full, all apps will be forced to shutdown (unexpected exit)
-exceprt: Regular sanity checks is needed to ensure the remaining disk freespace is enough to handle the the living and growing log file. Ubuntu server provide handy command to calculate the freespace as well as to freeup the space by archiving and transfering the archive outside the server.
+objective: to understand how to check available disk space left on ubuntu server
+deliverables: Article
+typora-root-url: ./../../../
+---
 
 # The Aftermath of Heavy Storage Occupation
 
@@ -16,7 +25,9 @@ Execute following command on the ubuntu server shell.
 
 df means disk filesystem and "-h" cli parameter is telling the command to return human readable responses.
 
-[image sample of df -h command result]
+![sample of df -h command result](/assets/images/2026-08/df1.jpg){: .postimage80 }
+[sample of df -h command result](/assets/images/2026-08/df1.jpg){: .center-image }
+
 
 ```json
 root@pendar-spark:~# df -h
@@ -59,7 +70,8 @@ Go to the folder path that store the target folder. For example:
 
 here is the target folder that will be archived
 
-[image s_output folder will be archived]
+![s_output folder will be archived](/assets/images/2026-08/df2.jpg){: .postimage80 }
+[s_output folder will be archived](/assets/images/2026-08/df2.jpg){: .center-image }
 
 execute following command
 
@@ -69,7 +81,8 @@ above command will create a compressed file in tar format that consisted of all 
 
 wait until the archive process is completed. Be cautious when archiving folder that has large files. it could eat up the server memories and might affect the running services. It is recommended to only archive big files during low traffic time.
 
-[image archiving of s_output folder is success]
+![archiving of s_output folder is succeed](/assets/images/2026-08/df3.jpg){: .postimage80 }
+[archiving of s_output folder is succeed](/assets/images/2026-08/df3.jpg){: .center-image }
 
 ## Download The Archived Folder Into Local Computer
 
@@ -93,4 +106,5 @@ note:
 
 wait until the download process is completed.
 
-[image done. the file has been successfully downloaded to local machine using SCP]
+![the file has been successfully downloaded to local machine using SCP](/assets/images/2026-08/df4.jpg){: .postimage80 }
+[the file has been successfully downloaded to local machine using SCP](/assets/images/2026-08/df4.jpg){: .center-image }

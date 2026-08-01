@@ -8,7 +8,7 @@ excerpt: Field devices need to be registered on the AWS IoT Core devices managem
 background: Internet of things concept is allowing field devices to connect with cloud analytics through secured internet network.
 objective: To understand how to register and provision new devices on AWS IoT Core.
 deliverables: Article
-typora-root-url: ./../../../../
+typora-root-url: ./../../../
 ---
 
 # What is AWS IoT Core

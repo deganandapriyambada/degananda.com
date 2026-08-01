@@ -1,7 +1,15 @@
-
-objective: to understand the skill gap between job market requirement and tech fresh graduate skillset.
-background: only small percentage of tech fresh graduate met today job vacancy requirement which require minimum years of experience on certain skills based on actual working experience (eg: internship, volunteer, paid project) where personal project are not counted.
+---
+layout: posts
+author: Degananda Ferdian
+categories: provocation
+series-code: n/a
+tags: job-market-strategy
 excerpt: Human are born with adaptation skikls. Eventhough the job market requirement become tough for tech fresh graduate, the experience and skills are grindable through various method including internship, paid project, social project or become volunteer in an event with following caveat - must align with the career prospect or aspiration
+background: Only small percentage of tech fresh graduate met today job vacancy requirement which require minimum years of experience on certain skills based on actual working experience (for example - internship, volunteer, paid project) where personal project are not counted.software engineering. Resulting in the less available job on the market because of the task automation.
+objective: to understand the skill gap between job market requirement and tech fresh graduate skillset.
+deliverables: Article
+typora-root-url: ./../../../
+---
 
 # Gap Between Industry Requirement and Talent Pool 
 
