@@ -1,3 +1,19 @@
+---
+layout: posts
+author: Degananda Ferdian
+categories: provocation
+series-code: n/a
+tags: ai-disruption job-market-strategy
+excerpt: Despite the job market disruption, AI is dramaticaly changing software engineering ways of working. The information overflows and AI agent can help to complete the development task which enable software engineering to focus on the strategical and tactical level of thinking such as technical design, functional design and overall technology to business alignment
+background: Generative artificial intelligence (genAI) revolutionise workflow in almost every industry sector including software engineering. Resulting in the less available job on the market because of the task automation.
+objective: To create a strategy for surviving the harsh job market as software engineer by applying mindset shift changes
+deliverables: Article
+typora-root-url: ./../../../../
+---
+
+![Surviving the job market as AI powered techn-functional software engineer](/assets/images/2026-08/techno-functional.jpg){: .postimage80 }
+[Surviving the job market as AI powered techn-functional software engineer](/assets/images/2026-08/techno-functional.jpg){: .center-image }
+
 # Harsh Market Condition for Software Engineer in the era of AI
 
 The market is shifting. Like or not, AI (artificial intelligence) changing how organization perceive information technology implications to their business. In the era of COVID, digitalization was a booming and suddeny increase the demand of software engineer in the industry (tech summer) because mankind was realizing that they can work from anywhere without physical presence through collaborative tools like microsoft teams, skype, zoom or google meet. It changed the working culture and lifestyle. It was the golden era for software engineer. **They (SE) become valueable asset for company and most of them are getting big paid**.
@@ -28,6 +44,10 @@ Before defining survival strategy, its important to understand the current proje
 
 Accept that **no employer will paid us to configure API, create boilerplate or create CRUD system**. Software engineer role is now rwritten towards fixing complex system problem (especially at design area).
 
+## Survive AI-distrupted Job market
+
+Mindset Shift & genAI based Workflow Transformation are need to survive the job market by becoming techno-functional software engineer
+
 | Survival Strategy                              | Priority | Purposes                                                     |
 | ---------------------------------------------- | -------- | ------------------------------------------------------------ |
 | Rebranding from engineer to solution architect | P2       | A solution architect is connecting the dots between IT and functionality. It will give higher chance to land a project |
@@ -40,7 +60,7 @@ Note: these are based on my personal experience work on consulting company from 
 
 Below are the strategies that i can think of to survive the internal project hunting and harsh job market (incase headcount reduction is finally happening).
 
-## The Rise of Functional Consultant
+## The Rise of Techno-Functional Consultant
 
 Software engineering is now becoming a commodities. They are not just competing with fellow software engineer but also with specialized agentic AI for software development. The advancement of AI might further reduce the needs of software engineer in terms of headcount (not erasing the complete demand) as they become more efficient and on-point.
 
@@ -54,7 +74,7 @@ Is it even possible? yes, with proper strategy, learning plan and apply SWOT ana
 
 Self learning might not be enough, we have to experience it directly by doing the digital transformation projects on that area. It could be from actual client project or we partnered up with our friends who on on that area/industry.
 
-## Be Friend with AI
+## Be Friend with AI: Perceive AI as a Tools, Not a Threat.
 
 As techno functional or also known as solution architect, we have to utilize all AI tools as much as possible to create the best system design with high interoperability, data integrity, scalability, reliability & security and also aligned with the business process flow.
 
@@ -64,4 +84,4 @@ Below are the AI tools that suitable for solution architect in the era of AI dis
 1. claude code - agenticAI for coding/software development
 1. eraser - AI for generating technical architecure diagram
 
-Those three AI tools can be combined for both SI and consulting projects.
+Those three AI tools can be combined for both SI and consulting projects. Productivity can be improved drastically by maximizing the potential use of AI tools. Each AI has their own specialization. Not every AI tools is excel on image processing. For example: gemini is good to generate images (vector/illustration) but bad when generating slides (not as good as chatgpt). 
