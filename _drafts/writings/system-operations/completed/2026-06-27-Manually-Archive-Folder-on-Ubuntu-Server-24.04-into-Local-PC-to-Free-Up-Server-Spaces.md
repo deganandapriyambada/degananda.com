@@ -1,3 +1,7 @@
+objectives: to understand how to check available disk space left on ubuntu server
+background: lack of disk freespace is a ticking bomb situation especially when the server logs continuing piling up. once the disk is full, all apps will be forced to shutdown (unexpected exit)
+exceprt: Regular sanity checks is needed to ensure the remaining disk freespace is enough to handle the the living and growing log file. Ubuntu server provide handy command to calculate the freespace as well as to freeup the space by archiving and transfering the archive outside the server.
+
 # The Aftermath of Heavy Storage Occupation
 
 Lack of storage on the server can affect performance of the backend services especially if the storage occupancy almost hit the maximum allocated volume size. The performance degregadation typically happened at arround >= 95% occupancy especially at ubuntu server because by default the linux file system reserve and lock arround 5% for system use. So that the backend services or other daemon program can't claim those storage.
