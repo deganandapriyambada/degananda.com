@@ -1,3 +1,8 @@
+objectives: to understand how to create web services API (application programming interfaces) using python stack.
+background: despite the popularity for the data analysis dan data engineering, python can also be used to create backend web services.
+excerpt: There are several libraries to build backend web services using python. One of the most popular one is FastAPI. it widely used on python developer community due to the performance (on par with expressjs)
+
+
 # FastAPI based Backend Services using Conda
 
 Below are the steps to initiate fastAPI project using conda
