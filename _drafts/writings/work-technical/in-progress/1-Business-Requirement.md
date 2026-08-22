@@ -49,7 +49,9 @@ Definition: Person who analyze sensor tags data and find useful insight for busi
 
 responsibilities:
 
-1. Develop an algorithm to analyze anomalies from realtime sensor tags data to notify instrumentation
+1. Develop an algorithm to analyze anomalies from realtime sensor tags data to notify instrumentation engineer or itot engineer for any issues which require their attention and follow up (if possible) like re-calibration, connectivity checking
+2. Develop and configure data pipeline to store sensor tags data in L4 historian data bases to enable business user view the tags historical data.
+3. Design scalable data ingestion pipeline tl various output sink for processing big data stream.
 
 
 
