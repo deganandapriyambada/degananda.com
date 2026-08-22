@@ -15,3 +15,9 @@ The waterfall alike methodology is choosen for defining business requirements to
 
 # Stakeholder
 
+IoT platform is mainly used by instrumentation engineer and software engineer which often came from IT and instrumentation (OT) departments. Both of them play different role during the sensor data acquisition life cycle. 
+
+The duality might incur if then responsibilities segregation is not governed properly. Top-down driven governanes is preferred. Platform should not be driven by one-sided department. IT and OT must be convergenced as one integrated data ops. Hence, the iot platform's user persona must be identified from both of IT and OT side.
+
+
+
