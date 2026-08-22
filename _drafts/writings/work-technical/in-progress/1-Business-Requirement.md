@@ -51,14 +51,24 @@ responsibilities:
 
 1. Develop an algorithm to analyze anomalies from realtime sensor tags data to notify instrumentation engineer or itot engineer for any issues which require their attention and follow up (if possible) like re-calibration, connectivity checking
 2. Develop and configure data pipeline to store sensor tags data in L4 historian data bases to enable business user view the tags historical data.
-3. Design scalable data ingestion pipeline tl various output sink for processing big data stream.
+3. Design scalable data ingestion pipeline with various output sink for processing big data stream.
 
 ## Business requirement
 
 
 | BR ID | Business Requirement | 
 |---|---|
-| DA1 | Sensor data from the safety system must be captured to enable remote survilliance |
-| DA2 | Historical safety timeseries data must be retrieveable from various timespan  | 
+| DA1 | Sensor data from the safety system must be captured to enable remote survilliance which can led to nearmiss event likelyhood reduction. |
+| DA2 | Historical safety timeseries data must be retrieveable from various timespand  | 
 
+## User Stories
 
+Business requirement identification goal is to give **strong judgement and reason** for an organization to adapt into new changes while user story is the process to empathize to the business user who will assigned to achieve the business requirement by operating the newly developed internet of things platform.
+
+Business requirement will be breaked down into small workable feature for the software development team in one sprint.
+
+User stories which shared same missions will be grouped into an EPIC of also known as functionality module.
+
+| Epic | User Story | BR ID Baseline |
+|---|---|---|
+| DA1 | a | b |
