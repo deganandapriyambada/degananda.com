@@ -12,6 +12,10 @@ Without the standard format, the downstream application such as analytics or UI 
 
 ## PID Mapping
 
+## CBM Threshold
+
+## Notification
+
 # Normalization
 
 ## Asset Contextualization
@@ -23,3 +27,25 @@ Without the standard format, the downstream application such as analytics or UI 
 ## Condition Based Monitoring
 
 ## Anomaly Detection
+
+# ITOT Convergence
+
+# Non Functional Requirement
+
+## Scalability
+
+## Reliability
+
+## Security
+
+# Configuration
+
+## Message Broker
+
+## Apache Flink
+
+## Lambda
+
+## IoT Platform
+
+## InfluxDB for timeseries
