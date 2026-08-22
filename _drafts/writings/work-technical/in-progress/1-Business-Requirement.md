@@ -18,7 +18,7 @@ Archetypes A
 
 Business requirements for internet of things platform are defined based on following methodology
 
-stakeholder (persona) identification -> pain point exploration -> user stories definition -> business requirement definition -> MOSCOW prioritization.
+stakeholder (persona) identification -> user stories definition -> business requirement definition -> MOSCOW prioritization.
 
 **stakeholder identification**: list down all possible person who has interest or may got benefit(direc/indirect) from the iot platform  by tracing down from the related key performance indicator.
 
@@ -53,5 +53,12 @@ responsibilities:
 2. Develop and configure data pipeline to store sensor tags data in L4 historian data bases to enable business user view the tags historical data.
 3. Design scalable data ingestion pipeline tl various output sink for processing big data stream.
 
+## Business requirement
+
+
+| BR ID | Business Requirement | 
+|---|---|
+| DA1 | Sensor data from the safety system must be captured to enable remote survilliance |
+| DA2 | Historical safety timeseries data must be retrieveable from various timespan  | 
 
 
