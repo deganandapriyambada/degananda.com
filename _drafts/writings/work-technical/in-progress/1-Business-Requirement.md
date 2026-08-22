@@ -39,7 +39,17 @@ Definition: Person who in charge for configuring software and hardware periphera
 
 responsibilities:
 
-1. Develop IT friendly protocol listener for tags data acquisition from the underlying OT system which has direct interfacing to IT firewall.
+1. Develop IT friendly protocol listener for tags data acquisition from the underlying OT system which has direct interfacing to IT firewall to allow the mesaage passing through the IT firewall 
+2. Transform message format into standard IT payload to ensure the data engineer can analyze the data immediately without heavy data formatting.
+3. Monitor sensor data acquisition pipeline health and proactively solve the issues to make sure high uptime with minimal-to-none downtime
+
+## Data Engineer
+
+Definition: Person who analyze sensor tags data and find useful insight for business through data ops automation
+
+responsibilities:
+
+1. Develop an algorithm to analyze anomalies from realtime sensor tags data to notify instrumentation
 
 
 
