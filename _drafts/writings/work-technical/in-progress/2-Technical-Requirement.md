@@ -6,9 +6,18 @@ Without the standard format, the downstream application such as analytics or UI 
 
 ## Telemetry
 
+One safety sensor can generate multiple tags or itemID in the context of OP
+
+Below are the sensor telemetry parameters list which applied for on the message broker.
+
+
 ## Event & Incident
 
+Apart from acting as protocol listener, iot platform will also generate two kinds of platform generated information as the result of sensor data analysis including events and incident.
+
 ## Time Series Data
+
+Tags
 
 ## PID Mapping
 
