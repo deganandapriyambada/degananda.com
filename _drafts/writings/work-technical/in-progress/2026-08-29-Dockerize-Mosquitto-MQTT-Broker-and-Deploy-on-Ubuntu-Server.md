@@ -1,3 +1,11 @@
+# Mosquitto as Lightweight Edge IoT Broker
+
+Mosquitto is lightweight MQTT broker that suitable for low throughput iot data ingestion scenario. Despite no official benchmark from mosquitto, it can handle easily up to 5 MB/s egress and ingress or arround +- 5K tags from OPC DA.
+
+# Deploy Mosquitto MQTT Broker 
+
+below are the steps to install and configure mosquitto mqtt broker  on L4 IT to Receive Data from OPC DA Protocol Gateway
+
 **update package**
 
     sudo dpkg --configure -a
@@ -126,4 +134,3 @@ volumes:
 re-run docker with updated configuration
 
     sudo docker compose up -d
-
