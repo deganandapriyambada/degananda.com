@@ -9,6 +9,7 @@ background: Website is composed by group of HTML syntax from div, span, table, i
 objective: To understand how to process html file and parse the content to get insightful information.
 deliverables: Article
 typora-root-url: ./../../../
+title: "Parse Html File From Landing Zone Using Python Into Normalized Data for Silver Table"
 ---
 
 # Environment Prepration 
