@@ -2402,7 +2402,7 @@ body {
 
 
 .top-hl-left {
-  flex: 1;
+  flex: 2;
   margin-bottom: 25px;
 }
 
@@ -2464,7 +2464,7 @@ body {
 }
 
 .topic-excerpt {
-  font-size: 15px;
+  font-size: 0.9rem;
   text-align: justify;
 }
 
@@ -2511,8 +2511,8 @@ body {
 
 .main-topic-box {
   background: #fff;
-  border: 1px #f0f0f0 solid;
-  padding: 25px;
+  border: 1px #000000 solid;
+  padding: 15px 20px 15px 20px;
   box-sizing: border-box;
   align-items: center;
 }
