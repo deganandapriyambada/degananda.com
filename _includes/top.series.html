@@ -63,44 +63,6 @@
 </ul>
 
 <div class="theme-divider-word">
-    Long Series
-</div>
-<div class="series-list-container">
-    {% for item in site.data.series %}
-    <div class="new-series-container">
-        <div class="series-new-est">
-            Est: {{ item.start }} - {{ item.end }}
-        </div>
-
-        <div class="series-new-title">
-            <a href="/series/{{item.code}}">{{ item.title }}</a>
-        </div>
-
-        <div class="series-new-topic">
-            <ul>
-                <li>
-                    <div class="series-new-status {{ item.status }}">
-                        {{ item.status }}
-                    </div>
-                </li>
-                <li>
-                    ·
-                </li>
-
-                <li>
-                    <div class="series-new-option">
-                        <div><a href="/series/{{ item.code }}" title="{{ item.title }}">Learn More</a></div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-
-    </div>
-    {% endfor %}
-</div>
-
-<div class="theme-divider-word">
     <i class="fa fa-magic" aria-hidden="true"></i>
     &nbsp; Level Up With Us
 </div>
