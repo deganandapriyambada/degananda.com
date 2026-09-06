@@ -69,3 +69,4 @@ note: the configuration wil all depend on the opc-ua server config. then click s
 then click deploy so that the flow will be executed.
 
 [image done - now nodered is successfully connected with local opc ua server]
+

@@ -1,0 +1,52 @@
+## website general information configuration.
+site_title: "Pipe&Poof - A Living Journal as IS/IT Techno-functional Practitioner"
+site_description: "My Learning Journey"
+permalink: /:categories/:year/:month/:title/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-categories
+  #- jekyll-minifier
+  - jekyll-paginate-tags
+  #- jekyll-feed
+  #- jekyll-sitemap
+  - jekyll-archives
+  - jekyll-tagging-related_posts
+  - jekyll-last-modified-at
+  - jekyll-loading-lazy
+  - jekyll-glossary_tooltip
+  #- jekyll-drawio
+
+url: "https://pipenpoof.com" 
+
+
+paginate: 8
+paginate_path: '/page-:num/'
+
+paginate_category_basepath: '/category/:name/'
+paginate_category_layout: 'category.html'
+
+paginate_tag_basepath: '/tags/:name/'
+paginate_tag_path: '/page-:num'
+paginate_tag_layout: 'tag.html'
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+  layout: archive
+  permalinks:
+    year: 'archive/:year/'
+    month: 'archive/:year/:month/'
+    day: 'archive/:year/:month/:day/'
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+exclude:
+  - _includes/notebook/
+  - _drawio/
+  - assets/notebook/
+  - "*.ipynb"

@@ -63,6 +63,6 @@ Jakarta Barat, 24 November 2024 - Indonesia.
 
 Cheers,
 
-Degananda Ferdian
+Degananda Ferdian P.
 
 

@@ -2,7 +2,7 @@
   <div class="top-hl-container">
     <div class="top-hl-left">
       <div class="whats-new">
-        Last Update
+        Lastest Updates
       </div>
       <div class="commit-container">
         <div id="commitHistory"></div>
@@ -22,8 +22,25 @@
           </div>
         </a>
       </div>
-      <div class="writer-info">
-        New Theme
+
+      <div class="theme-divider-word">
+        ODO (1-day-1) Series
+      </div>
+
+      <div class="new-theme">
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        <span>
+          <a href="/category/odos-snippet" class="gen-links">One Day One Code Snippet for Software Development
+            (SWE)</a>
+        </span>
+      </div>
+
+      <div class="new-theme">
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        <span>
+          <a href="/category/math-statistics" class="gen-links">One Day One Math Theorem/Equation/Statistics for
+            Data Science</a>
+        </span>
       </div>
       <div class="new-theme">
         <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -38,12 +55,14 @@
           <a href="/category/software-engineering-updates/" class="gen-links">Software Engineering Updates</a>
         </span>
       </div>
-
     </div>
-    <div class="top-hl-content">
+    <div class="top-hl-content landing-border">
 
-      {% for post in paginator.posts limit: 2 %}
+      {% for post in paginator.posts limit: 1 %}
       <div class="title-container pad-botop">
+        <div class="pad-botop" style="width: 100%;">
+          #<a href="/category/{{post.categories}}" class="gen-links">{{post.categories}}</a>
+        </div>
         <div class="profpic">
           <div class="contributor-small">
             DF
@@ -66,17 +85,18 @@
           </span>
         </div>
       </div>
-      <div class="hl-c-title">
-        <a href="{{post.url}}">{{ post.title }}</a>
-      </div>
       <div class="hl-content-top3">
+
         <div class="hl-post-title">
-          <div class="hl-c-excerpt">
-            {{ post.excerpt }}
+          <div class="big-title">
+            <a href="{{post.url}}">{{ post.title }}</a>
           </div>
-        </div>
-        <div class="hl-post-option">
-          <a href="/category/{{post.categories}}">{{post.categories}}</a>
+          <div class="section-title">
+            Background
+          </div>
+          <div class="hl-c-excerpt">
+            {{ post.background }}
+          </div>
         </div>
       </div>
       {% endfor %}
