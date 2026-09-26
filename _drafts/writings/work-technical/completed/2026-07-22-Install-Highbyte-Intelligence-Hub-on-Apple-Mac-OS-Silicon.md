@@ -64,7 +64,7 @@ load the image into docker using following command.
 
 run the image
 
-	docker run -p 45245:45245 -p 1885:1885 -p 8885:8885 -e ACCEPT_EULA=Y --name highbyte highbyte:4.5.0
+	sudo docker run -p 45245:45245 -p 1885:1885 -p 8885:8885 -e ACCEPT_EULA=Y --name highbyte highbyte:4.5.0
 
 replace 4.50 with the actual container tag version and the installation steps are done.
 

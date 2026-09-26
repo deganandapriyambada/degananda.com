@@ -2,7 +2,7 @@ open powershell from the windows application launcher
 
 install ubuntu
 
-	wsl --installl
+	wsl --install
 
 wait until the installation is completed.
 

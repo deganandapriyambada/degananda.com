@@ -88,7 +88,7 @@ check docker container list
 
 remove container
 
-	sudo docker rm remote-sensing-edge-broker
+	sudo docker rm broker-test
 
 check on the status, the  remote-sensing-edge-broker should not no longer appear on the console
 
@@ -96,7 +96,7 @@ check on the status, the  remote-sensing-edge-broker should not no longer appear
 
 to start again
 
-    sudo docker start remote-sensing-edge-broker
+    sudo docker start broker-test
 
 **adjust mosquitto configuration**
 
@@ -117,8 +117,8 @@ services:
       context: .
       dockerfile: Dockerfile
 
-    image: remote-sensing-edge-broker:1.0
-    container_name: remote-sensing-edge-broker
+    image: broker-test:1.0
+    container_name: broker-test
 
     restart: unless-stopped
 
@@ -134,3 +134,16 @@ volumes:
 re-run docker with updated configuration
 
     sudo docker compose up -d
+
+rebuild
+
+```
+sudo docker compose up -d --build
+```
+
+verify updated config
+
+```
+sudo docker exec broker-test \
+  cat /mosquitto/config/mosquitto.conf
+```
